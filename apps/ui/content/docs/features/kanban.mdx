@@ -1,0 +1,44 @@
+---
+title: Kanban
+description: A kanban board is a visual tool that helps you manage and visualize your work. It is a board with columns, and each column represents a status, e.g. "Backlog", "In Progress", "Done".
+icon: SquareKanban
+dependencies:
+  - https://dndkit.com/
+installer: kanban
+---
+
+## Installation
+
+```bash
+npx loveui@latest add kanban
+```
+
+## Usage
+
+```tsx
+import { KanbanProvider, KanbanBoard, KanbanHeader, KanbanCards, KanbanCard } from "@/components/kanban"
+```
+
+```tsx
+<KanbanProvider items={items} columns={columns}>
+  {columns.map((column) => (
+    <KanbanBoard key={column.id} id={column.id}>
+      <KanbanHeader>{column.name}</KanbanHeader>
+      <KanbanCards column={column.id}>
+        {(item) => <KanbanCard key={item.id} {...item} />}
+      </KanbanCards>
+    </KanbanBoard>
+  ))}
+</KanbanProvider>
+```
+
+## Features
+
+- Drag and drop features between columns
+- Customize the card contents
+
+## Examples
+
+### Simple version
+
+<Preview path="kanban-simple" />

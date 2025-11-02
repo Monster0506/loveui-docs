@@ -1,0 +1,239 @@
+---
+title: Gradient Blinds
+description: An animated gradient blinds background built with OGL WebGL.
+icon: SwatchBook
+installer: gradient-blinds
+---
+
+import GradientBlindsDemo from "./_components/gradient-blinds-demo"
+
+<GradientBlindsDemo />
+
+## Installation
+
+<CodeTabs>
+
+<TabsList>
+  <TabsTab value="cli">CLI</TabsTab>
+  <TabsTab value="manual">Manual</TabsTab>
+</TabsList>
+<TabsPanel value="cli">
+
+```bash
+npx loveui@latest add gradient-blinds
+```
+
+</TabsPanel>
+
+<TabsPanel value="manual">
+
+<Steps>
+
+<Step>Install the following dependencies:</Step>
+
+```bash
+npm install ogl
+```
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="gradient-blinds" title="components/gradient-blinds.tsx" />
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+</TabsPanel>
+
+</CodeTabs>
+
+## Usage
+
+```tsx
+import GradientBlinds from "@/components/gradient-blinds"
+```
+
+```tsx
+<GradientBlinds
+  gradientColors={["#FF9FFC", "#5227FF"]}
+  angle={20}
+  blindCount={16}
+/>
+```
+
+## Props
+
+### gradientColors
+
+An array of hex color strings for the gradient. Maximum 8 colors.
+
+- Type: `string[]`
+- Default: `["#FF9FFC", "#5227FF"]`
+
+```tsx
+<GradientBlinds gradientColors={["#FF6FD8", "#7C4DFF", "#1FB6FF"]} />
+```
+
+### angle
+
+The rotation angle of the gradient in degrees.
+
+- Type: `number`
+- Default: `0`
+
+```tsx
+<GradientBlinds angle={45} />
+```
+
+### blindCount
+
+The number of vertical blinds to render.
+
+- Type: `number`
+- Default: `16`
+
+```tsx
+<GradientBlinds blindCount={24} />
+```
+
+### blindMinWidth
+
+The minimum width of each blind in pixels. Adjusts blindCount based on container width.
+
+- Type: `number`
+- Default: `60`
+
+```tsx
+<GradientBlinds blindMinWidth={80} />
+```
+
+### noise
+
+The amount of noise/grain to add to the effect.
+
+- Type: `number`
+- Default: `0.3`
+
+```tsx
+<GradientBlinds noise={0.5} />
+```
+
+### spotlightRadius
+
+The radius of the mouse spotlight effect.
+
+- Type: `number`
+- Default: `0.5`
+
+```tsx
+<GradientBlinds spotlightRadius={1.0} />
+```
+
+### spotlightSoftness
+
+The softness/falloff of the spotlight effect.
+
+- Type: `number`
+- Default: `1`
+
+```tsx
+<GradientBlinds spotlightSoftness={2} />
+```
+
+### spotlightOpacity
+
+The opacity of the spotlight effect.
+
+- Type: `number`
+- Default: `1`
+
+```tsx
+<GradientBlinds spotlightOpacity={0.5} />
+```
+
+### distortAmount
+
+The amount of wave distortion to apply.
+
+- Type: `number`
+- Default: `0`
+
+```tsx
+<GradientBlinds distortAmount={2} />
+```
+
+### shineDirection
+
+The direction of the shine/light effect on the blinds.
+
+- Type: `"left" | "right"`
+- Default: `"left"`
+
+```tsx
+<GradientBlinds shineDirection="right" />
+```
+
+### mirrorGradient
+
+Whether to mirror the gradient pattern.
+
+- Type: `boolean`
+- Default: `false`
+
+```tsx
+<GradientBlinds mirrorGradient={true} />
+```
+
+### mouseDampening
+
+The smoothness of mouse tracking (higher = smoother/slower).
+
+- Type: `number`
+- Default: `0.15`
+
+```tsx
+<GradientBlinds mouseDampening={0.3} />
+```
+
+### mixBlendMode
+
+The CSS blend mode to apply to the background.
+
+- Type: `string`
+- Default: `"normal"`
+
+```tsx
+<GradientBlinds mixBlendMode="lighten" />
+```
+
+### paused
+
+Whether to pause the animation.
+
+- Type: `boolean`
+- Default: `false`
+
+```tsx
+<GradientBlinds paused={true} />
+```
+
+### dpr
+
+Device pixel ratio override.
+
+- Type: `number`
+- Default: `window.devicePixelRatio`
+
+```tsx
+<GradientBlinds dpr={2} />
+```
+
+### className
+
+Additional CSS classes to apply to the container.
+
+- Type: `string`
+
+```tsx
+<GradientBlinds className="rounded-lg" />
+```

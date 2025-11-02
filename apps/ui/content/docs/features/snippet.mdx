@@ -1,0 +1,50 @@
+---
+title: Snippet
+description: Snippet is a component that allows you to display and copy code in a tabbed interface.
+icon: Code
+dependencies:
+  - https://www.radix-ui.com/primitives/docs/components/tabs
+  - https://lucide.dev/
+installer: snippet
+---
+
+## Installation
+
+```bash
+npx loveui@latest add snippet
+```
+
+## Usage
+
+```tsx
+import { Snippet, SnippetHeader, SnippetCopyButton, SnippetTabsList, SnippetTabsTrigger, SnippetTabsContent } from "@/components/snippet"
+```
+
+```tsx
+<Snippet defaultValue="npm">
+  <SnippetHeader>
+    <SnippetTabsList>
+      <SnippetTabsTrigger value="npm">npm</SnippetTabsTrigger>
+      <SnippetTabsTrigger value="yarn">yarn</SnippetTabsTrigger>
+    </SnippetTabsList>
+    <SnippetCopyButton />
+  </SnippetHeader>
+  <SnippetTabsContent value="npm">npm install package</SnippetTabsContent>
+  <SnippetTabsContent value="yarn">yarn add package</SnippetTabsContent>
+</Snippet>
+```
+
+## Features
+
+- Copy code to clipboard
+- Customize the tab contents
+- Multiple tabs support
+- Customizable copy button, tab triggers and tab content
+- Customizable copy button timeout and callbacks
+- Accessible tabs using Radix's `Tabs` primitive
+
+## Examples
+
+### NPM packages
+
+<Preview path="snippet-npm" />

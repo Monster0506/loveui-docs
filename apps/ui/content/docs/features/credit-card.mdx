@@ -1,0 +1,53 @@
+---
+title: Credit Card
+description: Credit card components for displaying and validating credit card information.
+icon: CreditCard
+installer: credit-card
+---
+
+## Installation
+
+```bash
+npx loveui@latest add credit-card
+```
+
+## Usage
+
+```tsx
+import { CreditCard, CreditCardFlipper, CreditCardFront, CreditCardBack, CreditCardNumber, CreditCardName, CreditCardExpiry, CreditCardCvv, CreditCardChip, CreditCardServiceProvider, CreditCardLogo } from "@/components/credit-card"
+```
+
+```tsx
+<CreditCard>
+  <CreditCardFlipper>
+    <CreditCardFront>
+      <CreditCardChip />
+      <CreditCardNumber>1234 5678 9012 3456</CreditCardNumber>
+      <CreditCardName>John Doe</CreditCardName>
+      <CreditCardExpiry>12/25</CreditCardExpiry>
+      <CreditCardServiceProvider type="visa" />
+    </CreditCardFront>
+    <CreditCardBack>
+      <CreditCardCvv>123</CreditCardCvv>
+    </CreditCardBack>
+  </CreditCardFlipper>
+</CreditCard>
+```
+
+## Features
+
+- Display a credit card
+- Display the card number, name, expiry, and CVV
+- Flip the card by hovering, or tapping on touch devices
+- Hide/reveal the sensitive information on click
+
+## Examples
+
+### Apple card
+
+<Preview path="credit-card-apple" />
+
+### Back only
+
+<Preview path="credit-card-back" />
+

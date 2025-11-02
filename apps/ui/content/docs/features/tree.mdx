@@ -1,0 +1,69 @@
+---
+title: Tree
+description: A composable tree component with animated expand/collapse and customizable nodes for displaying hierarchical data structures.
+icon: FolderTree
+dependencies:
+  - https://motion.dev/
+  - https://lucide.dev/
+installer: tree
+---
+
+## Installation
+
+```bash
+npx loveui@latest add tree
+```
+
+## Usage
+
+```tsx
+import { TreeProvider, TreeView, TreeNode, TreeNodeTrigger, TreeExpander, TreeIcon, TreeLabel, TreeNodeContent, TreeLines } from "@/components/tree"
+```
+
+```tsx
+<TreeProvider>
+  <TreeView>
+    <TreeLines />
+    {items.map((item) => (
+      <TreeNode key={item.id} id={item.id}>
+        <TreeNodeTrigger>
+          <TreeExpander />
+          <TreeIcon />
+          <TreeLabel>{item.name}</TreeLabel>
+        </TreeNodeTrigger>
+        <TreeNodeContent>
+          {/* Nested items */}
+        </TreeNodeContent>
+      </TreeNode>
+    ))}
+  </TreeView>
+</TreeProvider>
+```
+
+## Features
+
+- Animated expand/collapse with configurable animations
+- Customizable node icons and labels
+- Single and multi-selection support
+- Optional tree lines for visual hierarchy
+- Keyboard navigation support (Ctrl/Cmd for multi-select)
+- Fully composable API for custom tree nodes
+- Built-in folder/file icons with open/closed states
+
+## Examples
+
+### Simple tree
+
+<Preview path="tree-simple" />
+
+### Custom icons
+
+<Preview path="tree-custom-icons" />
+
+### Without lines
+
+<Preview path="tree-no-lines" />
+
+### Controlled selection
+
+<Preview path="tree-controlled" />

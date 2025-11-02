@@ -1,0 +1,138 @@
+"use client"
+
+import { JSX, useEffect, useState } from "react"
+import { CodeIcon } from "lucide-react"
+import type { RegistryItem } from "shadcn/registry"
+
+import { convertRegistryPaths } from "@/lib/building-blocks/utils"
+import ComponentCli from "@/components/building-blocks/cli-commands"
+import CodeBlock, { highlight } from "@/components/building-blocks/code-block"
+import CopyButton from "@/components/building-blocks/copy-button"
+import { Button } from "@/registry/building-blocks/default/ui/button"
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/registry/building-blocks/default/ui/dialog"
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/registry/building-blocks/default/ui/tooltip"
+
+export default function ComponentDetails({
+  component,
+}: {
+  component: RegistryItem
+}) {
+  const [code, setCode] = useState<string | null>(null)
+  const [highlightedCode, setHighlightedCode] = useState<JSX.Element | null>(
+    null
+  )
+
+  useEffect(() => {
+    const handleEmptyCode = () => {
+      setCode("")
+      setHighlightedCode(null)
+    }
+
+    const loadCode = async () => {
+      try {
+        const response = await fetch(`/building-blocks/r/${component.name}.json`)
+        if (!response.ok) {
+          handleEmptyCode()
+          return
+        }
+
+        const contentType = response.headers.get("content-type")
+        if (!contentType || !contentType.includes("application/json")) {
+          handleEmptyCode()
+          return
+        }
+
+        const data = await response.json()
+        const codeContent = convertRegistryPaths(data.files[0].content) || ""
+        setCode(codeContent)
+
+        // Pre-highlight the code
+        const highlighted = await highlight(codeContent, "tsx")
+        setHighlightedCode(highlighted)
+      } catch (error) {
+        console.error("Failed to load code:", error)
+        handleEmptyCode()
+      }
+    }
+
+    loadCode()
+  }, [component.name])
+
+  return (
+    <div className="absolute top-2 right-2 flex gap-1 peer-data-comp-loading:hidden">
+      <Dialog>
+        <TooltipProvider delayDuration={0}>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <span>
+                <DialogTrigger asChild>
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    className="text-muted-foreground/80 transition-none hover:bg-transparent hover:text-foreground disabled:opacity-100 lg:opacity-0 lg:group-focus-within/item:opacity-100 lg:group-hover/item:opacity-100"
+                  >
+                    <CodeIcon size={16} aria-hidden={true} />
+                  </Button>
+                </DialogTrigger>
+              </span>
+            </TooltipTrigger>
+            <TooltipContent className="px-2 py-1 text-xs text-muted-foreground">
+              View code
+            </TooltipContent>
+          </Tooltip>
+        </TooltipProvider>
+        <DialogContent className="sm:max-w-[600px]">
+          <DialogHeader>
+            <DialogTitle className="text-left">Installation</DialogTitle>
+            <DialogDescription className="sr-only">
+              Use the CLI to add components to your project
+            </DialogDescription>
+          </DialogHeader>
+          <div className="min-w-0 space-y-5">
+            <ComponentCli name={component.name} />
+            <div className="space-y-4">
+              <p className="text-lg font-semibold tracking-tight">Code</p>
+              <div className="relative">
+                {code === "" ? (
+                  <p className="text-sm text-muted-foreground">
+                    No code available. If you think this is an error, please{" "}
+                    <a
+                      href="https://github.com/cosscom/coss/issues"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-medium text-foreground underline underline-offset-4 hover:no-underline"
+                    >
+                      open an issue
+                    </a>
+                    .
+                  </p>
+                ) : (
+                  <>
+                    <CodeBlock
+                      code={code}
+                      lang="tsx"
+                      preHighlighted={highlightedCode}
+                    />
+                    <CopyButton componentSource={code} />
+                  </>
+                )}
+              </div>
+            </div>
+          </div>
+        </DialogContent>
+      </Dialog>
+    </div>
+  )
+}

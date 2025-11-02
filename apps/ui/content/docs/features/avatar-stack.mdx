@@ -1,0 +1,60 @@
+---
+title: Avatar Stack
+description: Avatar Stack is a component that allows you to stack and overlap avatars.
+icon: Users
+installer: avatar-stack
+---
+
+## Installation
+
+```bash
+npx loveui@latest add avatar-stack
+```
+
+## Usage
+
+```tsx
+import { AvatarStack } from "@/components/avatar-stack"
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
+```
+
+```tsx
+<AvatarStack>
+  <Avatar>
+    <AvatarImage src="/avatar1.jpg" />
+    <AvatarFallback>JD</AvatarFallback>
+  </Avatar>
+  <Avatar>
+    <AvatarImage src="/avatar2.jpg" />
+    <AvatarFallback>SM</AvatarFallback>
+  </Avatar>
+  <Avatar>
+    <AvatarImage src="/avatar3.jpg" />
+    <AvatarFallback>KL</AvatarFallback>
+  </Avatar>
+</AvatarStack>
+```
+
+## Features
+
+- Stack and overlap avatars
+- Customize the appearance with className
+- Optional hover animation to expand spacing
+- Configurable avatar size
+
+## Examples
+
+### With hover animation
+
+<Preview path="avatar-stack-hover" />
+
+## Props
+
+### AvatarStack
+
+| Prop | Type | Default | Description |
+| --- | --- | --- | --- |
+| `children` | `ReactNode` | - | Avatar components to stack |
+| `className` | `string` | - | Additional CSS classes |
+| `animate` | `boolean` | `false` | Enable hover animation to expand spacing |
+| `size` | `number` | `40` | Size of each avatar in pixels |

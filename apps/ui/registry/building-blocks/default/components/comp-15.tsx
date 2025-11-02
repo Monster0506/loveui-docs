@@ -1,0 +1,24 @@
+import { useId } from "react"
+
+import { Input } from "@/registry/building-blocks/default/ui/input"
+import { Label } from "@/registry/building-blocks/default/ui/label"
+
+export default function Component() {
+  const id = useId()
+  return (
+    <div className="*:not-first:mt-2">
+      <Label htmlFor={id}>Input with end add-on</Label>
+      <div className="flex rounded-md shadow-xs">
+        <Input
+          id={id}
+          className="-me-px rounded-e-none shadow-none"
+          placeholder="google"
+          type="text"
+        />
+        <span className="-z-10 inline-flex items-center rounded-e-md border border-input bg-background px-3 text-sm text-muted-foreground">
+          .com
+        </span>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,107 @@
+import { type Registry } from "shadcn/schema"
+
+export const particles: Registry["items"] = [
+  {
+    name: "particle-bu-1",
+    description: "Back link button with chevron",
+    type: "registry:block",
+    registryDependencies: ["@coss/button"],
+    dependencies: ["lucide-react"],
+    files: [{ path: "particles/particle-bu-1.tsx", type: "registry:block" }],
+    categories: ["button"],
+  },
+  {
+    name: "particle-bu-2",
+    description: "Card-style button with heading and description",
+    type: "registry:block",
+    registryDependencies: ["@coss/button"],
+    dependencies: ["lucide-react"],
+    files: [
+      {
+        path: "particles/particle-bu-2.tsx",
+        type: "registry:block",
+      },
+    ],
+    categories: ["button"],
+  },
+  {
+    name: "particle-bu-3",
+    description: "Directional pad control buttons",
+    type: "registry:block",
+    registryDependencies: ["@coss/button"],
+    dependencies: ["lucide-react"],
+    files: [{ path: "particles/particle-bu-3.tsx", type: "registry:block" }],
+    categories: ["button"],
+  },
+  {
+    name: "particle-bu-4",
+    description: "Outline like button with count",
+    type: "registry:block",
+    registryDependencies: ["@coss/button"],
+    dependencies: ["lucide-react"],
+    files: [
+      {
+        path: "particles/particle-bu-4.tsx",
+        type: "registry:block",
+      },
+    ],
+    categories: ["button"],
+  },
+  {
+    name: "particle-bu-5",
+    description: "Social login icon buttons",
+    type: "registry:block",
+    registryDependencies: ["@coss/button"],
+    dependencies: ["@remixicon/react"],
+    files: [
+      {
+        path: "particles/particle-bu-5.tsx",
+        type: "registry:block",
+      },
+    ],
+    categories: ["button"],
+  },
+  {
+    name: "particle-bu-6",
+    description: "Expandable show more/less toggle button",
+    type: "registry:block",
+    registryDependencies: ["@coss/button"],
+    dependencies: ["lucide-react"],
+    files: [{ path: "particles/particle-bu-6.tsx", type: "registry:block" }],
+    categories: ["button"],
+  },
+  {
+    name: "particle-bu-7",
+    description: "Star button with count badge",
+    type: "registry:block",
+    registryDependencies: ["@coss/button"],
+    dependencies: ["lucide-react"],
+    files: [{ path: "particles/particle-bu-7.tsx", type: "registry:block" }],
+    categories: ["button"],
+  },
+  {
+    name: "particle-fr-1",
+    description: "Frame with collapsible content and delete button",
+    type: "registry:example",
+    registryDependencies: ["@coss/frame", "@coss/collapsible", "@coss/button"],
+    dependencies: ["lucide-react"],
+    files: [{ path: "particles/particle-fr-1.tsx", type: "registry:block" }],
+    categories: ["frame", "collapsible"],
+  },
+  {
+    name: "particle-pa-1",
+    description: "Pagination with previous and next buttons only",
+    type: "registry:block",
+    registryDependencies: ["@coss/pagination"],
+    files: [{ path: "particles/particle-pa-1.tsx", type: "registry:block" }],
+    categories: ["pagination"],
+  },
+  {
+    name: "particle-pa-2",
+    description: "Pagination with select, and previous and next buttons",
+    type: "registry:block",
+    registryDependencies: ["@coss/pagination", "@coss/select"],
+    files: [{ path: "particles/particle-pa-2.tsx", type: "registry:block" }],
+    categories: ["pagination", "select"],
+  },
+]

@@ -1,0 +1,68 @@
+---
+title: Dialog Stack
+description: Composable stacked dialogs, useful for creating a wizard, nested form or multi-step process. It provides a consistent layout and styling for each dialog, and includes navigation components to move between them.
+icon: Layers
+dependencies:
+  - https://www.radix-ui.com/primitives/docs/components/portal
+installer: dialog-stack
+---
+
+## Installation
+
+```bash
+npx loveui@latest add dialog-stack
+```
+
+## Usage
+
+```tsx
+import { DialogStack, DialogStackTrigger, DialogStackOverlay, DialogStackBody, DialogStackContent, DialogStackTitle, DialogStackDescription, DialogStackHeader, DialogStackFooter, DialogStackNext, DialogStackPrevious } from "@/components/dialog-stack"
+```
+
+```tsx
+<DialogStack>
+  <DialogStackTrigger>Open Dialog</DialogStackTrigger>
+  <DialogStackOverlay />
+  <DialogStackBody>
+    <DialogStackContent index={0}>
+      <DialogStackHeader>
+        <DialogStackTitle>Step 1</DialogStackTitle>
+        <DialogStackDescription>Complete the first step</DialogStackDescription>
+      </DialogStackHeader>
+      <DialogStackFooter>
+        <DialogStackNext>Next</DialogStackNext>
+      </DialogStackFooter>
+    </DialogStackContent>
+    <DialogStackContent index={1}>
+      <DialogStackHeader>
+        <DialogStackTitle>Step 2</DialogStackTitle>
+        <DialogStackDescription>Complete the second step</DialogStackDescription>
+      </DialogStackHeader>
+      <DialogStackFooter>
+        <DialogStackPrevious>Previous</DialogStackPrevious>
+        <DialogStackNext>Finish</DialogStackNext>
+      </DialogStackFooter>
+    </DialogStackContent>
+  </DialogStackBody>
+</DialogStack>
+```
+
+## Features
+
+- Allows for dialogs to be stacked on top of each other
+- Provides a consistent layout and styling for each dialog
+- Includes navigation components to move between them
+
+## Examples
+
+### With six dialogs
+
+<Preview path="dialog-stack-six" />
+
+### With clickable navigation
+
+<Preview path="dialog-stack-navigation" />
+
+### Controlled
+
+<Preview path="dialog-stack-controlled" />

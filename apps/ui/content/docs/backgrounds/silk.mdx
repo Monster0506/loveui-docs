@@ -1,0 +1,120 @@
+---
+title: Silk
+description: A smooth, flowing background built with React Three Fiber.
+icon: SwatchBook
+installer: silk
+---
+
+import SilkDemo from "./_components/silk-demo"
+
+<SilkDemo />
+
+## Installation
+
+<CodeTabs>
+
+<TabsList>
+  <TabsTab value="cli">CLI</TabsTab>
+  <TabsTab value="manual">Manual</TabsTab>
+</TabsList>
+<TabsPanel value="cli">
+
+```bash
+npx loveui@latest add silk
+```
+
+</TabsPanel>
+
+<TabsPanel value="manual">
+
+<Steps>
+
+<Step>Install the following dependencies:</Step>
+
+```bash
+npm install @react-three/fiber three
+```
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="silk" title="components/silk.tsx" />
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+</TabsPanel>
+
+</CodeTabs>
+
+## Usage
+
+```tsx
+import Silk from "@/components/silk"
+```
+
+```tsx
+<Silk
+  speed={5}
+  scale={1}
+  color="#7B61FF"
+  noiseIntensity={1.5}
+/>
+```
+
+## Props
+
+### speed
+
+The animation speed multiplier.
+
+- Type: `number`
+- Default: `5`
+
+```tsx
+<Silk speed={8} />
+```
+
+### scale
+
+The scale of the silk pattern.
+
+- Type: `number`
+- Default: `1`
+
+```tsx
+<Silk scale={1.5} />
+```
+
+### color
+
+The hex color of the silk pattern.
+
+- Type: `string`
+- Default: `"#7B7481"`
+
+```tsx
+<Silk color="#22D3EE" />
+```
+
+### noiseIntensity
+
+The intensity of the noise/grain effect.
+
+- Type: `number`
+- Default: `1.5`
+
+```tsx
+<Silk noiseIntensity={2} />
+```
+
+### rotation
+
+The rotation angle of the pattern in radians.
+
+- Type: `number`
+- Default: `0`
+
+```tsx
+<Silk rotation={Math.PI / 4} />
+```

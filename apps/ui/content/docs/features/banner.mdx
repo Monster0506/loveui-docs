@@ -1,0 +1,49 @@
+---
+title: Banner
+description: A banner is a full-width component that can be used to show a message and action to the user.
+icon: CircleAlert
+dependencies:
+  - https://lucide.dev/
+installer: banner
+---
+
+## Installation
+
+```bash
+npx loveui@latest add banner
+```
+
+## Usage
+
+```tsx
+import { Banner, BannerIcon, BannerTitle, BannerAction, BannerClose } from "@/components/banner"
+```
+
+```tsx
+<Banner>
+  <BannerIcon>
+    <AlertCircle />
+  </BannerIcon>
+  <BannerTitle>Important update available</BannerTitle>
+  <BannerAction onClick={() => console.log("Update")}>Update now</BannerAction>
+  <BannerClose />
+</Banner>
+```
+
+## Features
+
+- Controlled and uncontrolled visibility state
+- Customizable close handler
+- Optional inset variant with rounded corners
+- Composable API with Icon, Title, Action and Close components
+- Customizable via className prop
+- Adapts to primary color tokens
+## Examples
+
+### Inset
+
+<Preview path="banner-inset" />
+
+### Different primary colors
+
+<Preview path="banner-themes" />

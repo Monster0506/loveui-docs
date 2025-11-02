@@ -1,0 +1,38 @@
+---
+title: Status
+description: Status components are used to display the uptime of a service.
+icon: Radio
+installer: status
+---
+
+## Installation
+
+```bash
+npx loveui@latest add status
+```
+
+## Usage
+
+```tsx
+import { Status, StatusIndicator, StatusLabel } from "@/components/status"
+```
+
+```tsx
+<Status status="online">
+  <StatusIndicator />
+  <StatusLabel>All systems operational</StatusLabel>
+</Status>
+```
+
+## Features
+
+- Displays the status of a service
+- Automatic colors based on the status
+- Customizable colors and labels
+- Ping animation for the indicator
+
+## Examples
+
+### Custom styles
+
+<Preview path="status-custom" />

@@ -1,0 +1,64 @@
+---
+title: Table
+description: Table views are used to display data in a tabular format. They are useful for displaying large amounts of data in a structured way.
+icon: TableProperties
+dependencies:
+  - https://tanstack.com/table
+  - https://lucide.dev/
+  - https://jotai.org/
+installer: table
+---
+
+## Installation
+
+```bash
+npx loveui@latest add table
+```
+
+## Usage
+
+```tsx
+import { TableProvider, TableHeader, TableHeaderGroup, TableHead, TableBody, TableRow, TableCell, TableColumnHeader, type ColumnDef } from "@/components/table"
+```
+
+```tsx
+const columns: ColumnDef<Data>[] = [
+  {
+    accessorKey: "name",
+    header: ({ column }) => <TableColumnHeader column={column} title="Name" />,
+  },
+  // ... more columns
+]
+
+<TableProvider columns={columns} data={data}>
+  <TableHeader>
+    {(headerGroup) => (
+      <TableHeaderGroup key={headerGroup.id}>
+        {headerGroup.headers.map((header) => (
+          <TableHead key={header.id} header={header} />
+        ))}
+      </TableHeaderGroup>
+    )}
+  </TableHeader>
+  <TableBody>
+    {(row) => (
+      <TableRow key={row.id} row={row}>
+        {row.getVisibleCells().map((cell) => (
+          <TableCell key={cell.id} cell={cell} />
+        ))}
+      </TableRow>
+    )}
+  </TableBody>
+</TableProvider>
+```
+
+## Features
+
+- Customizable columns
+- Sortable columns
+
+## Examples
+
+### Simple version
+
+<Preview path="table-simple" />

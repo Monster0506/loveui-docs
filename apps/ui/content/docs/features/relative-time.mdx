@@ -1,0 +1,56 @@
+---
+title: Relative Time
+description: A component that displays time in various timezones.
+icon: Clock
+installer: relative-time
+---
+
+## Installation
+
+```bash
+npx loveui@latest add relative-time
+```
+
+## Usage
+
+```tsx
+import { RelativeTime, RelativeTimeZone, RelativeTimeZoneLabel, RelativeTimeZoneDisplay, RelativeTimeZoneDate } from "@/components/relative-time"
+```
+
+```tsx
+<RelativeTime>
+  <RelativeTimeZone timezone="America/Los_Angeles">
+    <RelativeTimeZoneLabel>Los Angeles</RelativeTimeZoneLabel>
+    <RelativeTimeZoneDisplay />
+    <RelativeTimeZoneDate />
+  </RelativeTimeZone>
+  <RelativeTimeZone timezone="America/New_York">
+    <RelativeTimeZoneLabel>New York</RelativeTimeZoneLabel>
+    <RelativeTimeZoneDisplay />
+    <RelativeTimeZoneDate />
+  </RelativeTimeZone>
+</RelativeTime>
+```
+
+## Features
+
+- Displays multiple timezones simultaneously
+- Supports both controlled and uncontrolled time states
+- Auto-updates every second when no time is provided
+- Customizable date and time format options
+- Clean, minimal UI with timezone labels and formatted times
+- Responsive layout with flex positioning
+
+## Examples
+
+### Custom date format
+
+<Preview path="relative-time-format-date" />
+
+### Custom time format
+
+<Preview path="relative-time-format-time" />
+
+### Controlled time
+
+<Preview path="relative-time-controlled" />

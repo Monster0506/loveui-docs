@@ -1,0 +1,6 @@
+dist
+node_modules
+.next
+build
+registry/__index__.tsx
+content/docs/**/*.mdx

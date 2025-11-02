@@ -1,0 +1,91 @@
+---
+title: Cursor
+description: A cursor component, great for realtime interactive applications.
+icon: MousePointer2
+installer: cursor
+---
+
+## Installation
+
+```bash
+npx loveui@latest add cursor
+```
+
+## Usage
+
+```tsx
+import { Cursor, CursorPointer, CursorBody, CursorName, CursorMessage } from "@/components/cursor"
+```
+
+```tsx
+<Cursor>
+  <CursorPointer />
+  <CursorBody>
+    <CursorName>John Doe</CursorName>
+    <CursorMessage>Editing...</CursorMessage>
+  </CursorBody>
+</Cursor>
+```
+
+## Features
+
+- Customizable cursor color with automatic text color contrast adjustment
+- Optional name label display
+- Optional message display
+- Smooth cursor pointer with tooltip-style appearance
+- Fully accessible with ARIA attributes
+- Responsive and performant with optimized rendering
+
+## Examples
+
+### Cursor only
+
+<Preview path="cursor-only" />
+
+### Cursor with name
+
+<Preview path="cursor-name" />
+
+### Cursor with message
+
+<Preview path="cursor-message" />
+
+### Cursor with name and message
+
+<Preview path="cursor-name-message" />
+
+### Cursor with custom color
+
+<Preview path="cursor-color" />
+
+## Props
+
+### Cursor
+
+Extends `HTMLAttributes<HTMLSpanElement>`
+
+### CursorPointer
+
+Extends `SVGProps<SVGSVGElement>`
+
+| Prop | Type | Default | Description |
+| --- | --- | --- | --- |
+| `className` | `string` | - | Additional CSS classes for the pointer |
+
+### CursorBody
+
+Extends `HTMLAttributes<HTMLSpanElement>`
+
+| Prop | Type | Default | Description |
+| --- | --- | --- | --- |
+| `children` | `ReactNode` | - | Content to display in the cursor body (name, message, etc) |
+| `className` | `string` | - | Additional CSS classes |
+
+### CursorName
+
+Extends `HTMLAttributes<HTMLSpanElement>`
+
+### CursorMessage
+
+Extends `HTMLAttributes<HTMLSpanElement>`
+

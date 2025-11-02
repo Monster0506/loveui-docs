@@ -1,0 +1,10 @@
+node_modules
+public/r
+
+# Build output
+.next
+build
+dist
+
+# Cache
+.cache

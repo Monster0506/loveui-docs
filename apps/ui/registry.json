@@ -1,0 +1,7894 @@
+{
+  "name": "shadcn/ui",
+  "homepage": "https://ui.shadcn.com",
+  "items": [
+    {
+      "name": "ui",
+      "type": "registry:ui",
+      "registryDependencies": [
+        "@coss/accordion",
+        "@coss/alert",
+        "@coss/alert-dialog",
+        "@coss/autocomplete",
+        "@coss/avatar",
+        "@coss/badge",
+        "@coss/breadcrumb",
+        "@coss/button",
+        "@coss/card",
+        "@coss/checkbox",
+        "@coss/checkbox-group",
+        "@coss/collapsible",
+        "@coss/combobox",
+        "@coss/dialog",
+        "@coss/empty",
+        "@coss/field",
+        "@coss/fieldset",
+        "@coss/form",
+        "@coss/frame",
+        "@coss/group",
+        "@coss/input",
+        "@coss/label",
+        "@coss/menu",
+        "@coss/meter",
+        "@coss/number-field",
+        "@coss/pagination",
+        "@coss/popover",
+        "@coss/preview-card",
+        "@coss/progress",
+        "@coss/radio-group",
+        "@coss/scroll-area",
+        "@coss/select",
+        "@coss/separator",
+        "@coss/sheet",
+        "@coss/skeleton",
+        "@coss/slider",
+        "@coss/switch",
+        "@coss/table",
+        "@coss/tabs",
+        "@coss/textarea",
+        "@coss/toast",
+        "@coss/toggle",
+        "@coss/toggle-group",
+        "@coss/toolbar",
+        "@coss/tooltip"
+      ]
+    },
+    {
+      "name": "accordion",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/accordion.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "alert",
+      "type": "registry:ui",
+      "files": [
+        {
+          "path": "registry/default/ui/alert.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "cssVars": {
+        "light": {
+          "destructive-foreground": "oklch(0.505 0.213 27.518)",
+          "info": "oklch(0.623 0.214 259.815)",
+          "info-foreground": "oklch(0.488 0.243 264.376)",
+          "success": "oklch(0.696 0.17 162.48)",
+          "success-foreground": "oklch(0.508 0.118 165.612)",
+          "warning": "oklch(0.769 0.188 70.08)",
+          "warning-foreground": "oklch(0.555 0.163 48.998)"
+        },
+        "dark": {
+          "destructive-foreground": "oklch(0.704 0.191 22.216)",
+          "info": "oklch(0.623 0.214 259.815)",
+          "info-foreground": "oklch(0.707 0.165 254.624)",
+          "success": "oklch(0.696 0.17 162.48)",
+          "success-foreground": "oklch(0.765 0.177 163.223)",
+          "warning": "oklch(0.769 0.188 70.08)",
+          "warning-foreground": "oklch(0.828 0.189 84.429)"
+        }
+      }
+    },
+    {
+      "name": "alert-dialog",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/alert-dialog.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "autocomplete",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "registryDependencies": [
+        "@coss/input",
+        "@coss/scroll-area"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/autocomplete.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "avatar",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/avatar.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "badge",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/badge.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "cssVars": {
+        "light": {
+          "destructive-foreground": "oklch(0.505 0.213 27.518)",
+          "info": "oklch(0.623 0.214 259.815)",
+          "info-foreground": "oklch(0.488 0.243 264.376)",
+          "success": "oklch(0.696 0.17 162.48)",
+          "success-foreground": "oklch(0.508 0.118 165.612)",
+          "warning": "oklch(0.769 0.188 70.08)",
+          "warning-foreground": "oklch(0.555 0.163 48.998)"
+        },
+        "dark": {
+          "destructive-foreground": "oklch(0.704 0.191 22.216)",
+          "info": "oklch(0.623 0.214 259.815)",
+          "info-foreground": "oklch(0.707 0.165 254.624)",
+          "success": "oklch(0.696 0.17 162.48)",
+          "success-foreground": "oklch(0.765 0.177 163.223)",
+          "warning": "oklch(0.769 0.188 70.08)",
+          "warning-foreground": "oklch(0.828 0.189 84.429)"
+        }
+      }
+    },
+    {
+      "name": "breadcrumb",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/breadcrumb.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "button",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/button.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "cssVars": {
+        "light": {
+          "destructive-foreground": "oklch(0.505 0.213 27.518)"
+        },
+        "dark": {
+          "destructive-foreground": "oklch(0.704 0.191 22.216)"
+        }
+      }
+    },
+    {
+      "name": "card",
+      "type": "registry:ui",
+      "dependencies": [],
+      "files": [
+        {
+          "path": "registry/default/ui/card.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "checkbox",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/checkbox.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "checkbox-group",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/checkbox-group.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "collapsible",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/collapsible.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "combobox",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "registryDependencies": [
+        "@coss/input",
+        "@coss/scroll-area"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/combobox.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "dialog",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/dialog.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "empty",
+      "type": "registry:ui",
+      "files": [
+        {
+          "path": "registry/default/ui/empty.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "field",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/field.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "cssVars": {
+        "light": {
+          "destructive-foreground": "oklch(0.505 0.213 27.518)"
+        },
+        "dark": {
+          "destructive-foreground": "oklch(0.704 0.191 22.216)"
+        }
+      }
+    },
+    {
+      "name": "fieldset",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/fieldset.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "form",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/form.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "frame",
+      "type": "registry:ui",
+      "files": [
+        {
+          "path": "registry/default/ui/frame.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "group",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "registryDependencies": [
+        "@coss/separator"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/group.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "input",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/input.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "label",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/label.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "menu",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/menu.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "cssVars": {
+        "light": {
+          "destructive-foreground": "oklch(0.505 0.213 27.518)"
+        },
+        "dark": {
+          "destructive-foreground": "oklch(0.704 0.191 22.216)"
+        }
+      }
+    },
+    {
+      "name": "meter",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/meter.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "number-field",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/number-field.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "pagination",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "registryDependencies": [
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/pagination.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "popover",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/popover.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "preview-card",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/preview-card.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "progress",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/progress.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "radio-group",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/radio-group.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "scroll-area",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/scroll-area.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "select",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/select.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "separator",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/separator.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "sheet",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "registryDependencies": [
+        "@coss/dialog"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/sheet.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "skeleton",
+      "type": "registry:ui",
+      "files": [
+        {
+          "path": "registry/default/ui/skeleton.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "cssVars": {
+        "theme": {
+          "--animate-skeleton": "skeleton 2s -1s infinite linear"
+        }
+      },
+      "css": {
+        "@keyframes skeleton": {
+          "to": {
+            "background-position": "-200% 0"
+          }
+        }
+      }
+    },
+    {
+      "name": "slider",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/slider.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "switch",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/switch.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "table",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/table.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "tabs",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/tabs.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "textarea",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/textarea.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "toast",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "registryDependencies": [
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/toast.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "toggle",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/toggle.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "toggle-group",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "registryDependencies": [
+        "@coss/separator",
+        "@coss/toggle"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/toggle-group.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "toolbar",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/toolbar.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "tooltip",
+      "type": "registry:ui",
+      "dependencies": [
+        "@base-ui-components/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/tooltip.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "silk",
+      "type": "registry:ui",
+      "dependencies": [
+        "@react-three/fiber",
+        "three"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/silk.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "ether",
+      "type": "registry:ui",
+      "dependencies": [
+        "three"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/ether.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "gradient-blinds",
+      "type": "registry:ui",
+      "dependencies": [
+        "ogl"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/gradient-blinds.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "ticker",
+      "type": "registry:ui",
+      "files": [
+        {
+          "path": "registry/default/ui/ticker.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "marquee",
+      "type": "registry:ui",
+      "dependencies": [
+        "react-fast-marquee"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/marquee.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "video-player",
+      "type": "registry:ui",
+      "dependencies": [
+        "media-chrome"
+      ],
+      "files": [
+        {
+          "path": "registry/default/ui/video-player.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "announcement",
+      "type": "registry:ui",
+      "files": [
+        {
+          "path": "registry/default/ui/announcement.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "avatar-stack",
+      "type": "registry:ui",
+      "files": [
+        {
+          "path": "registry/default/ui/avatar-stack.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "cursor",
+      "type": "registry:ui",
+      "files": [
+        {
+          "path": "registry/default/ui/cursor.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "accordion-controlled",
+      "description": "Controlled accordion",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/accordion",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/accordion-controlled.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "accordion"
+      ]
+    },
+    {
+      "name": "accordion-demo",
+      "description": "Basic accordion",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/accordion"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/accordion-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "accordion"
+      ]
+    },
+    {
+      "name": "accordion-multiple",
+      "description": "Accordion allowing multiple panels open",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/accordion"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/accordion-multiple.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "accordion"
+      ]
+    },
+    {
+      "name": "accordion-single",
+      "description": "Accordion with one panel open",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/accordion"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/accordion-single.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "accordion"
+      ]
+    },
+    {
+      "name": "alert-demo",
+      "description": "Basic alert",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/alert"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/alert-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "alert"
+      ]
+    },
+    {
+      "name": "alert-with-icon",
+      "description": "Alert with icon",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/alert"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/alert-with-icon.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "alert"
+      ]
+    },
+    {
+      "name": "alert-with-icon-action",
+      "description": "Alert with icon and action buttons",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/alert",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/alert-with-icon-action.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "alert"
+      ]
+    },
+    {
+      "name": "alert-info",
+      "description": "Info alert",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/alert"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/alert-info.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "alert",
+        "info"
+      ]
+    },
+    {
+      "name": "alert-success",
+      "description": "Success alert",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/alert"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/alert-success.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "alert",
+        "success"
+      ]
+    },
+    {
+      "name": "alert-warning",
+      "description": "Warning alert",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/alert"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/alert-warning.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "alert",
+        "warning"
+      ]
+    },
+    {
+      "name": "alert-error",
+      "description": "Error alert",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/alert"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/alert-error.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "alert",
+        "error"
+      ]
+    },
+    {
+      "name": "alert-dialog-demo",
+      "description": "Alert dialog",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/alert-dialog",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/alert-dialog-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "dialog"
+      ]
+    },
+    {
+      "name": "autocomplete-demo",
+      "description": "Basic autocomplete",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/autocomplete"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/autocomplete-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "autocomplete",
+        "input"
+      ]
+    },
+    {
+      "name": "autocomplete-disabled",
+      "description": "Disabled autocomplete",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/autocomplete"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/autocomplete-disabled.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "autocomplete",
+        "input",
+        "disabled"
+      ]
+    },
+    {
+      "name": "autocomplete-sm",
+      "description": "Small autocomplete",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/autocomplete"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/autocomplete-sm.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "autocomplete",
+        "input"
+      ]
+    },
+    {
+      "name": "autocomplete-lg",
+      "description": "Large autocomplete",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/autocomplete"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/autocomplete-lg.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "autocomplete",
+        "input"
+      ]
+    },
+    {
+      "name": "autocomplete-with-label",
+      "description": "Autocomplete with label",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/autocomplete",
+        "@coss/label"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/autocomplete-with-label.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "autocomplete",
+        "input"
+      ]
+    },
+    {
+      "name": "autocomplete-inline",
+      "description": "Autocomplete autofilling the input with the highlighted item",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/autocomplete"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/autocomplete-inline.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "autocomplete",
+        "input"
+      ]
+    },
+    {
+      "name": "autocomplete-autohighlight",
+      "description": "Autocomplete auto highlighting the first option",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/autocomplete"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/autocomplete-autohighlight.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "autocomplete",
+        "input"
+      ]
+    },
+    {
+      "name": "autocomplete-with-clear",
+      "description": "Autocomplete with clear button",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/autocomplete"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/autocomplete-with-clear.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "autocomplete",
+        "input"
+      ]
+    },
+    {
+      "name": "autocomplete-with-trigger-clear",
+      "description": "Autocomplete with trigger and clear buttons",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/autocomplete"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/autocomplete-with-trigger-clear.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "autocomplete",
+        "input"
+      ]
+    },
+    {
+      "name": "autocomplete-grouped",
+      "description": "Autocomplete with grouped items",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/autocomplete"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/autocomplete-grouped.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "autocomplete",
+        "input"
+      ]
+    },
+    {
+      "name": "autocomplete-limit",
+      "description": "Autocomplete with limited number of results",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/autocomplete"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/autocomplete-limit.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "autocomplete",
+        "input"
+      ]
+    },
+    {
+      "name": "autocomplete-async",
+      "description": "Autocomplete with async items loading",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/autocomplete"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/autocomplete-async.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "autocomplete",
+        "input",
+        "async"
+      ]
+    },
+    {
+      "name": "autocomplete-form",
+      "description": "Autocomplete form",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/autocomplete",
+        "@coss/form",
+        "@coss/field"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/autocomplete-form.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "autocomplete",
+        "input",
+        "form"
+      ]
+    },
+    {
+      "name": "avatar-demo",
+      "description": "Avatar with image and fallback",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/avatar"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/avatar-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "avatar"
+      ]
+    },
+    {
+      "name": "avatar-fallback",
+      "description": "Fallback-only avatar",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/avatar"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/avatar-fallback.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "avatar"
+      ]
+    },
+    {
+      "name": "avatar-group",
+      "description": "Overlapping avatar group",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/avatar"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/avatar-group.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "avatar",
+        "avatar group"
+      ]
+    },
+    {
+      "name": "avatar-radius",
+      "description": "Avatars with different radii",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/avatar"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/avatar-radius.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "avatar"
+      ]
+    },
+    {
+      "name": "avatar-size",
+      "description": "Avatars with different sizes",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/avatar"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/avatar-size.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "avatar"
+      ]
+    },
+    {
+      "name": "avatar-stack",
+      "description": "Stack avatars with overlapping layout",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/avatar-stack",
+        "@coss/avatar"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/avatar-stack.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "avatar-stack",
+        "avatar"
+      ]
+    },
+    {
+      "name": "avatar-stack-hover",
+      "description": "Animated avatar stack on hover",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/avatar-stack",
+        "@coss/avatar"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/avatar-stack-hover.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "avatar-stack",
+        "avatar",
+        "animation"
+      ]
+    },
+    {
+      "name": "badge-demo",
+      "description": "Basic badge",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/badge"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/badge-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "badge"
+      ]
+    },
+    {
+      "name": "badge-outline",
+      "description": "Outline badge",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/badge"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/badge-outline.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "badge"
+      ]
+    },
+    {
+      "name": "badge-secondary",
+      "description": "Secondary badge",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/badge"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/badge-secondary.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "badge"
+      ]
+    },
+    {
+      "name": "badge-destructive",
+      "description": "Destructive badge",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/badge"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/badge-destructive.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "badge",
+        "destructive",
+        "error"
+      ]
+    },
+    {
+      "name": "badge-info",
+      "description": "Info badge",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/badge"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/badge-info.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "badge",
+        "info"
+      ]
+    },
+    {
+      "name": "badge-success",
+      "description": "Success badge",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/badge"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/badge-success.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "badge",
+        "success"
+      ]
+    },
+    {
+      "name": "badge-warning",
+      "description": "Warning badge",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/badge"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/badge-warning.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "badge",
+        "warning"
+      ]
+    },
+    {
+      "name": "badge-error",
+      "description": "Error badge",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/badge"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/badge-error.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "badge",
+        "error"
+      ]
+    },
+    {
+      "name": "badge-sm",
+      "description": "Small badge",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/badge"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/badge-sm.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "badge"
+      ]
+    },
+    {
+      "name": "badge-lg",
+      "description": "Large badge",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/badge"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/badge-lg.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "badge"
+      ]
+    },
+    {
+      "name": "badge-with-icon",
+      "description": "Badge with icon",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/badge"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/badge-with-icon.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "badge"
+      ]
+    },
+    {
+      "name": "badge-with-link",
+      "description": "Badge with link",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/badge"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/badge-with-link.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "badge"
+      ]
+    },
+    {
+      "name": "breadcrumb-demo",
+      "description": "Breadcrumb with menu example",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/breadcrumb",
+        "@coss/menu"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/breadcrumb-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "breadcrumb",
+        "menu"
+      ]
+    },
+    {
+      "name": "breadcrumb-custom-separator",
+      "description": "Breadcrumb with custom separator",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/breadcrumb"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/breadcrumb-custom-separator.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "breadcrumb"
+      ]
+    },
+    {
+      "name": "button-demo",
+      "description": "Default button",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/button-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "button"
+      ]
+    },
+    {
+      "name": "button-secondary",
+      "description": "Secondary button",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/button-secondary.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "button"
+      ]
+    },
+    {
+      "name": "button-destructive",
+      "description": "Destructive button",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/button-destructive.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "button",
+        "delete",
+        "destructive"
+      ]
+    },
+    {
+      "name": "button-destructive-outline",
+      "description": "Destructive outline button",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/button-destructive-outline.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "button",
+        "delete"
+      ]
+    },
+    {
+      "name": "button-outline",
+      "description": "Outline button",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/button-outline.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "button"
+      ]
+    },
+    {
+      "name": "button-ghost",
+      "description": "Ghost button",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/button-ghost.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "button"
+      ]
+    },
+    {
+      "name": "button-link",
+      "description": "Link button",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/button-link.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "button"
+      ]
+    },
+    {
+      "name": "button-xs",
+      "description": "Extra-small button",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/button-xs.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "button"
+      ]
+    },
+    {
+      "name": "button-sm",
+      "description": "Small button",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/button-sm.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "button"
+      ]
+    },
+    {
+      "name": "button-lg",
+      "description": "Large button",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/button-lg.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "button"
+      ]
+    },
+    {
+      "name": "button-xl",
+      "description": "Extra-large button",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/button-xl.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "button"
+      ]
+    },
+    {
+      "name": "button-disabled",
+      "description": "Disabled button",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/button-disabled.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "button",
+        "disabled"
+      ]
+    },
+    {
+      "name": "button-icon",
+      "description": "Icon button",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/button-icon.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "button"
+      ]
+    },
+    {
+      "name": "button-icon-sm",
+      "description": "Small icon button",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/button-icon-sm.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "button"
+      ]
+    },
+    {
+      "name": "button-icon-lg",
+      "description": "Large icon button",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/button-icon-lg.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "button"
+      ]
+    },
+    {
+      "name": "button-with-icon",
+      "description": "Button with icon",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/button-with-icon.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "button"
+      ]
+    },
+    {
+      "name": "button-with-link",
+      "description": "Link rendered as button",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/button-with-link.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "button"
+      ]
+    },
+    {
+      "name": "button-loading",
+      "description": "Loading button",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/button-loading.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "button",
+        "loading"
+      ]
+    },
+    {
+      "name": "card-demo",
+      "description": "Card example with form",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/card",
+        "@coss/button",
+        "@coss/select",
+        "@coss/form",
+        "@coss/field"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/card-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "card",
+        "button",
+        "input",
+        "select",
+        "form",
+        "field"
+      ]
+    },
+    {
+      "name": "checkbox-card",
+      "description": "Card-style checkbox",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/checkbox",
+        "@coss/label"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/checkbox-card.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "checkbox",
+        "card",
+        "label"
+      ]
+    },
+    {
+      "name": "checkbox-demo",
+      "description": "Basic checkbox",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/checkbox",
+        "@coss/label"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/checkbox-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "checkbox",
+        "label"
+      ]
+    },
+    {
+      "name": "checkbox-disabled",
+      "description": "Disabled checkbox",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/checkbox",
+        "@coss/label"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/checkbox-disabled.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "checkbox",
+        "disabled",
+        "label"
+      ]
+    },
+    {
+      "name": "checkbox-form",
+      "description": "Checkbox in a form",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/checkbox",
+        "@coss/field",
+        "@coss/form",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/checkbox-form.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "checkbox",
+        "form",
+        "button",
+        "label"
+      ]
+    },
+    {
+      "name": "checkbox-group-demo",
+      "description": "Checkbox group",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/checkbox-group",
+        "@coss/checkbox",
+        "@coss/label"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/checkbox-group-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "checkbox group",
+        "checkbox"
+      ]
+    },
+    {
+      "name": "checkbox-group-disabled",
+      "description": "Checkbox group with disabled item",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/checkbox-group",
+        "@coss/checkbox",
+        "@coss/label"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/checkbox-group-disabled.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "checkbox group",
+        "checkbox",
+        "disabled"
+      ]
+    },
+    {
+      "name": "checkbox-group-form",
+      "description": "Checkbox group in a form",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/checkbox-group",
+        "@coss/checkbox",
+        "@coss/button",
+        "@coss/field",
+        "@coss/fieldset",
+        "@coss/form"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/checkbox-group-form.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "checkbox group",
+        "checkbox",
+        "form",
+        "button",
+        "field",
+        "fieldset"
+      ]
+    },
+    {
+      "name": "checkbox-group-nested-parent",
+      "description": "Checkbox group parent with nested children controls",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/checkbox-group",
+        "@coss/checkbox",
+        "@coss/label"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/checkbox-group-nested-parent.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "checkbox group",
+        "checkbox",
+        "label"
+      ]
+    },
+    {
+      "name": "checkbox-group-parent",
+      "description": "Checkbox group select/deselect all checkboxes",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/checkbox-group",
+        "@coss/checkbox",
+        "@coss/label"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/checkbox-group-parent.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "checkbox group",
+        "checkbox",
+        "label"
+      ]
+    },
+    {
+      "name": "checkbox-with-description",
+      "description": "Checkbox with helper text",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/checkbox",
+        "@coss/label"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/checkbox-with-description.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "checkbox",
+        "label",
+        "helper",
+        "hint"
+      ]
+    },
+    {
+      "name": "collapsible-demo",
+      "description": "Basic collapsible",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/collapsible"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/collapsible-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "collapsible"
+      ]
+    },
+    {
+      "name": "combobox-demo",
+      "description": "Basic combobox",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/combobox"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/combobox-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "combobox",
+        "input"
+      ]
+    },
+    {
+      "name": "combobox-controlled",
+      "description": "Combobox with controlled open and value state.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/combobox"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/combobox-controlled.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "forms",
+        "combobox",
+        "controlled"
+      ]
+    },
+    {
+      "name": "combobox-disabled",
+      "description": "Disabled combobox",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/combobox"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/combobox-disabled.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "combobox",
+        "input",
+        "disabled"
+      ]
+    },
+    {
+      "name": "combobox-sm",
+      "description": "Small combobox",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/combobox"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/combobox-sm.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "combobox",
+        "input"
+      ]
+    },
+    {
+      "name": "combobox-lg",
+      "description": "Large combobox",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/combobox"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/combobox-lg.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "combobox",
+        "input"
+      ]
+    },
+    {
+      "name": "combobox-with-label",
+      "description": "Combobox with label",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/combobox",
+        "@coss/label"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/combobox-with-label.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "combobox",
+        "input"
+      ]
+    },
+    {
+      "name": "combobox-autohighlight",
+      "description": "Combobox auto highlighting the first option",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/combobox"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/combobox-autohighlight.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "combobox",
+        "input"
+      ]
+    },
+    {
+      "name": "combobox-grouped",
+      "description": "Combobox with grouped items",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/combobox"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/combobox-grouped.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "combobox",
+        "input"
+      ]
+    },
+    {
+      "name": "combobox-with-clear",
+      "description": "Combobox with clear button",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/combobox"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/combobox-with-clear.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "combobox",
+        "input"
+      ]
+    },
+    {
+      "name": "combobox-multiple",
+      "description": "Combobox with multiple selection",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/combobox"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/combobox-multiple.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "combobox",
+        "input"
+      ]
+    },
+    {
+      "name": "combobox-with-inner-input",
+      "description": "Combobox with popup",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/combobox",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/combobox-with-inner-input.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "combobox",
+        "input"
+      ]
+    },
+    {
+      "name": "combobox-fixed-width",
+      "description": "Combobox with fixed width menu.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/combobox"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/combobox-fixed-width.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "forms",
+        "combobox"
+      ]
+    },
+    {
+      "name": "combobox-create-new",
+      "description": "Combobox that allows creating new items.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/combobox"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/combobox-create-new.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "forms",
+        "combobox",
+        "create"
+      ]
+    },
+    {
+      "name": "combobox-form",
+      "description": "Combobox form",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/combobox",
+        "@coss/button",
+        "@coss/form",
+        "@coss/field"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/combobox-form.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "combobox",
+        "input",
+        "form"
+      ]
+    },
+    {
+      "name": "combobox-multiple-form",
+      "description": "Combobox multiple selection form",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/combobox",
+        "@coss/button",
+        "@coss/form",
+        "@coss/field"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/combobox-multiple-form.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "combobox",
+        "input",
+        "form",
+        "multiple"
+      ]
+    },
+    {
+      "name": "cursor",
+      "description": "Collaborative cursors with names and messages",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/cursor"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/cursor.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "cursor",
+        "collaboration"
+      ]
+    },
+    {
+      "name": "cursor-only",
+      "description": "Cursor pointer without body",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/cursor"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/cursor-only.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "cursor"
+      ]
+    },
+    {
+      "name": "cursor-name",
+      "description": "Cursor with name label",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/cursor"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/cursor-name.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "cursor",
+        "label"
+      ]
+    },
+    {
+      "name": "cursor-message",
+      "description": "Cursor with message bubble",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/cursor"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/cursor-message.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "cursor",
+        "message"
+      ]
+    },
+    {
+      "name": "cursor-name-message",
+      "description": "Cursor with name and message",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/cursor"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/cursor-name-message.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "cursor",
+        "label",
+        "message"
+      ]
+    },
+    {
+      "name": "cursor-color",
+      "description": "Cursor with custom brand color",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/cursor"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/cursor-color.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "cursor",
+        "theming"
+      ]
+    },
+    {
+      "name": "calendar",
+      "description": "Calendar view with monthly navigation and grouped features.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/calendar",
+        "@faker-js/faker"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/calendar.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "calendar",
+        "project management"
+      ]
+    },
+    {
+      "name": "calendar-headless",
+      "description": "Headless calendar using custom header and body rendering.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/calendar",
+        "@faker-js/faker"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/calendar-headless.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "calendar",
+        "project management",
+        "headless"
+      ]
+    },
+    {
+      "name": "mini-calendar",
+      "description": "Compact calendar navigation for quick date selection.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/mini-calendar"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/mini-calendar.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "mini-calendar",
+        "project management"
+      ]
+    },
+    {
+      "name": "mini-calendar-controlled",
+      "description": "Controlled mini calendar showing the selected date.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/mini-calendar"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/mini-calendar-controlled.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "mini-calendar",
+        "project management",
+        "controlled"
+      ]
+    },
+    {
+      "name": "mini-calendar-custom",
+      "description": "Mini calendar with custom day rendering.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/mini-calendar"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/mini-calendar-custom.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "mini-calendar",
+        "project management",
+        "customization"
+      ]
+    },
+    {
+      "name": "mini-calendar-days",
+      "description": "Mini calendar rendering weekday headings and focus states.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/mini-calendar"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/mini-calendar-days.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "mini-calendar",
+        "project management"
+      ]
+    },
+    {
+      "name": "gantt",
+      "description": "Interactive Gantt chart with draggable features.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/gantt",
+        "@faker-js/faker",
+        "lodash.groupby"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/gantt.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "gantt",
+        "project management"
+      ]
+    },
+    {
+      "name": "gantt-no-sidebar",
+      "description": "Gantt chart focused on the timeline without sidebar.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/gantt",
+        "@faker-js/faker",
+        "lodash.groupby"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/gantt-no-sidebar.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "gantt",
+        "project management"
+      ]
+    },
+    {
+      "name": "gantt-lanes",
+      "description": "Gantt chart using lanes to group reservations by room.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/gantt",
+        "@faker-js/faker",
+        "lodash.groupby"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/gantt-lanes.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "gantt",
+        "project management",
+        "lanes"
+      ]
+    },
+    {
+      "name": "gantt-read-only",
+      "description": "Read-only Gantt chart with markers and grouped features.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/gantt",
+        "@faker-js/faker",
+        "lodash.groupby"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/gantt-read-only.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "gantt",
+        "project management"
+      ]
+    },
+    {
+      "name": "kanban",
+      "description": "Kanban board with avatars, dates, and drag-and-drop.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/kanban",
+        "@faker-js/faker"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/kanban.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "kanban",
+        "project management"
+      ]
+    },
+    {
+      "name": "kanban-simple",
+      "description": "Simplified Kanban board highlighting drag-and-drop.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/kanban",
+        "@faker-js/faker"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/kanban-simple.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "kanban",
+        "project management"
+      ]
+    },
+    {
+      "name": "code-block",
+      "description": "Multi-file code block with language tabs and copy button.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/code-block"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/code-block.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "code",
+        "code-block"
+      ]
+    },
+    {
+      "name": "code-block-headless",
+      "description": "Headless code block rendering custom header and controls.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/code-block"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/code-block-headless.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "code",
+        "code-block",
+        "headless"
+      ]
+    },
+    {
+      "name": "code-block-highlight-line",
+      "description": "Code block example highlighting specific lines.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/code-block"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/code-block-highlight-line.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "code",
+        "code-block",
+        "highlight"
+      ]
+    },
+    {
+      "name": "code-block-highlight-word",
+      "description": "Code block example highlighting individual tokens.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/code-block"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/code-block-highlight-word.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "code",
+        "code-block",
+        "highlight"
+      ]
+    },
+    {
+      "name": "code-block-numberless",
+      "description": "Code block without line numbers for compact display.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/code-block"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/code-block-numberless.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "code",
+        "code-block"
+      ]
+    },
+    {
+      "name": "code-block-no-highlighting",
+      "description": "Code block without syntax highlighting.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/code-block"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/code-block-no-highlighting.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "code",
+        "code-block"
+      ]
+    },
+    {
+      "name": "code-block-diff",
+      "description": "Code block showing diff highlighting between revisions.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/code-block"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/code-block-diff.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "code",
+        "code-block",
+        "diff"
+      ]
+    },
+    {
+      "name": "code-block-focus",
+      "description": "Code block focusing attention on a highlighted snippet.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/code-block"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/code-block-focus.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "code",
+        "code-block"
+      ]
+    },
+    {
+      "name": "code-block-theme",
+      "description": "Code block demonstrating theme switching.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/code-block"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/code-block-theme.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "code",
+        "code-block",
+        "theme"
+      ]
+    },
+    {
+      "name": "sandbox",
+      "description": "Sandbox with file explorer and code preview.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/sandbox",
+        "@repo/code-block"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/sandbox.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "code",
+        "sandbox"
+      ]
+    },
+    {
+      "name": "sandbox-no-file-explorer",
+      "description": "Sandbox without the file explorer for a compact layout.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/sandbox",
+        "@repo/code-block"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/sandbox-no-file-explorer.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "code",
+        "sandbox"
+      ]
+    },
+    {
+      "name": "editor",
+      "description": "Rich code editor experience using the editor package.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/editor",
+        "@repo/code-block"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/editor.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "code",
+        "editor"
+      ]
+    },
+    {
+      "name": "comparison",
+      "description": "Comparison slider overlaying before/after code.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/comparison",
+        "@repo/code-block"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/comparison.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "code",
+        "comparison"
+      ]
+    },
+    {
+      "name": "comparison-hover",
+      "description": "Comparison slider activated on hover.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/comparison",
+        "@repo/code-block"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/comparison-hover.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "code",
+        "comparison",
+        "hover"
+      ]
+    },
+    {
+      "name": "comparison-event-handlers",
+      "description": "Comparison slider demonstrating event handlers.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/comparison",
+        "@repo/code-block"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/comparison-event-handlers.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "code",
+        "comparison",
+        "events"
+      ]
+    },
+    {
+      "name": "contribution-graph",
+      "description": "Contribution graph showing activity heatmap.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/contribution-graph",
+        "@repo/code-block",
+        "@faker-js/faker"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/contribution-graph.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "code",
+        "contribution"
+      ]
+    },
+    {
+      "name": "contribution-graph-custom-theme",
+      "description": "Contribution graph with custom color themes.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/contribution-graph",
+        "@repo/code-block",
+        "@faker-js/faker"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/contribution-graph-custom-theme.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "code",
+        "contribution",
+        "theme"
+      ]
+    },
+    {
+      "name": "contribution-graph-minimal",
+      "description": "Minimal contribution graph layout.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/contribution-graph",
+        "@repo/code-block",
+        "@faker-js/faker"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/contribution-graph-minimal.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "code",
+        "contribution"
+      ]
+    },
+    {
+      "name": "contribution-graph-size",
+      "description": "Contribution graph showcasing custom sizing.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/contribution-graph",
+        "@repo/code-block",
+        "@faker-js/faker"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/contribution-graph-size.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "code",
+        "contribution",
+        "layout"
+      ]
+    },
+    {
+      "name": "contribution-graph-tooltip",
+      "description": "Contribution graph with custom tooltip content.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/contribution-graph",
+        "@repo/code-block",
+        "@faker-js/faker"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/contribution-graph-tooltip.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "code",
+        "contribution",
+        "tooltip"
+      ]
+    },
+    {
+      "name": "contribution-graph-custom-blocks",
+      "description": "Contribution graph using custom block rendering.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/contribution-graph",
+        "@repo/code-block",
+        "@faker-js/faker"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/contribution-graph-custom-blocks.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "code",
+        "contribution",
+        "customization"
+      ]
+    },
+    {
+      "name": "contribution-graph-custom-footer",
+      "description": "Contribution graph with custom footer summary.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/contribution-graph",
+        "@repo/code-block",
+        "@faker-js/faker"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/contribution-graph-custom-footer.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "code",
+        "contribution",
+        "customization"
+      ]
+    },
+    {
+      "name": "snippet",
+      "description": "Code snippet display with syntax highlighting.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/snippet",
+        "@repo/code-block"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/snippet.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "code",
+        "snippet"
+      ]
+    },
+    {
+      "name": "snippet-npm",
+      "description": "Snippet showing install commands for multiple package managers.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/snippet",
+        "@repo/code-block"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/snippet-npm.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "code",
+        "snippet",
+        "commands"
+      ]
+    },
+    {
+      "name": "list",
+      "description": "Draggable list view grouped by status with avatars.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/list",
+        "@faker-js/faker"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/list.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "list",
+        "project management"
+      ]
+    },
+    {
+      "name": "list-simple",
+      "description": "Simplified list view using drag-and-drop ordering.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/list",
+        "@faker-js/faker"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/list-simple.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "list",
+        "project management"
+      ]
+    },
+    {
+      "name": "table",
+      "description": "Project table with owner avatars and status indicators.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/table",
+        "@faker-js/faker"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/table.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "table",
+        "project management"
+      ]
+    },
+    {
+      "name": "table-simple",
+      "description": "Sortable project table with compact columns.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/table",
+        "@faker-js/faker"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/table-simple.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "table",
+        "project management"
+      ]
+    },
+    {
+      "name": "status",
+      "description": "Status badges for operational state display.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/status"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/status.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "status",
+        "project management"
+      ]
+    },
+    {
+      "name": "status-custom",
+      "description": "Custom styled status badge with outline variant.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/status"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/status-custom.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "status",
+        "project management",
+        "customization"
+      ]
+    },
+    {
+      "name": "relative-time",
+      "description": "Relative time component comparing multiple timezones.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/relative-time"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/relative-time.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "relative-time",
+        "project management"
+      ]
+    },
+    {
+      "name": "relative-time-controlled",
+      "description": "Controlled relative time component with manual updates.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/relative-time"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/relative-time-controlled.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "relative-time",
+        "project management",
+        "controlled"
+      ]
+    },
+    {
+      "name": "relative-time-format-date",
+      "description": "Relative time formatter highlighting dates and durations.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/relative-time"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/relative-time-format-date.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "relative-time",
+        "project management"
+      ]
+    },
+    {
+      "name": "relative-time-format-time",
+      "description": "Relative time formatter that outputs clock time.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/relative-time"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/relative-time-format-time.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "relative-time",
+        "project management"
+      ]
+    },
+    {
+      "name": "tree",
+      "description": "Interactive tree view for navigating project files.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/tree"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/tree.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "tree",
+        "project management"
+      ]
+    },
+    {
+      "name": "tree-simple",
+      "description": "Simple tree view with minimal configuration.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/tree"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/tree-simple.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "tree",
+        "project management"
+      ]
+    },
+    {
+      "name": "tree-no-lines",
+      "description": "Tree view without connector lines for a cleaner look.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/tree"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/tree-no-lines.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "tree",
+        "project management"
+      ]
+    },
+    {
+      "name": "tree-custom-icons",
+      "description": "Tree view using custom icons for file types.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/tree"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/tree-custom-icons.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "tree",
+        "project management",
+        "customization"
+      ]
+    },
+    {
+      "name": "tree-controlled",
+      "description": "Controlled tree view with explicit expanded nodes.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/tree"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/tree-controlled.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "tree",
+        "project management",
+        "controlled"
+      ]
+    },
+    {
+      "name": "dialog-close-confirmation",
+      "description": "Prompt before closing with unsaved changes",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/alert-dialog",
+        "@coss/dialog",
+        "@coss/button",
+        "@coss/form",
+        "@coss/field",
+        "@coss/textarea"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/dialog-close-confirmation.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "dialog",
+        "alert dialog",
+        "form",
+        "field",
+        "button",
+        "textarea"
+      ]
+    },
+    {
+      "name": "dialog-demo",
+      "description": "Basic dialog",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/dialog",
+        "@coss/button",
+        "@coss/form",
+        "@coss/field"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/dialog-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "dialog",
+        "form",
+        "field",
+        "button"
+      ]
+    },
+    {
+      "name": "dialog-from-menu",
+      "description": "Open dialog from a menu item",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/dialog",
+        "@coss/menu",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/dialog-from-menu.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "dialog",
+        "menu",
+        "button"
+      ]
+    },
+    {
+      "name": "dialog-nested",
+      "description": "Dialog with a nested dialog",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/dialog",
+        "@coss/button",
+        "@coss/field"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/dialog-nested.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "dialog",
+        "field",
+        "button"
+      ]
+    },
+    {
+      "name": "sheet-demo",
+      "description": "Basic sheet",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/sheet",
+        "@coss/button",
+        "@coss/form",
+        "@coss/field"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/sheet-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "sheet",
+        "dialog"
+      ]
+    },
+    {
+      "name": "sheet-position",
+      "description": "Sheet position",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/sheet",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/sheet-position.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "sheet"
+      ]
+    },
+    {
+      "name": "field-checkbox",
+      "description": "Field with checkbox",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/field",
+        "@coss/checkbox"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/field-checkbox.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "field",
+        "label",
+        "checkbox"
+      ]
+    },
+    {
+      "name": "field-checkbox-group",
+      "description": "Field with checkbox group",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/field",
+        "@coss/checkbox-group",
+        "@coss/checkbox",
+        "@coss/fieldset"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/field-checkbox-group.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "field",
+        "checkbox group",
+        "checkbox",
+        "fieldset",
+        "label"
+      ]
+    },
+    {
+      "name": "field-complete-form",
+      "description": "Complete form built with field",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/field",
+        "@coss/select",
+        "@coss/checkbox",
+        "@coss/form",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/field-complete-form.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "field",
+        "label",
+        "form",
+        "select",
+        "checkbox",
+        "button",
+        "helper",
+        "hint"
+      ]
+    },
+    {
+      "name": "field-demo",
+      "description": "Field with description",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/field"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/field-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "field",
+        "label",
+        "helper",
+        "hint"
+      ]
+    },
+    {
+      "name": "field-disabled",
+      "description": "Field in disabled state",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/field"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/field-disabled.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "field",
+        "label",
+        "disabled",
+        "helper",
+        "hint"
+      ]
+    },
+    {
+      "name": "field-error",
+      "description": "Field showing validation error",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/field"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/field-error.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "field",
+        "label",
+        "error"
+      ]
+    },
+    {
+      "name": "field-autocomplete",
+      "description": "Field with autocomplete",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/field",
+        "@coss/autocomplete"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/field-autocomplete.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "field",
+        "input",
+        "autocomplete",
+        "label"
+      ]
+    },
+    {
+      "name": "field-combobox",
+      "description": "Field with combobox",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/field",
+        "@coss/combobox"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/field-combobox.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "field",
+        "input",
+        "combobox",
+        "label"
+      ]
+    },
+    {
+      "name": "field-combobox-multiple",
+      "description": "Field with multiple selection combobox",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/field",
+        "@coss/combobox"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/field-combobox-multiple.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "field",
+        "input",
+        "combobox",
+        "label",
+        "multiple"
+      ]
+    },
+    {
+      "name": "field-number-field",
+      "description": "Field with number field",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/field",
+        "@coss/number-field"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/field-number-field.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "field",
+        "input",
+        "label",
+        "number",
+        "helper",
+        "hint"
+      ]
+    },
+    {
+      "name": "field-radio",
+      "description": "Field with radio group",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/field",
+        "@coss/radio-group",
+        "@coss/fieldset"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/field-radio.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "field",
+        "radio",
+        "label",
+        "fieldset",
+        "helper",
+        "hint"
+      ]
+    },
+    {
+      "name": "field-required",
+      "description": "Field with required indicator",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/field"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/field-required.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "field",
+        "label",
+        "required"
+      ]
+    },
+    {
+      "name": "field-select",
+      "description": "Field with select",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/field",
+        "@coss/select"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/field-select.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "field",
+        "select",
+        "label",
+        "helper",
+        "hint"
+      ]
+    },
+    {
+      "name": "field-slider",
+      "description": "Field with slider",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/field",
+        "@coss/slider"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/field-slider.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "field",
+        "slider",
+        "label",
+        "helper",
+        "hint"
+      ]
+    },
+    {
+      "name": "field-switch",
+      "description": "Field with toggle switch",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/field",
+        "@coss/switch"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/field-switch.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "field",
+        "switch",
+        "label"
+      ]
+    },
+    {
+      "name": "field-textarea",
+      "description": "Field with textarea",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/field",
+        "@coss/textarea"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/field-textarea.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "field",
+        "textarea",
+        "label",
+        "helper",
+        "hint"
+      ]
+    },
+    {
+      "name": "field-validity",
+      "description": "Show field validity state",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/field"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/field-validity.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "field"
+      ]
+    },
+    {
+      "name": "fieldset-demo",
+      "description": "Fieldset with legend and labeled fields",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/fieldset",
+        "@coss/field"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/fieldset-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "fieldset",
+        "field",
+        "label",
+        "input",
+        "helper"
+      ]
+    },
+    {
+      "name": "form-demo",
+      "description": "Input in a form",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/form",
+        "@coss/field",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/form-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "form",
+        "field",
+        "button",
+        "input"
+      ]
+    },
+    {
+      "name": "form-zod",
+      "description": "Form with zod validation",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/form",
+        "@coss/field",
+        "@coss/button"
+      ],
+      "dependencies": [
+        "zod"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/form-zod.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "form",
+        "field",
+        "button",
+        "validation",
+        "label",
+        "zod"
+      ]
+    },
+    {
+      "name": "empty-demo",
+      "description": "Basic empty state with icon",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/empty",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/empty-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "empty"
+      ]
+    },
+    {
+      "name": "input-demo",
+      "description": "Basic input component without label",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/input"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/input-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "input"
+      ]
+    },
+    {
+      "name": "frame-demo",
+      "description": "Frame example",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/frame"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/frame-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "frame"
+      ]
+    },
+    {
+      "name": "group-demo",
+      "description": "Group example",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/group",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/group-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "group"
+      ]
+    },
+    {
+      "name": "group-with-input",
+      "description": "Group with input",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/group",
+        "@coss/button",
+        "@coss/input"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/group-with-input.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "group"
+      ]
+    },
+    {
+      "name": "input-sm",
+      "description": "Small input",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/input"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/input-sm.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "input"
+      ]
+    },
+    {
+      "name": "input-lg",
+      "description": "Large input",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/input"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/input-lg.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "input"
+      ]
+    },
+    {
+      "name": "input-disabled",
+      "description": "Input with disabled state",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/input"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/input-disabled.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "input",
+        "disabled"
+      ]
+    },
+    {
+      "name": "input-file",
+      "description": "Input type set to file",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/input"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/input-file.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "input",
+        "file"
+      ]
+    },
+    {
+      "name": "input-with-label",
+      "description": "Input with label",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/input",
+        "@coss/label"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/input-with-label.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "input",
+        "label"
+      ]
+    },
+    {
+      "name": "input-with-button",
+      "description": "Input with button",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/input",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/input-with-button.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "input",
+        "button"
+      ]
+    },
+    {
+      "name": "menu-checkbox",
+      "description": "Menu with checkbox items",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/menu",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/menu-checkbox.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "menu",
+        "checkbox"
+      ]
+    },
+    {
+      "name": "menu-close-on-click",
+      "description": "Close menu when items are clicked",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/menu",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/menu-close-on-click.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "menu"
+      ]
+    },
+    {
+      "name": "menu-demo",
+      "description": "Basic menu",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/menu",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/menu-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "menu"
+      ]
+    },
+    {
+      "name": "menu-group-labels",
+      "description": "Menu items grouped with labels",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/menu",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/menu-group-labels.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "menu",
+        "label"
+      ]
+    },
+    {
+      "name": "menu-hover",
+      "description": "Open the menu on hover",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/menu",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/menu-hover.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "menu"
+      ]
+    },
+    {
+      "name": "menu-link",
+      "description": "Menu items as links",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/menu",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/menu-link.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "menu",
+        "link"
+      ]
+    },
+    {
+      "name": "menu-nested",
+      "description": "Menu with submenu",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/menu",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/menu-nested.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "menu"
+      ]
+    },
+    {
+      "name": "menu-radio-group",
+      "description": "Menu with radio options",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/menu",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/menu-radio-group.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "menu",
+        "radio"
+      ]
+    },
+    {
+      "name": "meter-demo",
+      "description": "Basic meter",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/meter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/meter-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "meter"
+      ]
+    },
+    {
+      "name": "meter-simple",
+      "description": "Meter without label and value",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/meter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/meter-simple.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "meter"
+      ]
+    },
+    {
+      "name": "meter-with-formatted-value",
+      "description": "Meter with a custom formatted value",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/meter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/meter-with-formatted-value.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "meter"
+      ]
+    },
+    {
+      "name": "meter-with-range",
+      "description": "Meter with min and max values",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/meter"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/meter-with-range.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "meter"
+      ]
+    },
+    {
+      "name": "number-field-demo",
+      "description": "A number field",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/number-field"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/number-field-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "number field"
+      ]
+    },
+    {
+      "name": "number-field-sm",
+      "description": "Small number field",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/number-field"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/number-field-sm.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "number field"
+      ]
+    },
+    {
+      "name": "number-field-lg",
+      "description": "Large number field",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/number-field"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/number-field-lg.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "number field"
+      ]
+    },
+    {
+      "name": "number-field-disabled",
+      "description": "A disabled number field",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/number-field"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/number-field-disabled.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "number field",
+        "disabled",
+        "label"
+      ]
+    },
+    {
+      "name": "number-field-form",
+      "description": "A number in a form",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/number-field",
+        "@coss/field",
+        "@coss/form",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/number-field-form.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "number field",
+        "field",
+        "form",
+        "button"
+      ]
+    },
+    {
+      "name": "number-field-with-formatted-value",
+      "description": "A number field with formatted value",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/number-field"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/number-field-with-formatted-value.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "number field"
+      ]
+    },
+    {
+      "name": "number-field-with-label",
+      "description": "A number field with an external label",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/number-field",
+        "@coss/label"
+      ],
+      "dependencies": [
+        "@radix-ui/react-label"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/number-field-with-label.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "number field",
+        "label"
+      ]
+    },
+    {
+      "name": "number-field-with-range",
+      "description": "A number field with min/max constraints",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/number-field"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/number-field-with-range.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "number field",
+        "range"
+      ]
+    },
+    {
+      "name": "number-field-with-scrub",
+      "description": "A number field with a scrub area",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/number-field"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/number-field-with-scrub.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "number field"
+      ]
+    },
+    {
+      "name": "number-field-with-step",
+      "description": "A number field with step",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/number-field"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/number-field-with-step.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "number field"
+      ]
+    },
+    {
+      "name": "pagination-demo",
+      "description": "Pagination example",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/pagination"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/pagination-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "pagination"
+      ]
+    },
+    {
+      "name": "popover-demo",
+      "description": "Popover with a form",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/popover",
+        "@coss/button",
+        "@coss/textarea",
+        "@coss/form",
+        "@coss/field"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/popover-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "popover",
+        "button",
+        "textarea",
+        "form",
+        "field"
+      ]
+    },
+    {
+      "name": "popover-with-close",
+      "description": "Popover with close button",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/popover",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/popover-with-close.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "popover",
+        "button"
+      ]
+    },
+    {
+      "name": "preview-card-demo",
+      "description": "Preview card example",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/preview-card",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/preview-card-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "preview card",
+        "button"
+      ]
+    },
+    {
+      "name": "progress-demo",
+      "description": "Animated progress bar",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/progress"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/progress-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "progress"
+      ]
+    },
+    {
+      "name": "progress-with-formatted-value",
+      "description": "Progress with a custom formatted value",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/progress"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/progress-with-formatted-value.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "progress"
+      ]
+    },
+    {
+      "name": "progress-with-label-value",
+      "description": "Progress with label and value",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/progress"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/progress-with-label-value.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "progress",
+        "label"
+      ]
+    },
+    {
+      "name": "radio-group-card",
+      "description": "Card-style radio options",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/radio-group",
+        "@coss/label"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/radio-group-card.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "radio",
+        "label"
+      ]
+    },
+    {
+      "name": "radio-group-demo",
+      "description": "Basic radio group",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/radio-group",
+        "@coss/label"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/radio-group-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "radio",
+        "label"
+      ]
+    },
+    {
+      "name": "radio-group-disabled",
+      "description": "Radio group with one option disabled",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/radio-group",
+        "@coss/label"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/radio-group-disabled.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "radio",
+        "label"
+      ]
+    },
+    {
+      "name": "radio-group-form",
+      "description": "Radio group in a form",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/radio-group",
+        "@coss/field",
+        "@coss/fieldset",
+        "@coss/form",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/radio-group-form.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "radio",
+        "field",
+        "fieldset",
+        "form",
+        "button"
+      ]
+    },
+    {
+      "name": "radio-group-with-description",
+      "description": "Radio options with helper text",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/radio-group",
+        "@coss/label"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/radio-group-with-description.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "radio",
+        "label",
+        "helper",
+        "hint"
+      ]
+    },
+    {
+      "name": "scroll-area-demo",
+      "description": "Scroll area - vertical",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/scroll-area"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/scroll-area-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "scroll area"
+      ]
+    },
+    {
+      "name": "scroll-area-horizontal",
+      "description": "Scroll area - horizontal",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/scroll-area"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/scroll-area-horizontal.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "scroll area"
+      ]
+    },
+    {
+      "name": "scroll-area-both",
+      "description": "Scroll area - both horizontal and vertical",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/scroll-area"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/scroll-area-both.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "scroll area"
+      ]
+    },
+    {
+      "name": "select-demo",
+      "description": "A basic select",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/select"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/select-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "select"
+      ]
+    },
+    {
+      "name": "select-sm",
+      "description": "A select with small size",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/select"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/select-sm.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "select"
+      ]
+    },
+    {
+      "name": "select-lg",
+      "description": "A select with large size",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/select"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/select-lg.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "select"
+      ]
+    },
+    {
+      "name": "select-disabled",
+      "description": "A disabled select",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/select"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/select-disabled.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "select",
+        "disabled"
+      ]
+    },
+    {
+      "name": "select-without-alignment",
+      "description": "Select popup not aligned to trigger",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/select"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/select-without-alignment.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "select"
+      ]
+    },
+    {
+      "name": "select-with-groups",
+      "description": "Select items grouped with labels",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/select"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/select-with-groups.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "select"
+      ]
+    },
+    {
+      "name": "select-multiple",
+      "description": "Multiple selection with formatted value",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/select"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/select-multiple.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "select"
+      ]
+    },
+    {
+      "name": "select-form",
+      "description": "Select in a form",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/button",
+        "@coss/select",
+        "@coss/form",
+        "@coss/field"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/select-form.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "select",
+        "form",
+        "field",
+        "helper",
+        "hint"
+      ]
+    },
+    {
+      "name": "separator-demo",
+      "description": "Separator with horizontal and vertical orientations",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/separator"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/separator-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "separator"
+      ]
+    },
+    {
+      "name": "skeleton-demo",
+      "description": "Skeleton demo",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/avatar",
+        "@coss/button",
+        "@coss/skeleton"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/skeleton-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "skeleton"
+      ]
+    },
+    {
+      "name": "skeleton-only",
+      "description": "Skeleton only",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/skeleton"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/skeleton-only.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "skeleton"
+      ]
+    },
+    {
+      "name": "slider-demo",
+      "description": "Basic slider",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/slider"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/slider-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "slider"
+      ]
+    },
+    {
+      "name": "slider-with-label-value",
+      "description": "Slider with label and value",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/slider",
+        "@coss/label"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/slider-with-label-value.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "slider",
+        "label"
+      ]
+    },
+    {
+      "name": "slider-range",
+      "description": "Two-thumb range slider",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/slider"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/slider-range.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "slider",
+        "range slider"
+      ]
+    },
+    {
+      "name": "slider-vertical",
+      "description": "Vertical slider",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/slider"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/slider-vertical.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "slider",
+        "vertical slider"
+      ]
+    },
+    {
+      "name": "slider-form",
+      "description": "Slider in a form",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/slider",
+        "@coss/form",
+        "@coss/field",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/slider-form.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "slider",
+        "form",
+        "field",
+        "button",
+        "helper",
+        "hint"
+      ]
+    },
+    {
+      "name": "switch-demo",
+      "description": "Basic switch",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/switch",
+        "@coss/label"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/switch-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "switch",
+        "label"
+      ]
+    },
+    {
+      "name": "switch-disabled",
+      "description": "Disabled switch",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/switch",
+        "@coss/label"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/switch-disabled.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "switch",
+        "label",
+        "disabled"
+      ]
+    },
+    {
+      "name": "switch-with-description",
+      "description": "Switch with description",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/switch",
+        "@coss/label"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/switch-with-description.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "switch",
+        "label",
+        "helper",
+        "hint"
+      ]
+    },
+    {
+      "name": "switch-card",
+      "description": "Card-style switch",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/switch",
+        "@coss/label"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/switch-card.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "switch",
+        "label",
+        "card"
+      ]
+    },
+    {
+      "name": "switch-form",
+      "description": "Switch in a form",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/switch",
+        "@coss/field",
+        "@coss/form",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/switch-form.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "switch",
+        "form",
+        "field",
+        "button"
+      ]
+    },
+    {
+      "name": "table-demo",
+      "description": "Basic table",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/table",
+        "@coss/badge"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/table-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "table",
+        "badge"
+      ]
+    },
+    {
+      "name": "table-framed",
+      "description": "Framed table",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/table",
+        "@coss/badge",
+        "@coss/frame"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/table-framed.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "table",
+        "badge",
+        "frame"
+      ]
+    },
+    {
+      "name": "tabs-demo",
+      "description": "Tabs with default indicator",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/tabs"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/tabs-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "tabs"
+      ]
+    },
+    {
+      "name": "tabs-underline",
+      "description": "Tabs with underline indicator",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/tabs"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/tabs-underline.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "tabs"
+      ]
+    },
+    {
+      "name": "tabs-vertical",
+      "description": "Tabs with vertical layout",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/tabs"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/tabs-vertical.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "tabs",
+        "vertical tabs"
+      ]
+    },
+    {
+      "name": "tabs-underline-vertical",
+      "description": "Underline tabs with vertical layout",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/tabs"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/tabs-underline-vertical.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "tabs",
+        "vertical tabs"
+      ]
+    },
+    {
+      "name": "textarea-demo",
+      "description": "Basic textarea",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/textarea"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/textarea-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "textarea"
+      ]
+    },
+    {
+      "name": "textarea-sm",
+      "description": "Small textarea",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/textarea"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/textarea-sm.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "textarea"
+      ]
+    },
+    {
+      "name": "textarea-lg",
+      "description": "Large textarea",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/textarea"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/textarea-lg.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "textarea"
+      ]
+    },
+    {
+      "name": "textarea-disabled",
+      "description": "Disabled textarea",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/textarea"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/textarea-disabled.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "textarea",
+        "disabled"
+      ]
+    },
+    {
+      "name": "textarea-with-label",
+      "description": "Textarea labelled with Field",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/textarea",
+        "@coss/label"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/textarea-with-label.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "textarea",
+        "field",
+        "label"
+      ]
+    },
+    {
+      "name": "textarea-form",
+      "description": "Textarea in a form",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/textarea",
+        "@coss/form",
+        "@coss/field",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/textarea-form.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "textarea",
+        "form",
+        "field",
+        "button"
+      ]
+    },
+    {
+      "name": "toast-demo",
+      "description": "Status toast",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/toast"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/toast-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "toast",
+        "button"
+      ]
+    },
+    {
+      "name": "toast-loading",
+      "description": "Loading toast",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/toast"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/toast-loading.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "toast",
+        "button",
+        "loading"
+      ]
+    },
+    {
+      "name": "toast-promise",
+      "description": "Drive toasts from promise states",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/toast"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/toast-promise.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "toast",
+        "button"
+      ]
+    },
+    {
+      "name": "toast-with-action",
+      "description": "Toast with an action button",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/toast"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/toast-with-action.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "toast",
+        "button"
+      ]
+    },
+    {
+      "name": "toast-with-status",
+      "description": "Success toast",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/toast"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/toast-with-status.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "toast",
+        "button"
+      ]
+    },
+    {
+      "name": "toast-heights",
+      "description": "Toast with varying heights",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/toast"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/toast-heights.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "toast"
+      ]
+    },
+    {
+      "name": "toggle-demo",
+      "description": "Basic toggle",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/toggle"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/toggle-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "toggle"
+      ]
+    },
+    {
+      "name": "toggle-disabled",
+      "description": "Disabled toggle",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/toggle"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/toggle-disabled.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "toggle",
+        "disabled"
+      ]
+    },
+    {
+      "name": "toggle-group-demo",
+      "description": "Toggle group",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/toggle-group"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/toggle-group-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "toggle group",
+        "toggle"
+      ]
+    },
+    {
+      "name": "toggle-group-sm",
+      "description": "Toggle group with small toggles",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/toggle-group"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/toggle-group-sm.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "toggle group",
+        "toggle"
+      ]
+    },
+    {
+      "name": "toggle-group-lg",
+      "description": "Toggle group with large toggles",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/toggle-group"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/toggle-group-lg.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "toggle group",
+        "toggle"
+      ]
+    },
+    {
+      "name": "toggle-group-outline",
+      "description": "Toggle group with outline toggles",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/toggle-group"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/toggle-group-outline.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "toggle group",
+        "toggle"
+      ]
+    },
+    {
+      "name": "toggle-group-outline-with-separator",
+      "description": "Toggle group with outline toggles and separator",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/toggle-group"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/toggle-group-outline-with-separator.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "toggle group",
+        "toggle"
+      ]
+    },
+    {
+      "name": "toggle-group-disabled",
+      "description": "Disabled toggle group",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/toggle-group"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/toggle-group-disabled.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "toggle group",
+        "toggle",
+        "disabled"
+      ]
+    },
+    {
+      "name": "toggle-group-multiple",
+      "description": "Toggle group with multiple selection",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/toggle-group"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/toggle-group-multiple.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "toggle group",
+        "toggle"
+      ]
+    },
+    {
+      "name": "toggle-group-with-disabled-item",
+      "description": "Toggle group with disabled item",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/toggle-group"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/toggle-group-with-disabled-item.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "toggle group",
+        "toggle",
+        "disabled"
+      ]
+    },
+    {
+      "name": "toggle-icon-group",
+      "description": "Multiple toggles",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/toggle"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/toggle-icon-group.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "toggle"
+      ]
+    },
+    {
+      "name": "toggle-lg",
+      "description": "Large toggle",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/toggle"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/toggle-lg.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "toggle"
+      ]
+    },
+    {
+      "name": "toggle-outline",
+      "description": "Outline toggle",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/toggle"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/toggle-outline.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "toggle"
+      ]
+    },
+    {
+      "name": "toggle-sm",
+      "description": "Small toggle",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/toggle"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/toggle-sm.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "toggle"
+      ]
+    },
+    {
+      "name": "toggle-with-icon",
+      "description": "Toggle with icon",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/toggle"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/toggle-with-icon.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "toggle"
+      ]
+    },
+    {
+      "name": "toolbar-demo",
+      "description": "Toolbar",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/button",
+        "@coss/select",
+        "@coss/toggle-group",
+        "@coss/toolbar",
+        "@coss/tooltip"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/toolbar-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "toolbar",
+        "button",
+        "select",
+        "toggle",
+        "tooltip"
+      ]
+    },
+    {
+      "name": "tooltip-demo",
+      "description": "Basic tooltip",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/tooltip",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/tooltip-demo.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "tooltip",
+        "button"
+      ]
+    },
+    {
+      "name": "tooltip-grouped",
+      "description": "Toggle group with grouped tooltips",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/tooltip",
+        "@coss/toggle-group"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/tooltip-grouped.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "tooltip",
+        "toggle group",
+        "toggle"
+      ]
+    },
+    {
+      "name": "choicebox",
+      "description": "Choicebox input with selectable options.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/choicebox"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/choicebox.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "forms",
+        "choicebox"
+      ]
+    },
+    {
+      "name": "choicebox-inline",
+      "description": "Inline choicebox layout for compact forms.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/choicebox"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/choicebox-inline.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "forms",
+        "choicebox"
+      ]
+    },
+    {
+      "name": "dropzone",
+      "description": "Basic file dropzone.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/dropzone"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/dropzone.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "forms",
+        "dropzone",
+        "upload"
+      ]
+    },
+    {
+      "name": "dropzone-multiple",
+      "description": "Dropzone allowing multiple file uploads.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/dropzone"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/dropzone-multiple.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "forms",
+        "dropzone",
+        "multiple"
+      ]
+    },
+    {
+      "name": "dropzone-min-max",
+      "description": "Dropzone limiting file sizes and counts.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/dropzone"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/dropzone-min-max.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "forms",
+        "dropzone"
+      ]
+    },
+    {
+      "name": "dropzone-accept",
+      "description": "Dropzone restricting accepted file types.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/dropzone"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/dropzone-accept.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "forms",
+        "dropzone"
+      ]
+    },
+    {
+      "name": "dropzone-image-preview",
+      "description": "Dropzone showing image previews for uploads.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/dropzone"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/dropzone-image-preview.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "forms",
+        "dropzone",
+        "preview"
+      ]
+    },
+    {
+      "name": "dropzone-custom-empty-state",
+      "description": "Dropzone with a custom empty-state design.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/dropzone"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/dropzone-custom-empty-state.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "forms",
+        "dropzone",
+        "customization"
+      ]
+    },
+    {
+      "name": "pill",
+      "description": "Basic pill component.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/pill"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/pill.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "forms",
+        "pill"
+      ]
+    },
+    {
+      "name": "pill-status",
+      "description": "Pill indicating status using color accents.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/pill"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/pill-status.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "forms",
+        "pill",
+        "status"
+      ]
+    },
+    {
+      "name": "pill-indicator",
+      "description": "Pill with a leading indicator dot.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/pill"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/pill-indicator.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "forms",
+        "pill"
+      ]
+    },
+    {
+      "name": "pill-button",
+      "description": "Pill behaving as a button.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/pill"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/pill-button.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "forms",
+        "pill"
+      ]
+    },
+    {
+      "name": "pill-icon",
+      "description": "Pill with icon support.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/pill"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/pill-icon.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "forms",
+        "pill",
+        "icon"
+      ]
+    },
+    {
+      "name": "pill-avatar",
+      "description": "Pill with an avatar.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/pill"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/pill-avatar.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "forms",
+        "pill",
+        "avatar"
+      ]
+    },
+    {
+      "name": "pill-avatar-group",
+      "description": "Pill representing an avatar group.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/pill"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/pill-avatar-group.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "forms",
+        "pill",
+        "avatar"
+      ]
+    },
+    {
+      "name": "pill-delta",
+      "description": "Pill displaying delta values.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/pill"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/pill-delta.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "forms",
+        "pill",
+        "delta"
+      ]
+    },
+    {
+      "name": "rating",
+      "description": "Rating component with star selection.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/rating"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/rating.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "forms",
+        "rating"
+      ]
+    },
+    {
+      "name": "rating-controlled",
+      "description": "Controlled rating component example.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/rating"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/rating-controlled.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "forms",
+        "rating",
+        "controlled"
+      ]
+    },
+    {
+      "name": "rating-size",
+      "description": "Rating component with custom size.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/rating"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/rating-size.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "forms",
+        "rating"
+      ]
+    },
+    {
+      "name": "rating-colors",
+      "description": "Rating component demonstrating color variants.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/rating"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/rating-colors.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "forms",
+        "rating",
+        "colors"
+      ]
+    },
+    {
+      "name": "rating-icon",
+      "description": "Rating component using custom icons.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/rating"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/rating-icon.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "forms",
+        "rating",
+        "icon"
+      ]
+    },
+    {
+      "name": "tags",
+      "description": "Tags input with selected label chips.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/tags"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/tags.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "forms",
+        "tags"
+      ]
+    },
+    {
+      "name": "tags-create",
+      "description": "Tags input that allows creating custom values.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/tags"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/tags-create.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "forms",
+        "tags",
+        "create"
+      ]
+    },
+    {
+      "name": "tags-filter",
+      "description": "Tags input for filtering lists.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/tags"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/tags-filter.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "forms",
+        "tags",
+        "filter"
+      ]
+    },
+    {
+      "name": "glimpse",
+      "description": "Link preview tooltip displaying fetched metadata.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/glimpse"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/glimpse.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "media",
+        "preview"
+      ]
+    },
+    {
+      "name": "glimpse-custom",
+      "description": "Glimpse preview with custom surface styling.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/glimpse"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/glimpse-custom.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "media",
+        "preview",
+        "customization"
+      ]
+    },
+    {
+      "name": "image-crop",
+      "description": "Image cropper with upload, crop, and reset controls.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/image-crop",
+        "@coss/button",
+        "@coss/input"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/image-crop.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "media",
+        "image",
+        "crop"
+      ]
+    },
+    {
+      "name": "image-crop-custom",
+      "description": "Image cropper with custom action buttons.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/image-crop",
+        "@coss/button",
+        "@coss/input"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/image-crop-custom.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "media",
+        "image",
+        "crop",
+        "customization"
+      ]
+    },
+    {
+      "name": "image-crop-circular",
+      "description": "Circular avatar cropper using the image crop component.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/image-crop",
+        "@coss/button",
+        "@coss/input"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/image-crop-circular.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "media",
+        "image",
+        "crop"
+      ]
+    },
+    {
+      "name": "image-zoom",
+      "description": "Modal zoom interaction for high-resolution media.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/image-zoom"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/image-zoom.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "media",
+        "image",
+        "zoom"
+      ]
+    },
+    {
+      "name": "image-zoom-background",
+      "description": "Image zoom with custom modal backdrop styling.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/image-zoom"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/image-zoom-background.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "media",
+        "image",
+        "zoom",
+        "customization"
+      ]
+    },
+    {
+      "name": "image-zoom-margin",
+      "description": "Image zoom with adjusted viewport margin.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/image-zoom"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/image-zoom-margin.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "media",
+        "image",
+        "zoom"
+      ]
+    },
+    {
+      "name": "credit-card",
+      "description": "Interactive credit card front and back with flip motion.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/credit-card"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/credit-card.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "finance",
+        "credit-card"
+      ]
+    },
+    {
+      "name": "credit-card-apple",
+      "description": "Apple Card inspired credit card layout.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/credit-card"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/credit-card-apple.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "finance",
+        "credit-card"
+      ]
+    },
+    {
+      "name": "credit-card-back",
+      "description": "Credit card back face focusing on CVV and expiry.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/credit-card"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/credit-card-back.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "finance",
+        "credit-card"
+      ]
+    },
+    {
+      "name": "ticker",
+      "description": "Stock ticker row showing price and change values.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/ticker"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/ticker.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "finance",
+        "ticker"
+      ]
+    },
+    {
+      "name": "ticker-percent",
+      "description": "Stock ticker list with percentage change display.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/ticker"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/ticker-percent.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "finance",
+        "ticker"
+      ]
+    },
+    {
+      "name": "ticker-inline",
+      "description": "Inline ticker embedded within rich text content.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/ticker"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/ticker-inline.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "finance",
+        "ticker"
+      ]
+    },
+    {
+      "name": "ticker-currency",
+      "description": "Ticker supporting custom locales and currencies.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/ticker"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/ticker-currency.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "finance",
+        "ticker"
+      ]
+    },
+    {
+      "name": "deck",
+      "description": "Swipeable deck of cards with overscroll empty state.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/deck"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/deck.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "social",
+        "deck"
+      ]
+    },
+    {
+      "name": "deck-controlled",
+      "description": "Programmatically controlled deck with navigation buttons.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/deck",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/deck-controlled.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "social",
+        "deck",
+        "controlled"
+      ]
+    },
+    {
+      "name": "deck-product-cards",
+      "description": "Product card deck with swipe gestures.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/deck",
+        "@coss/badge"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/deck-product-cards.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "social",
+        "deck",
+        "commerce"
+      ]
+    },
+    {
+      "name": "stories",
+      "description": "Stories carousel with looping video content.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/stories"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/stories.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "social",
+        "stories",
+        "video"
+      ]
+    },
+    {
+      "name": "stories-images",
+      "description": "Stories carousel rendering image slides with overlays.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/stories"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/stories-images.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "social",
+        "stories",
+        "image"
+      ]
+    },
+    {
+      "name": "stories-avatars",
+      "description": "Stories avatar ring list styled like Instagram.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/stories"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/stories-avatars.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "social",
+        "stories",
+        "avatar"
+      ]
+    },
+    {
+      "name": "reel",
+      "description": "Reels experience with controls and progress indicators.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/reel"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/reel.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "social",
+        "reel",
+        "video"
+      ]
+    },
+    {
+      "name": "reel-images",
+      "description": "Reel presentation cycling through full-screen images.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/reel"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/reel-images.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "social",
+        "reel",
+        "image"
+      ]
+    },
+    {
+      "name": "reel-custom",
+      "description": "Reel with custom header, footer, and action buttons.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/reel",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/reel-custom.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "social",
+        "reel",
+        "customization"
+      ]
+    },
+    {
+      "name": "reel-minimal",
+      "description": "Minimal reel showing progress and navigation only.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/reel"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/reel-minimal.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "social",
+        "reel"
+      ]
+    },
+    {
+      "name": "video-player",
+      "description": "Video player with transport, time, and volume controls.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/video-player"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/video-player.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "media",
+        "video",
+        "player"
+      ]
+    },
+    {
+      "name": "theme-switcher",
+      "description": "Theme switcher controlling light, dark, and system modes.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/theme-switcher"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/theme-switcher.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "styling",
+        "theme",
+        "controlled"
+      ]
+    },
+    {
+      "name": "theme-switcher-uncontrolled",
+      "description": "Uncontrolled theme switcher emitting change events.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/theme-switcher"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/theme-switcher-uncontrolled.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "styling",
+        "theme",
+        "uncontrolled"
+      ]
+    },
+    {
+      "name": "typography",
+      "description": "Typography stylesheet demonstrating rich content styling.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/typography"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/typography.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "styling",
+        "typography",
+        "content"
+      ]
+    },
+    {
+      "name": "color-picker",
+      "description": "Color picker with hue, alpha, and format controls.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/color-picker"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/color-picker.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "styling",
+        "color",
+        "picker"
+      ]
+    },
+    {
+      "name": "spinner",
+      "description": "Default spinner indicator.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/spinner"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/spinner.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "feedback",
+        "spinner"
+      ]
+    },
+    {
+      "name": "spinner-variants",
+      "description": "Gallery of spinner variants.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/spinner"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/spinner-variants.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "feedback",
+        "spinner",
+        "variants"
+      ]
+    },
+    {
+      "name": "spinner-customization",
+      "description": "Spinner customized with size and color.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/spinner"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/spinner-customization.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "feedback",
+        "spinner",
+        "customization"
+      ]
+    },
+    {
+      "name": "announcement",
+      "description": "Inline announcement highlighting latest updates.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/announcement"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/announcement.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "marketing",
+        "announcement"
+      ]
+    },
+    {
+      "name": "announcement-tagless",
+      "description": "Announcement without a leading tag.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/announcement"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/announcement-tagless.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "marketing",
+        "announcement",
+        "minimal"
+      ]
+    },
+    {
+      "name": "announcement-themes",
+      "description": "Announcement component styled with themed surfaces.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/announcement"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/announcement-themes.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "marketing",
+        "announcement",
+        "theme"
+      ]
+    },
+    {
+      "name": "banner",
+      "description": "Banner with icon, action, and dismiss control.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/banner"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/banner.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "marketing",
+        "banner"
+      ]
+    },
+    {
+      "name": "banner-inset",
+      "description": "Inset banner layout for embedded alerts.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/banner"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/banner-inset.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "marketing",
+        "banner",
+        "layout"
+      ]
+    },
+    {
+      "name": "banner-themes",
+      "description": "Banner with custom color themes.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/banner"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/banner-themes.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "marketing",
+        "banner",
+        "theme"
+      ]
+    },
+    {
+      "name": "dialog-stack",
+      "description": "Dialog stack showcasing multi-step modals.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/dialog-stack",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/dialog-stack.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "overlay",
+        "dialog",
+        "stack"
+      ]
+    },
+    {
+      "name": "dialog-stack-controlled",
+      "description": "Controlled dialog stack with external trigger.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/dialog-stack",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/dialog-stack-controlled.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "overlay",
+        "dialog",
+        "controlled"
+      ]
+    },
+    {
+      "name": "dialog-stack-six",
+      "description": "Six-layer dialog stack demonstration.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/dialog-stack",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/dialog-stack-six.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "overlay",
+        "dialog",
+        "stack"
+      ]
+    },
+    {
+      "name": "dialog-stack-navigation",
+      "description": "Dialog stack enabled with clickable navigation.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/dialog-stack",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/dialog-stack-navigation.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "overlay",
+        "dialog",
+        "navigation"
+      ]
+    },
+    {
+      "name": "marquee",
+      "description": "Continuous marquee loop for showcasing logos.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/marquee"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/marquee.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "marketing",
+        "marquee"
+      ]
+    },
+    {
+      "name": "marquee-no-fade",
+      "description": "Marquee without fade edges.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/marquee"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/marquee-no-fade.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "marketing",
+        "marquee"
+      ]
+    },
+    {
+      "name": "marquee-raw",
+      "description": "Marquee rendering raw children.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/marquee"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/marquee-raw.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "marketing",
+        "marquee",
+        "customization"
+      ]
+    },
+    {
+      "name": "marquee-spacing",
+      "description": "Marquee with adjustable spacing between items.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/marquee"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/marquee-spacing.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "marketing",
+        "marquee",
+        "spacing"
+      ]
+    },
+    {
+      "name": "qr-code",
+      "description": "Basic QR code rendering.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/qr-code"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/qr-code.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "utility",
+        "qr-code"
+      ]
+    },
+    {
+      "name": "qr-code-styling",
+      "description": "QR code with custom styling.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/qr-code"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/qr-code-styling.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "utility",
+        "qr-code",
+        "styling"
+      ]
+    },
+    {
+      "name": "qr-code-robust",
+      "description": "QR code with enhanced error correction.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/qr-code"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/qr-code-robust.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "utility",
+        "qr-code",
+        "robust"
+      ]
+    },
+    {
+      "name": "qr-code-server",
+      "description": "Server-rendered QR code usage.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/qr-code"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/qr-code-server.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "utility",
+        "qr-code",
+        "server"
+      ]
+    },
+    {
+      "name": "pricing",
+      "description": "A pricing page with a list of plans and features.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/card",
+        "@coss/button",
+        "@coss/badge",
+        "@coss/tabs"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/pricing.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "blocks",
+        "pricing",
+        "marketing"
+      ]
+    },
+    {
+      "name": "hero",
+      "description": "A hero section with announcement, headline, and video player.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/announcement",
+        "@repo/marquee",
+        "@repo/video-player",
+        "@coss/button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/hero.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "blocks",
+        "hero",
+        "marketing"
+      ]
+    },
+    {
+      "name": "roadmap",
+      "description": "A comprehensive roadmap with multiple views: Gantt, Calendar, List, Kanban, and Table.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@repo/calendar",
+        "@repo/gantt",
+        "@repo/kanban",
+        "@repo/list",
+        "@repo/table",
+        "@coss/tabs",
+        "@coss/avatar",
+        "@coss/context-menu"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/roadmap.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "blocks",
+        "roadmap",
+        "project"
+      ]
+    },
+    {
+      "name": "form",
+      "description": "A complete form block with multiple input types.",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/form"
+      ],
+      "files": [
+        {
+          "path": "registry/default/examples/form.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "blocks",
+        "form"
+      ]
+    },
+    {
+      "name": "codebase",
+      "description": "A codebase explorer block.",
+      "type": "registry:example",
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "registry/default/examples/codebase.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "blocks",
+        "codebase",
+        "code"
+      ]
+    },
+    {
+      "name": "collaborative-canvas",
+      "description": "A collaborative canvas block for real-time collaboration.",
+      "type": "registry:example",
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "registry/default/examples/collaborative-canvas.tsx",
+          "type": "registry:example"
+        }
+      ],
+      "categories": [
+        "blocks",
+        "collaborative",
+        "canvas"
+      ]
+    },
+    {
+      "name": "particle-bu-1",
+      "description": "Back link button with chevron",
+      "type": "registry:block",
+      "registryDependencies": [
+        "@coss/button"
+      ],
+      "dependencies": [
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/particles/particle-bu-1.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "categories": [
+        "button"
+      ]
+    },
+    {
+      "name": "particle-bu-2",
+      "description": "Card-style button with heading and description",
+      "type": "registry:block",
+      "registryDependencies": [
+        "@coss/button"
+      ],
+      "dependencies": [
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/particles/particle-bu-2.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "categories": [
+        "button"
+      ]
+    },
+    {
+      "name": "particle-bu-3",
+      "description": "Directional pad control buttons",
+      "type": "registry:block",
+      "registryDependencies": [
+        "@coss/button"
+      ],
+      "dependencies": [
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/particles/particle-bu-3.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "categories": [
+        "button"
+      ]
+    },
+    {
+      "name": "particle-bu-4",
+      "description": "Outline like button with count",
+      "type": "registry:block",
+      "registryDependencies": [
+        "@coss/button"
+      ],
+      "dependencies": [
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/particles/particle-bu-4.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "categories": [
+        "button"
+      ]
+    },
+    {
+      "name": "particle-bu-5",
+      "description": "Social login icon buttons",
+      "type": "registry:block",
+      "registryDependencies": [
+        "@coss/button"
+      ],
+      "dependencies": [
+        "@remixicon/react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/particles/particle-bu-5.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "categories": [
+        "button"
+      ]
+    },
+    {
+      "name": "particle-bu-6",
+      "description": "Expandable show more/less toggle button",
+      "type": "registry:block",
+      "registryDependencies": [
+        "@coss/button"
+      ],
+      "dependencies": [
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/particles/particle-bu-6.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "categories": [
+        "button"
+      ]
+    },
+    {
+      "name": "particle-bu-7",
+      "description": "Star button with count badge",
+      "type": "registry:block",
+      "registryDependencies": [
+        "@coss/button"
+      ],
+      "dependencies": [
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/particles/particle-bu-7.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "categories": [
+        "button"
+      ]
+    },
+    {
+      "name": "particle-fr-1",
+      "description": "Frame with collapsible content and delete button",
+      "type": "registry:example",
+      "registryDependencies": [
+        "@coss/frame",
+        "@coss/collapsible",
+        "@coss/button"
+      ],
+      "dependencies": [
+        "lucide-react"
+      ],
+      "files": [
+        {
+          "path": "registry/default/particles/particle-fr-1.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "categories": [
+        "frame",
+        "collapsible"
+      ]
+    },
+    {
+      "name": "particle-pa-1",
+      "description": "Pagination with previous and next buttons only",
+      "type": "registry:block",
+      "registryDependencies": [
+        "@coss/pagination"
+      ],
+      "files": [
+        {
+          "path": "registry/default/particles/particle-pa-1.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "categories": [
+        "pagination"
+      ]
+    },
+    {
+      "name": "particle-pa-2",
+      "description": "Pagination with select, and previous and next buttons",
+      "type": "registry:block",
+      "registryDependencies": [
+        "@coss/pagination",
+        "@coss/select"
+      ],
+      "files": [
+        {
+          "path": "registry/default/particles/particle-pa-2.tsx",
+          "type": "registry:block"
+        }
+      ],
+      "categories": [
+        "pagination",
+        "select"
+      ]
+    },
+    {
+      "name": "colors-zinc",
+      "type": "registry:style",
+      "cssVars": {
+        "light": {
+          "background": "oklch(1 0 0)",
+          "foreground": "oklch(0.21 0.006 285.885)",
+          "card": "oklch(1 0 0)",
+          "card-foreground": "oklch(0.21 0.006 285.885)",
+          "popover": "oklch(1 0 0)",
+          "popover-foreground": "oklch(0.21 0.006 285.885)",
+          "primary": "oklch(0.274 0.006 286.033)",
+          "primary-foreground": "oklch(0.985 0 0)",
+          "secondary": "oklch(0 0 0 / 4%)",
+          "secondary-foreground": "oklch(0.21 0.006 285.885)",
+          "muted": "oklch(0 0 0 / 4%)",
+          "muted-foreground": "oklch(0.442 0.017 285.786)",
+          "accent": "oklch(0 0 0 / 4%)",
+          "accent-foreground": "oklch(0.21 0.006 285.885)",
+          "destructive": "oklch(0.637 0.237 25.331)",
+          "destructive-foreground": "oklch(0.505 0.213 27.518)",
+          "info": "oklch(0.623 0.214 259.815)",
+          "info-foreground": "oklch(0.488 0.243 264.376)",
+          "success": "oklch(0.696 0.17 162.48)",
+          "success-foreground": "oklch(0.508 0.118 165.612)",
+          "warning": "oklch(0.769 0.188 70.08)",
+          "warning-foreground": "oklch(0.555 0.163 48.998)",
+          "border": "oklch(0 0 0 / 10%)",
+          "input": "oklch(0 0 0 / 10%)",
+          "ring": "oklch(0.705 0.015 286.067)"
+        },
+        "dark": {
+          "background": "oklch(0.141 0.005 285.823)",
+          "foreground": "oklch(0.967 0.001 286.375)",
+          "card": "color-mix(in srgb, oklch(0.21 0.006 285.885) 80%, oklch(0.141 0.005 285.823))",
+          "card-foreground": "oklch(0.967 0.001 286.375)",
+          "popover": "oklch(0.21 0.006 285.885)",
+          "popover-foreground": "oklch(0.967 0.001 286.375)",
+          "primary": "oklch(0.967 0.001 286.375)",
+          "primary-foreground": "oklch(0.21 0.006 285.885)",
+          "secondary": "oklch(1 0 0 / 8%)",
+          "secondary-foreground": "oklch(0.967 0.001 286.375)",
+          "muted": "oklch(1 0 0 / 8%)",
+          "muted-foreground": "oklch(0.705 0.015 286.067)",
+          "accent": "oklch(1 0 0 / 8%)",
+          "accent-foreground": "oklch(0.967 0.001 286.375)",
+          "destructive": "oklch(0.637 0.237 25.331)",
+          "destructive-foreground": "oklch(0.704 0.191 22.216)",
+          "info": "oklch(0.623 0.214 259.815)",
+          "info-foreground": "oklch(0.707 0.165 254.624)",
+          "success": "oklch(0.696 0.17 162.48)",
+          "success-foreground": "oklch(0.765 0.177 163.223)",
+          "warning": "oklch(0.769 0.188 70.08)",
+          "warning-foreground": "oklch(0.828 0.189 84.429)",
+          "border": "oklch(1 0 0 / 12%)",
+          "input": "oklch(1 0 0 / 12%)",
+          "ring": "oklch(0.552 0.016 285.938)"
+        }
+      }
+    }
+  ]
+}

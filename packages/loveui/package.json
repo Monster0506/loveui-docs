@@ -1,0 +1,23 @@
+{
+  "name": "loveui",
+  "version": "0.1.1",
+  "private": false,
+  "license": "AGPL-3.0-or-later",
+  "type": "module",
+  "bin": {
+    "loveui": "./dist/index.js",
+    "love-ui": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "rimraf": "^6.0.1",
+    "tsup": "^8.5.0"
+  }
+}

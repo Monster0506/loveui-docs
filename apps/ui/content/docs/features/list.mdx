@@ -1,0 +1,49 @@
+---
+title: List
+description: List views are a great way to show a list of tasks grouped by status and ranked by priority.
+icon: List
+dependencies:
+  - https://dndkit.com/
+  - https://lucide.dev/
+installer: list
+---
+
+## Installation
+
+```bash
+npx loveui@latest add list
+```
+
+## Usage
+
+```tsx
+import { ListProvider, ListGroup, ListHeader, ListItems, ListItem } from "@/components/list"
+```
+
+```tsx
+<ListProvider>
+  {statuses.map((status) => (
+    <ListGroup key={status.id} id={status.id}>
+      <ListHeader name={status.name} color={status.color} />
+      <ListItems>
+        {items
+          .filter((item) => item.status.id === status.id)
+          .map((item) => (
+            <ListItem key={item.id} id={item.id} name={item.name} />
+          ))}
+      </ListItems>
+    </ListGroup>
+  ))}
+</ListProvider>
+```
+
+## Features
+
+- Drag and drop items between groups
+- Customize the item contents
+
+## Examples
+
+### Simple version
+
+<Preview path="list-simple" />

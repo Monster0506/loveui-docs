@@ -1,0 +1,62 @@
+---
+title: Choicebox
+description: Choiceboxes are a great way to show radio or checkbox options with a card style.
+icon: LayoutGrid
+dependencies:
+  - https://lucide.dev/
+installer: choicebox
+---
+
+## Installation
+
+```bash
+npx loveui@latest add choicebox
+```
+
+## Usage
+
+```tsx
+import { Choicebox, ChoiceboxItem, ChoiceboxItemHeader, ChoiceboxItemTitle, ChoiceboxItemSubtitle, ChoiceboxItemDescription, ChoiceboxIndicator } from "@/components/choicebox"
+```
+
+```tsx
+<Choicebox defaultValue="option1">
+  <ChoiceboxItem value="option1">
+    <ChoiceboxItemHeader>
+      <ChoiceboxItemTitle>Option 1</ChoiceboxItemTitle>
+      <ChoiceboxItemSubtitle>Subtitle</ChoiceboxItemSubtitle>
+    </ChoiceboxItemHeader>
+    <ChoiceboxItemDescription>Description for option 1</ChoiceboxItemDescription>
+    <ChoiceboxIndicator />
+  </ChoiceboxItem>
+  <ChoiceboxItem value="option2">
+    <ChoiceboxItemHeader>
+      <ChoiceboxItemTitle>Option 2</ChoiceboxItemTitle>
+    </ChoiceboxItemHeader>
+    <ChoiceboxIndicator />
+  </ChoiceboxItem>
+</Choicebox>
+```
+
+## Features
+
+- Card-style radio and checkbox options
+- Customizable header, title, and description for each option
+- Accessible keyboard navigation
+- Visual feedback for selected and hover states
+- Support for disabled states
+- Customizable styling through className props
+- Flexible layout with inline and block options
+- Clear visual hierarchy with title and subtitle support
+- Consistent styling with the design system
+- Support for custom content and indicators
+
+## Examples
+
+### Default layout
+
+<Preview path="choicebox" />
+
+### Inline Choiceboxes
+
+<Preview path="choicebox-inline" />

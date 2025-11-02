@@ -1,0 +1,62 @@
+---
+title: Combobox
+description: Autocomplete input and command palette with a list of suggestions.
+icon: ChevronsUpDown
+installer: combobox
+---
+
+## Installation
+
+```bash
+npx loveui@latest add combobox
+```
+
+## Usage
+
+```tsx
+import { Combobox, ComboboxTrigger, ComboboxContent, ComboboxInput, ComboboxList, ComboboxEmpty, ComboboxGroup, ComboboxItem } from "@/components/combobox"
+```
+
+```tsx
+<Combobox>
+  <ComboboxTrigger>Select option...</ComboboxTrigger>
+  <ComboboxContent>
+    <ComboboxInput placeholder="Search..." />
+    <ComboboxList>
+      <ComboboxEmpty>No results found.</ComboboxEmpty>
+      <ComboboxGroup>
+        <ComboboxItem value="option1">Option 1</ComboboxItem>
+        <ComboboxItem value="option2">Option 2</ComboboxItem>
+        <ComboboxItem value="option3">Option 3</ComboboxItem>
+      </ComboboxGroup>
+    </ComboboxList>
+  </ComboboxContent>
+</Combobox>
+```
+
+## Features
+
+- Autocomplete input with dropdown list of suggestions
+- Controlled and uncontrolled modes
+- Customizable trigger button
+- Search functionality
+- Empty state handling
+- Responsive width that matches the trigger
+- Keyboard navigation support
+- Grouping of items
+- Context-based type labeling
+- Native "create new" functionality
+
+## Examples
+
+### Controlled version
+
+<Preview path="combobox-controlled" />
+
+### Fixed width
+
+<Preview path="combobox-fixed-width" />
+
+### Create new items
+
+<Preview path="combobox-create-new" />

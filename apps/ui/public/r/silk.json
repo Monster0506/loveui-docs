@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "silk",
+  "description": "A flowing silk-like background rendered with React Three Fiber.",
+  "type": "registry:example",
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/default/examples/silk.tsx",
+      "content": "\"use client\"\n\nimport Silk from \"@loveui/silk\"\n\nexport default function SilkExample() {\n  return (\n    <div className=\"relative overflow-hidden rounded-[2rem] border border-border/40 bg-card\">\n      <div className=\"relative h-[420px] w-full overflow-hidden rounded-[1.75rem]\">\n        <Silk speed={5} scale={1} noiseIntensity={1.5} rotation={0} color=\"#7B61FF\" />\n      </div>\n    </div>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ],
+  "categories": [
+    "backgrounds"
+  ]
+}
