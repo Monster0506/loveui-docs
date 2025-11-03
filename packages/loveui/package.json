@@ -30,7 +30,7 @@
     "./package.json": "./package.json"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^0.1.0",
+    "@modelcontextprotocol/sdk": "^1.18.1",
     "postcss": "^8.5.6",
     "postcss-nested": "^7.0.2"
   },
