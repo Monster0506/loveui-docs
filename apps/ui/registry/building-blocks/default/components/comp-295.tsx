@@ -1,5 +1,4 @@
 import { XIcon } from "lucide-react"
-import { assetPath } from "@/lib/building-blocks/utils"
 
 import { Button } from "@/registry/building-blocks/default/ui/button"
 
@@ -10,10 +9,10 @@ export default function Component() {
       <div className="flex gap-3">
         <img
           className="size-9 rounded-full"
-          src={assetPath("/building-blocks/avatar-32-01.jpg")}
+          src="https://i.pravatar.cc/160?img=7"
           width={32}
           height={32}
-          alt="Mary Palmer"
+          alt="Connor Love"
         />
         <div className="flex grow flex-col gap-3">
           <div className="space-y-1">
@@ -22,23 +21,23 @@ export default function Component() {
                 className="font-medium text-foreground hover:underline"
                 href="#"
               >
-                Mary Palmer
+                Connor Love
               </a>{" "}
-              mentioned you in{" "}
+              shared a file in{" "}
               <a
                 className="font-medium text-foreground hover:underline"
                 href="#"
               >
-                project-campaign-02
+                brand-refresh
               </a>
               .
             </p>
-            <p className="text-xs text-muted-foreground">2 min ago</p>
+            <p className="text-xs text-muted-foreground">3 min ago</p>
           </div>
           <div className="flex gap-2">
-            <Button size="sm">Accept</Button>
+            <Button size="sm">View file</Button>
             <Button size="sm" variant="outline">
-              Decline
+              Mark as read
             </Button>
           </div>
         </div>

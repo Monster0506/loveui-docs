@@ -11,7 +11,7 @@ export default function Component() {
   if (!isVisible) return null
 
   return (
-    <div className="dark bg-muted px-4 py-3 text-foreground md:py-2">
+    <div className="rounded-md border border-border/60 bg-muted/80 px-4 py-3 text-foreground shadow-sm md:py-2">
       <div className="flex gap-2 md:items-center">
         <div className="flex grow gap-3 md:items-center md:justify-center">
           <Eclipse
@@ -21,12 +21,11 @@ export default function Component() {
           />
           <div className="flex flex-col justify-between gap-3 md:flex-row md:items-center">
             <p className="text-sm">
-              It&lsquo;s live and ready to use! Start exploring the latest
-              addition to your toolkit.
+              AI summaries now ship inside the insights tab—turn them on for your team.
             </p>
             <div className="flex gap-2 max-md:flex-wrap">
               <Button size="sm" className="rounded-full">
-                Learn more
+                Enable now
               </Button>
             </div>
           </div>

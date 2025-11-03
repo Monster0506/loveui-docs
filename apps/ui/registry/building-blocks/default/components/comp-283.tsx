@@ -14,9 +14,9 @@ export default function Component() {
             aria-hidden="true"
           />
           <div className="flex grow justify-between gap-12">
-            <p className="text-sm">Some information is missing!</p>
+            <p className="text-sm">Usage is at 92% of this month's automation limit.</p>
             <a href="#" className="group text-sm font-medium whitespace-nowrap">
-              Link
+              Manage limits
               <ArrowRightIcon
                 className="ms-1 -mt-0.5 inline-flex opacity-60 transition-transform group-hover:translate-x-0.5"
                 size={16}

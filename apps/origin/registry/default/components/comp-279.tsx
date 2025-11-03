@@ -13,7 +13,7 @@ export default function Component() {
             size={16}
             aria-hidden="true"
           />
-          Some information is missing!
+          Invite a workspace owner before you share this report.
         </p>
         <Button
           variant="ghost"

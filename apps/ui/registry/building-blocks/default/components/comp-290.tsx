@@ -15,16 +15,13 @@ export default function Component() {
           />
           <div className="flex grow flex-col gap-3">
             <div className="space-y-1">
-              <p className="text-sm font-medium">
-                We couldn&lsquo;t complete your request!
-              </p>
+              <p className="text-sm font-medium">Export failed before finishing.</p>
               <p className="text-sm text-muted-foreground">
-                It indicates that an issue has prevented the processing of the
-                request.
+                Retry in a few minutes or contact support if it continues.
               </p>
             </div>
             <div className="flex gap-2">
-              <Button size="sm">Learn more</Button>
+              <Button size="sm">View status</Button>
             </div>
           </div>
           <Button

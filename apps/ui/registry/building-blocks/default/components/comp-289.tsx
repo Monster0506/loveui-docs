@@ -16,15 +16,14 @@ export default function Component() {
           <div className="flex grow flex-col gap-3">
             <div className="space-y-1">
               <p className="text-sm font-medium">
-                Something requires your action!
+                Approval needed for workspace transfer.
               </p>
               <p className="text-sm text-muted-foreground">
-                It conveys that a specific action is needed to resolve or
-                address a situation.
+                Grant access so the team can finish moving projects.
               </p>
             </div>
             <div>
-              <Button size="sm">Learn more</Button>
+              <Button size="sm">Review request</Button>
             </div>
           </div>
         </div>

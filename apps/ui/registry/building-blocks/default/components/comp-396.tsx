@@ -1,4 +1,3 @@
-import { assetPath } from "@/lib/building-blocks/utils"
 import {
   Avatar,
   AvatarFallback,
@@ -9,7 +8,7 @@ export default function Component() {
   return (
     <div className="relative">
       <Avatar className="rounded-md">
-        <AvatarImage src={assetPath("/building-blocks/avatar-80-07.jpg")} alt="Kelly King" />
+        <AvatarImage src="https://i.pravatar.cc/160?img=20" alt="Kelly King" />
         <AvatarFallback>CL</AvatarFallback>
       </Avatar>
       <span className="absolute -end-1 -top-1 size-3 rounded-full border-2 border-background bg-emerald-500">

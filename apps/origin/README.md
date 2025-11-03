@@ -1,10 +1,10 @@
 > Legacy snapshot
 >
-> - This app is a preserved, pre-acquisition version of Origin UI (Radix-based, shadcn-style).
+> - This app is a preserved, pre-acquisition version of Love UI (Radix-based, shadcn-style).
 > - It remains available for use, but support and maintenance are limited.
 > - Active development now focuses on the new [Particles](https://loveui.dev/ui/particles) components built on the [loveui](https://loveui.dev/ui/docs) primitives.
 
-# loveui origin (formerly Origin UI)
+# loveui origin (formerly Love UI)
 
 **Beautiful UI components built with Tailwind CSS and React.**
 

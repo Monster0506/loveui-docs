@@ -9,7 +9,7 @@ export default function Component() {
   return (
     <div className="relative">
       <Avatar className="rounded-md">
-        <AvatarImage src="/origin/avatar-80-07.jpg" alt="Kelly King" />
+        <AvatarImage src="https://i.pravatar.cc/160?img=20" alt="Kelly King" />
         <AvatarFallback>CL</AvatarFallback>
       </Avatar>
       <Badge className="absolute -top-2 left-full min-w-5 -translate-x-3 border-background px-1">

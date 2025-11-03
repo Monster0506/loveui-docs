@@ -15,66 +15,66 @@ import {
 const items = [
   {
     id: "1",
-    title: "What makes loveui different?",
+    title: "What are loveui Building Blocks?",
     collapsibles: [
       {
-        title: "What about performance?",
+        title: "Which projects are they built for?",
         content:
-          "We optimize every component for maximum performance and minimal bundle size.",
+          "The library covers hero sections, feature grids, onboarding flows, and dashboards so teams can prototype or ship faster.",
       },
       {
-        title: "How is the documentation?",
+        title: "Can I mix and match blocks?",
         content:
-          "Our documentation is comprehensive and includes live examples for every component.",
+          "Spacing, grid, and typographic tokens stay consistent, so marketing and product surfaces snap together without visual drift.",
       },
     ],
   },
   {
     id: "2",
-    title: "How can I customize the components?",
+    title: "How flexible are the layouts?",
     collapsibles: [
       {
-        title: "Can I use custom themes?",
+        title: "Do I have to override CSS?",
         content:
-          "Yes, our theming system is fully customizable and supports both light and dark modes.",
+          "Tokens live in CSS variables and Tailwind utilities, letting you restyle components globally or per block without ejecting styles.",
       },
       {
-        title: "What about Tailwind support?",
+        title: "Can I adjust behavior?",
         content:
-          "We have first-class support for Tailwind CSS with custom utility classes.",
+          "Blocks expose plain React props and composition patterns, so you can add form logic, analytics, or custom animations wherever you need them.",
       },
     ],
   },
   {
     id: "3",
-    title: "Is loveui optimized for performance?",
+    title: "Can they connect to real data?",
     collapsibles: [
       {
-        title: "What's the bundle size impact?",
+        title: "What's the integration story?",
         content:
-          "Our components are tree-shakeable and typically add minimal overhead to your bundle.",
+          "Swap the demo arrays with Prisma, REST, or GraphQL data—there's no proprietary layer to unwind.",
         open: true,
       },
       {
-        title: "How is code splitting handled?",
+        title: "Do they work with server components?",
         content:
-          "We support automatic code splitting for optimal loading performance.",
+          "Each block is compatible with Next.js Server Components and hydrates only the interactive pieces by default.",
       },
     ],
   },
   {
     id: "4",
-    title: "How accessible are the components?",
+    title: "Are they production ready?",
     collapsibles: [
       {
-        title: "Which screen readers are supported?",
+        title: "How do you handle accessibility?",
         content:
-          "We test with NVDA, VoiceOver, and JAWS to ensure broad compatibility.",
+          "We lint ARIA, verify keyboard paths, and run screen reader checks before publishing a block update.",
       },
       {
-        title: "What about keyboard navigation?",
+        title: "Will they keep evolving?",
         content:
-          "Full keyboard navigation support is implemented following WAI-ARIA best practices.",
+          "Blocks ship alongside loveui releases with changelogs and upgrade notes so your product stays in sync.",
       },
     ],
   },

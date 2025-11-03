@@ -131,7 +131,7 @@ export default function Component() {
   return (
     <ToastProvider swipeDirection="left">
       <Button variant="outline" onClick={handleButtonClick}>
-        Custom toast
+        Show toast
       </Button>
       <Toast
         open={open}
@@ -147,14 +147,14 @@ export default function Component() {
           />
           <div className="flex grow flex-col gap-3">
             <div className="space-y-1">
-              <ToastTitle>Your request was completed!</ToastTitle>
+              <ToastTitle>Invoice paid in full</ToastTitle>
               <ToastDescription>
-                It demonstrates that the task or request has been processed.
+                Funds should settle in the next payout cycle.
               </ToastDescription>
             </div>
             <div>
-              <ToastAction altText="Undo changes" asChild>
-                <Button size="sm">Undo changes</Button>
+              <ToastAction altText="View receipt" asChild>
+                <Button size="sm">View receipt</Button>
               </ToastAction>
             </div>
           </div>

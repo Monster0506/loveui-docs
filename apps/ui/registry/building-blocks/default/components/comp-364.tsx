@@ -1,4 +1,3 @@
-import { assetPath } from "@/lib/building-blocks/utils"
 import {
   HoverCard,
   HoverCardContent,
@@ -11,7 +10,7 @@ export default function HoverCardDemo() {
       <div className="flex items-center gap-3">
         <img
           className="shrink-0 rounded-full"
-          src={assetPath("/building-blocks/avatar-40-05.jpg")}
+          src="https://i.pravatar.cc/160?img=12"
           width={40}
           height={40}
           alt="Avatar"
@@ -20,11 +19,11 @@ export default function HoverCardDemo() {
           <HoverCardTrigger asChild>
             <p>
               <a className="text-sm font-medium hover:underline" href="#">
-                Keith Kennedy
+                Connor Love
               </a>
             </p>
           </HoverCardTrigger>
-          <p className="text-xs text-muted-foreground">@k.kennedy</p>
+          <p className="text-xs text-muted-foreground">@loveconnor</p>
         </div>
       </div>
       <HoverCardContent>
@@ -32,14 +31,14 @@ export default function HoverCardDemo() {
           <div className="flex items-center gap-3">
             <img
               className="shrink-0 rounded-full"
-              src={assetPath("/building-blocks/avatar-40-05.jpg")}
+              src="https://i.pravatar.cc/160?img=12"
               width={40}
               height={40}
               alt="Avatar"
             />
             <div className="space-y-0.5">
-              <p className="text-sm font-medium">Keith Kennedy</p>
-              <p className="text-xs text-muted-foreground">@k.kennedy</p>
+              <p className="text-sm font-medium">Connor Love</p>
+              <p className="text-xs text-muted-foreground">@loveconnor</p>
             </div>
           </div>
           <p className="text-sm text-muted-foreground">
@@ -51,21 +50,21 @@ export default function HoverCardDemo() {
             <div className="flex -space-x-1.5">
               <img
                 className="rounded-full ring-1 ring-background"
-                src={assetPath("/building-blocks/avatar-20-04.jpg")}
+                src="https://i.pravatar.cc/160?img=4"
                 width={20}
                 height={20}
                 alt="Friend 01"
               />
               <img
                 className="rounded-full ring-1 ring-background"
-                src={assetPath("/building-blocks/avatar-20-05.jpg")}
+                src="https://i.pravatar.cc/160?img=5"
                 width={20}
                 height={20}
                 alt="Friend 02"
               />
               <img
                 className="rounded-full ring-1 ring-background"
-                src={assetPath("/building-blocks/avatar-20-06.jpg")}
+                src="https://i.pravatar.cc/160?img=6"
                 width={20}
                 height={20}
                 alt="Friend 03"

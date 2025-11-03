@@ -20,17 +20,17 @@ export default function Component() {
                   aria-hidden="true"
                 />
                 <div className="flex grow justify-between gap-12">
-                  <p className="text-sm">Message sent</p>
+                  <p className="text-sm">Release goes live tomorrow at 9:00 AM.</p>
                   <div className="text-sm whitespace-nowrap">
                     <button className="text-sm font-medium hover:underline">
-                      View
+                      Review plan
                     </button>{" "}
                     <span className="mx-1 text-muted-foreground">·</span>{" "}
                     <button
                       className="text-sm font-medium hover:underline"
                       onClick={() => toast.dismiss(t)}
                     >
-                      Undo
+                      Reschedule
                     </button>
                   </div>
                 </div>
@@ -52,7 +52,7 @@ export default function Component() {
         ))
       }}
     >
-      Custom sonner
+      Show custom toast
     </Button>
   )
 }

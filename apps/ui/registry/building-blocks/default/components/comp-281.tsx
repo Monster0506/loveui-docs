@@ -13,7 +13,7 @@ export default function Component() {
             size={16}
             aria-hidden="true"
           />
-          Completed successfully!
+          Campaign launch completed. Emails are queued for delivery.
         </p>
         <Button
           variant="ghost"

@@ -15,19 +15,19 @@ export default function Component() {
               <TableCell className="bg-muted/50 py-2 font-medium">
                 Name
               </TableCell>
-              <TableCell className="py-2">David Kim</TableCell>
+              <TableCell className="py-2">Nathan Wickersham</TableCell>
             </TableRow>
             <TableRow className="*:border-border hover:bg-transparent [&>:not(:last-child)]:border-r">
               <TableCell className="bg-muted/50 py-2 font-medium">
                 Email
               </TableCell>
-              <TableCell className="py-2">d.kim@company.com</TableCell>
+              <TableCell className="py-2">nwick@company.com</TableCell>
             </TableRow>
             <TableRow className="*:border-border hover:bg-transparent [&>:not(:last-child)]:border-r">
               <TableCell className="bg-muted/50 py-2 font-medium">
                 Location
               </TableCell>
-              <TableCell className="py-2">Seoul, KR</TableCell>
+              <TableCell className="py-2">Los Angeles, CA</TableCell>
             </TableRow>
             <TableRow className="*:border-border hover:bg-transparent [&>:not(:last-child)]:border-r">
               <TableCell className="bg-muted/50 py-2 font-medium">

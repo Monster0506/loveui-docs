@@ -10,27 +10,27 @@ import {
 const items = [
   {
     id: "1",
-    title: "What makes loveui different?",
+    title: "What are loveui Building Blocks?",
     content:
-      "loveui focuses on developer experience and performance. Built with TypeScript, it offers excellent type safety, follows accessibility standards, and provides comprehensive documentation with regular updates.",
+      "Building Blocks are pre-built sections for marketing sites, dashboards, and apps. They share the same tokens as our core library so you can drop them into a project without redesigning anything.",
   },
   {
     id: "2",
-    title: "How can I customize the components?",
+    title: "How flexible are the layouts?",
     content:
-      "Use our CSS variables for global styling, or className and style props for component-specific changes. We support CSS modules, Tailwind, and dark mode out of the box.",
+      "Every block exposes the same design tokens and utility classes as loveui. Tweak spacing, swap typography, or compose new variants without fighting a locked-in stylesheet.",
   },
   {
     id: "3",
-    title: "Is loveui optimized for performance?",
+    title: "Can they connect to real data?",
     content:
-      "Yes, with tree-shaking, code splitting, and minimal runtime overhead. Most components are under 5KB gzipped.",
+      "Blocks ship as plain React components with mock data. Replace it with your API, CMS, or server actions in minutes—no proprietary data layer to unwind.",
   },
   {
     id: "4",
-    title: "How accessible are the components?",
+    title: "Are they production ready?",
     content:
-      "All components follow WAI-ARIA standards, featuring proper ARIA attributes, keyboard navigation, and screen reader support. Regular testing ensures compatibility with NVDA, VoiceOver, and JAWS.",
+      "We audit focus states, keyboard paths, and ARIA semantics before releasing a block. Light and dark theme snapshots are included so you can ship confidently.",
   },
 ]
 

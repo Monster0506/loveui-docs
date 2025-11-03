@@ -1,62 +1,52 @@
 ---
 title: Get Started
-description: A quick guide to adding your first component.
+description: Ship your first LoveUI screen in minutes.
 ---
 
-This guide provides the essentials for adding **loveui** components to your React application.
+Welcome to the LoveUI release. Everything in the library is built to drop into a modern React + Tailwind project without wrestling with design tokens or wiring.
 
-## Prerequisites
+## Project checklist
 
-Our components are built with [Tailwind CSS v4](https://tailwindcss.com). Before you begin, make sure you have a React project set up with Tailwind CSS.
+LoveUI targets [Tailwind CSS v4](https://tailwindcss.com) running inside a React application (Next.js, Remix, Vite, or Expo Router work great). Make sure you have:
 
-## Adding Components
+- Tailwind configured with the v4 preset
+- TypeScript enabled
+- A global CSS file where we can register LoveUI tokens (usually `app/globals.css` or `src/styles.css`)
 
-You can add components **automatically with the shadcn CLI** or **manually by copying the files**. Both methods work for primitives, particles, and atoms.
+Once those pieces are in place you can choose the install flow that fits your workflow.
 
-### With the CLI
+## Quick start (CLI)
 
-Each component page provides a command to add it to your project automatically. The CLI will create the necessary files and install any dependencies for you.
-
-### Install all UI Components
-
-You can install all **loveui** primitives at once with a single command:
+Every component page surfaces a `npx loveui` command that copies the source, drops in dependencies, and syncs design tokens automatically. To pull the full primitive set in one shot:
 
 ```bash
-npx loveui@latest add  loveui
+npx loveui@latest add loveui
 ```
 
-This will add all UI components to your project in one go, including button, card, avatar, dialog, tabs, and more.
+Run the command from the root of your project and the CLI will create the `/components` files, register styles, and install peer packages. You can rerun the same command as we ship updates—duplicate files are kept in sync.
 
-### Manually
+## Manual copy-paste
 
-1.  **Find a component** on the [Components](/ui/docs) or [Particles](/ui/particles) pages.
-2.  **Copy the code** from the **Code** tab.
-3.  **Create a new file** in your project (e.g., `components/ui/button.tsx`) and paste the code.
-4.  **Install any dependencies** listed on the component's page.
-5.  **Import and use** the component in your app.
+Prefer a lighter touch or want to audit changes before they land? Copy the code from the **Code** tab on any component or background page.
 
-## Styling
+1. Locate the component on [Components](/ui/docs) or [Particles](/ui/particles).
+2. Create a matching file in your project, e.g. `components/ui/button.tsx`.
+3. Paste the snippet and install any listed dependencies.
+4. Import the component wherever you need it.
 
-Components are styled with the design token system we use at **Cal.com**, which is defined by CSS variables and implemented with Tailwind CSS.
+Manual installs require you to keep tokens updated (see the next section). You only have to do this once per project.
 
-The variables are the same as shadcn/ui, and are fully customizable. You can modify them in your global stylesheet (e.g., `app/globals.css`) to match your design system.
+## Styling and tokens
 
-We've introduced a few additional tokens to provide more granular control:
+LoveUI exposes a token layer that mirrors shadcn/ui but extends it with our product design system. Drop the token block into your global CSS if you are copying files manually:
 
-- `--destructive-foreground`: Used for destructive-outline buttons, destructive menu items, badges, and field errors
-- `--info` and `--info-foreground`: Commonly used for info-colored badges, toast types, and alerts
-- `--success` and `--success-foreground`: Used for success-colored badges, toast types, and alerts
-- `--warning` and `--warning-foreground`: Used for warning-colored badges, toast types, and alerts
+- `--destructive-foreground` for destructive outlines, menus, and error states
+- `--info` / `--info-foreground` for notice banners and info toasts
+- `--success` / `--success-foreground` for success badges and confirmations
+- `--warning` / `--warning-foreground` for warning banners and destructive previews
 
-**Important**: If you manually import components, you must also import these additional tokens in your CSS file (e.g., `app/globals.css`). However, if you use the CLI to import components, these tokens will be automatically imported and configured for you.
+Feel free to override any variable to match your own palette—the components respond instantly because every color, radius, and shadow is token-driven. If you use the CLI the CSS is injected for you, so you can just adjust values in your theme file.
 
-## Migration from Radix UI
+## Use it with LLMs
 
-For developers migrating from **Radix UI**, many of our **UI primitives** include instructions and examples for translating equivalent Radix components to Base UI. This ensures a smooth transition while preserving accessibility, behaviors, and API patterns.
-
-## Working with LLMs
-
-We structure the documentation to make the components **AI-friendly**, so language models can understand, reason about, and modify them. To support this, we include:
-
-- A [llms.txt](/ui/llms.txt) file that provides a map of the documentation and component structure for your AI agent.
-- A **Copy Markdown** button on every page, so you can easily share content or feed it to your AI workflows.
+We’ve tuned the docs for AI workflows. The [llms.txt](/ui/llms.txt) sitemap keeps agents aware of the structure, and every page exposes a Copy Markdown button so you can hand complete instructions to your tooling.

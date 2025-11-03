@@ -36,8 +36,8 @@ export function Hero() {
           className="border-transparent bg-white/80 text-sm text-foreground shadow-sm backdrop-blur supports-[backdrop-filter]:bg-white/60 dark:bg-background/80"
           render={<Link href="/ui/docs/changelog" />}
         >
-          <AnnouncementTag>Update</AnnouncementTag>
-          <AnnouncementTitle>LoveUI 2.0 — new beams, new docs</AnnouncementTitle>
+          <AnnouncementTag>Release</AnnouncementTag>
+          <AnnouncementTitle>LoveUI launch — the release is live</AnnouncementTitle>
         </Announcement>
         <PageHeaderHeading className="max-w-3xl text-balance text-5xl leading-tight text-foreground md:text-6xl lg:text-7xl">
           Build polished interfaces at the speed of copy&nbsp;+&nbsp;paste

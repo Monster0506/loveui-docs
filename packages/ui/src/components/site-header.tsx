@@ -31,7 +31,7 @@ export function SiteHeader({
     >
       <div className="relative container flex h-(--header-height) w-full items-center justify-between gap-2 px-4 sm:px-6">
         {mobileNav}
-        <div className="-mt-0.5 font-heading text-2xl sm:text-[1.625em] flex shrink-0 gap-1.5 items-center">
+        <div className="-mt-0.5 font-heading text-2xl sm:text-[1.625em] flex shrink-0 items-center">
           {isExternal ? (
             <a href={gatewayHome} aria-label="Home">
               love

@@ -14,14 +14,14 @@ export default function Component() {
             aria-hidden="true"
           />
           <div className="flex grow justify-between gap-12">
-            <p className="text-sm">Message sent</p>
+            <p className="text-sm">Receipt sent to billing@acme. Need to copy someone else?</p>
             <div className="text-sm whitespace-nowrap">
               <button className="text-sm font-medium hover:underline">
-                View
+                View receipt
               </button>{" "}
               <span className="mx-1 text-muted-foreground">·</span>{" "}
               <button className="text-sm font-medium hover:underline">
-                Undo
+                Send to another inbox
               </button>
             </div>
           </div>

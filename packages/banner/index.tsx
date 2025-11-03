@@ -75,7 +75,8 @@ export const BannerIcon = ({
 }: BannerIconProps) => (
   <div
     className={cn(
-      "rounded-full border border-background/20 bg-background/10 p-1 shadow-sm",
+      "rounded-full border border-primary/40 bg-primary/15 p-1 text-primary shadow-sm transition-colors",
+      "dark:border-primary/30 dark:bg-primary/20 dark:text-primary-foreground",
       className
     )}
     {...props}

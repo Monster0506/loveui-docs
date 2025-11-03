@@ -1,7 +1,6 @@
 "use client"
 
 
-import { assetPath } from "@/lib/building-blocks/utils"
 
 import { useState } from "react"
 import { BellIcon } from "lucide-react"
@@ -17,8 +16,8 @@ import {
 const initialNotifications = [
   {
     id: 1,
-    image: assetPath("/building-blocks/avatar-80-01.jpg"),
-    user: "Chris Tompson",
+    image: "https://i.pravatar.cc/160?img=14",
+    user: "Connor Love",
     action: "requested review on",
     target: "PR #42: Feature implementation",
     timestamp: "15 minutes ago",
@@ -26,8 +25,8 @@ const initialNotifications = [
   },
   {
     id: 2,
-    image: assetPath("/building-blocks/avatar-80-02.jpg"),
-    user: "Emma Davis",
+    image: "https://i.pravatar.cc/160?img=15",
+    user: "Nathan Wickersham",
     action: "shared",
     target: "New component library",
     timestamp: "45 minutes ago",
@@ -35,8 +34,8 @@ const initialNotifications = [
   },
   {
     id: 3,
-    image: assetPath("/building-blocks/avatar-80-03.jpg"),
-    user: "James Wilson",
+    image: "https://i.pravatar.cc/160?img=16",
+    user: "Ian Shroeter",
     action: "assigned you to",
     target: "API integration task",
     timestamp: "4 hours ago",
@@ -44,8 +43,8 @@ const initialNotifications = [
   },
   {
     id: 4,
-    image: assetPath("/building-blocks/avatar-80-04.jpg"),
-    user: "Alex Morgan",
+    image: "https://i.pravatar.cc/160?img=17",
+    user: "Thomas Raklovits",
     action: "replied to your comment in",
     target: "Authentication flow",
     timestamp: "12 hours ago",
@@ -53,8 +52,8 @@ const initialNotifications = [
   },
   {
     id: 5,
-    image: assetPath("/building-blocks/avatar-80-05.jpg"),
-    user: "Sarah Chen",
+    image: "https://i.pravatar.cc/160?img=18",
+    user: "Sampson Addae",
     action: "commented on",
     target: "Dashboard redesign",
     timestamp: "2 days ago",
@@ -62,8 +61,8 @@ const initialNotifications = [
   },
   {
     id: 6,
-    image: assetPath("/building-blocks/avatar-80-06.jpg"),
-    user: "Miky Derya",
+    image: "https://i.pravatar.cc/160?img=19",
+    user: "Sam Altman",
     action: "mentioned you in",
     target: "loveui open graph image",
     timestamp: "2 weeks ago",

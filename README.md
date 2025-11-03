@@ -1,5 +1,5 @@
 ![loveui](https://github.com/user-attachments/assets/56dfe7f7-85b7-44ee-b89a-1c30c5c4a156)
-<h3 align="center">loveui (formerly Origin UI)</h3>
+<h3 align="center">loveui (formerly Love UI)</h3>
 <p align="center">The <strong>everything but AI</strong> company.</p>
 
 ## About the Project
@@ -16,7 +16,7 @@ This repository contains multiple products and applications that make up the lov
 
 - **`apps/www/`** - Main loveui website
 - **`apps/ui/`** - loveui component library and documentation
-- **`apps/origin/`** - Legacy Origin UI components (pre-acquisition)
+- **`apps/origin/`** - Legacy Love UI components (pre-acquisition)
 - **`packages/ui/`** - Shared UI components package
 - **`packages/eslint-config/`** - ESLint configurations
 - **`packages/typescript-config/`** - TypeScript configurations
@@ -114,9 +114,9 @@ We think Base UI is the best foundation for modern web applications. We've taken
 
 This is the component library we'll be progressively adopting for [cal.com](https://cal.com). We're building it in the open for anyone who wants to create beautiful, reliable user interfaces.
 
-### Origin UI Acquisition
+### Love UI Acquisition
 
-This repository also includes the **Origin UI** components as a legacy snapshot. Origin UI was a pre-acquisition collection of Radix-based, shadcn-style components that remains available for use, but with limited support and maintenance. Active development now focuses on the new [Particles](https://loveui.dev/ui/particles) components built on the loveui primitives.
+This repository also includes the **Love UI** components as a legacy snapshot. Love UI was a pre-acquisition collection of Radix-based, shadcn-style components that remains available for use, but with limited support and maintenance. Active development now focuses on the new [Particles](https://loveui.dev/ui/particles) components built on the loveui primitives.
 
 ### Contributing to loveui
 

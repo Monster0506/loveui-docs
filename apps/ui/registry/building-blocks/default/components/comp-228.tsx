@@ -1,5 +1,4 @@
 import { useId } from "react"
-import { assetPath } from "@/lib/building-blocks/utils"
 
 import { Label } from "@/registry/building-blocks/default/ui/label"
 import {
@@ -27,15 +26,15 @@ export default function Component() {
             <span className="flex items-center gap-2">
               <img
                 className="rounded-full"
-                src={assetPath("/building-blocks/avatar-40-01.jpg")}
-                alt="Jenny Hamilton"
+                src="https://i.pravatar.cc/160?img=8"
+                alt="Connor Love"
                 width={40}
                 height={40}
               />
               <span>
-                <span className="block font-medium">Jenny Hamilton</span>
+                <span className="block font-medium">Connor Love</span>
                 <span className="mt-0.5 block text-xs text-muted-foreground">
-                  @jennycodes
+                  @loveconnor
                 </span>
               </span>
             </span>
@@ -44,15 +43,15 @@ export default function Component() {
             <span className="flex items-center gap-2">
               <img
                 className="rounded-full"
-                src={assetPath("/building-blocks/avatar-40-02.jpg")}
-                alt="Paul Smith"
+                src="https://i.pravatar.cc/160?img=9"
+                alt="Thomas Raklovits"
                 width={40}
                 height={40}
               />
               <span>
-                <span className="block font-medium">Paul Smith</span>
+                <span className="block font-medium">Thomas Raklovits</span>
                 <span className="mt-0.5 block text-xs text-muted-foreground">
-                  @paulsmith
+                  @monster0506
                 </span>
               </span>
             </span>
@@ -61,15 +60,15 @@ export default function Component() {
             <span className="flex items-center gap-2">
               <img
                 className="rounded-full"
-                src={assetPath("/building-blocks/avatar-40-03.jpg")}
-                alt="Luna Wyen"
+                src="https://i.pravatar.cc/160?img=10"
+                alt="Ian Schroeter"
                 width={40}
                 height={40}
               />
               <span>
-                <span className="block font-medium">Luna Wyen</span>
+                <span className="block font-medium">Ian Schroeter</span>
                 <span className="mt-0.5 block text-xs text-muted-foreground">
-                  @wyen.luna
+                  @ischroeter
                 </span>
               </span>
             </span>

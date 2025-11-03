@@ -11,7 +11,7 @@ export default function Component() {
   return (
     <Button variant="ghost" className="h-auto p-0 hover:bg-transparent">
       <Avatar>
-        <AvatarImage src="/origin/avatar.jpg" alt="Profile image" />
+        <AvatarImage src="https://i.pravatar.cc/160?img=21" alt="Profile image" />
         <AvatarFallback>CL</AvatarFallback>
       </Avatar>
       <ChevronDownIcon size={16} className="opacity-60" aria-hidden="true" />

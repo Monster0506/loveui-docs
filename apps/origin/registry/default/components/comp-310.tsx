@@ -70,7 +70,7 @@ export default function Component() {
   if (!isVisible || timeLeft.isExpired) return null
 
   return (
-    <div className="dark bg-muted px-4 py-3 text-foreground">
+    <div className="rounded-md border border-border/60 bg-muted/80 px-4 py-3 text-foreground shadow-sm">
       <div className="flex gap-2 md:items-center">
         <div className="flex grow gap-3 md:items-center">
           <div
@@ -81,10 +81,9 @@ export default function Component() {
           </div>
           <div className="flex grow flex-col justify-between gap-3 md:flex-row md:items-center">
             <div className="space-y-0.5">
-              <p className="text-sm font-medium">Black Friday Sale!</p>
+              <p className="text-sm font-medium">Launch Week ends soon</p>
               <p className="text-sm text-muted-foreground">
-                It kicks off today and is available for just 24
-                hours—don&lsquo;t miss out!
+                Save 30% on yearly plans for the next 24 hours—lock it in while it lasts.
               </p>
             </div>
             <div className="flex gap-3 max-md:flex-wrap">

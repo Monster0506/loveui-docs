@@ -48,7 +48,7 @@ export default function Component() {
             <SelectLabel className="ps-2">Impersonate user</SelectLabel>
             <SelectItem value="1">
               <Square className="bg-indigo-400/20 text-indigo-500">F</Square>
-              <span className="truncate">Frank Morris</span>
+              <span className="truncate">Connor Love</span>
             </SelectItem>
             <SelectItem value="2">
               <Square className="bg-purple-400/20 text-purple-500">X</Square>

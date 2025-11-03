@@ -30,7 +30,7 @@ export default function Component() {
       <DropdownMenuTrigger asChild>
         <Button variant="ghost" className="h-auto p-0 hover:bg-transparent">
           <Avatar>
-            <AvatarImage src="/origin/avatar.jpg" alt="Profile image" />
+            <AvatarImage src="https://i.pravatar.cc/160?img=21" alt="Profile image" />
             <AvatarFallback>CL</AvatarFallback>
           </Avatar>
           <ChevronDownIcon
@@ -43,10 +43,10 @@ export default function Component() {
       <DropdownMenuContent className="max-w-64">
         <DropdownMenuLabel className="flex min-w-0 flex-col">
           <span className="truncate text-sm font-medium text-foreground">
-            Keith Kennedy
+            Connor Love
           </span>
           <span className="truncate text-xs font-normal text-muted-foreground">
-            k.kennedy@loveui
+            clove@loveui.dev
           </span>
         </DropdownMenuLabel>
         <DropdownMenuSeparator />

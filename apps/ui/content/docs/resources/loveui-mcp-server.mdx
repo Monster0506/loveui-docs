@@ -1,0 +1,47 @@
+---
+title: Love UI MCP Server
+description: Serve every Love UI registry definition through the Model Context Protocol.
+---
+
+The Love UI MCP server exposes the entire local registry over the [Model Context Protocol](https://modelcontextprotocol.io/), letting agents and copilots browse and install components without leaving their IDE. The server ships with the CLI so it stays in sync with every package in this repository.
+
+## Getting Started
+
+Run the server directly via `npx`:
+
+```bash
+npx loveui-mcp
+```
+
+The server runs over stdio, which means any MCP-compatible client can talk to it with no extra configuration.
+
+## Resources
+
+Each package in `packages/*` is published as a resource using the `loveui://registry/{package}` scheme. For example, the badge definition is available at:
+
+```text
+loveui://registry/badge
+```
+
+Reading the resource returns the same JSON schema used by `https://www.loveui.dev/r/badge.json`, so your AI tools can hydrate files exactly as the CLI would.
+
+## Tools
+
+The server also provides a `get-loveui-package` tool for programmatic access:
+
+```json
+{
+  "name": "get-loveui-package",
+  "input": { "name": "badge" }
+}
+```
+
+Calling the tool returns a single text response containing the registry JSON for the requested package.
+
+## Client Configuration
+
+- **Claude Desktop** – Add a custom server pointing to `npx loveui-mcp`.
+- **Cursor / Windsurf** – Use the MCP integration and register the command `npx loveui-mcp`.
+- **Custom agents** – Use `@modelcontextprotocol/client` and connect over stdio to reuse the resource and tool endpoints.
+
+Because the server generates registry data from the checked-in packages, it always reflects the latest local changes (including unpublished components).

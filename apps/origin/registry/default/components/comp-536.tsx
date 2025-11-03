@@ -13,37 +13,37 @@ const items = [
   {
     id: 1,
     date: "15 minutes ago",
-    title: "Hannah Kandell",
+    title: "Ian Schroeter",
     action: "opened a new issue",
     description:
       "I'm having trouble with the new component library. It's not rendering properly.",
-    image: "/origin/avatar-40-01.jpg",
+    image: "https://i.pravatar.cc/160?img=8",
   },
   {
     id: 2,
     date: "10 minutes ago",
-    title: "Chris Tompson",
+    title: "Connor Love",
     action: "commented on",
     description:
-      "Hey Hannah, I'm having trouble with the new component library. It's not rendering properly.",
-    image: "/origin/avatar-40-02.jpg",
+      "Hey Ian, I'm having trouble with the new component library. It's not rendering properly.",
+    image: "https://i.pravatar.cc/160?img=9",
   },
   {
     id: 3,
     date: "5 minutes ago",
-    title: "Emma Davis",
+    title: "Nathan Wickersham",
     action: "assigned you to",
     description:
       "The new component library is not rendering properly. Can you take a look?",
-    image: "/origin/avatar-40-03.jpg",
+    image: "https://i.pravatar.cc/160?img=10",
   },
   {
     id: 4,
     date: "2 minutes ago",
-    title: "Alex Morgan",
+    title: "Thomas Raklovits",
     action: "closed the issue",
     description: "The issue has been fixed. Please review the changes.",
-    image: "/origin/avatar-40-05.jpg",
+    image: "https://i.pravatar.cc/160?img=12",
   },
 ]
 

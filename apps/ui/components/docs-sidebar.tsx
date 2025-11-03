@@ -53,8 +53,12 @@ export function DocsSidebar({
   const activePath = normalizedPath ?? pathname ?? ""
 
   const filteredGroups = React.useMemo(() => {
+    const baseGroups = sectionPrefix
+      ? tree.children
+      : tree.children.filter((group) => group.name !== "Backgrounds")
+
     if (!sectionPrefix) {
-      return tree.children
+      return baseGroups
     }
 
     const containsPrefix = (node: any): boolean => {
@@ -68,10 +72,10 @@ export function DocsSidebar({
       return false
     }
 
-    const next = tree.children.filter(
+    const next = baseGroups.filter(
       (group) => group.type === "folder" && containsPrefix(group)
     )
-    return next.length > 0 ? next : tree.children
+    return next.length > 0 ? next : baseGroups
   }, [tree.children, sectionPrefix])
 
   const customSections = React.useMemo(() => {

@@ -15,16 +15,13 @@ export default function Component() {
           />
           <div className="flex grow flex-col gap-3">
             <div className="space-y-1">
-              <p className="text-sm font-medium">
-                Here is some helpful information!
-              </p>
+              <p className="text-sm font-medium">Weekly summary is ready to review.</p>
               <p className="text-sm text-muted-foreground">
-                It aims to provide clarity or support for better
-                decision-making.
+                See highlights from your team's activity.
               </p>
             </div>
             <div className="flex gap-2">
-              <Button size="sm">Learn more</Button>
+              <Button size="sm">Open summary</Button>
             </div>
           </div>
           <Button

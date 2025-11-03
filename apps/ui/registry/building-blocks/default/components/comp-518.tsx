@@ -1,5 +1,4 @@
 import { Shuffle } from "lucide-react"
-import { assetPath } from "@/lib/building-blocks/utils"
 
 import {
   Stepper,
@@ -18,7 +17,7 @@ export default function Component() {
             <StepperIndicator asChild>
               <img
                 className="rounded-full"
-                src={assetPath("/building-blocks/avatar-40-05.jpg")}
+                src="https://i.pravatar.cc/160?img=12"
                 width={32}
                 height={32}
                 alt="Mike Palmer"

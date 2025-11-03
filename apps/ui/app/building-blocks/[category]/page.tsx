@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title:
         "Event calendar component built with React and Tailwind CSS - loveui Building Blocks",
       description:
-        "An event calendar component built with React and Tailwind CSS. Originally built in v0 and currently in early alpha stage.",
+        "An event calendar component built with React and Tailwind CSS.",
     }
   }
 
@@ -72,32 +72,6 @@ export default async function Page({ params }: Props) {
       return (
         <span className="block text-balance">
           An event calendar component built with React and Tailwind CSS.
-          Originally built in{" "}
-          <a
-            href="https://v0.dev"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-primary hover:underline"
-          >
-            v0
-          </a>{" "}
-          and currently in early alpha stage.{" "}
-          <a
-            href="https://github.com/origin-space/event-calendar"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 text-primary hover:underline"
-          >
-            Docs
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="9"
-              height="9"
-              className="-mt-1 fill-current"
-            >
-              <path d="m1.55 8.445-.776-.776 5.767-5.777H2.087l.01-1.074H8.39v6.304H7.307l.01-4.454L1.55 8.445Z" />
-            </svg>
-          </a>
         </span>
       )
     }

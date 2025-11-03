@@ -13,7 +13,7 @@ export default function Component() {
             size={16}
             aria-hidden="true"
           />
-          Just a quick note!
+          Heads up: maintenance begins tonight at 11 PM UTC.
         </p>
         <Button
           variant="ghost"

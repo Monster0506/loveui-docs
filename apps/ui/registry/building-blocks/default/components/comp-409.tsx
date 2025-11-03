@@ -1,33 +1,32 @@
 import { Button } from "@/registry/building-blocks/default/ui/button"
-import { assetPath } from "@/lib/building-blocks/utils"
 
 export default function Component() {
   return (
     <div className="flex -space-x-3">
       <img
         className="rounded-full ring-2 ring-background"
-        src={assetPath("/building-blocks/avatar-80-03.jpg")}
+        src="https://i.pravatar.cc/160?img=16"
         width={40}
         height={40}
         alt="Avatar 01"
       />
       <img
         className="rounded-full ring-2 ring-background"
-        src={assetPath("/building-blocks/avatar-80-04.jpg")}
+        src="https://i.pravatar.cc/160?img=17"
         width={40}
         height={40}
         alt="Avatar 02"
       />
       <img
         className="rounded-full ring-2 ring-background"
-        src={assetPath("/building-blocks/avatar-80-05.jpg")}
+        src="https://i.pravatar.cc/160?img=18"
         width={40}
         height={40}
         alt="Avatar 03"
       />
       <img
         className="rounded-full ring-2 ring-background"
-        src={assetPath("/building-blocks/avatar-80-06.jpg")}
+        src="https://i.pravatar.cc/160?img=19"
         width={40}
         height={40}
         alt="Avatar 04"

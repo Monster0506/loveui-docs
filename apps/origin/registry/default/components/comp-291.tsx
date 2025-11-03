@@ -15,13 +15,13 @@ export default function Component() {
           />
           <div className="flex grow flex-col gap-3">
             <div className="space-y-1">
-              <p className="text-sm font-medium">Your request was completed!</p>
+              <p className="text-sm font-medium">Payout sent to your bank account.</p>
               <p className="text-sm text-muted-foreground">
-                It demonstrates that the task or request has been processed.
+                Expect funds within two business days.
               </p>
             </div>
             <div className="flex gap-2">
-              <Button size="sm">Learn more</Button>
+              <Button size="sm">View transfer</Button>
             </div>
           </div>
           <Button

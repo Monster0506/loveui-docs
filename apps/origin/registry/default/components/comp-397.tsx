@@ -8,7 +8,7 @@ export default function Component() {
   return (
     <div className="relative">
       <Avatar>
-        <AvatarImage src="/origin/avatar-80-07.jpg" alt="Kelly King" />
+        <AvatarImage src="https://i.pravatar.cc/160?img=20" alt="Kelly King" />
         <AvatarFallback>CL</AvatarFallback>
       </Avatar>
       <span className="absolute -end-1.5 -top-1.5">

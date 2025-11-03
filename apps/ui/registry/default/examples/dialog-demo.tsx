@@ -30,7 +30,7 @@ export default function DialogDemo() {
           <div className="flex flex-col gap-4">
             <Field>
               <FieldLabel>Name</FieldLabel>
-              <FieldControl type="text" defaultValue="Margaret Welsh" />
+              <FieldControl type="text" defaultValue="Connor Welsh" />
             </Field>
             <Field>
               <FieldLabel>Username</FieldLabel>

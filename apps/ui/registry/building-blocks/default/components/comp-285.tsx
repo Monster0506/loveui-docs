@@ -14,9 +14,9 @@ export default function Component() {
             aria-hidden="true"
           />
           <div className="flex grow justify-between gap-12">
-            <p className="text-sm">Completed successfully!</p>
+            <p className="text-sm">Real-time dashboards are now live for your team.</p>
             <a href="#" className="group text-sm font-medium whitespace-nowrap">
-              Link
+              See what's new
               <ArrowRightIcon
                 className="ms-1 -mt-0.5 inline-flex opacity-60 transition-transform group-hover:translate-x-0.5"
                 size={16}

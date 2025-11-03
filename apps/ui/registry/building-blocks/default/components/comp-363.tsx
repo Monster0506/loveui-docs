@@ -1,5 +1,4 @@
 import { Button } from "@/registry/building-blocks/default/ui/button"
-import { assetPath } from "@/lib/building-blocks/utils"
 import {
   HoverCard,
   HoverCardContent,
@@ -17,7 +16,7 @@ export default function HoverCardDemo() {
         >
           <a href="#">
             <img
-              src={assetPath("/building-blocks/avatar-40-04.jpg")}
+              src="https://i.pravatar.cc/160?img=11"
               width={40}
               height={40}
               alt="Avatar"
@@ -29,13 +28,13 @@ export default function HoverCardDemo() {
         <div className="flex items-start gap-3">
           <img
             className="shrink-0 rounded-full"
-            src={assetPath("/building-blocks/avatar-40-04.jpg")}
+            src="https://i.pravatar.cc/160?img=11"
             width={40}
             height={40}
             alt="Avatar"
           />
           <div className="space-y-1">
-            <p className="text-sm font-medium">@Origin_UI</p>
+            <p className="text-sm font-medium">@Love_UI</p>
             <p className="text-sm text-muted-foreground">
               Beautiful UI components built with Tailwind CSS and Next.js.
             </p>

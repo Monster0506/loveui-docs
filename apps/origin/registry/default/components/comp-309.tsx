@@ -11,7 +11,7 @@ export default function Component() {
   if (!isVisible) return null
 
   return (
-    <div className="dark bg-muted px-4 py-3 text-foreground">
+    <div className="rounded-md border border-border/60 bg-muted/80 px-4 py-3 text-foreground shadow-sm">
       <div className="flex gap-2 md:items-center">
         <div className="flex grow gap-3 md:items-center">
           <div
@@ -23,16 +23,15 @@ export default function Component() {
           <div className="flex grow flex-col justify-between gap-3 md:flex-row md:items-center">
             <div className="space-y-0.5">
               <p className="text-sm font-medium">
-                Boost your experience with loveui
+                Launch guided onboarding checklists
               </p>
               <p className="text-sm text-muted-foreground">
-                The new feature is live! Try it out and let us know what you
-                think.
+                Activate the templates and share feedback with the product team.
               </p>
             </div>
             <div className="flex gap-2 max-md:flex-wrap">
               <Button size="sm" className="text-sm">
-                Try now
+                Enable now
               </Button>
             </div>
           </div>

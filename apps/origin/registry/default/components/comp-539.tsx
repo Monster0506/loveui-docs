@@ -21,29 +21,29 @@ const items: {
 }[] = [
   {
     id: 1,
-    user: "Matt",
-    image: "/origin/avatar-40-02.jpg",
+    user: "Connor",
+    image: "https://i.pravatar.cc/160?img=9",
     action: "post",
     date: new Date(Date.now() - 59000), // 59 seconds ago
   },
   {
     id: 2,
-    user: "Matt",
-    image: "/origin/avatar-40-02.jpg",
+    user: "Connor",
+    image: "https://i.pravatar.cc/160?img=9",
     action: "reply",
     date: new Date(Date.now() - 180000), // 3 minutes ago
   },
   {
     id: 3,
-    user: "Matt",
-    image: "/origin/avatar-40-02.jpg",
+    user: "Connor",
+    image: "https://i.pravatar.cc/160?img=9",
     action: "edit",
     date: new Date(Date.now() - 300000), // 5 minutes ago
   },
   {
     id: 4,
-    user: "Matt",
-    image: "/origin/avatar-40-02.jpg",
+    user: "Connor",
+    image: "https://i.pravatar.cc/160?img=9",
     action: "create",
     date: new Date(Date.now() - 600000), // 10 minutes ago
   },

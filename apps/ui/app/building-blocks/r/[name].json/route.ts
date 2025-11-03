@@ -3,7 +3,13 @@ import path from "node:path"
 
 import { NextRequest, NextResponse } from "next/server"
 
-const registryRoot = path.join(process.cwd(), "public", "building-blocks")
+const registryRootCandidates = [
+  path.join(process.cwd(), "public", "building-blocks"),
+  path.join(process.cwd(), "apps", "ui", "public", "building-blocks"),
+  path.join(process.cwd(), "..", "public", "building-blocks"),
+  path.join(process.cwd(), "..", "apps", "ui", "public", "building-blocks"),
+  path.join(process.cwd(), "..", "..", "apps", "ui", "public", "building-blocks"),
+]
 
 export async function GET(
   _request: NextRequest,
@@ -16,23 +22,25 @@ export async function GET(
     return NextResponse.json({ error: "Missing component name" }, { status: 400 })
   }
 
-  const filePath = path.join(registryRoot, `${name}.json`)
-
-  try {
-    const file = await fs.readFile(filePath, "utf8")
-    return new NextResponse(file, {
-      status: 200,
-      headers: {
-        "Content-Type": "application/json; charset=utf-8",
-        "Cache-Control": "public, s-maxage=60, stale-while-revalidate=86400",
-      },
-    })
-  } catch (error) {
-    if ((error as NodeJS.ErrnoException).code === "ENOENT") {
-      return NextResponse.json({ error: "Component not found" }, { status: 404 })
+  for (const root of registryRootCandidates) {
+    const filePath = path.join(root, `${name}.json`)
+    try {
+      const file = await fs.readFile(filePath, "utf8")
+      return new NextResponse(file, {
+        status: 200,
+        headers: {
+          "Content-Type": "application/json; charset=utf-8",
+          "Cache-Control": "public, s-maxage=60, stale-while-revalidate=86400",
+        },
+      })
+    } catch (error) {
+      if ((error as NodeJS.ErrnoException).code !== "ENOENT") {
+        console.error(`Failed to read registry file for ${name} at ${filePath}:`, error)
+        return NextResponse.json({ error: "Unable to load component" }, { status: 500 })
+      }
     }
-
-    console.error(`Failed to read registry file for ${name}:`, error)
-    return NextResponse.json({ error: "Unable to load component" }, { status: 500 })
   }
+
+  return NextResponse.json({ error: "Component not found" }, { status: 404 })
 }
+export const runtime = "nodejs"

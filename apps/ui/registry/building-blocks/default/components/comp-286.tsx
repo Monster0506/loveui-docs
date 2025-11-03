@@ -14,9 +14,9 @@ export default function Component() {
             aria-hidden="true"
           />
           <div className="flex grow justify-between gap-12">
-            <p className="text-sm">Just a quick note!</p>
+            <p className="text-sm">New approvals experience ships next Tuesday. Preview the changes.</p>
             <a href="#" className="group text-sm font-medium whitespace-nowrap">
-              Link
+              Read update
               <ArrowRightIcon
                 className="ms-1 -mt-0.5 inline-flex opacity-60 transition-transform group-hover:translate-x-0.5"
                 size={16}

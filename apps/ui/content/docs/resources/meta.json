@@ -1,6 +1,7 @@
 {
   "title": "Resources",
   "pages": [
+    "loveui-mcp-server",
     "[llms.txt](/llms.txt)",
     "[loveui Building Blocks](https://loveui.dev/building-blocks)"
   ]

@@ -6,7 +6,8 @@
   "type": "module",
   "bin": {
     "loveui": "dist/index.js",
-    "love-ui": "dist/index.js"
+    "love-ui": "dist/index.js",
+    "loveui-mcp": "dist/mcp-server.js"
   },
   "files": [
     "dist",
@@ -27,6 +28,11 @@
     "./components/*": "./packages/love-ui/components/*",
     "./shadcn-ui/*": "./packages/shadcn-ui/*",
     "./package.json": "./package.json"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.1.0",
+    "postcss": "^8.5.6",
+    "postcss-nested": "^7.0.2"
   },
   "scripts": {
     "build": "tsup",

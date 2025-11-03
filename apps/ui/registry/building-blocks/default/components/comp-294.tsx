@@ -15,16 +15,15 @@ export default function Component() {
         </div>
         <div className="flex grow flex-col gap-3">
           <div className="space-y-1">
-            <p className="text-sm font-medium">Version 1.4 is now available!</p>
+            <p className="text-sm font-medium">Version 2.1 is ready to install.</p>
             <p className="text-sm text-muted-foreground">
-              This update contains several bug fixes and performance
-              improvements.
+              Includes faster build times and important security fixes.
             </p>
           </div>
           <div className="flex gap-2">
-            <Button size="sm">Install</Button>
+            <Button size="sm">Install update</Button>
             <Button size="sm" variant="link">
-              Later
+              Remind me later
             </Button>
           </div>
         </div>

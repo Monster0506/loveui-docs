@@ -1,26 +1,35 @@
 ---
 title: Roadmap
-description: Current state of loveui and where we’re headed next.
+description: Where LoveUI is today and what we’re building next.
 ---
 
-**loveui** is the evolution of **Origin UI**, an open-source collection of React and Tailwind components created by Pasquale Vitiello and Davide Pacilio. It was recently **acquired by Cal.com** and grown into a broader, more ambitious ecosystem, with Pasquale contributing directly to the development of the new UI.
+LoveUI has graduated from internal tooling to a public release. The goal is to give teams a layered system—primitives, particles, atoms, and backgrounds—that can be copied, themed, and shipped without a custom design system sprint.
 
-Our goal is to **bring together the best parts of Origin UI** with a stronger foundation—Base UI primitives—so developers get not just components, but a layered system of **primitives**, **particles**, and **atoms**.
+## Now shipping
 
-## Origin UI
+- **Primitives**: 40+ Base UI powered building blocks with LoveUI tokens and docs.
+- **Particles**: Launch collection of application-level patterns pulled straight from production interfaces.
+- **Backgrounds**: Procedural visuals (Ether, Silk, Gradiant Blinds) tuned for both marketing pages and product surfaces.
+- **Docs tooling**: llms.txt support, Copy Markdown buttons, and AI-friendly code layout.
 
-Origin UI offered a large collection of 600+ ready-to-use UI components. With the **transition to loveui**:
+## In progress
 
-- The existing **Origin UI components** will evolve into **particles**—higher-level UI patterns composed of Base UI primitives.
-- The original Origin UI collection remains available on [this page](/building-blocks), so developers can continue to access it during the transition.
+- **Accessibility sweeps** to make every primitive axe-clean with a11y test coverage.
+- **Design tokens v2** with expanded motion, depth, and typography scales.
+- **Next.js starters** that ship with LoveUI wired in, including routing, SEO, and analytics defaults.
+- **CLI upgrades** for project diffing, per-component updates, and optional TypeScript path aliasing.
 
-## Current Status
+## Up next
 
-- **40+ UI primitives** already available, with more on the way.
-- A **growing set of particles**, progressively expanding to match and surpass the current Origin UI collection.
+- **Atoms**: API-aware components (auth, scheduling, billing) that speak Cal.com services out of the box.
+- **Theme packs** that layer on opinionated brand palettes, typography stacks, and motion presets.
+- **Editor integrations** so you can browse, insert, and update components from VS Code and Cursor.
+- **Design files** translated to Figma so product teams can ideate and spec in parallel.
 
-## What’s Next
+## Watching
 
-- Expand the **primitives set**, ensuring full coverage of common UI needs.
-- Add more **particles**, aligning with and eventually replacing the original Origin UI collection.
-- Introduce **atoms**, API-enhanced components that bring external integrations out of the box.
+- **React Native bridge** for Expo + Universal Router.
+- **Storybook kit** that mirrors the docs examples for local design review.
+- **Enterprise distribution** with private npm feeds and support SLAs.
+
+We publish changelog entries as soon as a item lands, so subscribe to the [LoveUI updates](/ui/docs/changelog) feed or follow @loveui on X for real-time progress. Feedback and pull requests are welcome—most roadmap items started as requests from the community.

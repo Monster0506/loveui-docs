@@ -39,7 +39,7 @@ const initialAvatarImage = [
     name: "avatar-72-01.jpg",
     size: 1528737,
     type: "image/jpeg",
-    url: assetPath("/building-blocks/avatar-72-01.jpg"),
+    url: "https://i.pravatar.cc/160?img=13",
     id: "avatar-123456789",
   },
 ]
@@ -56,7 +56,7 @@ export default function Component() {
   } = useCharacterLimit({
     maxLength,
     initialValue:
-      "Hey, I am Margaret, a web developer who loves turning ideas into amazing websites!",
+      "Hey, I am Connor, a web developer who loves turning ideas into amazing websites!",
   })
 
   return (
@@ -84,8 +84,8 @@ export default function Component() {
                   <Label htmlFor={`${id}-first-name`}>First name</Label>
                   <Input
                     id={`${id}-first-name`}
-                    placeholder="Matt"
-                    defaultValue="Margaret"
+                    placeholder="Connor"
+                    defaultValue="Connor"
                     type="text"
                     required
                   />
@@ -95,7 +95,7 @@ export default function Component() {
                   <Input
                     id={`${id}-last-name`}
                     placeholder="Welsh"
-                    defaultValue="Villard"
+                    defaultValue="Love"
                     type="text"
                     required
                   />
@@ -108,7 +108,7 @@ export default function Component() {
                     id={`${id}-username`}
                     className="peer pe-9"
                     placeholder="Username"
-                    defaultValue="margaret-villard-69"
+                    defaultValue="Connor-Love-69"
                     type="text"
                     required
                   />
@@ -131,7 +131,7 @@ export default function Component() {
                     id={`${id}-website`}
                     className="-ms-px rounded-s-none shadow-none"
                     placeholder="yourwebsite.com"
-                    defaultValue="www.margaret.com"
+                    defaultValue="www.connorlove.com"
                     type="text"
                   />
                 </div>

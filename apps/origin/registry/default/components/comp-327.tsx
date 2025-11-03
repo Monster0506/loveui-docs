@@ -25,8 +25,8 @@ import {
 export default function Component() {
   const id = useId()
   const [emails, setEmails] = useState([
-    "mark@yourcompany.com",
-    "jane@yourcompany.com",
+    "tyler@example.com",
+    "owen@example.com",
     "",
   ])
   const [copied, setCopied] = useState<boolean>(false)

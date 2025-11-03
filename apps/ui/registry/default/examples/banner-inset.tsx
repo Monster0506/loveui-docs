@@ -12,8 +12,8 @@ import { CircleAlert } from "lucide-react";
 const Example = () => (
   <Banner inset>
     <BannerIcon icon={CircleAlert} />
-    <BannerTitle>Important message</BannerTitle>
-    <BannerAction>Learn more</BannerAction>
+    <BannerTitle>Your trial ends in 3 days. Add a payment method to stay live.</BannerTitle>
+    <BannerAction>Update billing</BannerAction>
     <BannerClose />
   </Banner>
 );

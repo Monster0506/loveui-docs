@@ -11,7 +11,7 @@ export default function Component() {
   if (!isVisible) return null
 
   return (
-    <div className="dark bg-muted px-4 py-3 text-foreground md:py-2">
+    <div className="rounded-md border border-border/60 bg-muted/80 px-4 py-3 text-foreground shadow-sm md:py-2">
       <div className="flex gap-2 md:items-center">
         <div className="flex grow gap-3 md:items-center">
           <Eclipse
@@ -21,15 +21,14 @@ export default function Component() {
           />
           <div className="flex grow flex-col justify-between gap-3 md:flex-row md:items-center">
             <p className="text-sm">
-              It&lsquo;s live and ready to use! Start exploring the latest
-              addition to your toolkit.
+              A new API explorer ships with this release—call endpoints in your browser.
             </p>
             <div className="flex gap-2 max-md:flex-wrap">
               <Button size="sm" className="text-sm">
-                Download
+                Try it now
               </Button>
               <Button variant="link" size="sm" className="text-sm">
-                Learn more
+                Read docs
               </Button>
             </div>
           </div>

@@ -30,7 +30,7 @@ export default function Component() {
       <DropdownMenuContent className="max-w-64">
         <DropdownMenuLabel className="flex items-start gap-3">
           <img
-            src="/origin/avatar.jpg"
+            src="https://i.pravatar.cc/160?img=21"
             alt="Avatar"
             width={32}
             height={32}
@@ -38,10 +38,10 @@ export default function Component() {
           />
           <div className="flex min-w-0 flex-col">
             <span className="truncate text-sm font-medium text-foreground">
-              Keith Kennedy
+              Connor Love
             </span>
             <span className="truncate text-xs font-normal text-muted-foreground">
-              k.kennedy@loveui
+              clove@loveui.dev
             </span>
           </div>
         </DropdownMenuLabel>

@@ -13,7 +13,7 @@ export default function Component() {
             size={16}
             aria-hidden="true"
           />
-          An error occurred!
+          Payment failed for the Pro workspace. Update your card to retry.
         </p>
         <Button
           variant="ghost"

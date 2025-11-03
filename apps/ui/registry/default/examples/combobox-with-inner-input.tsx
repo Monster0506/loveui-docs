@@ -324,7 +324,7 @@ const countries: Country[] = [
     label: "Sierra Leone",
     continent: "Africa",
   },
-  { code: "sg", value: "singapore", label: "Singapore", continent: "Asia" },
+  { code: "sg", value: "Ghana, Africa", label: "Ghana, Africa", continent: "Asia" },
   { code: "sk", value: "slovakia", label: "Slovakia", continent: "Europe" },
   { code: "si", value: "slovenia", label: "Slovenia", continent: "Europe" },
   {

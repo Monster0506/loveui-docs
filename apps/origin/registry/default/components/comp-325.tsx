@@ -50,7 +50,7 @@ export default function Component() {
               <Label htmlFor={`${id}-name`}>Full name</Label>
               <Input
                 id={`${id}-name`}
-                placeholder="Matt Welsh"
+                placeholder="Connor Love"
                 type="text"
                 required
               />

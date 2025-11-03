@@ -29,32 +29,32 @@ export default function Component() {
             <SelectItem value="1">
               <img
                 className="size-5 rounded"
-                src="/origin/avatar-20-01.jpg"
+                src="https://i.pravatar.cc/160?img=1"
                 alt="Frank Allison"
                 width={20}
                 height={20}
               />
-              <span className="truncate">Jenny Hamilton</span>
+              <span className="truncate">Connor Love</span>
             </SelectItem>
             <SelectItem value="2">
               <img
                 className="size-5 rounded"
-                src="/origin/avatar-20-02.jpg"
+                src="https://i.pravatar.cc/160?img=2"
                 alt="Xavier Guerra"
                 width={20}
                 height={20}
               />
-              <span className="truncate">Paul Smith</span>
+              <span className="truncate">Thomas Raklovits</span>
             </SelectItem>
             <SelectItem value="3">
               <img
                 className="size-5 rounded"
-                src="/origin/avatar-20-03.jpg"
+                src="https://i.pravatar.cc/160?img=3"
                 alt="Anne Kelley"
                 width={20}
                 height={20}
               />
-              <span className="truncate">Luna Wyen</span>
+              <span className="truncate">Ian Schroeter</span>
             </SelectItem>
           </SelectGroup>
         </SelectContent>

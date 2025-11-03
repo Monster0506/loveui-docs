@@ -15,12 +15,10 @@ export default function Component() {
         </div>
         <div className="flex grow items-center gap-12">
           <div className="space-y-1">
-            <p className="text-sm font-medium">Live in 27 hours</p>
-            <p className="text-xs text-muted-foreground">
-              November 20 at 8:00 PM.
-            </p>
+            <p className="text-sm font-medium">Goes live in 18 hours</p>
+            <p className="text-xs text-muted-foreground">March 12 at 9:30 AM.</p>
           </div>
-          <Button size="sm">Notify me</Button>
+          <Button size="sm">Add to calendar</Button>
         </div>
         <Button
           variant="ghost"

@@ -8,7 +8,7 @@
   "files": [
     {
       "path": "registry/default/components/comp-393.tsx",
-      "content": "import {\n  Avatar,\n  AvatarFallback,\n  AvatarImage,\n} from \"@/registry/default/ui/avatar\"\n\nexport default function Component() {\n  return (\n    <Avatar className=\"rounded-md\">\n      <AvatarImage src=\"/origin/avatar-80-07.jpg\" alt=\"Kelly King\" />\n      <AvatarFallback>CL</AvatarFallback>\n    </Avatar>\n  )\n}\n",
+      "content": "import {\n  Avatar,\n  AvatarFallback,\n  AvatarImage,\n} from \"@/registry/default/ui/avatar\"\n\nexport default function Component() {\n  return (\n    <Avatar className=\"rounded-md\">\n      <AvatarImage src=\"https://i.pravatar.cc/160?img=20\" alt=\"Kelly King\" />\n      <AvatarFallback>CL</AvatarFallback>\n    </Avatar>\n  )\n}\n",
       "type": "registry:component"
     }
   ],
