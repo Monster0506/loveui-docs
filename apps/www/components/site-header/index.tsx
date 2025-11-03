@@ -11,11 +11,13 @@ import { cn } from "@loveui/ui/lib/utils";
 import { QuickSearch } from "@/components/site-header/quick-search";
 import { useScrolledPastHero } from "@/hooks/use-scrolled-past-hero";
 
+const uiAppBaseUrl = process.env.NEXT_PUBLIC_COSS_UI_URL || "/ui";
+
 const navItems = [
-  { href: "/ui/docs", label: "Docs" },
-  { href: "/ui/docs/features/avatar-stack", label: "Features" },
-  { href: "/ui/building-blocks", label: "Building Blocks" },
-  { href: "/ui/docs/backgrounds/ether", label: "Backgrounds" },
+  { href: `${uiAppBaseUrl}/docs`, label: "Docs" },
+  { href: `${uiAppBaseUrl}/docs/features/avatar-stack`, label: "Features" },
+  { href: `${uiAppBaseUrl}/building-blocks`, label: "Building Blocks" },
+  { href: `${uiAppBaseUrl}/docs/backgrounds/ether`, label: "Backgrounds" },
 ] as const;
 
 function useActiveHref(items: readonly { href: string; label: string }[]) {
