@@ -6,13 +6,6 @@
         "name": "next"
       }
     ],
-    "typeRoots": [
-      "./node_modules/@types",
-      "../node_modules/@types",
-      "../../node_modules/@types",
-      "../../node_modules/.bun/@types+three@0.170.0/node_modules/@types",
-      "./types"
-    ],
     "paths": {
       "@/*": ["./*"],
       "three": [
