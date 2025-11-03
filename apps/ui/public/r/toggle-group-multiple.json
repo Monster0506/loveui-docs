@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Toggle group with multiple selection",
   "registryDependencies": [
-    "@coss/toggle-group"
+    "@loveui/toggle-group"
   ],
   "files": [
     {

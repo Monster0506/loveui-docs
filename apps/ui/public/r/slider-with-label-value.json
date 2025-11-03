@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Slider with label and value",
   "registryDependencies": [
-    "@coss/slider",
-    "@coss/label"
+    "@loveui/slider",
+    "@loveui/label"
   ],
   "files": [
     {

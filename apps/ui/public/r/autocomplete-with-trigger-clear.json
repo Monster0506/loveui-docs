@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Autocomplete with trigger and clear buttons",
   "registryDependencies": [
-    "@coss/autocomplete"
+    "@loveui/autocomplete"
   ],
   "files": [
     {

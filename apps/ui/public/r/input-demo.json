@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Basic input component without label",
   "registryDependencies": [
-    "@coss/input"
+    "@loveui/input"
   ],
   "files": [
     {

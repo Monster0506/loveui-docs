@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Input with label",
   "registryDependencies": [
-    "@coss/input",
-    "@coss/label"
+    "@loveui/input",
+    "@loveui/label"
   ],
   "files": [
     {

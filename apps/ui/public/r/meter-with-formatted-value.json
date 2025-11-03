@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Meter with a custom formatted value",
   "registryDependencies": [
-    "@coss/meter"
+    "@loveui/meter"
   ],
   "files": [
     {

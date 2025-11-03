@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Textarea labelled with Field",
   "registryDependencies": [
-    "@coss/textarea",
-    "@coss/label"
+    "@loveui/textarea",
+    "@loveui/label"
   ],
   "files": [
     {

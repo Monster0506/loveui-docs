@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Select popup not aligned to trigger",
   "registryDependencies": [
-    "@coss/select"
+    "@loveui/select"
   ],
   "files": [
     {

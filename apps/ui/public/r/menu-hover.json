@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Open the menu on hover",
   "registryDependencies": [
-    "@coss/menu",
-    "@coss/button"
+    "@loveui/menu",
+    "@loveui/button"
   ],
   "files": [
     {

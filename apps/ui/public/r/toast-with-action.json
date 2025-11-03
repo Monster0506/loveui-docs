@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Toast with an action button",
   "registryDependencies": [
-    "@coss/toast"
+    "@loveui/toast"
   ],
   "files": [
     {

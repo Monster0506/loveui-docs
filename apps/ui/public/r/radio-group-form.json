@@ -4,11 +4,11 @@
   "type": "registry:example",
   "description": "Radio group in a form",
   "registryDependencies": [
-    "@coss/radio-group",
-    "@coss/field",
-    "@coss/fieldset",
-    "@coss/form",
-    "@coss/button"
+    "@loveui/radio-group",
+    "@loveui/field",
+    "@loveui/fieldset",
+    "@loveui/form",
+    "@loveui/button"
   ],
   "files": [
     {

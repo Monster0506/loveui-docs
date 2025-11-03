@@ -63,7 +63,7 @@ export function CommandMenu({
       if (isComponent) {
         const componentName = item.url.split("/").pop()
         setSelectedType("component")
-        const registryItem = `@coss/${componentName}`
+        const registryItem = `@loveui/${componentName}`
         let cmd: string
         switch (packageManager) {
           default:

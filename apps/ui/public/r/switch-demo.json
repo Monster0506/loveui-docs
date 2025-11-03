@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Basic switch",
   "registryDependencies": [
-    "@coss/switch",
-    "@coss/label"
+    "@loveui/switch",
+    "@loveui/label"
   ],
   "files": [
     {

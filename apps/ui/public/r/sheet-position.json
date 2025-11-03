@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Sheet position",
   "registryDependencies": [
-    "@coss/sheet",
-    "@coss/button"
+    "@loveui/sheet",
+    "@loveui/button"
   ],
   "files": [
     {

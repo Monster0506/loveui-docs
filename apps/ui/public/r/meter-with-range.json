@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Meter with min and max values",
   "registryDependencies": [
-    "@coss/meter"
+    "@loveui/meter"
   ],
   "files": [
     {

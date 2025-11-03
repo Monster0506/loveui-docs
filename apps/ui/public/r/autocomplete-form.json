@@ -4,9 +4,9 @@
   "type": "registry:example",
   "description": "Autocomplete form",
   "registryDependencies": [
-    "@coss/autocomplete",
-    "@coss/form",
-    "@coss/field"
+    "@loveui/autocomplete",
+    "@loveui/form",
+    "@loveui/field"
   ],
   "files": [
     {

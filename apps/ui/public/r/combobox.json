@@ -6,8 +6,8 @@
     "@base-ui-components/react"
   ],
   "registryDependencies": [
-    "@coss/input",
-    "@coss/scroll-area"
+    "@loveui/input",
+    "@loveui/scroll-area"
   ],
   "files": [
     {

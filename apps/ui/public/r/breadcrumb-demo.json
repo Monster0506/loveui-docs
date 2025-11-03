@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Breadcrumb with menu example",
   "registryDependencies": [
-    "@coss/breadcrumb",
-    "@coss/menu"
+    "@loveui/breadcrumb",
+    "@loveui/menu"
   ],
   "files": [
     {

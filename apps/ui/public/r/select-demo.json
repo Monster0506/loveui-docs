@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "A basic select",
   "registryDependencies": [
-    "@coss/select"
+    "@loveui/select"
   ],
   "files": [
     {

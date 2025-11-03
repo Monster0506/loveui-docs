@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Toast with varying heights",
   "registryDependencies": [
-    "@coss/toast"
+    "@loveui/toast"
   ],
   "files": [
     {

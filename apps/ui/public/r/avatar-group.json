@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Overlapping avatar group",
   "registryDependencies": [
-    "@coss/avatar"
+    "@loveui/avatar"
   ],
   "files": [
     {

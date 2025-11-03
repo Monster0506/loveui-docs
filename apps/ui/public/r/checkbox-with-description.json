@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Checkbox with helper text",
   "registryDependencies": [
-    "@coss/checkbox",
-    "@coss/label"
+    "@loveui/checkbox",
+    "@loveui/label"
   ],
   "files": [
     {

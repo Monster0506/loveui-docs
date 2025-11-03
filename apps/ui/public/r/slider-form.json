@@ -4,10 +4,10 @@
   "type": "registry:example",
   "description": "Slider in a form",
   "registryDependencies": [
-    "@coss/slider",
-    "@coss/form",
-    "@coss/field",
-    "@coss/button"
+    "@loveui/slider",
+    "@loveui/form",
+    "@loveui/field",
+    "@loveui/button"
   ],
   "files": [
     {

@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Input with disabled state",
   "registryDependencies": [
-    "@coss/input"
+    "@loveui/input"
   ],
   "files": [
     {

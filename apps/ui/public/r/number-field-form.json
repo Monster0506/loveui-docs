@@ -4,10 +4,10 @@
   "type": "registry:example",
   "description": "A number in a form",
   "registryDependencies": [
-    "@coss/number-field",
-    "@coss/field",
-    "@coss/form",
-    "@coss/button"
+    "@loveui/number-field",
+    "@loveui/field",
+    "@loveui/form",
+    "@loveui/button"
   ],
   "files": [
     {

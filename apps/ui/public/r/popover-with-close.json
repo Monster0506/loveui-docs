@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Popover with close button",
   "registryDependencies": [
-    "@coss/popover",
-    "@coss/button"
+    "@loveui/popover",
+    "@loveui/button"
   ],
   "files": [
     {

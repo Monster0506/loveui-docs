@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Frame example",
   "registryDependencies": [
-    "@coss/frame"
+    "@loveui/frame"
   ],
   "files": [
     {

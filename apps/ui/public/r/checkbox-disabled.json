@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Disabled checkbox",
   "registryDependencies": [
-    "@coss/checkbox",
-    "@coss/label"
+    "@loveui/checkbox",
+    "@loveui/label"
   ],
   "files": [
     {

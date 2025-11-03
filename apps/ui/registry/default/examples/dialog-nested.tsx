@@ -27,11 +27,11 @@ export default function DialogNestedDemo() {
         <div className="grid gap-4">
           <div className="grid gap-1">
             <p className="text-sm text-muted-foreground">Name</p>
-            <p className="text-sm font-medium">Bora Baloglu</p>
+            <p className="text-sm font-medium">Connor Love</p>
           </div>
           <div className="grid gap-1">
             <p className="text-sm text-muted-foreground">Email</p>
-            <p className="text-sm font-medium">bora@example.com</p>
+            <p className="text-sm font-medium">clove@loveui.dev</p>
           </div>
         </div>
         <DialogFooter>
@@ -49,11 +49,11 @@ export default function DialogNestedDemo() {
               <div className="flex flex-col gap-4">
                 <Field>
                   <FieldLabel>Name</FieldLabel>
-                  <FieldControl type="text" defaultValue="Bora Baloglu" />
+                  <FieldControl type="text" defaultValue="Connor Love" />
                 </Field>
                 <Field>
                   <FieldLabel>Email</FieldLabel>
-                  <FieldControl type="text" defaultValue="bora@example.com" />
+                  <FieldControl type="text" defaultValue="clove@loveui.dev" />
                 </Field>
               </div>
               <DialogFooter>

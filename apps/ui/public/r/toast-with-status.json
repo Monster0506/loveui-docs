@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Success toast",
   "registryDependencies": [
-    "@coss/toast"
+    "@loveui/toast"
   ],
   "files": [
     {

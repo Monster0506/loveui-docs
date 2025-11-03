@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Two-thumb range slider",
   "registryDependencies": [
-    "@coss/slider"
+    "@loveui/slider"
   ],
   "files": [
     {

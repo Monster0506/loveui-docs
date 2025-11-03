@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Progress with label and value",
   "registryDependencies": [
-    "@coss/progress"
+    "@loveui/progress"
   ],
   "files": [
     {

@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Progress with a custom formatted value",
   "registryDependencies": [
-    "@coss/progress"
+    "@loveui/progress"
   ],
   "files": [
     {

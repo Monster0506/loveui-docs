@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Basic empty state with icon",
   "registryDependencies": [
-    "@coss/empty",
-    "@coss/button"
+    "@loveui/empty",
+    "@loveui/button"
   ],
   "files": [
     {

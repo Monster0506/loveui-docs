@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Controlled accordion",
   "registryDependencies": [
-    "@coss/accordion",
-    "@coss/button"
+    "@loveui/accordion",
+    "@loveui/button"
   ],
   "files": [
     {

@@ -7,9 +7,9 @@
     "zod"
   ],
   "registryDependencies": [
-    "@coss/form",
-    "@coss/field",
-    "@coss/button"
+    "@loveui/form",
+    "@loveui/field",
+    "@loveui/button"
   ],
   "files": [
     {

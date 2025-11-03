@@ -4,7 +4,7 @@
   "type": "registry:block",
   "description": "Pagination with previous and next buttons only",
   "registryDependencies": [
-    "@coss/pagination"
+    "@loveui/pagination"
   ],
   "files": [
     {

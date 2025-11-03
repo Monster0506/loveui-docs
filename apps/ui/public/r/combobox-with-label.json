@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Combobox with label",
   "registryDependencies": [
-    "@coss/combobox",
-    "@coss/label"
+    "@loveui/combobox",
+    "@loveui/label"
   ],
   "files": [
     {

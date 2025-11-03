@@ -4,9 +4,9 @@
   "type": "registry:example",
   "description": "Field with radio group",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/radio-group",
-    "@coss/fieldset"
+    "@loveui/field",
+    "@loveui/radio-group",
+    "@loveui/fieldset"
   ],
   "files": [
     {

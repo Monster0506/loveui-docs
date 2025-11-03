@@ -4,9 +4,9 @@
   "type": "registry:example",
   "description": "Framed table",
   "registryDependencies": [
-    "@coss/table",
-    "@coss/badge",
-    "@coss/frame"
+    "@loveui/table",
+    "@loveui/badge",
+    "@loveui/frame"
   ],
   "files": [
     {

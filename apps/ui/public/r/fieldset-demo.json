@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Fieldset with legend and labeled fields",
   "registryDependencies": [
-    "@coss/fieldset",
-    "@coss/field"
+    "@loveui/fieldset",
+    "@loveui/field"
   ],
   "files": [
     {

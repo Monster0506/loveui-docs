@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Default button",
   "registryDependencies": [
-    "@coss/button"
+    "@loveui/button"
   ],
   "files": [
     {

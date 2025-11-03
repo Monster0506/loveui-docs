@@ -4,11 +4,11 @@
   "type": "registry:example",
   "description": "Popover with a form",
   "registryDependencies": [
-    "@coss/popover",
-    "@coss/button",
-    "@coss/textarea",
-    "@coss/form",
-    "@coss/field"
+    "@loveui/popover",
+    "@loveui/button",
+    "@loveui/textarea",
+    "@loveui/form",
+    "@loveui/field"
   ],
   "files": [
     {

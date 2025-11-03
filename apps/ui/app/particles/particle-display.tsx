@@ -24,7 +24,7 @@ export async function ParticleDisplay({
   children,
   className,
 }: { name: string } & React.ComponentProps<"div">) {
-  const cossuiUrl = process.env.NEXT_PUBLIC_APP_URL || "https://loveui.dev/ui"
+  const loveuiUrl = process.env.NEXT_PUBLIC_APP_URL || "https://loveui.dev/ui"
   const particle = await getCachedRegistryItem(name)
   const highlightedCode = await getParticleHighlightedCode(
     particle?.files?.[0]?.content ?? ""
@@ -66,7 +66,7 @@ export async function ParticleDisplay({
             </Button>
           )}
           <CopyRegistry
-            value={`${cossuiUrl}/r/${name}.json`}
+            value={`${loveuiUrl}/r/${name}.json`}
             variant="outline"
           />
           <Sheet>
@@ -97,7 +97,7 @@ export async function ParticleDisplay({
                       variant="outline"
                       render={
                         <a
-                          href={`https://v0.dev/chat/api/open?url=${encodeURIComponent(`${cossuiUrl}/r/${name}.json`)}`}
+                          href={`https://v0.dev/chat/api/open?url=${encodeURIComponent(`${loveuiUrl}/r/${name}.json`)}`}
                           target="_blank"
                           rel="noopener noreferrer"
                         />

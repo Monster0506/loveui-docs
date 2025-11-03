@@ -4,11 +4,11 @@
   "type": "registry:example",
   "description": "Complete form built with field",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/select",
-    "@coss/checkbox",
-    "@coss/form",
-    "@coss/button"
+    "@loveui/field",
+    "@loveui/select",
+    "@loveui/checkbox",
+    "@loveui/form",
+    "@loveui/button"
   ],
   "files": [
     {

@@ -123,7 +123,7 @@ export default function Component() {
       >
         Single file uploader w/ max size ∙{" "}
         <a
-          href="https://github.com/cosscom/coss/blob/main/apps/origin/docs/use-file-upload.md"
+          href="https://github.com/loveui/coss/blob/main/apps/origin/docs/use-file-upload.md"
           className="underline hover:text-foreground"
         >
           API

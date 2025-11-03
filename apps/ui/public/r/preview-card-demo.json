@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Preview card example",
   "registryDependencies": [
-    "@coss/preview-card",
-    "@coss/button"
+    "@loveui/preview-card",
+    "@loveui/button"
   ],
   "files": [
     {

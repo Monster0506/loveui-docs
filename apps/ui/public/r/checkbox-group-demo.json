@@ -4,9 +4,9 @@
   "type": "registry:example",
   "description": "Checkbox group",
   "registryDependencies": [
-    "@coss/checkbox-group",
-    "@coss/checkbox",
-    "@coss/label"
+    "@loveui/checkbox-group",
+    "@loveui/checkbox",
+    "@loveui/label"
   ],
   "files": [
     {

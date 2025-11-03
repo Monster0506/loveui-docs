@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Field with checkbox",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/checkbox"
+    "@loveui/field",
+    "@loveui/checkbox"
   ],
   "files": [
     {

@@ -1,3 +1,5 @@
+"use client"
+
 import { Button } from "@/registry/default/ui/button"
 import { Field, FieldControl, FieldLabel } from "@/registry/default/ui/field"
 import { Form } from "@/registry/default/ui/form"
@@ -15,9 +17,13 @@ import {
 export default function DialogDemo() {
   return (
     <Sheet>
-      <SheetTrigger render={<Button variant="outline" />}>
-        Open Sheet
-      </SheetTrigger>
+      <SheetTrigger
+        render={(props) => (
+          <Button {...props} variant="outline">
+            Open Sheet
+          </Button>
+        )}
+      />
       <SheetPopup>
         <Form>
           <SheetHeader>
@@ -30,15 +36,21 @@ export default function DialogDemo() {
           <div className="flex flex-col gap-4 px-4">
             <Field>
               <FieldLabel>Name</FieldLabel>
-              <FieldControl type="text" defaultValue="Connor Welsh" />
+              <FieldControl type="text" defaultValue="Connor Love" />
             </Field>
             <Field>
               <FieldLabel>Username</FieldLabel>
-              <FieldControl type="text" defaultValue="@maggie.welsh" />
+              <FieldControl type="text" defaultValue="@loveconnor" />
             </Field>
           </div>
           <SheetFooter>
-            <SheetClose render={<Button variant="ghost" />}>Cancel</SheetClose>
+            <SheetClose
+              render={(props) => (
+                <Button {...props} variant="ghost">
+                  Cancel
+                </Button>
+              )}
+            />
             <Button type="submit">Save</Button>
           </SheetFooter>
         </Form>

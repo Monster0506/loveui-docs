@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Basic autocomplete",
   "registryDependencies": [
-    "@coss/autocomplete"
+    "@loveui/autocomplete"
   ],
   "files": [
     {

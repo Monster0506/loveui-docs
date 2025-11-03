@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Field with toggle switch",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/switch"
+    "@loveui/field",
+    "@loveui/switch"
   ],
   "files": [
     {

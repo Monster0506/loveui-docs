@@ -4,10 +4,10 @@
   "type": "registry:example",
   "description": "Select in a form",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/select",
-    "@coss/form",
-    "@coss/field"
+    "@loveui/button",
+    "@loveui/select",
+    "@loveui/form",
+    "@loveui/field"
   ],
   "files": [
     {

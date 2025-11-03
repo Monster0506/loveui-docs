@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Menu items grouped with labels",
   "registryDependencies": [
-    "@coss/menu",
-    "@coss/button"
+    "@loveui/menu",
+    "@loveui/button"
   ],
   "files": [
     {

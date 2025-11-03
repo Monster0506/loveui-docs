@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Separator with horizontal and vertical orientations",
   "registryDependencies": [
-    "@coss/separator"
+    "@loveui/separator"
   ],
   "files": [
     {

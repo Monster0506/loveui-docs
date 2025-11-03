@@ -1,3 +1,5 @@
+"use client"
+
 import { Button } from "@/registry/default/ui/button"
 import {
   Sheet,
@@ -12,9 +14,13 @@ export default function DialogDemo() {
   return (
     <div className="flex flex-wrap gap-2">
       <Sheet>
-        <SheetTrigger render={<Button variant="outline" />}>
-          Open Right
-        </SheetTrigger>
+        <SheetTrigger
+          render={(props) => (
+            <Button {...props} variant="outline">
+              Open Right
+            </Button>
+          )}
+        />
         <SheetPopup showCloseButton={false}>
           <SheetHeader>
             <SheetTitle>Right</SheetTitle>
@@ -23,9 +29,13 @@ export default function DialogDemo() {
         </SheetPopup>
       </Sheet>
       <Sheet>
-        <SheetTrigger render={<Button variant="outline" />}>
-          Open Left
-        </SheetTrigger>
+        <SheetTrigger
+          render={(props) => (
+            <Button {...props} variant="outline">
+              Open Left
+            </Button>
+          )}
+        />
         <SheetPopup side="left" showCloseButton={false}>
           <SheetHeader>
             <SheetTitle>Left</SheetTitle>
@@ -34,9 +44,13 @@ export default function DialogDemo() {
         </SheetPopup>
       </Sheet>
       <Sheet>
-        <SheetTrigger render={<Button variant="outline" />}>
-          Open Top
-        </SheetTrigger>
+        <SheetTrigger
+          render={(props) => (
+            <Button {...props} variant="outline">
+              Open Top
+            </Button>
+          )}
+        />
         <SheetPopup side="top" showCloseButton={false}>
           <SheetHeader>
             <SheetTitle>Top</SheetTitle>
@@ -45,9 +59,13 @@ export default function DialogDemo() {
         </SheetPopup>
       </Sheet>
       <Sheet>
-        <SheetTrigger render={<Button variant="outline" />}>
-          Open Bottom
-        </SheetTrigger>
+        <SheetTrigger
+          render={(props) => (
+            <Button {...props} variant="outline">
+              Open Bottom
+            </Button>
+          )}
+        />
         <SheetPopup side="bottom" showCloseButton={false}>
           <SheetHeader>
             <SheetTitle>Bottom</SheetTitle>

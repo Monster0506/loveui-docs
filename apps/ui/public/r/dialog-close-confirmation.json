@@ -4,12 +4,12 @@
   "type": "registry:example",
   "description": "Prompt before closing with unsaved changes",
   "registryDependencies": [
-    "@coss/alert-dialog",
-    "@coss/dialog",
-    "@coss/button",
-    "@coss/form",
-    "@coss/field",
-    "@coss/textarea"
+    "@loveui/alert-dialog",
+    "@loveui/dialog",
+    "@loveui/button",
+    "@loveui/form",
+    "@loveui/field",
+    "@loveui/textarea"
   ],
   "files": [
     {

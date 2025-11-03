@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Outline toggle",
   "registryDependencies": [
-    "@coss/toggle"
+    "@loveui/toggle"
   ],
   "files": [
     {

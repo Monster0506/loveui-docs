@@ -4,11 +4,11 @@
   "type": "registry:example",
   "description": "Card example with form",
   "registryDependencies": [
-    "@coss/card",
-    "@coss/button",
-    "@coss/select",
-    "@coss/form",
-    "@coss/field"
+    "@loveui/card",
+    "@loveui/button",
+    "@loveui/select",
+    "@loveui/form",
+    "@loveui/field"
   ],
   "files": [
     {

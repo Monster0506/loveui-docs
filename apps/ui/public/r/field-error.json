@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Field showing validation error",
   "registryDependencies": [
-    "@coss/field"
+    "@loveui/field"
   ],
   "files": [
     {

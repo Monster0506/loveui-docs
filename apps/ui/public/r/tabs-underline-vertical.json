@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Underline tabs with vertical layout",
   "registryDependencies": [
-    "@coss/tabs"
+    "@loveui/tabs"
   ],
   "files": [
     {

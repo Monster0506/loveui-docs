@@ -7,7 +7,7 @@
     "@remixicon/react"
   ],
   "registryDependencies": [
-    "@coss/button"
+    "@loveui/button"
   ],
   "files": [
     {

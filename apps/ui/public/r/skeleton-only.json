@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Skeleton only",
   "registryDependencies": [
-    "@coss/skeleton"
+    "@loveui/skeleton"
   ],
   "files": [
     {

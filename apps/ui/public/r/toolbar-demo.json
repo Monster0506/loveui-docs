@@ -4,11 +4,11 @@
   "type": "registry:example",
   "description": "Toolbar",
   "registryDependencies": [
-    "@coss/button",
-    "@coss/select",
-    "@coss/toggle-group",
-    "@coss/toolbar",
-    "@coss/tooltip"
+    "@loveui/button",
+    "@loveui/select",
+    "@loveui/toggle-group",
+    "@loveui/toolbar",
+    "@loveui/tooltip"
   ],
   "files": [
     {

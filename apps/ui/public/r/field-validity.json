@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Show field validity state",
   "registryDependencies": [
-    "@coss/field"
+    "@loveui/field"
   ],
   "files": [
     {

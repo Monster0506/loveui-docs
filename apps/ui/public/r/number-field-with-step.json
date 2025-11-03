@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "A number field with step",
   "registryDependencies": [
-    "@coss/number-field"
+    "@loveui/number-field"
   ],
   "files": [
     {

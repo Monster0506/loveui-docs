@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Pagination example",
   "registryDependencies": [
-    "@coss/pagination"
+    "@loveui/pagination"
   ],
   "files": [
     {

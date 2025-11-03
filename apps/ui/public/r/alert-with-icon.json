@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Alert with icon",
   "registryDependencies": [
-    "@coss/alert"
+    "@loveui/alert"
   ],
   "files": [
     {

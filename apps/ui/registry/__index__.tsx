@@ -64,7 +64,7 @@ export const Index: Record<string, any> = {
     name: "autocomplete",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@coss/input","@coss/scroll-area"],
+    registryDependencies: ["@loveui/input","@loveui/scroll-area"],
     files: [{
       path: "registry/default/ui/autocomplete.tsx",
       type: "registry:ui",
@@ -226,7 +226,7 @@ export const Index: Record<string, any> = {
     name: "combobox",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@coss/input","@coss/scroll-area"],
+    registryDependencies: ["@loveui/input","@loveui/scroll-area"],
     files: [{
       path: "registry/default/ui/combobox.tsx",
       type: "registry:ui",
@@ -352,7 +352,7 @@ export const Index: Record<string, any> = {
     name: "group",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@coss/separator"],
+    registryDependencies: ["@loveui/separator"],
     files: [{
       path: "registry/default/ui/group.tsx",
       type: "registry:ui",
@@ -460,7 +460,7 @@ export const Index: Record<string, any> = {
     name: "pagination",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@loveui/button"],
     files: [{
       path: "registry/default/ui/pagination.tsx",
       type: "registry:ui",
@@ -604,7 +604,7 @@ export const Index: Record<string, any> = {
     name: "sheet",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@coss/dialog"],
+    registryDependencies: ["@loveui/dialog"],
     files: [{
       path: "registry/default/ui/sheet.tsx",
       type: "registry:ui",
@@ -730,7 +730,7 @@ export const Index: Record<string, any> = {
     name: "toast",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@loveui/button"],
     files: [{
       path: "registry/default/ui/toast.tsx",
       type: "registry:ui",
@@ -766,7 +766,7 @@ export const Index: Record<string, any> = {
     name: "toggle-group",
     description: "",
     type: "registry:ui",
-    registryDependencies: ["@coss/separator","@coss/toggle"],
+    registryDependencies: ["@loveui/separator","@loveui/toggle"],
     files: [{
       path: "registry/default/ui/toggle-group.tsx",
       type: "registry:ui",
@@ -982,7 +982,7 @@ export const Index: Record<string, any> = {
     name: "accordion-controlled",
     description: "Controlled accordion",
     type: "registry:example",
-    registryDependencies: ["@coss/accordion","@coss/button"],
+    registryDependencies: ["@loveui/accordion","@loveui/button"],
     files: [{
       path: "registry/default/examples/accordion-controlled.tsx",
       type: "registry:example",
@@ -1000,7 +1000,7 @@ export const Index: Record<string, any> = {
     name: "accordion-demo",
     description: "Basic accordion",
     type: "registry:example",
-    registryDependencies: ["@coss/accordion"],
+    registryDependencies: ["@loveui/accordion"],
     files: [{
       path: "registry/default/examples/accordion-demo.tsx",
       type: "registry:example",
@@ -1018,7 +1018,7 @@ export const Index: Record<string, any> = {
     name: "accordion-multiple",
     description: "Accordion allowing multiple panels open",
     type: "registry:example",
-    registryDependencies: ["@coss/accordion"],
+    registryDependencies: ["@loveui/accordion"],
     files: [{
       path: "registry/default/examples/accordion-multiple.tsx",
       type: "registry:example",
@@ -1036,7 +1036,7 @@ export const Index: Record<string, any> = {
     name: "accordion-single",
     description: "Accordion with one panel open",
     type: "registry:example",
-    registryDependencies: ["@coss/accordion"],
+    registryDependencies: ["@loveui/accordion"],
     files: [{
       path: "registry/default/examples/accordion-single.tsx",
       type: "registry:example",
@@ -1054,7 +1054,7 @@ export const Index: Record<string, any> = {
     name: "alert-demo",
     description: "Basic alert",
     type: "registry:example",
-    registryDependencies: ["@coss/alert"],
+    registryDependencies: ["@loveui/alert"],
     files: [{
       path: "registry/default/examples/alert-demo.tsx",
       type: "registry:example",
@@ -1072,7 +1072,7 @@ export const Index: Record<string, any> = {
     name: "alert-with-icon",
     description: "Alert with icon",
     type: "registry:example",
-    registryDependencies: ["@coss/alert"],
+    registryDependencies: ["@loveui/alert"],
     files: [{
       path: "registry/default/examples/alert-with-icon.tsx",
       type: "registry:example",
@@ -1090,7 +1090,7 @@ export const Index: Record<string, any> = {
     name: "alert-with-icon-action",
     description: "Alert with icon and action buttons",
     type: "registry:example",
-    registryDependencies: ["@coss/alert","@coss/button"],
+    registryDependencies: ["@loveui/alert","@loveui/button"],
     files: [{
       path: "registry/default/examples/alert-with-icon-action.tsx",
       type: "registry:example",
@@ -1108,7 +1108,7 @@ export const Index: Record<string, any> = {
     name: "alert-info",
     description: "Info alert",
     type: "registry:example",
-    registryDependencies: ["@coss/alert"],
+    registryDependencies: ["@loveui/alert"],
     files: [{
       path: "registry/default/examples/alert-info.tsx",
       type: "registry:example",
@@ -1126,7 +1126,7 @@ export const Index: Record<string, any> = {
     name: "alert-success",
     description: "Success alert",
     type: "registry:example",
-    registryDependencies: ["@coss/alert"],
+    registryDependencies: ["@loveui/alert"],
     files: [{
       path: "registry/default/examples/alert-success.tsx",
       type: "registry:example",
@@ -1144,7 +1144,7 @@ export const Index: Record<string, any> = {
     name: "alert-warning",
     description: "Warning alert",
     type: "registry:example",
-    registryDependencies: ["@coss/alert"],
+    registryDependencies: ["@loveui/alert"],
     files: [{
       path: "registry/default/examples/alert-warning.tsx",
       type: "registry:example",
@@ -1162,7 +1162,7 @@ export const Index: Record<string, any> = {
     name: "alert-error",
     description: "Error alert",
     type: "registry:example",
-    registryDependencies: ["@coss/alert"],
+    registryDependencies: ["@loveui/alert"],
     files: [{
       path: "registry/default/examples/alert-error.tsx",
       type: "registry:example",
@@ -1180,7 +1180,7 @@ export const Index: Record<string, any> = {
     name: "alert-dialog-demo",
     description: "Alert dialog",
     type: "registry:example",
-    registryDependencies: ["@coss/alert-dialog","@coss/button"],
+    registryDependencies: ["@loveui/alert-dialog","@loveui/button"],
     files: [{
       path: "registry/default/examples/alert-dialog-demo.tsx",
       type: "registry:example",
@@ -1198,7 +1198,7 @@ export const Index: Record<string, any> = {
     name: "autocomplete-demo",
     description: "Basic autocomplete",
     type: "registry:example",
-    registryDependencies: ["@coss/autocomplete"],
+    registryDependencies: ["@loveui/autocomplete"],
     files: [{
       path: "registry/default/examples/autocomplete-demo.tsx",
       type: "registry:example",
@@ -1216,7 +1216,7 @@ export const Index: Record<string, any> = {
     name: "autocomplete-disabled",
     description: "Disabled autocomplete",
     type: "registry:example",
-    registryDependencies: ["@coss/autocomplete"],
+    registryDependencies: ["@loveui/autocomplete"],
     files: [{
       path: "registry/default/examples/autocomplete-disabled.tsx",
       type: "registry:example",
@@ -1234,7 +1234,7 @@ export const Index: Record<string, any> = {
     name: "autocomplete-sm",
     description: "Small autocomplete",
     type: "registry:example",
-    registryDependencies: ["@coss/autocomplete"],
+    registryDependencies: ["@loveui/autocomplete"],
     files: [{
       path: "registry/default/examples/autocomplete-sm.tsx",
       type: "registry:example",
@@ -1252,7 +1252,7 @@ export const Index: Record<string, any> = {
     name: "autocomplete-lg",
     description: "Large autocomplete",
     type: "registry:example",
-    registryDependencies: ["@coss/autocomplete"],
+    registryDependencies: ["@loveui/autocomplete"],
     files: [{
       path: "registry/default/examples/autocomplete-lg.tsx",
       type: "registry:example",
@@ -1270,7 +1270,7 @@ export const Index: Record<string, any> = {
     name: "autocomplete-with-label",
     description: "Autocomplete with label",
     type: "registry:example",
-    registryDependencies: ["@coss/autocomplete","@coss/label"],
+    registryDependencies: ["@loveui/autocomplete","@loveui/label"],
     files: [{
       path: "registry/default/examples/autocomplete-with-label.tsx",
       type: "registry:example",
@@ -1288,7 +1288,7 @@ export const Index: Record<string, any> = {
     name: "autocomplete-inline",
     description: "Autocomplete autofilling the input with the highlighted item",
     type: "registry:example",
-    registryDependencies: ["@coss/autocomplete"],
+    registryDependencies: ["@loveui/autocomplete"],
     files: [{
       path: "registry/default/examples/autocomplete-inline.tsx",
       type: "registry:example",
@@ -1306,7 +1306,7 @@ export const Index: Record<string, any> = {
     name: "autocomplete-autohighlight",
     description: "Autocomplete auto highlighting the first option",
     type: "registry:example",
-    registryDependencies: ["@coss/autocomplete"],
+    registryDependencies: ["@loveui/autocomplete"],
     files: [{
       path: "registry/default/examples/autocomplete-autohighlight.tsx",
       type: "registry:example",
@@ -1324,7 +1324,7 @@ export const Index: Record<string, any> = {
     name: "autocomplete-with-clear",
     description: "Autocomplete with clear button",
     type: "registry:example",
-    registryDependencies: ["@coss/autocomplete"],
+    registryDependencies: ["@loveui/autocomplete"],
     files: [{
       path: "registry/default/examples/autocomplete-with-clear.tsx",
       type: "registry:example",
@@ -1342,7 +1342,7 @@ export const Index: Record<string, any> = {
     name: "autocomplete-with-trigger-clear",
     description: "Autocomplete with trigger and clear buttons",
     type: "registry:example",
-    registryDependencies: ["@coss/autocomplete"],
+    registryDependencies: ["@loveui/autocomplete"],
     files: [{
       path: "registry/default/examples/autocomplete-with-trigger-clear.tsx",
       type: "registry:example",
@@ -1360,7 +1360,7 @@ export const Index: Record<string, any> = {
     name: "autocomplete-grouped",
     description: "Autocomplete with grouped items",
     type: "registry:example",
-    registryDependencies: ["@coss/autocomplete"],
+    registryDependencies: ["@loveui/autocomplete"],
     files: [{
       path: "registry/default/examples/autocomplete-grouped.tsx",
       type: "registry:example",
@@ -1378,7 +1378,7 @@ export const Index: Record<string, any> = {
     name: "autocomplete-limit",
     description: "Autocomplete with limited number of results",
     type: "registry:example",
-    registryDependencies: ["@coss/autocomplete"],
+    registryDependencies: ["@loveui/autocomplete"],
     files: [{
       path: "registry/default/examples/autocomplete-limit.tsx",
       type: "registry:example",
@@ -1396,7 +1396,7 @@ export const Index: Record<string, any> = {
     name: "autocomplete-async",
     description: "Autocomplete with async items loading",
     type: "registry:example",
-    registryDependencies: ["@coss/autocomplete"],
+    registryDependencies: ["@loveui/autocomplete"],
     files: [{
       path: "registry/default/examples/autocomplete-async.tsx",
       type: "registry:example",
@@ -1414,7 +1414,7 @@ export const Index: Record<string, any> = {
     name: "autocomplete-form",
     description: "Autocomplete form",
     type: "registry:example",
-    registryDependencies: ["@coss/autocomplete","@coss/form","@coss/field"],
+    registryDependencies: ["@loveui/autocomplete","@loveui/form","@loveui/field"],
     files: [{
       path: "registry/default/examples/autocomplete-form.tsx",
       type: "registry:example",
@@ -1432,7 +1432,7 @@ export const Index: Record<string, any> = {
     name: "avatar-demo",
     description: "Avatar with image and fallback",
     type: "registry:example",
-    registryDependencies: ["@coss/avatar"],
+    registryDependencies: ["@loveui/avatar"],
     files: [{
       path: "registry/default/examples/avatar-demo.tsx",
       type: "registry:example",
@@ -1450,7 +1450,7 @@ export const Index: Record<string, any> = {
     name: "avatar-fallback",
     description: "Fallback-only avatar",
     type: "registry:example",
-    registryDependencies: ["@coss/avatar"],
+    registryDependencies: ["@loveui/avatar"],
     files: [{
       path: "registry/default/examples/avatar-fallback.tsx",
       type: "registry:example",
@@ -1468,7 +1468,7 @@ export const Index: Record<string, any> = {
     name: "avatar-group",
     description: "Overlapping avatar group",
     type: "registry:example",
-    registryDependencies: ["@coss/avatar"],
+    registryDependencies: ["@loveui/avatar"],
     files: [{
       path: "registry/default/examples/avatar-group.tsx",
       type: "registry:example",
@@ -1486,7 +1486,7 @@ export const Index: Record<string, any> = {
     name: "avatar-radius",
     description: "Avatars with different radii",
     type: "registry:example",
-    registryDependencies: ["@coss/avatar"],
+    registryDependencies: ["@loveui/avatar"],
     files: [{
       path: "registry/default/examples/avatar-radius.tsx",
       type: "registry:example",
@@ -1504,7 +1504,7 @@ export const Index: Record<string, any> = {
     name: "avatar-size",
     description: "Avatars with different sizes",
     type: "registry:example",
-    registryDependencies: ["@coss/avatar"],
+    registryDependencies: ["@loveui/avatar"],
     files: [{
       path: "registry/default/examples/avatar-size.tsx",
       type: "registry:example",
@@ -1522,7 +1522,7 @@ export const Index: Record<string, any> = {
     name: "avatar-stack",
     description: "Stack avatars with overlapping layout",
     type: "registry:example",
-    registryDependencies: ["@loveui/avatar-stack","@coss/avatar"],
+    registryDependencies: ["@loveui/avatar-stack","@loveui/avatar"],
     files: [{
       path: "registry/default/examples/avatar-stack.tsx",
       type: "registry:example",
@@ -1540,7 +1540,7 @@ export const Index: Record<string, any> = {
     name: "avatar-stack-hover",
     description: "Animated avatar stack on hover",
     type: "registry:example",
-    registryDependencies: ["@loveui/avatar-stack","@coss/avatar"],
+    registryDependencies: ["@loveui/avatar-stack","@loveui/avatar"],
     files: [{
       path: "registry/default/examples/avatar-stack-hover.tsx",
       type: "registry:example",
@@ -1558,7 +1558,7 @@ export const Index: Record<string, any> = {
     name: "badge-demo",
     description: "Basic badge",
     type: "registry:example",
-    registryDependencies: ["@coss/badge"],
+    registryDependencies: ["@loveui/badge"],
     files: [{
       path: "registry/default/examples/badge-demo.tsx",
       type: "registry:example",
@@ -1576,7 +1576,7 @@ export const Index: Record<string, any> = {
     name: "badge-outline",
     description: "Outline badge",
     type: "registry:example",
-    registryDependencies: ["@coss/badge"],
+    registryDependencies: ["@loveui/badge"],
     files: [{
       path: "registry/default/examples/badge-outline.tsx",
       type: "registry:example",
@@ -1594,7 +1594,7 @@ export const Index: Record<string, any> = {
     name: "badge-secondary",
     description: "Secondary badge",
     type: "registry:example",
-    registryDependencies: ["@coss/badge"],
+    registryDependencies: ["@loveui/badge"],
     files: [{
       path: "registry/default/examples/badge-secondary.tsx",
       type: "registry:example",
@@ -1612,7 +1612,7 @@ export const Index: Record<string, any> = {
     name: "badge-destructive",
     description: "Destructive badge",
     type: "registry:example",
-    registryDependencies: ["@coss/badge"],
+    registryDependencies: ["@loveui/badge"],
     files: [{
       path: "registry/default/examples/badge-destructive.tsx",
       type: "registry:example",
@@ -1630,7 +1630,7 @@ export const Index: Record<string, any> = {
     name: "badge-info",
     description: "Info badge",
     type: "registry:example",
-    registryDependencies: ["@coss/badge"],
+    registryDependencies: ["@loveui/badge"],
     files: [{
       path: "registry/default/examples/badge-info.tsx",
       type: "registry:example",
@@ -1648,7 +1648,7 @@ export const Index: Record<string, any> = {
     name: "badge-success",
     description: "Success badge",
     type: "registry:example",
-    registryDependencies: ["@coss/badge"],
+    registryDependencies: ["@loveui/badge"],
     files: [{
       path: "registry/default/examples/badge-success.tsx",
       type: "registry:example",
@@ -1666,7 +1666,7 @@ export const Index: Record<string, any> = {
     name: "badge-warning",
     description: "Warning badge",
     type: "registry:example",
-    registryDependencies: ["@coss/badge"],
+    registryDependencies: ["@loveui/badge"],
     files: [{
       path: "registry/default/examples/badge-warning.tsx",
       type: "registry:example",
@@ -1684,7 +1684,7 @@ export const Index: Record<string, any> = {
     name: "badge-error",
     description: "Error badge",
     type: "registry:example",
-    registryDependencies: ["@coss/badge"],
+    registryDependencies: ["@loveui/badge"],
     files: [{
       path: "registry/default/examples/badge-error.tsx",
       type: "registry:example",
@@ -1702,7 +1702,7 @@ export const Index: Record<string, any> = {
     name: "badge-sm",
     description: "Small badge",
     type: "registry:example",
-    registryDependencies: ["@coss/badge"],
+    registryDependencies: ["@loveui/badge"],
     files: [{
       path: "registry/default/examples/badge-sm.tsx",
       type: "registry:example",
@@ -1720,7 +1720,7 @@ export const Index: Record<string, any> = {
     name: "badge-lg",
     description: "Large badge",
     type: "registry:example",
-    registryDependencies: ["@coss/badge"],
+    registryDependencies: ["@loveui/badge"],
     files: [{
       path: "registry/default/examples/badge-lg.tsx",
       type: "registry:example",
@@ -1738,7 +1738,7 @@ export const Index: Record<string, any> = {
     name: "badge-with-icon",
     description: "Badge with icon",
     type: "registry:example",
-    registryDependencies: ["@coss/badge"],
+    registryDependencies: ["@loveui/badge"],
     files: [{
       path: "registry/default/examples/badge-with-icon.tsx",
       type: "registry:example",
@@ -1756,7 +1756,7 @@ export const Index: Record<string, any> = {
     name: "badge-with-link",
     description: "Badge with link",
     type: "registry:example",
-    registryDependencies: ["@coss/badge"],
+    registryDependencies: ["@loveui/badge"],
     files: [{
       path: "registry/default/examples/badge-with-link.tsx",
       type: "registry:example",
@@ -1774,7 +1774,7 @@ export const Index: Record<string, any> = {
     name: "breadcrumb-demo",
     description: "Breadcrumb with menu example",
     type: "registry:example",
-    registryDependencies: ["@coss/breadcrumb","@coss/menu"],
+    registryDependencies: ["@loveui/breadcrumb","@loveui/menu"],
     files: [{
       path: "registry/default/examples/breadcrumb-demo.tsx",
       type: "registry:example",
@@ -1792,7 +1792,7 @@ export const Index: Record<string, any> = {
     name: "breadcrumb-custom-separator",
     description: "Breadcrumb with custom separator",
     type: "registry:example",
-    registryDependencies: ["@coss/breadcrumb"],
+    registryDependencies: ["@loveui/breadcrumb"],
     files: [{
       path: "registry/default/examples/breadcrumb-custom-separator.tsx",
       type: "registry:example",
@@ -1810,7 +1810,7 @@ export const Index: Record<string, any> = {
     name: "button-demo",
     description: "Default button",
     type: "registry:example",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@loveui/button"],
     files: [{
       path: "registry/default/examples/button-demo.tsx",
       type: "registry:example",
@@ -1828,7 +1828,7 @@ export const Index: Record<string, any> = {
     name: "button-secondary",
     description: "Secondary button",
     type: "registry:example",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@loveui/button"],
     files: [{
       path: "registry/default/examples/button-secondary.tsx",
       type: "registry:example",
@@ -1846,7 +1846,7 @@ export const Index: Record<string, any> = {
     name: "button-destructive",
     description: "Destructive button",
     type: "registry:example",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@loveui/button"],
     files: [{
       path: "registry/default/examples/button-destructive.tsx",
       type: "registry:example",
@@ -1864,7 +1864,7 @@ export const Index: Record<string, any> = {
     name: "button-destructive-outline",
     description: "Destructive outline button",
     type: "registry:example",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@loveui/button"],
     files: [{
       path: "registry/default/examples/button-destructive-outline.tsx",
       type: "registry:example",
@@ -1882,7 +1882,7 @@ export const Index: Record<string, any> = {
     name: "button-outline",
     description: "Outline button",
     type: "registry:example",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@loveui/button"],
     files: [{
       path: "registry/default/examples/button-outline.tsx",
       type: "registry:example",
@@ -1900,7 +1900,7 @@ export const Index: Record<string, any> = {
     name: "button-ghost",
     description: "Ghost button",
     type: "registry:example",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@loveui/button"],
     files: [{
       path: "registry/default/examples/button-ghost.tsx",
       type: "registry:example",
@@ -1918,7 +1918,7 @@ export const Index: Record<string, any> = {
     name: "button-link",
     description: "Link button",
     type: "registry:example",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@loveui/button"],
     files: [{
       path: "registry/default/examples/button-link.tsx",
       type: "registry:example",
@@ -1936,7 +1936,7 @@ export const Index: Record<string, any> = {
     name: "button-xs",
     description: "Extra-small button",
     type: "registry:example",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@loveui/button"],
     files: [{
       path: "registry/default/examples/button-xs.tsx",
       type: "registry:example",
@@ -1954,7 +1954,7 @@ export const Index: Record<string, any> = {
     name: "button-sm",
     description: "Small button",
     type: "registry:example",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@loveui/button"],
     files: [{
       path: "registry/default/examples/button-sm.tsx",
       type: "registry:example",
@@ -1972,7 +1972,7 @@ export const Index: Record<string, any> = {
     name: "button-lg",
     description: "Large button",
     type: "registry:example",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@loveui/button"],
     files: [{
       path: "registry/default/examples/button-lg.tsx",
       type: "registry:example",
@@ -1990,7 +1990,7 @@ export const Index: Record<string, any> = {
     name: "button-xl",
     description: "Extra-large button",
     type: "registry:example",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@loveui/button"],
     files: [{
       path: "registry/default/examples/button-xl.tsx",
       type: "registry:example",
@@ -2008,7 +2008,7 @@ export const Index: Record<string, any> = {
     name: "button-disabled",
     description: "Disabled button",
     type: "registry:example",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@loveui/button"],
     files: [{
       path: "registry/default/examples/button-disabled.tsx",
       type: "registry:example",
@@ -2026,7 +2026,7 @@ export const Index: Record<string, any> = {
     name: "button-icon",
     description: "Icon button",
     type: "registry:example",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@loveui/button"],
     files: [{
       path: "registry/default/examples/button-icon.tsx",
       type: "registry:example",
@@ -2044,7 +2044,7 @@ export const Index: Record<string, any> = {
     name: "button-icon-sm",
     description: "Small icon button",
     type: "registry:example",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@loveui/button"],
     files: [{
       path: "registry/default/examples/button-icon-sm.tsx",
       type: "registry:example",
@@ -2062,7 +2062,7 @@ export const Index: Record<string, any> = {
     name: "button-icon-lg",
     description: "Large icon button",
     type: "registry:example",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@loveui/button"],
     files: [{
       path: "registry/default/examples/button-icon-lg.tsx",
       type: "registry:example",
@@ -2080,7 +2080,7 @@ export const Index: Record<string, any> = {
     name: "button-with-icon",
     description: "Button with icon",
     type: "registry:example",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@loveui/button"],
     files: [{
       path: "registry/default/examples/button-with-icon.tsx",
       type: "registry:example",
@@ -2098,7 +2098,7 @@ export const Index: Record<string, any> = {
     name: "button-with-link",
     description: "Link rendered as button",
     type: "registry:example",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@loveui/button"],
     files: [{
       path: "registry/default/examples/button-with-link.tsx",
       type: "registry:example",
@@ -2116,7 +2116,7 @@ export const Index: Record<string, any> = {
     name: "button-loading",
     description: "Loading button",
     type: "registry:example",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@loveui/button"],
     files: [{
       path: "registry/default/examples/button-loading.tsx",
       type: "registry:example",
@@ -2134,7 +2134,7 @@ export const Index: Record<string, any> = {
     name: "card-demo",
     description: "Card example with form",
     type: "registry:example",
-    registryDependencies: ["@coss/card","@coss/button","@coss/select","@coss/form","@coss/field"],
+    registryDependencies: ["@loveui/card","@loveui/button","@loveui/select","@loveui/form","@loveui/field"],
     files: [{
       path: "registry/default/examples/card-demo.tsx",
       type: "registry:example",
@@ -2152,7 +2152,7 @@ export const Index: Record<string, any> = {
     name: "checkbox-card",
     description: "Card-style checkbox",
     type: "registry:example",
-    registryDependencies: ["@coss/checkbox","@coss/label"],
+    registryDependencies: ["@loveui/checkbox","@loveui/label"],
     files: [{
       path: "registry/default/examples/checkbox-card.tsx",
       type: "registry:example",
@@ -2170,7 +2170,7 @@ export const Index: Record<string, any> = {
     name: "checkbox-demo",
     description: "Basic checkbox",
     type: "registry:example",
-    registryDependencies: ["@coss/checkbox","@coss/label"],
+    registryDependencies: ["@loveui/checkbox","@loveui/label"],
     files: [{
       path: "registry/default/examples/checkbox-demo.tsx",
       type: "registry:example",
@@ -2188,7 +2188,7 @@ export const Index: Record<string, any> = {
     name: "checkbox-disabled",
     description: "Disabled checkbox",
     type: "registry:example",
-    registryDependencies: ["@coss/checkbox","@coss/label"],
+    registryDependencies: ["@loveui/checkbox","@loveui/label"],
     files: [{
       path: "registry/default/examples/checkbox-disabled.tsx",
       type: "registry:example",
@@ -2206,7 +2206,7 @@ export const Index: Record<string, any> = {
     name: "checkbox-form",
     description: "Checkbox in a form",
     type: "registry:example",
-    registryDependencies: ["@coss/checkbox","@coss/field","@coss/form","@coss/button"],
+    registryDependencies: ["@loveui/checkbox","@loveui/field","@loveui/form","@loveui/button"],
     files: [{
       path: "registry/default/examples/checkbox-form.tsx",
       type: "registry:example",
@@ -2224,7 +2224,7 @@ export const Index: Record<string, any> = {
     name: "checkbox-group-demo",
     description: "Checkbox group",
     type: "registry:example",
-    registryDependencies: ["@coss/checkbox-group","@coss/checkbox","@coss/label"],
+    registryDependencies: ["@loveui/checkbox-group","@loveui/checkbox","@loveui/label"],
     files: [{
       path: "registry/default/examples/checkbox-group-demo.tsx",
       type: "registry:example",
@@ -2242,7 +2242,7 @@ export const Index: Record<string, any> = {
     name: "checkbox-group-disabled",
     description: "Checkbox group with disabled item",
     type: "registry:example",
-    registryDependencies: ["@coss/checkbox-group","@coss/checkbox","@coss/label"],
+    registryDependencies: ["@loveui/checkbox-group","@loveui/checkbox","@loveui/label"],
     files: [{
       path: "registry/default/examples/checkbox-group-disabled.tsx",
       type: "registry:example",
@@ -2260,7 +2260,7 @@ export const Index: Record<string, any> = {
     name: "checkbox-group-form",
     description: "Checkbox group in a form",
     type: "registry:example",
-    registryDependencies: ["@coss/checkbox-group","@coss/checkbox","@coss/button","@coss/field","@coss/fieldset","@coss/form"],
+    registryDependencies: ["@loveui/checkbox-group","@loveui/checkbox","@loveui/button","@loveui/field","@loveui/fieldset","@loveui/form"],
     files: [{
       path: "registry/default/examples/checkbox-group-form.tsx",
       type: "registry:example",
@@ -2278,7 +2278,7 @@ export const Index: Record<string, any> = {
     name: "checkbox-group-nested-parent",
     description: "Checkbox group parent with nested children controls",
     type: "registry:example",
-    registryDependencies: ["@coss/checkbox-group","@coss/checkbox","@coss/label"],
+    registryDependencies: ["@loveui/checkbox-group","@loveui/checkbox","@loveui/label"],
     files: [{
       path: "registry/default/examples/checkbox-group-nested-parent.tsx",
       type: "registry:example",
@@ -2296,7 +2296,7 @@ export const Index: Record<string, any> = {
     name: "checkbox-group-parent",
     description: "Checkbox group select/deselect all checkboxes",
     type: "registry:example",
-    registryDependencies: ["@coss/checkbox-group","@coss/checkbox","@coss/label"],
+    registryDependencies: ["@loveui/checkbox-group","@loveui/checkbox","@loveui/label"],
     files: [{
       path: "registry/default/examples/checkbox-group-parent.tsx",
       type: "registry:example",
@@ -2314,7 +2314,7 @@ export const Index: Record<string, any> = {
     name: "checkbox-with-description",
     description: "Checkbox with helper text",
     type: "registry:example",
-    registryDependencies: ["@coss/checkbox","@coss/label"],
+    registryDependencies: ["@loveui/checkbox","@loveui/label"],
     files: [{
       path: "registry/default/examples/checkbox-with-description.tsx",
       type: "registry:example",
@@ -2332,7 +2332,7 @@ export const Index: Record<string, any> = {
     name: "collapsible-demo",
     description: "Basic collapsible",
     type: "registry:example",
-    registryDependencies: ["@coss/collapsible"],
+    registryDependencies: ["@loveui/collapsible"],
     files: [{
       path: "registry/default/examples/collapsible-demo.tsx",
       type: "registry:example",
@@ -2350,7 +2350,7 @@ export const Index: Record<string, any> = {
     name: "combobox-demo",
     description: "Basic combobox",
     type: "registry:example",
-    registryDependencies: ["@coss/combobox"],
+    registryDependencies: ["@loveui/combobox"],
     files: [{
       path: "registry/default/examples/combobox-demo.tsx",
       type: "registry:example",
@@ -2386,7 +2386,7 @@ export const Index: Record<string, any> = {
     name: "combobox-disabled",
     description: "Disabled combobox",
     type: "registry:example",
-    registryDependencies: ["@coss/combobox"],
+    registryDependencies: ["@loveui/combobox"],
     files: [{
       path: "registry/default/examples/combobox-disabled.tsx",
       type: "registry:example",
@@ -2404,7 +2404,7 @@ export const Index: Record<string, any> = {
     name: "combobox-sm",
     description: "Small combobox",
     type: "registry:example",
-    registryDependencies: ["@coss/combobox"],
+    registryDependencies: ["@loveui/combobox"],
     files: [{
       path: "registry/default/examples/combobox-sm.tsx",
       type: "registry:example",
@@ -2422,7 +2422,7 @@ export const Index: Record<string, any> = {
     name: "combobox-lg",
     description: "Large combobox",
     type: "registry:example",
-    registryDependencies: ["@coss/combobox"],
+    registryDependencies: ["@loveui/combobox"],
     files: [{
       path: "registry/default/examples/combobox-lg.tsx",
       type: "registry:example",
@@ -2440,7 +2440,7 @@ export const Index: Record<string, any> = {
     name: "combobox-with-label",
     description: "Combobox with label",
     type: "registry:example",
-    registryDependencies: ["@coss/combobox","@coss/label"],
+    registryDependencies: ["@loveui/combobox","@loveui/label"],
     files: [{
       path: "registry/default/examples/combobox-with-label.tsx",
       type: "registry:example",
@@ -2458,7 +2458,7 @@ export const Index: Record<string, any> = {
     name: "combobox-autohighlight",
     description: "Combobox auto highlighting the first option",
     type: "registry:example",
-    registryDependencies: ["@coss/combobox"],
+    registryDependencies: ["@loveui/combobox"],
     files: [{
       path: "registry/default/examples/combobox-autohighlight.tsx",
       type: "registry:example",
@@ -2476,7 +2476,7 @@ export const Index: Record<string, any> = {
     name: "combobox-grouped",
     description: "Combobox with grouped items",
     type: "registry:example",
-    registryDependencies: ["@coss/combobox"],
+    registryDependencies: ["@loveui/combobox"],
     files: [{
       path: "registry/default/examples/combobox-grouped.tsx",
       type: "registry:example",
@@ -2494,7 +2494,7 @@ export const Index: Record<string, any> = {
     name: "combobox-with-clear",
     description: "Combobox with clear button",
     type: "registry:example",
-    registryDependencies: ["@coss/combobox"],
+    registryDependencies: ["@loveui/combobox"],
     files: [{
       path: "registry/default/examples/combobox-with-clear.tsx",
       type: "registry:example",
@@ -2512,7 +2512,7 @@ export const Index: Record<string, any> = {
     name: "combobox-multiple",
     description: "Combobox with multiple selection",
     type: "registry:example",
-    registryDependencies: ["@coss/combobox"],
+    registryDependencies: ["@loveui/combobox"],
     files: [{
       path: "registry/default/examples/combobox-multiple.tsx",
       type: "registry:example",
@@ -2530,7 +2530,7 @@ export const Index: Record<string, any> = {
     name: "combobox-with-inner-input",
     description: "Combobox with popup",
     type: "registry:example",
-    registryDependencies: ["@coss/combobox","@coss/button"],
+    registryDependencies: ["@loveui/combobox","@loveui/button"],
     files: [{
       path: "registry/default/examples/combobox-with-inner-input.tsx",
       type: "registry:example",
@@ -2584,7 +2584,7 @@ export const Index: Record<string, any> = {
     name: "combobox-form",
     description: "Combobox form",
     type: "registry:example",
-    registryDependencies: ["@coss/combobox","@coss/button","@coss/form","@coss/field"],
+    registryDependencies: ["@loveui/combobox","@loveui/button","@loveui/form","@loveui/field"],
     files: [{
       path: "registry/default/examples/combobox-form.tsx",
       type: "registry:example",
@@ -2602,7 +2602,7 @@ export const Index: Record<string, any> = {
     name: "combobox-multiple-form",
     description: "Combobox multiple selection form",
     type: "registry:example",
-    registryDependencies: ["@coss/combobox","@coss/button","@coss/form","@coss/field"],
+    registryDependencies: ["@loveui/combobox","@loveui/button","@loveui/form","@loveui/field"],
     files: [{
       path: "registry/default/examples/combobox-multiple-form.tsx",
       type: "registry:example",
@@ -3646,7 +3646,7 @@ export const Index: Record<string, any> = {
     name: "dialog-close-confirmation",
     description: "Prompt before closing with unsaved changes",
     type: "registry:example",
-    registryDependencies: ["@coss/alert-dialog","@coss/dialog","@coss/button","@coss/form","@coss/field","@coss/textarea"],
+    registryDependencies: ["@loveui/alert-dialog","@loveui/dialog","@loveui/button","@loveui/form","@loveui/field","@loveui/textarea"],
     files: [{
       path: "registry/default/examples/dialog-close-confirmation.tsx",
       type: "registry:example",
@@ -3664,7 +3664,7 @@ export const Index: Record<string, any> = {
     name: "dialog-demo",
     description: "Basic dialog",
     type: "registry:example",
-    registryDependencies: ["@coss/dialog","@coss/button","@coss/form","@coss/field"],
+    registryDependencies: ["@loveui/dialog","@loveui/button","@loveui/form","@loveui/field"],
     files: [{
       path: "registry/default/examples/dialog-demo.tsx",
       type: "registry:example",
@@ -3682,7 +3682,7 @@ export const Index: Record<string, any> = {
     name: "dialog-from-menu",
     description: "Open dialog from a menu item",
     type: "registry:example",
-    registryDependencies: ["@coss/dialog","@coss/menu","@coss/button"],
+    registryDependencies: ["@loveui/dialog","@loveui/menu","@loveui/button"],
     files: [{
       path: "registry/default/examples/dialog-from-menu.tsx",
       type: "registry:example",
@@ -3700,7 +3700,7 @@ export const Index: Record<string, any> = {
     name: "dialog-nested",
     description: "Dialog with a nested dialog",
     type: "registry:example",
-    registryDependencies: ["@coss/dialog","@coss/button","@coss/field"],
+    registryDependencies: ["@loveui/dialog","@loveui/button","@loveui/field"],
     files: [{
       path: "registry/default/examples/dialog-nested.tsx",
       type: "registry:example",
@@ -3718,7 +3718,7 @@ export const Index: Record<string, any> = {
     name: "sheet-demo",
     description: "Basic sheet",
     type: "registry:example",
-    registryDependencies: ["@coss/sheet","@coss/button","@coss/form","@coss/field"],
+    registryDependencies: ["@loveui/sheet","@loveui/button","@loveui/form","@loveui/field"],
     files: [{
       path: "registry/default/examples/sheet-demo.tsx",
       type: "registry:example",
@@ -3736,7 +3736,7 @@ export const Index: Record<string, any> = {
     name: "sheet-position",
     description: "Sheet position",
     type: "registry:example",
-    registryDependencies: ["@coss/sheet","@coss/button"],
+    registryDependencies: ["@loveui/sheet","@loveui/button"],
     files: [{
       path: "registry/default/examples/sheet-position.tsx",
       type: "registry:example",
@@ -3754,7 +3754,7 @@ export const Index: Record<string, any> = {
     name: "field-checkbox",
     description: "Field with checkbox",
     type: "registry:example",
-    registryDependencies: ["@coss/field","@coss/checkbox"],
+    registryDependencies: ["@loveui/field","@loveui/checkbox"],
     files: [{
       path: "registry/default/examples/field-checkbox.tsx",
       type: "registry:example",
@@ -3772,7 +3772,7 @@ export const Index: Record<string, any> = {
     name: "field-checkbox-group",
     description: "Field with checkbox group",
     type: "registry:example",
-    registryDependencies: ["@coss/field","@coss/checkbox-group","@coss/checkbox","@coss/fieldset"],
+    registryDependencies: ["@loveui/field","@loveui/checkbox-group","@loveui/checkbox","@loveui/fieldset"],
     files: [{
       path: "registry/default/examples/field-checkbox-group.tsx",
       type: "registry:example",
@@ -3790,7 +3790,7 @@ export const Index: Record<string, any> = {
     name: "field-complete-form",
     description: "Complete form built with field",
     type: "registry:example",
-    registryDependencies: ["@coss/field","@coss/select","@coss/checkbox","@coss/form","@coss/button"],
+    registryDependencies: ["@loveui/field","@loveui/select","@loveui/checkbox","@loveui/form","@loveui/button"],
     files: [{
       path: "registry/default/examples/field-complete-form.tsx",
       type: "registry:example",
@@ -3808,7 +3808,7 @@ export const Index: Record<string, any> = {
     name: "field-demo",
     description: "Field with description",
     type: "registry:example",
-    registryDependencies: ["@coss/field"],
+    registryDependencies: ["@loveui/field"],
     files: [{
       path: "registry/default/examples/field-demo.tsx",
       type: "registry:example",
@@ -3826,7 +3826,7 @@ export const Index: Record<string, any> = {
     name: "field-disabled",
     description: "Field in disabled state",
     type: "registry:example",
-    registryDependencies: ["@coss/field"],
+    registryDependencies: ["@loveui/field"],
     files: [{
       path: "registry/default/examples/field-disabled.tsx",
       type: "registry:example",
@@ -3844,7 +3844,7 @@ export const Index: Record<string, any> = {
     name: "field-error",
     description: "Field showing validation error",
     type: "registry:example",
-    registryDependencies: ["@coss/field"],
+    registryDependencies: ["@loveui/field"],
     files: [{
       path: "registry/default/examples/field-error.tsx",
       type: "registry:example",
@@ -3862,7 +3862,7 @@ export const Index: Record<string, any> = {
     name: "field-autocomplete",
     description: "Field with autocomplete",
     type: "registry:example",
-    registryDependencies: ["@coss/field","@coss/autocomplete"],
+    registryDependencies: ["@loveui/field","@loveui/autocomplete"],
     files: [{
       path: "registry/default/examples/field-autocomplete.tsx",
       type: "registry:example",
@@ -3880,7 +3880,7 @@ export const Index: Record<string, any> = {
     name: "field-combobox",
     description: "Field with combobox",
     type: "registry:example",
-    registryDependencies: ["@coss/field","@coss/combobox"],
+    registryDependencies: ["@loveui/field","@loveui/combobox"],
     files: [{
       path: "registry/default/examples/field-combobox.tsx",
       type: "registry:example",
@@ -3898,7 +3898,7 @@ export const Index: Record<string, any> = {
     name: "field-combobox-multiple",
     description: "Field with multiple selection combobox",
     type: "registry:example",
-    registryDependencies: ["@coss/field","@coss/combobox"],
+    registryDependencies: ["@loveui/field","@loveui/combobox"],
     files: [{
       path: "registry/default/examples/field-combobox-multiple.tsx",
       type: "registry:example",
@@ -3916,7 +3916,7 @@ export const Index: Record<string, any> = {
     name: "field-number-field",
     description: "Field with number field",
     type: "registry:example",
-    registryDependencies: ["@coss/field","@coss/number-field"],
+    registryDependencies: ["@loveui/field","@loveui/number-field"],
     files: [{
       path: "registry/default/examples/field-number-field.tsx",
       type: "registry:example",
@@ -3934,7 +3934,7 @@ export const Index: Record<string, any> = {
     name: "field-radio",
     description: "Field with radio group",
     type: "registry:example",
-    registryDependencies: ["@coss/field","@coss/radio-group","@coss/fieldset"],
+    registryDependencies: ["@loveui/field","@loveui/radio-group","@loveui/fieldset"],
     files: [{
       path: "registry/default/examples/field-radio.tsx",
       type: "registry:example",
@@ -3952,7 +3952,7 @@ export const Index: Record<string, any> = {
     name: "field-required",
     description: "Field with required indicator",
     type: "registry:example",
-    registryDependencies: ["@coss/field"],
+    registryDependencies: ["@loveui/field"],
     files: [{
       path: "registry/default/examples/field-required.tsx",
       type: "registry:example",
@@ -3970,7 +3970,7 @@ export const Index: Record<string, any> = {
     name: "field-select",
     description: "Field with select",
     type: "registry:example",
-    registryDependencies: ["@coss/field","@coss/select"],
+    registryDependencies: ["@loveui/field","@loveui/select"],
     files: [{
       path: "registry/default/examples/field-select.tsx",
       type: "registry:example",
@@ -3988,7 +3988,7 @@ export const Index: Record<string, any> = {
     name: "field-slider",
     description: "Field with slider",
     type: "registry:example",
-    registryDependencies: ["@coss/field","@coss/slider"],
+    registryDependencies: ["@loveui/field","@loveui/slider"],
     files: [{
       path: "registry/default/examples/field-slider.tsx",
       type: "registry:example",
@@ -4006,7 +4006,7 @@ export const Index: Record<string, any> = {
     name: "field-switch",
     description: "Field with toggle switch",
     type: "registry:example",
-    registryDependencies: ["@coss/field","@coss/switch"],
+    registryDependencies: ["@loveui/field","@loveui/switch"],
     files: [{
       path: "registry/default/examples/field-switch.tsx",
       type: "registry:example",
@@ -4024,7 +4024,7 @@ export const Index: Record<string, any> = {
     name: "field-textarea",
     description: "Field with textarea",
     type: "registry:example",
-    registryDependencies: ["@coss/field","@coss/textarea"],
+    registryDependencies: ["@loveui/field","@loveui/textarea"],
     files: [{
       path: "registry/default/examples/field-textarea.tsx",
       type: "registry:example",
@@ -4042,7 +4042,7 @@ export const Index: Record<string, any> = {
     name: "field-validity",
     description: "Show field validity state",
     type: "registry:example",
-    registryDependencies: ["@coss/field"],
+    registryDependencies: ["@loveui/field"],
     files: [{
       path: "registry/default/examples/field-validity.tsx",
       type: "registry:example",
@@ -4060,7 +4060,7 @@ export const Index: Record<string, any> = {
     name: "fieldset-demo",
     description: "Fieldset with legend and labeled fields",
     type: "registry:example",
-    registryDependencies: ["@coss/fieldset","@coss/field"],
+    registryDependencies: ["@loveui/fieldset","@loveui/field"],
     files: [{
       path: "registry/default/examples/fieldset-demo.tsx",
       type: "registry:example",
@@ -4078,7 +4078,7 @@ export const Index: Record<string, any> = {
     name: "form-demo",
     description: "Input in a form",
     type: "registry:example",
-    registryDependencies: ["@coss/form","@coss/field","@coss/button"],
+    registryDependencies: ["@loveui/form","@loveui/field","@loveui/button"],
     files: [{
       path: "registry/default/examples/form-demo.tsx",
       type: "registry:example",
@@ -4096,7 +4096,7 @@ export const Index: Record<string, any> = {
     name: "form-zod",
     description: "Form with zod validation",
     type: "registry:example",
-    registryDependencies: ["@coss/form","@coss/field","@coss/button"],
+    registryDependencies: ["@loveui/form","@loveui/field","@loveui/button"],
     files: [{
       path: "registry/default/examples/form-zod.tsx",
       type: "registry:example",
@@ -4114,7 +4114,7 @@ export const Index: Record<string, any> = {
     name: "empty-demo",
     description: "Basic empty state with icon",
     type: "registry:example",
-    registryDependencies: ["@coss/empty","@coss/button"],
+    registryDependencies: ["@loveui/empty","@loveui/button"],
     files: [{
       path: "registry/default/examples/empty-demo.tsx",
       type: "registry:example",
@@ -4132,7 +4132,7 @@ export const Index: Record<string, any> = {
     name: "input-demo",
     description: "Basic input component without label",
     type: "registry:example",
-    registryDependencies: ["@coss/input"],
+    registryDependencies: ["@loveui/input"],
     files: [{
       path: "registry/default/examples/input-demo.tsx",
       type: "registry:example",
@@ -4150,7 +4150,7 @@ export const Index: Record<string, any> = {
     name: "frame-demo",
     description: "Frame example",
     type: "registry:example",
-    registryDependencies: ["@coss/frame"],
+    registryDependencies: ["@loveui/frame"],
     files: [{
       path: "registry/default/examples/frame-demo.tsx",
       type: "registry:example",
@@ -4168,7 +4168,7 @@ export const Index: Record<string, any> = {
     name: "group-demo",
     description: "Group example",
     type: "registry:example",
-    registryDependencies: ["@coss/group","@coss/button"],
+    registryDependencies: ["@loveui/group","@loveui/button"],
     files: [{
       path: "registry/default/examples/group-demo.tsx",
       type: "registry:example",
@@ -4186,7 +4186,7 @@ export const Index: Record<string, any> = {
     name: "group-with-input",
     description: "Group with input",
     type: "registry:example",
-    registryDependencies: ["@coss/group","@coss/button","@coss/input"],
+    registryDependencies: ["@loveui/group","@loveui/button","@loveui/input"],
     files: [{
       path: "registry/default/examples/group-with-input.tsx",
       type: "registry:example",
@@ -4204,7 +4204,7 @@ export const Index: Record<string, any> = {
     name: "input-sm",
     description: "Small input",
     type: "registry:example",
-    registryDependencies: ["@coss/input"],
+    registryDependencies: ["@loveui/input"],
     files: [{
       path: "registry/default/examples/input-sm.tsx",
       type: "registry:example",
@@ -4222,7 +4222,7 @@ export const Index: Record<string, any> = {
     name: "input-lg",
     description: "Large input",
     type: "registry:example",
-    registryDependencies: ["@coss/input"],
+    registryDependencies: ["@loveui/input"],
     files: [{
       path: "registry/default/examples/input-lg.tsx",
       type: "registry:example",
@@ -4240,7 +4240,7 @@ export const Index: Record<string, any> = {
     name: "input-disabled",
     description: "Input with disabled state",
     type: "registry:example",
-    registryDependencies: ["@coss/input"],
+    registryDependencies: ["@loveui/input"],
     files: [{
       path: "registry/default/examples/input-disabled.tsx",
       type: "registry:example",
@@ -4258,7 +4258,7 @@ export const Index: Record<string, any> = {
     name: "input-file",
     description: "Input type set to file",
     type: "registry:example",
-    registryDependencies: ["@coss/input"],
+    registryDependencies: ["@loveui/input"],
     files: [{
       path: "registry/default/examples/input-file.tsx",
       type: "registry:example",
@@ -4276,7 +4276,7 @@ export const Index: Record<string, any> = {
     name: "input-with-label",
     description: "Input with label",
     type: "registry:example",
-    registryDependencies: ["@coss/input","@coss/label"],
+    registryDependencies: ["@loveui/input","@loveui/label"],
     files: [{
       path: "registry/default/examples/input-with-label.tsx",
       type: "registry:example",
@@ -4294,7 +4294,7 @@ export const Index: Record<string, any> = {
     name: "input-with-button",
     description: "Input with button",
     type: "registry:example",
-    registryDependencies: ["@coss/input","@coss/button"],
+    registryDependencies: ["@loveui/input","@loveui/button"],
     files: [{
       path: "registry/default/examples/input-with-button.tsx",
       type: "registry:example",
@@ -4312,7 +4312,7 @@ export const Index: Record<string, any> = {
     name: "menu-checkbox",
     description: "Menu with checkbox items",
     type: "registry:example",
-    registryDependencies: ["@coss/menu","@coss/button"],
+    registryDependencies: ["@loveui/menu","@loveui/button"],
     files: [{
       path: "registry/default/examples/menu-checkbox.tsx",
       type: "registry:example",
@@ -4330,7 +4330,7 @@ export const Index: Record<string, any> = {
     name: "menu-close-on-click",
     description: "Close menu when items are clicked",
     type: "registry:example",
-    registryDependencies: ["@coss/menu","@coss/button"],
+    registryDependencies: ["@loveui/menu","@loveui/button"],
     files: [{
       path: "registry/default/examples/menu-close-on-click.tsx",
       type: "registry:example",
@@ -4348,7 +4348,7 @@ export const Index: Record<string, any> = {
     name: "menu-demo",
     description: "Basic menu",
     type: "registry:example",
-    registryDependencies: ["@coss/menu","@coss/button"],
+    registryDependencies: ["@loveui/menu","@loveui/button"],
     files: [{
       path: "registry/default/examples/menu-demo.tsx",
       type: "registry:example",
@@ -4366,7 +4366,7 @@ export const Index: Record<string, any> = {
     name: "menu-group-labels",
     description: "Menu items grouped with labels",
     type: "registry:example",
-    registryDependencies: ["@coss/menu","@coss/button"],
+    registryDependencies: ["@loveui/menu","@loveui/button"],
     files: [{
       path: "registry/default/examples/menu-group-labels.tsx",
       type: "registry:example",
@@ -4384,7 +4384,7 @@ export const Index: Record<string, any> = {
     name: "menu-hover",
     description: "Open the menu on hover",
     type: "registry:example",
-    registryDependencies: ["@coss/menu","@coss/button"],
+    registryDependencies: ["@loveui/menu","@loveui/button"],
     files: [{
       path: "registry/default/examples/menu-hover.tsx",
       type: "registry:example",
@@ -4402,7 +4402,7 @@ export const Index: Record<string, any> = {
     name: "menu-link",
     description: "Menu items as links",
     type: "registry:example",
-    registryDependencies: ["@coss/menu","@coss/button"],
+    registryDependencies: ["@loveui/menu","@loveui/button"],
     files: [{
       path: "registry/default/examples/menu-link.tsx",
       type: "registry:example",
@@ -4420,7 +4420,7 @@ export const Index: Record<string, any> = {
     name: "menu-nested",
     description: "Menu with submenu",
     type: "registry:example",
-    registryDependencies: ["@coss/menu","@coss/button"],
+    registryDependencies: ["@loveui/menu","@loveui/button"],
     files: [{
       path: "registry/default/examples/menu-nested.tsx",
       type: "registry:example",
@@ -4438,7 +4438,7 @@ export const Index: Record<string, any> = {
     name: "menu-radio-group",
     description: "Menu with radio options",
     type: "registry:example",
-    registryDependencies: ["@coss/menu","@coss/button"],
+    registryDependencies: ["@loveui/menu","@loveui/button"],
     files: [{
       path: "registry/default/examples/menu-radio-group.tsx",
       type: "registry:example",
@@ -4456,7 +4456,7 @@ export const Index: Record<string, any> = {
     name: "meter-demo",
     description: "Basic meter",
     type: "registry:example",
-    registryDependencies: ["@coss/meter"],
+    registryDependencies: ["@loveui/meter"],
     files: [{
       path: "registry/default/examples/meter-demo.tsx",
       type: "registry:example",
@@ -4474,7 +4474,7 @@ export const Index: Record<string, any> = {
     name: "meter-simple",
     description: "Meter without label and value",
     type: "registry:example",
-    registryDependencies: ["@coss/meter"],
+    registryDependencies: ["@loveui/meter"],
     files: [{
       path: "registry/default/examples/meter-simple.tsx",
       type: "registry:example",
@@ -4492,7 +4492,7 @@ export const Index: Record<string, any> = {
     name: "meter-with-formatted-value",
     description: "Meter with a custom formatted value",
     type: "registry:example",
-    registryDependencies: ["@coss/meter"],
+    registryDependencies: ["@loveui/meter"],
     files: [{
       path: "registry/default/examples/meter-with-formatted-value.tsx",
       type: "registry:example",
@@ -4510,7 +4510,7 @@ export const Index: Record<string, any> = {
     name: "meter-with-range",
     description: "Meter with min and max values",
     type: "registry:example",
-    registryDependencies: ["@coss/meter"],
+    registryDependencies: ["@loveui/meter"],
     files: [{
       path: "registry/default/examples/meter-with-range.tsx",
       type: "registry:example",
@@ -4528,7 +4528,7 @@ export const Index: Record<string, any> = {
     name: "number-field-demo",
     description: "A number field",
     type: "registry:example",
-    registryDependencies: ["@coss/number-field"],
+    registryDependencies: ["@loveui/number-field"],
     files: [{
       path: "registry/default/examples/number-field-demo.tsx",
       type: "registry:example",
@@ -4546,7 +4546,7 @@ export const Index: Record<string, any> = {
     name: "number-field-sm",
     description: "Small number field",
     type: "registry:example",
-    registryDependencies: ["@coss/number-field"],
+    registryDependencies: ["@loveui/number-field"],
     files: [{
       path: "registry/default/examples/number-field-sm.tsx",
       type: "registry:example",
@@ -4564,7 +4564,7 @@ export const Index: Record<string, any> = {
     name: "number-field-lg",
     description: "Large number field",
     type: "registry:example",
-    registryDependencies: ["@coss/number-field"],
+    registryDependencies: ["@loveui/number-field"],
     files: [{
       path: "registry/default/examples/number-field-lg.tsx",
       type: "registry:example",
@@ -4582,7 +4582,7 @@ export const Index: Record<string, any> = {
     name: "number-field-disabled",
     description: "A disabled number field",
     type: "registry:example",
-    registryDependencies: ["@coss/number-field"],
+    registryDependencies: ["@loveui/number-field"],
     files: [{
       path: "registry/default/examples/number-field-disabled.tsx",
       type: "registry:example",
@@ -4600,7 +4600,7 @@ export const Index: Record<string, any> = {
     name: "number-field-form",
     description: "A number in a form",
     type: "registry:example",
-    registryDependencies: ["@coss/number-field","@coss/field","@coss/form","@coss/button"],
+    registryDependencies: ["@loveui/number-field","@loveui/field","@loveui/form","@loveui/button"],
     files: [{
       path: "registry/default/examples/number-field-form.tsx",
       type: "registry:example",
@@ -4618,7 +4618,7 @@ export const Index: Record<string, any> = {
     name: "number-field-with-formatted-value",
     description: "A number field with formatted value",
     type: "registry:example",
-    registryDependencies: ["@coss/number-field"],
+    registryDependencies: ["@loveui/number-field"],
     files: [{
       path: "registry/default/examples/number-field-with-formatted-value.tsx",
       type: "registry:example",
@@ -4636,7 +4636,7 @@ export const Index: Record<string, any> = {
     name: "number-field-with-label",
     description: "A number field with an external label",
     type: "registry:example",
-    registryDependencies: ["@coss/number-field","@coss/label"],
+    registryDependencies: ["@loveui/number-field","@loveui/label"],
     files: [{
       path: "registry/default/examples/number-field-with-label.tsx",
       type: "registry:example",
@@ -4654,7 +4654,7 @@ export const Index: Record<string, any> = {
     name: "number-field-with-range",
     description: "A number field with min/max constraints",
     type: "registry:example",
-    registryDependencies: ["@coss/number-field"],
+    registryDependencies: ["@loveui/number-field"],
     files: [{
       path: "registry/default/examples/number-field-with-range.tsx",
       type: "registry:example",
@@ -4672,7 +4672,7 @@ export const Index: Record<string, any> = {
     name: "number-field-with-scrub",
     description: "A number field with a scrub area",
     type: "registry:example",
-    registryDependencies: ["@coss/number-field"],
+    registryDependencies: ["@loveui/number-field"],
     files: [{
       path: "registry/default/examples/number-field-with-scrub.tsx",
       type: "registry:example",
@@ -4690,7 +4690,7 @@ export const Index: Record<string, any> = {
     name: "number-field-with-step",
     description: "A number field with step",
     type: "registry:example",
-    registryDependencies: ["@coss/number-field"],
+    registryDependencies: ["@loveui/number-field"],
     files: [{
       path: "registry/default/examples/number-field-with-step.tsx",
       type: "registry:example",
@@ -4708,7 +4708,7 @@ export const Index: Record<string, any> = {
     name: "pagination-demo",
     description: "Pagination example",
     type: "registry:example",
-    registryDependencies: ["@coss/pagination"],
+    registryDependencies: ["@loveui/pagination"],
     files: [{
       path: "registry/default/examples/pagination-demo.tsx",
       type: "registry:example",
@@ -4726,7 +4726,7 @@ export const Index: Record<string, any> = {
     name: "popover-demo",
     description: "Popover with a form",
     type: "registry:example",
-    registryDependencies: ["@coss/popover","@coss/button","@coss/textarea","@coss/form","@coss/field"],
+    registryDependencies: ["@loveui/popover","@loveui/button","@loveui/textarea","@loveui/form","@loveui/field"],
     files: [{
       path: "registry/default/examples/popover-demo.tsx",
       type: "registry:example",
@@ -4744,7 +4744,7 @@ export const Index: Record<string, any> = {
     name: "popover-with-close",
     description: "Popover with close button",
     type: "registry:example",
-    registryDependencies: ["@coss/popover","@coss/button"],
+    registryDependencies: ["@loveui/popover","@loveui/button"],
     files: [{
       path: "registry/default/examples/popover-with-close.tsx",
       type: "registry:example",
@@ -4762,7 +4762,7 @@ export const Index: Record<string, any> = {
     name: "preview-card-demo",
     description: "Preview card example",
     type: "registry:example",
-    registryDependencies: ["@coss/preview-card","@coss/button"],
+    registryDependencies: ["@loveui/preview-card","@loveui/button"],
     files: [{
       path: "registry/default/examples/preview-card-demo.tsx",
       type: "registry:example",
@@ -4780,7 +4780,7 @@ export const Index: Record<string, any> = {
     name: "progress-demo",
     description: "Animated progress bar",
     type: "registry:example",
-    registryDependencies: ["@coss/progress"],
+    registryDependencies: ["@loveui/progress"],
     files: [{
       path: "registry/default/examples/progress-demo.tsx",
       type: "registry:example",
@@ -4798,7 +4798,7 @@ export const Index: Record<string, any> = {
     name: "progress-with-formatted-value",
     description: "Progress with a custom formatted value",
     type: "registry:example",
-    registryDependencies: ["@coss/progress"],
+    registryDependencies: ["@loveui/progress"],
     files: [{
       path: "registry/default/examples/progress-with-formatted-value.tsx",
       type: "registry:example",
@@ -4816,7 +4816,7 @@ export const Index: Record<string, any> = {
     name: "progress-with-label-value",
     description: "Progress with label and value",
     type: "registry:example",
-    registryDependencies: ["@coss/progress"],
+    registryDependencies: ["@loveui/progress"],
     files: [{
       path: "registry/default/examples/progress-with-label-value.tsx",
       type: "registry:example",
@@ -4834,7 +4834,7 @@ export const Index: Record<string, any> = {
     name: "radio-group-card",
     description: "Card-style radio options",
     type: "registry:example",
-    registryDependencies: ["@coss/radio-group","@coss/label"],
+    registryDependencies: ["@loveui/radio-group","@loveui/label"],
     files: [{
       path: "registry/default/examples/radio-group-card.tsx",
       type: "registry:example",
@@ -4852,7 +4852,7 @@ export const Index: Record<string, any> = {
     name: "radio-group-demo",
     description: "Basic radio group",
     type: "registry:example",
-    registryDependencies: ["@coss/radio-group","@coss/label"],
+    registryDependencies: ["@loveui/radio-group","@loveui/label"],
     files: [{
       path: "registry/default/examples/radio-group-demo.tsx",
       type: "registry:example",
@@ -4870,7 +4870,7 @@ export const Index: Record<string, any> = {
     name: "radio-group-disabled",
     description: "Radio group with one option disabled",
     type: "registry:example",
-    registryDependencies: ["@coss/radio-group","@coss/label"],
+    registryDependencies: ["@loveui/radio-group","@loveui/label"],
     files: [{
       path: "registry/default/examples/radio-group-disabled.tsx",
       type: "registry:example",
@@ -4888,7 +4888,7 @@ export const Index: Record<string, any> = {
     name: "radio-group-form",
     description: "Radio group in a form",
     type: "registry:example",
-    registryDependencies: ["@coss/radio-group","@coss/field","@coss/fieldset","@coss/form","@coss/button"],
+    registryDependencies: ["@loveui/radio-group","@loveui/field","@loveui/fieldset","@loveui/form","@loveui/button"],
     files: [{
       path: "registry/default/examples/radio-group-form.tsx",
       type: "registry:example",
@@ -4906,7 +4906,7 @@ export const Index: Record<string, any> = {
     name: "radio-group-with-description",
     description: "Radio options with helper text",
     type: "registry:example",
-    registryDependencies: ["@coss/radio-group","@coss/label"],
+    registryDependencies: ["@loveui/radio-group","@loveui/label"],
     files: [{
       path: "registry/default/examples/radio-group-with-description.tsx",
       type: "registry:example",
@@ -4924,7 +4924,7 @@ export const Index: Record<string, any> = {
     name: "scroll-area-demo",
     description: "Scroll area - vertical",
     type: "registry:example",
-    registryDependencies: ["@coss/scroll-area"],
+    registryDependencies: ["@loveui/scroll-area"],
     files: [{
       path: "registry/default/examples/scroll-area-demo.tsx",
       type: "registry:example",
@@ -4942,7 +4942,7 @@ export const Index: Record<string, any> = {
     name: "scroll-area-horizontal",
     description: "Scroll area - horizontal",
     type: "registry:example",
-    registryDependencies: ["@coss/scroll-area"],
+    registryDependencies: ["@loveui/scroll-area"],
     files: [{
       path: "registry/default/examples/scroll-area-horizontal.tsx",
       type: "registry:example",
@@ -4960,7 +4960,7 @@ export const Index: Record<string, any> = {
     name: "scroll-area-both",
     description: "Scroll area - both horizontal and vertical",
     type: "registry:example",
-    registryDependencies: ["@coss/scroll-area"],
+    registryDependencies: ["@loveui/scroll-area"],
     files: [{
       path: "registry/default/examples/scroll-area-both.tsx",
       type: "registry:example",
@@ -4978,7 +4978,7 @@ export const Index: Record<string, any> = {
     name: "select-demo",
     description: "A basic select",
     type: "registry:example",
-    registryDependencies: ["@coss/select"],
+    registryDependencies: ["@loveui/select"],
     files: [{
       path: "registry/default/examples/select-demo.tsx",
       type: "registry:example",
@@ -4996,7 +4996,7 @@ export const Index: Record<string, any> = {
     name: "select-sm",
     description: "A select with small size",
     type: "registry:example",
-    registryDependencies: ["@coss/select"],
+    registryDependencies: ["@loveui/select"],
     files: [{
       path: "registry/default/examples/select-sm.tsx",
       type: "registry:example",
@@ -5014,7 +5014,7 @@ export const Index: Record<string, any> = {
     name: "select-lg",
     description: "A select with large size",
     type: "registry:example",
-    registryDependencies: ["@coss/select"],
+    registryDependencies: ["@loveui/select"],
     files: [{
       path: "registry/default/examples/select-lg.tsx",
       type: "registry:example",
@@ -5032,7 +5032,7 @@ export const Index: Record<string, any> = {
     name: "select-disabled",
     description: "A disabled select",
     type: "registry:example",
-    registryDependencies: ["@coss/select"],
+    registryDependencies: ["@loveui/select"],
     files: [{
       path: "registry/default/examples/select-disabled.tsx",
       type: "registry:example",
@@ -5050,7 +5050,7 @@ export const Index: Record<string, any> = {
     name: "select-without-alignment",
     description: "Select popup not aligned to trigger",
     type: "registry:example",
-    registryDependencies: ["@coss/select"],
+    registryDependencies: ["@loveui/select"],
     files: [{
       path: "registry/default/examples/select-without-alignment.tsx",
       type: "registry:example",
@@ -5068,7 +5068,7 @@ export const Index: Record<string, any> = {
     name: "select-with-groups",
     description: "Select items grouped with labels",
     type: "registry:example",
-    registryDependencies: ["@coss/select"],
+    registryDependencies: ["@loveui/select"],
     files: [{
       path: "registry/default/examples/select-with-groups.tsx",
       type: "registry:example",
@@ -5086,7 +5086,7 @@ export const Index: Record<string, any> = {
     name: "select-multiple",
     description: "Multiple selection with formatted value",
     type: "registry:example",
-    registryDependencies: ["@coss/select"],
+    registryDependencies: ["@loveui/select"],
     files: [{
       path: "registry/default/examples/select-multiple.tsx",
       type: "registry:example",
@@ -5104,7 +5104,7 @@ export const Index: Record<string, any> = {
     name: "select-form",
     description: "Select in a form",
     type: "registry:example",
-    registryDependencies: ["@coss/button","@coss/select","@coss/form","@coss/field"],
+    registryDependencies: ["@loveui/button","@loveui/select","@loveui/form","@loveui/field"],
     files: [{
       path: "registry/default/examples/select-form.tsx",
       type: "registry:example",
@@ -5122,7 +5122,7 @@ export const Index: Record<string, any> = {
     name: "separator-demo",
     description: "Separator with horizontal and vertical orientations",
     type: "registry:example",
-    registryDependencies: ["@coss/separator"],
+    registryDependencies: ["@loveui/separator"],
     files: [{
       path: "registry/default/examples/separator-demo.tsx",
       type: "registry:example",
@@ -5140,7 +5140,7 @@ export const Index: Record<string, any> = {
     name: "skeleton-demo",
     description: "Skeleton demo",
     type: "registry:example",
-    registryDependencies: ["@coss/avatar","@coss/button","@coss/skeleton"],
+    registryDependencies: ["@loveui/avatar","@loveui/button","@loveui/skeleton"],
     files: [{
       path: "registry/default/examples/skeleton-demo.tsx",
       type: "registry:example",
@@ -5158,7 +5158,7 @@ export const Index: Record<string, any> = {
     name: "skeleton-only",
     description: "Skeleton only",
     type: "registry:example",
-    registryDependencies: ["@coss/skeleton"],
+    registryDependencies: ["@loveui/skeleton"],
     files: [{
       path: "registry/default/examples/skeleton-only.tsx",
       type: "registry:example",
@@ -5176,7 +5176,7 @@ export const Index: Record<string, any> = {
     name: "slider-demo",
     description: "Basic slider",
     type: "registry:example",
-    registryDependencies: ["@coss/slider"],
+    registryDependencies: ["@loveui/slider"],
     files: [{
       path: "registry/default/examples/slider-demo.tsx",
       type: "registry:example",
@@ -5194,7 +5194,7 @@ export const Index: Record<string, any> = {
     name: "slider-with-label-value",
     description: "Slider with label and value",
     type: "registry:example",
-    registryDependencies: ["@coss/slider","@coss/label"],
+    registryDependencies: ["@loveui/slider","@loveui/label"],
     files: [{
       path: "registry/default/examples/slider-with-label-value.tsx",
       type: "registry:example",
@@ -5212,7 +5212,7 @@ export const Index: Record<string, any> = {
     name: "slider-range",
     description: "Two-thumb range slider",
     type: "registry:example",
-    registryDependencies: ["@coss/slider"],
+    registryDependencies: ["@loveui/slider"],
     files: [{
       path: "registry/default/examples/slider-range.tsx",
       type: "registry:example",
@@ -5230,7 +5230,7 @@ export const Index: Record<string, any> = {
     name: "slider-vertical",
     description: "Vertical slider",
     type: "registry:example",
-    registryDependencies: ["@coss/slider"],
+    registryDependencies: ["@loveui/slider"],
     files: [{
       path: "registry/default/examples/slider-vertical.tsx",
       type: "registry:example",
@@ -5248,7 +5248,7 @@ export const Index: Record<string, any> = {
     name: "slider-form",
     description: "Slider in a form",
     type: "registry:example",
-    registryDependencies: ["@coss/slider","@coss/form","@coss/field","@coss/button"],
+    registryDependencies: ["@loveui/slider","@loveui/form","@loveui/field","@loveui/button"],
     files: [{
       path: "registry/default/examples/slider-form.tsx",
       type: "registry:example",
@@ -5266,7 +5266,7 @@ export const Index: Record<string, any> = {
     name: "switch-demo",
     description: "Basic switch",
     type: "registry:example",
-    registryDependencies: ["@coss/switch","@coss/label"],
+    registryDependencies: ["@loveui/switch","@loveui/label"],
     files: [{
       path: "registry/default/examples/switch-demo.tsx",
       type: "registry:example",
@@ -5284,7 +5284,7 @@ export const Index: Record<string, any> = {
     name: "switch-disabled",
     description: "Disabled switch",
     type: "registry:example",
-    registryDependencies: ["@coss/switch","@coss/label"],
+    registryDependencies: ["@loveui/switch","@loveui/label"],
     files: [{
       path: "registry/default/examples/switch-disabled.tsx",
       type: "registry:example",
@@ -5302,7 +5302,7 @@ export const Index: Record<string, any> = {
     name: "switch-with-description",
     description: "Switch with description",
     type: "registry:example",
-    registryDependencies: ["@coss/switch","@coss/label"],
+    registryDependencies: ["@loveui/switch","@loveui/label"],
     files: [{
       path: "registry/default/examples/switch-with-description.tsx",
       type: "registry:example",
@@ -5320,7 +5320,7 @@ export const Index: Record<string, any> = {
     name: "switch-card",
     description: "Card-style switch",
     type: "registry:example",
-    registryDependencies: ["@coss/switch","@coss/label"],
+    registryDependencies: ["@loveui/switch","@loveui/label"],
     files: [{
       path: "registry/default/examples/switch-card.tsx",
       type: "registry:example",
@@ -5338,7 +5338,7 @@ export const Index: Record<string, any> = {
     name: "switch-form",
     description: "Switch in a form",
     type: "registry:example",
-    registryDependencies: ["@coss/switch","@coss/field","@coss/form","@coss/button"],
+    registryDependencies: ["@loveui/switch","@loveui/field","@loveui/form","@loveui/button"],
     files: [{
       path: "registry/default/examples/switch-form.tsx",
       type: "registry:example",
@@ -5356,7 +5356,7 @@ export const Index: Record<string, any> = {
     name: "table-demo",
     description: "Basic table",
     type: "registry:example",
-    registryDependencies: ["@coss/table","@coss/badge"],
+    registryDependencies: ["@loveui/table","@loveui/badge"],
     files: [{
       path: "registry/default/examples/table-demo.tsx",
       type: "registry:example",
@@ -5374,7 +5374,7 @@ export const Index: Record<string, any> = {
     name: "table-framed",
     description: "Framed table",
     type: "registry:example",
-    registryDependencies: ["@coss/table","@coss/badge","@coss/frame"],
+    registryDependencies: ["@loveui/table","@loveui/badge","@loveui/frame"],
     files: [{
       path: "registry/default/examples/table-framed.tsx",
       type: "registry:example",
@@ -5392,7 +5392,7 @@ export const Index: Record<string, any> = {
     name: "tabs-demo",
     description: "Tabs with default indicator",
     type: "registry:example",
-    registryDependencies: ["@coss/tabs"],
+    registryDependencies: ["@loveui/tabs"],
     files: [{
       path: "registry/default/examples/tabs-demo.tsx",
       type: "registry:example",
@@ -5410,7 +5410,7 @@ export const Index: Record<string, any> = {
     name: "tabs-underline",
     description: "Tabs with underline indicator",
     type: "registry:example",
-    registryDependencies: ["@coss/tabs"],
+    registryDependencies: ["@loveui/tabs"],
     files: [{
       path: "registry/default/examples/tabs-underline.tsx",
       type: "registry:example",
@@ -5428,7 +5428,7 @@ export const Index: Record<string, any> = {
     name: "tabs-vertical",
     description: "Tabs with vertical layout",
     type: "registry:example",
-    registryDependencies: ["@coss/tabs"],
+    registryDependencies: ["@loveui/tabs"],
     files: [{
       path: "registry/default/examples/tabs-vertical.tsx",
       type: "registry:example",
@@ -5446,7 +5446,7 @@ export const Index: Record<string, any> = {
     name: "tabs-underline-vertical",
     description: "Underline tabs with vertical layout",
     type: "registry:example",
-    registryDependencies: ["@coss/tabs"],
+    registryDependencies: ["@loveui/tabs"],
     files: [{
       path: "registry/default/examples/tabs-underline-vertical.tsx",
       type: "registry:example",
@@ -5464,7 +5464,7 @@ export const Index: Record<string, any> = {
     name: "textarea-demo",
     description: "Basic textarea",
     type: "registry:example",
-    registryDependencies: ["@coss/textarea"],
+    registryDependencies: ["@loveui/textarea"],
     files: [{
       path: "registry/default/examples/textarea-demo.tsx",
       type: "registry:example",
@@ -5482,7 +5482,7 @@ export const Index: Record<string, any> = {
     name: "textarea-sm",
     description: "Small textarea",
     type: "registry:example",
-    registryDependencies: ["@coss/textarea"],
+    registryDependencies: ["@loveui/textarea"],
     files: [{
       path: "registry/default/examples/textarea-sm.tsx",
       type: "registry:example",
@@ -5500,7 +5500,7 @@ export const Index: Record<string, any> = {
     name: "textarea-lg",
     description: "Large textarea",
     type: "registry:example",
-    registryDependencies: ["@coss/textarea"],
+    registryDependencies: ["@loveui/textarea"],
     files: [{
       path: "registry/default/examples/textarea-lg.tsx",
       type: "registry:example",
@@ -5518,7 +5518,7 @@ export const Index: Record<string, any> = {
     name: "textarea-disabled",
     description: "Disabled textarea",
     type: "registry:example",
-    registryDependencies: ["@coss/textarea"],
+    registryDependencies: ["@loveui/textarea"],
     files: [{
       path: "registry/default/examples/textarea-disabled.tsx",
       type: "registry:example",
@@ -5536,7 +5536,7 @@ export const Index: Record<string, any> = {
     name: "textarea-with-label",
     description: "Textarea labelled with Field",
     type: "registry:example",
-    registryDependencies: ["@coss/textarea","@coss/label"],
+    registryDependencies: ["@loveui/textarea","@loveui/label"],
     files: [{
       path: "registry/default/examples/textarea-with-label.tsx",
       type: "registry:example",
@@ -5554,7 +5554,7 @@ export const Index: Record<string, any> = {
     name: "textarea-form",
     description: "Textarea in a form",
     type: "registry:example",
-    registryDependencies: ["@coss/textarea","@coss/form","@coss/field","@coss/button"],
+    registryDependencies: ["@loveui/textarea","@loveui/form","@loveui/field","@loveui/button"],
     files: [{
       path: "registry/default/examples/textarea-form.tsx",
       type: "registry:example",
@@ -5572,7 +5572,7 @@ export const Index: Record<string, any> = {
     name: "toast-demo",
     description: "Status toast",
     type: "registry:example",
-    registryDependencies: ["@coss/toast"],
+    registryDependencies: ["@loveui/toast"],
     files: [{
       path: "registry/default/examples/toast-demo.tsx",
       type: "registry:example",
@@ -5590,7 +5590,7 @@ export const Index: Record<string, any> = {
     name: "toast-loading",
     description: "Loading toast",
     type: "registry:example",
-    registryDependencies: ["@coss/toast"],
+    registryDependencies: ["@loveui/toast"],
     files: [{
       path: "registry/default/examples/toast-loading.tsx",
       type: "registry:example",
@@ -5608,7 +5608,7 @@ export const Index: Record<string, any> = {
     name: "toast-promise",
     description: "Drive toasts from promise states",
     type: "registry:example",
-    registryDependencies: ["@coss/toast"],
+    registryDependencies: ["@loveui/toast"],
     files: [{
       path: "registry/default/examples/toast-promise.tsx",
       type: "registry:example",
@@ -5626,7 +5626,7 @@ export const Index: Record<string, any> = {
     name: "toast-with-action",
     description: "Toast with an action button",
     type: "registry:example",
-    registryDependencies: ["@coss/toast"],
+    registryDependencies: ["@loveui/toast"],
     files: [{
       path: "registry/default/examples/toast-with-action.tsx",
       type: "registry:example",
@@ -5644,7 +5644,7 @@ export const Index: Record<string, any> = {
     name: "toast-with-status",
     description: "Success toast",
     type: "registry:example",
-    registryDependencies: ["@coss/toast"],
+    registryDependencies: ["@loveui/toast"],
     files: [{
       path: "registry/default/examples/toast-with-status.tsx",
       type: "registry:example",
@@ -5662,7 +5662,7 @@ export const Index: Record<string, any> = {
     name: "toast-heights",
     description: "Toast with varying heights",
     type: "registry:example",
-    registryDependencies: ["@coss/toast"],
+    registryDependencies: ["@loveui/toast"],
     files: [{
       path: "registry/default/examples/toast-heights.tsx",
       type: "registry:example",
@@ -5680,7 +5680,7 @@ export const Index: Record<string, any> = {
     name: "toggle-demo",
     description: "Basic toggle",
     type: "registry:example",
-    registryDependencies: ["@coss/toggle"],
+    registryDependencies: ["@loveui/toggle"],
     files: [{
       path: "registry/default/examples/toggle-demo.tsx",
       type: "registry:example",
@@ -5698,7 +5698,7 @@ export const Index: Record<string, any> = {
     name: "toggle-disabled",
     description: "Disabled toggle",
     type: "registry:example",
-    registryDependencies: ["@coss/toggle"],
+    registryDependencies: ["@loveui/toggle"],
     files: [{
       path: "registry/default/examples/toggle-disabled.tsx",
       type: "registry:example",
@@ -5716,7 +5716,7 @@ export const Index: Record<string, any> = {
     name: "toggle-group-demo",
     description: "Toggle group",
     type: "registry:example",
-    registryDependencies: ["@coss/toggle-group"],
+    registryDependencies: ["@loveui/toggle-group"],
     files: [{
       path: "registry/default/examples/toggle-group-demo.tsx",
       type: "registry:example",
@@ -5734,7 +5734,7 @@ export const Index: Record<string, any> = {
     name: "toggle-group-sm",
     description: "Toggle group with small toggles",
     type: "registry:example",
-    registryDependencies: ["@coss/toggle-group"],
+    registryDependencies: ["@loveui/toggle-group"],
     files: [{
       path: "registry/default/examples/toggle-group-sm.tsx",
       type: "registry:example",
@@ -5752,7 +5752,7 @@ export const Index: Record<string, any> = {
     name: "toggle-group-lg",
     description: "Toggle group with large toggles",
     type: "registry:example",
-    registryDependencies: ["@coss/toggle-group"],
+    registryDependencies: ["@loveui/toggle-group"],
     files: [{
       path: "registry/default/examples/toggle-group-lg.tsx",
       type: "registry:example",
@@ -5770,7 +5770,7 @@ export const Index: Record<string, any> = {
     name: "toggle-group-outline",
     description: "Toggle group with outline toggles",
     type: "registry:example",
-    registryDependencies: ["@coss/toggle-group"],
+    registryDependencies: ["@loveui/toggle-group"],
     files: [{
       path: "registry/default/examples/toggle-group-outline.tsx",
       type: "registry:example",
@@ -5788,7 +5788,7 @@ export const Index: Record<string, any> = {
     name: "toggle-group-outline-with-separator",
     description: "Toggle group with outline toggles and separator",
     type: "registry:example",
-    registryDependencies: ["@coss/toggle-group"],
+    registryDependencies: ["@loveui/toggle-group"],
     files: [{
       path: "registry/default/examples/toggle-group-outline-with-separator.tsx",
       type: "registry:example",
@@ -5806,7 +5806,7 @@ export const Index: Record<string, any> = {
     name: "toggle-group-disabled",
     description: "Disabled toggle group",
     type: "registry:example",
-    registryDependencies: ["@coss/toggle-group"],
+    registryDependencies: ["@loveui/toggle-group"],
     files: [{
       path: "registry/default/examples/toggle-group-disabled.tsx",
       type: "registry:example",
@@ -5824,7 +5824,7 @@ export const Index: Record<string, any> = {
     name: "toggle-group-multiple",
     description: "Toggle group with multiple selection",
     type: "registry:example",
-    registryDependencies: ["@coss/toggle-group"],
+    registryDependencies: ["@loveui/toggle-group"],
     files: [{
       path: "registry/default/examples/toggle-group-multiple.tsx",
       type: "registry:example",
@@ -5842,7 +5842,7 @@ export const Index: Record<string, any> = {
     name: "toggle-group-with-disabled-item",
     description: "Toggle group with disabled item",
     type: "registry:example",
-    registryDependencies: ["@coss/toggle-group"],
+    registryDependencies: ["@loveui/toggle-group"],
     files: [{
       path: "registry/default/examples/toggle-group-with-disabled-item.tsx",
       type: "registry:example",
@@ -5860,7 +5860,7 @@ export const Index: Record<string, any> = {
     name: "toggle-icon-group",
     description: "Multiple toggles",
     type: "registry:example",
-    registryDependencies: ["@coss/toggle"],
+    registryDependencies: ["@loveui/toggle"],
     files: [{
       path: "registry/default/examples/toggle-icon-group.tsx",
       type: "registry:example",
@@ -5878,7 +5878,7 @@ export const Index: Record<string, any> = {
     name: "toggle-lg",
     description: "Large toggle",
     type: "registry:example",
-    registryDependencies: ["@coss/toggle"],
+    registryDependencies: ["@loveui/toggle"],
     files: [{
       path: "registry/default/examples/toggle-lg.tsx",
       type: "registry:example",
@@ -5896,7 +5896,7 @@ export const Index: Record<string, any> = {
     name: "toggle-outline",
     description: "Outline toggle",
     type: "registry:example",
-    registryDependencies: ["@coss/toggle"],
+    registryDependencies: ["@loveui/toggle"],
     files: [{
       path: "registry/default/examples/toggle-outline.tsx",
       type: "registry:example",
@@ -5914,7 +5914,7 @@ export const Index: Record<string, any> = {
     name: "toggle-sm",
     description: "Small toggle",
     type: "registry:example",
-    registryDependencies: ["@coss/toggle"],
+    registryDependencies: ["@loveui/toggle"],
     files: [{
       path: "registry/default/examples/toggle-sm.tsx",
       type: "registry:example",
@@ -5932,7 +5932,7 @@ export const Index: Record<string, any> = {
     name: "toggle-with-icon",
     description: "Toggle with icon",
     type: "registry:example",
-    registryDependencies: ["@coss/toggle"],
+    registryDependencies: ["@loveui/toggle"],
     files: [{
       path: "registry/default/examples/toggle-with-icon.tsx",
       type: "registry:example",
@@ -5950,7 +5950,7 @@ export const Index: Record<string, any> = {
     name: "toolbar-demo",
     description: "Toolbar",
     type: "registry:example",
-    registryDependencies: ["@coss/button","@coss/select","@coss/toggle-group","@coss/toolbar","@coss/tooltip"],
+    registryDependencies: ["@loveui/button","@loveui/select","@loveui/toggle-group","@loveui/toolbar","@loveui/tooltip"],
     files: [{
       path: "registry/default/examples/toolbar-demo.tsx",
       type: "registry:example",
@@ -5968,7 +5968,7 @@ export const Index: Record<string, any> = {
     name: "tooltip-demo",
     description: "Basic tooltip",
     type: "registry:example",
-    registryDependencies: ["@coss/tooltip","@coss/button"],
+    registryDependencies: ["@loveui/tooltip","@loveui/button"],
     files: [{
       path: "registry/default/examples/tooltip-demo.tsx",
       type: "registry:example",
@@ -5986,7 +5986,7 @@ export const Index: Record<string, any> = {
     name: "tooltip-grouped",
     description: "Toggle group with grouped tooltips",
     type: "registry:example",
-    registryDependencies: ["@coss/tooltip","@coss/toggle-group"],
+    registryDependencies: ["@loveui/tooltip","@loveui/toggle-group"],
     files: [{
       path: "registry/default/examples/tooltip-grouped.tsx",
       type: "registry:example",
@@ -6472,7 +6472,7 @@ export const Index: Record<string, any> = {
     name: "image-crop",
     description: "Image cropper with upload, crop, and reset controls.",
     type: "registry:example",
-    registryDependencies: ["@loveui/image-crop","@coss/button","@coss/input"],
+    registryDependencies: ["@loveui/image-crop","@loveui/button","@loveui/input"],
     files: [{
       path: "registry/default/examples/image-crop.tsx",
       type: "registry:example",
@@ -6490,7 +6490,7 @@ export const Index: Record<string, any> = {
     name: "image-crop-custom",
     description: "Image cropper with custom action buttons.",
     type: "registry:example",
-    registryDependencies: ["@loveui/image-crop","@coss/button","@coss/input"],
+    registryDependencies: ["@loveui/image-crop","@loveui/button","@loveui/input"],
     files: [{
       path: "registry/default/examples/image-crop-custom.tsx",
       type: "registry:example",
@@ -6508,7 +6508,7 @@ export const Index: Record<string, any> = {
     name: "image-crop-circular",
     description: "Circular avatar cropper using the image crop component.",
     type: "registry:example",
-    registryDependencies: ["@loveui/image-crop","@coss/button","@coss/input"],
+    registryDependencies: ["@loveui/image-crop","@loveui/button","@loveui/input"],
     files: [{
       path: "registry/default/examples/image-crop-circular.tsx",
       type: "registry:example",
@@ -6724,7 +6724,7 @@ export const Index: Record<string, any> = {
     name: "deck-controlled",
     description: "Programmatically controlled deck with navigation buttons.",
     type: "registry:example",
-    registryDependencies: ["@loveui/deck","@coss/button"],
+    registryDependencies: ["@loveui/deck","@loveui/button"],
     files: [{
       path: "registry/default/examples/deck-controlled.tsx",
       type: "registry:example",
@@ -6742,7 +6742,7 @@ export const Index: Record<string, any> = {
     name: "deck-product-cards",
     description: "Product card deck with swipe gestures.",
     type: "registry:example",
-    registryDependencies: ["@loveui/deck","@coss/badge"],
+    registryDependencies: ["@loveui/deck","@loveui/badge"],
     files: [{
       path: "registry/default/examples/deck-product-cards.tsx",
       type: "registry:example",
@@ -6850,7 +6850,7 @@ export const Index: Record<string, any> = {
     name: "reel-custom",
     description: "Reel with custom header, footer, and action buttons.",
     type: "registry:example",
-    registryDependencies: ["@loveui/reel","@coss/button"],
+    registryDependencies: ["@loveui/reel","@loveui/button"],
     files: [{
       path: "registry/default/examples/reel-custom.tsx",
       type: "registry:example",
@@ -7138,7 +7138,7 @@ export const Index: Record<string, any> = {
     name: "dialog-stack",
     description: "Dialog stack showcasing multi-step modals.",
     type: "registry:example",
-    registryDependencies: ["@loveui/dialog-stack","@coss/button"],
+    registryDependencies: ["@loveui/dialog-stack","@loveui/button"],
     files: [{
       path: "registry/default/examples/dialog-stack.tsx",
       type: "registry:example",
@@ -7156,7 +7156,7 @@ export const Index: Record<string, any> = {
     name: "dialog-stack-controlled",
     description: "Controlled dialog stack with external trigger.",
     type: "registry:example",
-    registryDependencies: ["@loveui/dialog-stack","@coss/button"],
+    registryDependencies: ["@loveui/dialog-stack","@loveui/button"],
     files: [{
       path: "registry/default/examples/dialog-stack-controlled.tsx",
       type: "registry:example",
@@ -7174,7 +7174,7 @@ export const Index: Record<string, any> = {
     name: "dialog-stack-six",
     description: "Six-layer dialog stack demonstration.",
     type: "registry:example",
-    registryDependencies: ["@loveui/dialog-stack","@coss/button"],
+    registryDependencies: ["@loveui/dialog-stack","@loveui/button"],
     files: [{
       path: "registry/default/examples/dialog-stack-six.tsx",
       type: "registry:example",
@@ -7192,7 +7192,7 @@ export const Index: Record<string, any> = {
     name: "dialog-stack-navigation",
     description: "Dialog stack enabled with clickable navigation.",
     type: "registry:example",
-    registryDependencies: ["@loveui/dialog-stack","@coss/button"],
+    registryDependencies: ["@loveui/dialog-stack","@loveui/button"],
     files: [{
       path: "registry/default/examples/dialog-stack-navigation.tsx",
       type: "registry:example",
@@ -7354,7 +7354,7 @@ export const Index: Record<string, any> = {
     name: "pricing",
     description: "A pricing page with a list of plans and features.",
     type: "registry:example",
-    registryDependencies: ["@coss/card","@coss/button","@coss/badge","@coss/tabs"],
+    registryDependencies: ["@loveui/card","@loveui/button","@loveui/badge","@loveui/tabs"],
     files: [{
       path: "registry/default/examples/pricing.tsx",
       type: "registry:example",
@@ -7372,7 +7372,7 @@ export const Index: Record<string, any> = {
     name: "hero",
     description: "A hero section with announcement, headline, and video player.",
     type: "registry:example",
-    registryDependencies: ["@loveui/announcement","@loveui/marquee","@loveui/video-player","@coss/button"],
+    registryDependencies: ["@loveui/announcement","@loveui/marquee","@loveui/video-player","@loveui/button"],
     files: [{
       path: "registry/default/examples/hero.tsx",
       type: "registry:example",
@@ -7390,7 +7390,7 @@ export const Index: Record<string, any> = {
     name: "roadmap",
     description: "A comprehensive roadmap with multiple views: Gantt, Calendar, List, Kanban, and Table.",
     type: "registry:example",
-    registryDependencies: ["@loveui/calendar","@loveui/gantt","@loveui/kanban","@loveui/list","@loveui/table","@coss/tabs","@coss/avatar","@coss/context-menu"],
+    registryDependencies: ["@loveui/calendar","@loveui/gantt","@loveui/kanban","@loveui/list","@loveui/table","@loveui/tabs","@loveui/avatar","@loveui/context-menu"],
     files: [{
       path: "registry/default/examples/roadmap.tsx",
       type: "registry:example",
@@ -7408,7 +7408,7 @@ export const Index: Record<string, any> = {
     name: "form",
     description: "A complete form block with multiple input types.",
     type: "registry:example",
-    registryDependencies: ["@coss/form"],
+    registryDependencies: ["@loveui/form"],
     files: [{
       path: "registry/default/examples/form.tsx",
       type: "registry:example",
@@ -7462,7 +7462,7 @@ export const Index: Record<string, any> = {
     name: "particle-bu-1",
     description: "Back link button with chevron",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@loveui/button"],
     files: [{
       path: "registry/default/particles/particle-bu-1.tsx",
       type: "registry:block",
@@ -7480,7 +7480,7 @@ export const Index: Record<string, any> = {
     name: "particle-bu-2",
     description: "Card-style button with heading and description",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@loveui/button"],
     files: [{
       path: "registry/default/particles/particle-bu-2.tsx",
       type: "registry:block",
@@ -7498,7 +7498,7 @@ export const Index: Record<string, any> = {
     name: "particle-bu-3",
     description: "Directional pad control buttons",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@loveui/button"],
     files: [{
       path: "registry/default/particles/particle-bu-3.tsx",
       type: "registry:block",
@@ -7516,7 +7516,7 @@ export const Index: Record<string, any> = {
     name: "particle-bu-4",
     description: "Outline like button with count",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@loveui/button"],
     files: [{
       path: "registry/default/particles/particle-bu-4.tsx",
       type: "registry:block",
@@ -7534,7 +7534,7 @@ export const Index: Record<string, any> = {
     name: "particle-bu-5",
     description: "Social login icon buttons",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@loveui/button"],
     files: [{
       path: "registry/default/particles/particle-bu-5.tsx",
       type: "registry:block",
@@ -7552,7 +7552,7 @@ export const Index: Record<string, any> = {
     name: "particle-bu-6",
     description: "Expandable show more/less toggle button",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@loveui/button"],
     files: [{
       path: "registry/default/particles/particle-bu-6.tsx",
       type: "registry:block",
@@ -7570,7 +7570,7 @@ export const Index: Record<string, any> = {
     name: "particle-bu-7",
     description: "Star button with count badge",
     type: "registry:block",
-    registryDependencies: ["@coss/button"],
+    registryDependencies: ["@loveui/button"],
     files: [{
       path: "registry/default/particles/particle-bu-7.tsx",
       type: "registry:block",
@@ -7588,7 +7588,7 @@ export const Index: Record<string, any> = {
     name: "particle-fr-1",
     description: "Frame with collapsible content and delete button",
     type: "registry:example",
-    registryDependencies: ["@coss/frame","@coss/collapsible","@coss/button"],
+    registryDependencies: ["@loveui/frame","@loveui/collapsible","@loveui/button"],
     files: [{
       path: "registry/default/particles/particle-fr-1.tsx",
       type: "registry:block",
@@ -7606,7 +7606,7 @@ export const Index: Record<string, any> = {
     name: "particle-pa-1",
     description: "Pagination with previous and next buttons only",
     type: "registry:block",
-    registryDependencies: ["@coss/pagination"],
+    registryDependencies: ["@loveui/pagination"],
     files: [{
       path: "registry/default/particles/particle-pa-1.tsx",
       type: "registry:block",
@@ -7624,7 +7624,7 @@ export const Index: Record<string, any> = {
     name: "particle-pa-2",
     description: "Pagination with select, and previous and next buttons",
     type: "registry:block",
-    registryDependencies: ["@coss/pagination","@coss/select"],
+    registryDependencies: ["@loveui/pagination","@loveui/select"],
     files: [{
       path: "registry/default/particles/particle-pa-2.tsx",
       type: "registry:block",

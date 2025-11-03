@@ -4,10 +4,10 @@
   "type": "registry:example",
   "description": "Combobox multiple selection form",
   "registryDependencies": [
-    "@coss/combobox",
-    "@coss/button",
-    "@coss/form",
-    "@coss/field"
+    "@loveui/combobox",
+    "@loveui/button",
+    "@loveui/form",
+    "@loveui/field"
   ],
   "files": [
     {

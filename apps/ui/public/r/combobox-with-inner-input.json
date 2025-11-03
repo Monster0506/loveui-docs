@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Combobox with popup",
   "registryDependencies": [
-    "@coss/combobox",
-    "@coss/button"
+    "@loveui/combobox",
+    "@loveui/button"
   ],
   "files": [
     {

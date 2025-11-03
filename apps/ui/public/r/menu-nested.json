@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Menu with submenu",
   "registryDependencies": [
-    "@coss/menu",
-    "@coss/button"
+    "@loveui/menu",
+    "@loveui/button"
   ],
   "files": [
     {

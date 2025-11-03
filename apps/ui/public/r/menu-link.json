@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Menu items as links",
   "registryDependencies": [
-    "@coss/menu",
-    "@coss/button"
+    "@loveui/menu",
+    "@loveui/button"
   ],
   "files": [
     {

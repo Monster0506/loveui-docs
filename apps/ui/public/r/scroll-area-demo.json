@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Scroll area - vertical",
   "registryDependencies": [
-    "@coss/scroll-area"
+    "@loveui/scroll-area"
   ],
   "files": [
     {

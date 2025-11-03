@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Radio group with one option disabled",
   "registryDependencies": [
-    "@coss/radio-group",
-    "@coss/label"
+    "@loveui/radio-group",
+    "@loveui/label"
   ],
   "files": [
     {

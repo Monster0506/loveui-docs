@@ -4,12 +4,12 @@
   "type": "registry:example",
   "description": "Checkbox group in a form",
   "registryDependencies": [
-    "@coss/checkbox-group",
-    "@coss/checkbox",
-    "@coss/button",
-    "@coss/field",
-    "@coss/fieldset",
-    "@coss/form"
+    "@loveui/checkbox-group",
+    "@loveui/checkbox",
+    "@loveui/button",
+    "@loveui/field",
+    "@loveui/fieldset",
+    "@loveui/form"
   ],
   "files": [
     {

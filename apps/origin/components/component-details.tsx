@@ -115,7 +115,7 @@ export default function ComponentDetails({
                   <p className="text-sm text-muted-foreground">
                     No code available. If you think this is an error, please{" "}
                     <a
-                      href="https://github.com/cosscom/coss/issues"
+                      href="https://github.com/loveui/coss/issues"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="font-medium text-foreground underline underline-offset-4 hover:no-underline"

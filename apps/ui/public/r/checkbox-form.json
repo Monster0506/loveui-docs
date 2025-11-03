@@ -4,10 +4,10 @@
   "type": "registry:example",
   "description": "Checkbox in a form",
   "registryDependencies": [
-    "@coss/checkbox",
-    "@coss/field",
-    "@coss/form",
-    "@coss/button"
+    "@loveui/checkbox",
+    "@loveui/field",
+    "@loveui/form",
+    "@loveui/button"
   ],
   "files": [
     {

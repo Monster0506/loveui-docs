@@ -4,9 +4,9 @@
   "type": "registry:example",
   "description": "Group with input",
   "registryDependencies": [
-    "@coss/group",
-    "@coss/button",
-    "@coss/input"
+    "@loveui/group",
+    "@loveui/button",
+    "@loveui/input"
   ],
   "files": [
     {

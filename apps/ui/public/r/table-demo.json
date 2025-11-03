@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Basic table",
   "registryDependencies": [
-    "@coss/table",
-    "@coss/badge"
+    "@loveui/table",
+    "@loveui/badge"
   ],
   "files": [
     {

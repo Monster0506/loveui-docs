@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Vertical slider",
   "registryDependencies": [
-    "@coss/slider"
+    "@loveui/slider"
   ],
   "files": [
     {

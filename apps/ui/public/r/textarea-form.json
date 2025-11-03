@@ -4,10 +4,10 @@
   "type": "registry:example",
   "description": "Textarea in a form",
   "registryDependencies": [
-    "@coss/textarea",
-    "@coss/form",
-    "@coss/field",
-    "@coss/button"
+    "@loveui/textarea",
+    "@loveui/form",
+    "@loveui/field",
+    "@loveui/button"
   ],
   "files": [
     {

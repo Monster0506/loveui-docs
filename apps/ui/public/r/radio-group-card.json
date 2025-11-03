@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Card-style radio options",
   "registryDependencies": [
-    "@coss/radio-group",
-    "@coss/label"
+    "@loveui/radio-group",
+    "@loveui/label"
   ],
   "files": [
     {

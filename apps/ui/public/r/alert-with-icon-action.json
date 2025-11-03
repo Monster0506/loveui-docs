@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Alert with icon and action buttons",
   "registryDependencies": [
-    "@coss/alert",
-    "@coss/button"
+    "@loveui/alert",
+    "@loveui/button"
   ],
   "files": [
     {

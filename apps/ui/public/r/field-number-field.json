@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Field with number field",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/number-field"
+    "@loveui/field",
+    "@loveui/number-field"
   ],
   "files": [
     {

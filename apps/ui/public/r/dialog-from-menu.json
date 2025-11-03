@@ -4,9 +4,9 @@
   "type": "registry:example",
   "description": "Open dialog from a menu item",
   "registryDependencies": [
-    "@coss/dialog",
-    "@coss/menu",
-    "@coss/button"
+    "@loveui/dialog",
+    "@loveui/menu",
+    "@loveui/button"
   ],
   "files": [
     {

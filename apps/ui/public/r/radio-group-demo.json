@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Basic radio group",
   "registryDependencies": [
-    "@coss/radio-group",
-    "@coss/label"
+    "@loveui/radio-group",
+    "@loveui/label"
   ],
   "files": [
     {

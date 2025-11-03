@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Avatar with image and fallback",
   "registryDependencies": [
-    "@coss/avatar"
+    "@loveui/avatar"
   ],
   "files": [
     {

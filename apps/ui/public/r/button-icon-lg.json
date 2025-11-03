@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Large icon button",
   "registryDependencies": [
-    "@coss/button"
+    "@loveui/button"
   ],
   "files": [
     {

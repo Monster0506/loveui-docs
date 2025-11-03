@@ -4,10 +4,10 @@
   "type": "registry:example",
   "description": "Switch in a form",
   "registryDependencies": [
-    "@coss/switch",
-    "@coss/field",
-    "@coss/form",
-    "@coss/button"
+    "@loveui/switch",
+    "@loveui/field",
+    "@loveui/form",
+    "@loveui/button"
   ],
   "files": [
     {

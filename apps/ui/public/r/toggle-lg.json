@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Large toggle",
   "registryDependencies": [
-    "@coss/toggle"
+    "@loveui/toggle"
   ],
   "files": [
     {

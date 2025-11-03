@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Toggle group with grouped tooltips",
   "registryDependencies": [
-    "@coss/tooltip",
-    "@coss/toggle-group"
+    "@loveui/tooltip",
+    "@loveui/toggle-group"
   ],
   "files": [
     {

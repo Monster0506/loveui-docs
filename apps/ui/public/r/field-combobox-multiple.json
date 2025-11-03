@@ -4,8 +4,8 @@
   "type": "registry:example",
   "description": "Field with multiple selection combobox",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/combobox"
+    "@loveui/field",
+    "@loveui/combobox"
   ],
   "files": [
     {

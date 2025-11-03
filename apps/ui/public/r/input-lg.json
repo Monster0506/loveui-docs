@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Large input",
   "registryDependencies": [
-    "@coss/input"
+    "@loveui/input"
   ],
   "files": [
     {

@@ -6,51 +6,51 @@
       "name": "ui",
       "type": "registry:ui",
       "registryDependencies": [
-        "@coss/accordion",
-        "@coss/alert",
-        "@coss/alert-dialog",
-        "@coss/autocomplete",
-        "@coss/avatar",
-        "@coss/badge",
-        "@coss/breadcrumb",
-        "@coss/button",
-        "@coss/card",
-        "@coss/checkbox",
-        "@coss/checkbox-group",
-        "@coss/collapsible",
-        "@coss/combobox",
-        "@coss/dialog",
-        "@coss/empty",
-        "@coss/field",
-        "@coss/fieldset",
-        "@coss/form",
-        "@coss/frame",
-        "@coss/group",
-        "@coss/input",
-        "@coss/label",
-        "@coss/menu",
-        "@coss/meter",
-        "@coss/number-field",
-        "@coss/pagination",
-        "@coss/popover",
-        "@coss/preview-card",
-        "@coss/progress",
-        "@coss/radio-group",
-        "@coss/scroll-area",
-        "@coss/select",
-        "@coss/separator",
-        "@coss/sheet",
-        "@coss/skeleton",
-        "@coss/slider",
-        "@coss/switch",
-        "@coss/table",
-        "@coss/tabs",
-        "@coss/textarea",
-        "@coss/toast",
-        "@coss/toggle",
-        "@coss/toggle-group",
-        "@coss/toolbar",
-        "@coss/tooltip"
+        "@loveui/accordion",
+        "@loveui/alert",
+        "@loveui/alert-dialog",
+        "@loveui/autocomplete",
+        "@loveui/avatar",
+        "@loveui/badge",
+        "@loveui/breadcrumb",
+        "@loveui/button",
+        "@loveui/card",
+        "@loveui/checkbox",
+        "@loveui/checkbox-group",
+        "@loveui/collapsible",
+        "@loveui/combobox",
+        "@loveui/dialog",
+        "@loveui/empty",
+        "@loveui/field",
+        "@loveui/fieldset",
+        "@loveui/form",
+        "@loveui/frame",
+        "@loveui/group",
+        "@loveui/input",
+        "@loveui/label",
+        "@loveui/menu",
+        "@loveui/meter",
+        "@loveui/number-field",
+        "@loveui/pagination",
+        "@loveui/popover",
+        "@loveui/preview-card",
+        "@loveui/progress",
+        "@loveui/radio-group",
+        "@loveui/scroll-area",
+        "@loveui/select",
+        "@loveui/separator",
+        "@loveui/sheet",
+        "@loveui/skeleton",
+        "@loveui/slider",
+        "@loveui/switch",
+        "@loveui/table",
+        "@loveui/tabs",
+        "@loveui/textarea",
+        "@loveui/toast",
+        "@loveui/toggle",
+        "@loveui/toggle-group",
+        "@loveui/toolbar",
+        "@loveui/tooltip"
       ]
     },
     {
@@ -116,8 +116,8 @@
         "@base-ui-components/react"
       ],
       "registryDependencies": [
-        "@coss/input",
-        "@coss/scroll-area"
+        "@loveui/input",
+        "@loveui/scroll-area"
       ],
       "files": [
         {
@@ -263,8 +263,8 @@
         "@base-ui-components/react"
       ],
       "registryDependencies": [
-        "@coss/input",
-        "@coss/scroll-area"
+        "@loveui/input",
+        "@loveui/scroll-area"
       ],
       "files": [
         {
@@ -360,7 +360,7 @@
         "@base-ui-components/react"
       ],
       "registryDependencies": [
-        "@coss/separator"
+        "@loveui/separator"
       ],
       "files": [
         {
@@ -449,7 +449,7 @@
         "@base-ui-components/react"
       ],
       "registryDependencies": [
-        "@coss/button"
+        "@loveui/button"
       ],
       "files": [
         {
@@ -556,7 +556,7 @@
         "@base-ui-components/react"
       ],
       "registryDependencies": [
-        "@coss/dialog"
+        "@loveui/dialog"
       ],
       "files": [
         {
@@ -659,7 +659,7 @@
         "@base-ui-components/react"
       ],
       "registryDependencies": [
-        "@coss/button"
+        "@loveui/button"
       ],
       "files": [
         {
@@ -688,8 +688,8 @@
         "@base-ui-components/react"
       ],
       "registryDependencies": [
-        "@coss/separator",
-        "@coss/toggle"
+        "@loveui/separator",
+        "@loveui/toggle"
       ],
       "files": [
         {
@@ -835,8 +835,8 @@
       "description": "Controlled accordion",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/accordion",
-        "@coss/button"
+        "@loveui/accordion",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -853,7 +853,7 @@
       "description": "Basic accordion",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/accordion"
+        "@loveui/accordion"
       ],
       "files": [
         {
@@ -870,7 +870,7 @@
       "description": "Accordion allowing multiple panels open",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/accordion"
+        "@loveui/accordion"
       ],
       "files": [
         {
@@ -887,7 +887,7 @@
       "description": "Accordion with one panel open",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/accordion"
+        "@loveui/accordion"
       ],
       "files": [
         {
@@ -904,7 +904,7 @@
       "description": "Basic alert",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/alert"
+        "@loveui/alert"
       ],
       "files": [
         {
@@ -921,7 +921,7 @@
       "description": "Alert with icon",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/alert"
+        "@loveui/alert"
       ],
       "files": [
         {
@@ -938,8 +938,8 @@
       "description": "Alert with icon and action buttons",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/alert",
-        "@coss/button"
+        "@loveui/alert",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -956,7 +956,7 @@
       "description": "Info alert",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/alert"
+        "@loveui/alert"
       ],
       "files": [
         {
@@ -974,7 +974,7 @@
       "description": "Success alert",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/alert"
+        "@loveui/alert"
       ],
       "files": [
         {
@@ -992,7 +992,7 @@
       "description": "Warning alert",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/alert"
+        "@loveui/alert"
       ],
       "files": [
         {
@@ -1010,7 +1010,7 @@
       "description": "Error alert",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/alert"
+        "@loveui/alert"
       ],
       "files": [
         {
@@ -1028,8 +1028,8 @@
       "description": "Alert dialog",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/alert-dialog",
-        "@coss/button"
+        "@loveui/alert-dialog",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -1046,7 +1046,7 @@
       "description": "Basic autocomplete",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/autocomplete"
+        "@loveui/autocomplete"
       ],
       "files": [
         {
@@ -1064,7 +1064,7 @@
       "description": "Disabled autocomplete",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/autocomplete"
+        "@loveui/autocomplete"
       ],
       "files": [
         {
@@ -1083,7 +1083,7 @@
       "description": "Small autocomplete",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/autocomplete"
+        "@loveui/autocomplete"
       ],
       "files": [
         {
@@ -1101,7 +1101,7 @@
       "description": "Large autocomplete",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/autocomplete"
+        "@loveui/autocomplete"
       ],
       "files": [
         {
@@ -1119,8 +1119,8 @@
       "description": "Autocomplete with label",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/autocomplete",
-        "@coss/label"
+        "@loveui/autocomplete",
+        "@loveui/label"
       ],
       "files": [
         {
@@ -1138,7 +1138,7 @@
       "description": "Autocomplete autofilling the input with the highlighted item",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/autocomplete"
+        "@loveui/autocomplete"
       ],
       "files": [
         {
@@ -1156,7 +1156,7 @@
       "description": "Autocomplete auto highlighting the first option",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/autocomplete"
+        "@loveui/autocomplete"
       ],
       "files": [
         {
@@ -1174,7 +1174,7 @@
       "description": "Autocomplete with clear button",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/autocomplete"
+        "@loveui/autocomplete"
       ],
       "files": [
         {
@@ -1192,7 +1192,7 @@
       "description": "Autocomplete with trigger and clear buttons",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/autocomplete"
+        "@loveui/autocomplete"
       ],
       "files": [
         {
@@ -1210,7 +1210,7 @@
       "description": "Autocomplete with grouped items",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/autocomplete"
+        "@loveui/autocomplete"
       ],
       "files": [
         {
@@ -1228,7 +1228,7 @@
       "description": "Autocomplete with limited number of results",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/autocomplete"
+        "@loveui/autocomplete"
       ],
       "files": [
         {
@@ -1246,7 +1246,7 @@
       "description": "Autocomplete with async items loading",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/autocomplete"
+        "@loveui/autocomplete"
       ],
       "files": [
         {
@@ -1265,9 +1265,9 @@
       "description": "Autocomplete form",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/autocomplete",
-        "@coss/form",
-        "@coss/field"
+        "@loveui/autocomplete",
+        "@loveui/form",
+        "@loveui/field"
       ],
       "files": [
         {
@@ -1286,7 +1286,7 @@
       "description": "Avatar with image and fallback",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/avatar"
+        "@loveui/avatar"
       ],
       "files": [
         {
@@ -1303,7 +1303,7 @@
       "description": "Fallback-only avatar",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/avatar"
+        "@loveui/avatar"
       ],
       "files": [
         {
@@ -1320,7 +1320,7 @@
       "description": "Overlapping avatar group",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/avatar"
+        "@loveui/avatar"
       ],
       "files": [
         {
@@ -1338,7 +1338,7 @@
       "description": "Avatars with different radii",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/avatar"
+        "@loveui/avatar"
       ],
       "files": [
         {
@@ -1355,7 +1355,7 @@
       "description": "Avatars with different sizes",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/avatar"
+        "@loveui/avatar"
       ],
       "files": [
         {
@@ -1373,7 +1373,7 @@
       "type": "registry:example",
       "registryDependencies": [
         "@loveui/avatar-stack",
-        "@coss/avatar"
+        "@loveui/avatar"
       ],
       "files": [
         {
@@ -1392,7 +1392,7 @@
       "type": "registry:example",
       "registryDependencies": [
         "@loveui/avatar-stack",
-        "@coss/avatar"
+        "@loveui/avatar"
       ],
       "files": [
         {
@@ -1411,7 +1411,7 @@
       "description": "Basic badge",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/badge"
+        "@loveui/badge"
       ],
       "files": [
         {
@@ -1428,7 +1428,7 @@
       "description": "Outline badge",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/badge"
+        "@loveui/badge"
       ],
       "files": [
         {
@@ -1445,7 +1445,7 @@
       "description": "Secondary badge",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/badge"
+        "@loveui/badge"
       ],
       "files": [
         {
@@ -1462,7 +1462,7 @@
       "description": "Destructive badge",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/badge"
+        "@loveui/badge"
       ],
       "files": [
         {
@@ -1481,7 +1481,7 @@
       "description": "Info badge",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/badge"
+        "@loveui/badge"
       ],
       "files": [
         {
@@ -1499,7 +1499,7 @@
       "description": "Success badge",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/badge"
+        "@loveui/badge"
       ],
       "files": [
         {
@@ -1517,7 +1517,7 @@
       "description": "Warning badge",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/badge"
+        "@loveui/badge"
       ],
       "files": [
         {
@@ -1535,7 +1535,7 @@
       "description": "Error badge",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/badge"
+        "@loveui/badge"
       ],
       "files": [
         {
@@ -1553,7 +1553,7 @@
       "description": "Small badge",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/badge"
+        "@loveui/badge"
       ],
       "files": [
         {
@@ -1570,7 +1570,7 @@
       "description": "Large badge",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/badge"
+        "@loveui/badge"
       ],
       "files": [
         {
@@ -1587,7 +1587,7 @@
       "description": "Badge with icon",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/badge"
+        "@loveui/badge"
       ],
       "files": [
         {
@@ -1604,7 +1604,7 @@
       "description": "Badge with link",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/badge"
+        "@loveui/badge"
       ],
       "files": [
         {
@@ -1621,8 +1621,8 @@
       "description": "Breadcrumb with menu example",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/breadcrumb",
-        "@coss/menu"
+        "@loveui/breadcrumb",
+        "@loveui/menu"
       ],
       "files": [
         {
@@ -1640,7 +1640,7 @@
       "description": "Breadcrumb with custom separator",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/breadcrumb"
+        "@loveui/breadcrumb"
       ],
       "files": [
         {
@@ -1657,7 +1657,7 @@
       "description": "Default button",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/button"
+        "@loveui/button"
       ],
       "files": [
         {
@@ -1674,7 +1674,7 @@
       "description": "Secondary button",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/button"
+        "@loveui/button"
       ],
       "files": [
         {
@@ -1691,7 +1691,7 @@
       "description": "Destructive button",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/button"
+        "@loveui/button"
       ],
       "files": [
         {
@@ -1710,7 +1710,7 @@
       "description": "Destructive outline button",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/button"
+        "@loveui/button"
       ],
       "files": [
         {
@@ -1728,7 +1728,7 @@
       "description": "Outline button",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/button"
+        "@loveui/button"
       ],
       "files": [
         {
@@ -1745,7 +1745,7 @@
       "description": "Ghost button",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/button"
+        "@loveui/button"
       ],
       "files": [
         {
@@ -1762,7 +1762,7 @@
       "description": "Link button",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/button"
+        "@loveui/button"
       ],
       "files": [
         {
@@ -1779,7 +1779,7 @@
       "description": "Extra-small button",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/button"
+        "@loveui/button"
       ],
       "files": [
         {
@@ -1796,7 +1796,7 @@
       "description": "Small button",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/button"
+        "@loveui/button"
       ],
       "files": [
         {
@@ -1813,7 +1813,7 @@
       "description": "Large button",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/button"
+        "@loveui/button"
       ],
       "files": [
         {
@@ -1830,7 +1830,7 @@
       "description": "Extra-large button",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/button"
+        "@loveui/button"
       ],
       "files": [
         {
@@ -1847,7 +1847,7 @@
       "description": "Disabled button",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/button"
+        "@loveui/button"
       ],
       "files": [
         {
@@ -1865,7 +1865,7 @@
       "description": "Icon button",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/button"
+        "@loveui/button"
       ],
       "files": [
         {
@@ -1882,7 +1882,7 @@
       "description": "Small icon button",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/button"
+        "@loveui/button"
       ],
       "files": [
         {
@@ -1899,7 +1899,7 @@
       "description": "Large icon button",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/button"
+        "@loveui/button"
       ],
       "files": [
         {
@@ -1916,7 +1916,7 @@
       "description": "Button with icon",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/button"
+        "@loveui/button"
       ],
       "files": [
         {
@@ -1933,7 +1933,7 @@
       "description": "Link rendered as button",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/button"
+        "@loveui/button"
       ],
       "files": [
         {
@@ -1950,7 +1950,7 @@
       "description": "Loading button",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/button"
+        "@loveui/button"
       ],
       "files": [
         {
@@ -1968,11 +1968,11 @@
       "description": "Card example with form",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/card",
-        "@coss/button",
-        "@coss/select",
-        "@coss/form",
-        "@coss/field"
+        "@loveui/card",
+        "@loveui/button",
+        "@loveui/select",
+        "@loveui/form",
+        "@loveui/field"
       ],
       "files": [
         {
@@ -1994,8 +1994,8 @@
       "description": "Card-style checkbox",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/checkbox",
-        "@coss/label"
+        "@loveui/checkbox",
+        "@loveui/label"
       ],
       "files": [
         {
@@ -2014,8 +2014,8 @@
       "description": "Basic checkbox",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/checkbox",
-        "@coss/label"
+        "@loveui/checkbox",
+        "@loveui/label"
       ],
       "files": [
         {
@@ -2033,8 +2033,8 @@
       "description": "Disabled checkbox",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/checkbox",
-        "@coss/label"
+        "@loveui/checkbox",
+        "@loveui/label"
       ],
       "files": [
         {
@@ -2053,10 +2053,10 @@
       "description": "Checkbox in a form",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/checkbox",
-        "@coss/field",
-        "@coss/form",
-        "@coss/button"
+        "@loveui/checkbox",
+        "@loveui/field",
+        "@loveui/form",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -2076,9 +2076,9 @@
       "description": "Checkbox group",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/checkbox-group",
-        "@coss/checkbox",
-        "@coss/label"
+        "@loveui/checkbox-group",
+        "@loveui/checkbox",
+        "@loveui/label"
       ],
       "files": [
         {
@@ -2096,9 +2096,9 @@
       "description": "Checkbox group with disabled item",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/checkbox-group",
-        "@coss/checkbox",
-        "@coss/label"
+        "@loveui/checkbox-group",
+        "@loveui/checkbox",
+        "@loveui/label"
       ],
       "files": [
         {
@@ -2117,12 +2117,12 @@
       "description": "Checkbox group in a form",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/checkbox-group",
-        "@coss/checkbox",
-        "@coss/button",
-        "@coss/field",
-        "@coss/fieldset",
-        "@coss/form"
+        "@loveui/checkbox-group",
+        "@loveui/checkbox",
+        "@loveui/button",
+        "@loveui/field",
+        "@loveui/fieldset",
+        "@loveui/form"
       ],
       "files": [
         {
@@ -2144,9 +2144,9 @@
       "description": "Checkbox group parent with nested children controls",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/checkbox-group",
-        "@coss/checkbox",
-        "@coss/label"
+        "@loveui/checkbox-group",
+        "@loveui/checkbox",
+        "@loveui/label"
       ],
       "files": [
         {
@@ -2165,9 +2165,9 @@
       "description": "Checkbox group select/deselect all checkboxes",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/checkbox-group",
-        "@coss/checkbox",
-        "@coss/label"
+        "@loveui/checkbox-group",
+        "@loveui/checkbox",
+        "@loveui/label"
       ],
       "files": [
         {
@@ -2186,8 +2186,8 @@
       "description": "Checkbox with helper text",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/checkbox",
-        "@coss/label"
+        "@loveui/checkbox",
+        "@loveui/label"
       ],
       "files": [
         {
@@ -2207,7 +2207,7 @@
       "description": "Basic collapsible",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/collapsible"
+        "@loveui/collapsible"
       ],
       "files": [
         {
@@ -2224,7 +2224,7 @@
       "description": "Basic combobox",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/combobox"
+        "@loveui/combobox"
       ],
       "files": [
         {
@@ -2261,7 +2261,7 @@
       "description": "Disabled combobox",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/combobox"
+        "@loveui/combobox"
       ],
       "files": [
         {
@@ -2280,7 +2280,7 @@
       "description": "Small combobox",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/combobox"
+        "@loveui/combobox"
       ],
       "files": [
         {
@@ -2298,7 +2298,7 @@
       "description": "Large combobox",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/combobox"
+        "@loveui/combobox"
       ],
       "files": [
         {
@@ -2316,8 +2316,8 @@
       "description": "Combobox with label",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/combobox",
-        "@coss/label"
+        "@loveui/combobox",
+        "@loveui/label"
       ],
       "files": [
         {
@@ -2335,7 +2335,7 @@
       "description": "Combobox auto highlighting the first option",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/combobox"
+        "@loveui/combobox"
       ],
       "files": [
         {
@@ -2353,7 +2353,7 @@
       "description": "Combobox with grouped items",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/combobox"
+        "@loveui/combobox"
       ],
       "files": [
         {
@@ -2371,7 +2371,7 @@
       "description": "Combobox with clear button",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/combobox"
+        "@loveui/combobox"
       ],
       "files": [
         {
@@ -2389,7 +2389,7 @@
       "description": "Combobox with multiple selection",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/combobox"
+        "@loveui/combobox"
       ],
       "files": [
         {
@@ -2407,8 +2407,8 @@
       "description": "Combobox with popup",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/combobox",
-        "@coss/button"
+        "@loveui/combobox",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -2463,10 +2463,10 @@
       "description": "Combobox form",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/combobox",
-        "@coss/button",
-        "@coss/form",
-        "@coss/field"
+        "@loveui/combobox",
+        "@loveui/button",
+        "@loveui/form",
+        "@loveui/field"
       ],
       "files": [
         {
@@ -2485,10 +2485,10 @@
       "description": "Combobox multiple selection form",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/combobox",
-        "@coss/button",
-        "@coss/form",
-        "@coss/field"
+        "@loveui/combobox",
+        "@loveui/button",
+        "@loveui/form",
+        "@loveui/field"
       ],
       "files": [
         {
@@ -3593,12 +3593,12 @@
       "description": "Prompt before closing with unsaved changes",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/alert-dialog",
-        "@coss/dialog",
-        "@coss/button",
-        "@coss/form",
-        "@coss/field",
-        "@coss/textarea"
+        "@loveui/alert-dialog",
+        "@loveui/dialog",
+        "@loveui/button",
+        "@loveui/form",
+        "@loveui/field",
+        "@loveui/textarea"
       ],
       "files": [
         {
@@ -3620,10 +3620,10 @@
       "description": "Basic dialog",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/dialog",
-        "@coss/button",
-        "@coss/form",
-        "@coss/field"
+        "@loveui/dialog",
+        "@loveui/button",
+        "@loveui/form",
+        "@loveui/field"
       ],
       "files": [
         {
@@ -3643,9 +3643,9 @@
       "description": "Open dialog from a menu item",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/dialog",
-        "@coss/menu",
-        "@coss/button"
+        "@loveui/dialog",
+        "@loveui/menu",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -3664,9 +3664,9 @@
       "description": "Dialog with a nested dialog",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/dialog",
-        "@coss/button",
-        "@coss/field"
+        "@loveui/dialog",
+        "@loveui/button",
+        "@loveui/field"
       ],
       "files": [
         {
@@ -3685,10 +3685,10 @@
       "description": "Basic sheet",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/sheet",
-        "@coss/button",
-        "@coss/form",
-        "@coss/field"
+        "@loveui/sheet",
+        "@loveui/button",
+        "@loveui/form",
+        "@loveui/field"
       ],
       "files": [
         {
@@ -3706,8 +3706,8 @@
       "description": "Sheet position",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/sheet",
-        "@coss/button"
+        "@loveui/sheet",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -3724,8 +3724,8 @@
       "description": "Field with checkbox",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/field",
-        "@coss/checkbox"
+        "@loveui/field",
+        "@loveui/checkbox"
       ],
       "files": [
         {
@@ -3744,10 +3744,10 @@
       "description": "Field with checkbox group",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/field",
-        "@coss/checkbox-group",
-        "@coss/checkbox",
-        "@coss/fieldset"
+        "@loveui/field",
+        "@loveui/checkbox-group",
+        "@loveui/checkbox",
+        "@loveui/fieldset"
       ],
       "files": [
         {
@@ -3768,11 +3768,11 @@
       "description": "Complete form built with field",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/field",
-        "@coss/select",
-        "@coss/checkbox",
-        "@coss/form",
-        "@coss/button"
+        "@loveui/field",
+        "@loveui/select",
+        "@loveui/checkbox",
+        "@loveui/form",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -3796,7 +3796,7 @@
       "description": "Field with description",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/field"
+        "@loveui/field"
       ],
       "files": [
         {
@@ -3816,7 +3816,7 @@
       "description": "Field in disabled state",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/field"
+        "@loveui/field"
       ],
       "files": [
         {
@@ -3837,7 +3837,7 @@
       "description": "Field showing validation error",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/field"
+        "@loveui/field"
       ],
       "files": [
         {
@@ -3856,8 +3856,8 @@
       "description": "Field with autocomplete",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/field",
-        "@coss/autocomplete"
+        "@loveui/field",
+        "@loveui/autocomplete"
       ],
       "files": [
         {
@@ -3877,8 +3877,8 @@
       "description": "Field with combobox",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/field",
-        "@coss/combobox"
+        "@loveui/field",
+        "@loveui/combobox"
       ],
       "files": [
         {
@@ -3898,8 +3898,8 @@
       "description": "Field with multiple selection combobox",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/field",
-        "@coss/combobox"
+        "@loveui/field",
+        "@loveui/combobox"
       ],
       "files": [
         {
@@ -3920,8 +3920,8 @@
       "description": "Field with number field",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/field",
-        "@coss/number-field"
+        "@loveui/field",
+        "@loveui/number-field"
       ],
       "files": [
         {
@@ -3943,9 +3943,9 @@
       "description": "Field with radio group",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/field",
-        "@coss/radio-group",
-        "@coss/fieldset"
+        "@loveui/field",
+        "@loveui/radio-group",
+        "@loveui/fieldset"
       ],
       "files": [
         {
@@ -3967,7 +3967,7 @@
       "description": "Field with required indicator",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/field"
+        "@loveui/field"
       ],
       "files": [
         {
@@ -3986,8 +3986,8 @@
       "description": "Field with select",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/field",
-        "@coss/select"
+        "@loveui/field",
+        "@loveui/select"
       ],
       "files": [
         {
@@ -4008,8 +4008,8 @@
       "description": "Field with slider",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/field",
-        "@coss/slider"
+        "@loveui/field",
+        "@loveui/slider"
       ],
       "files": [
         {
@@ -4030,8 +4030,8 @@
       "description": "Field with toggle switch",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/field",
-        "@coss/switch"
+        "@loveui/field",
+        "@loveui/switch"
       ],
       "files": [
         {
@@ -4050,8 +4050,8 @@
       "description": "Field with textarea",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/field",
-        "@coss/textarea"
+        "@loveui/field",
+        "@loveui/textarea"
       ],
       "files": [
         {
@@ -4072,7 +4072,7 @@
       "description": "Show field validity state",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/field"
+        "@loveui/field"
       ],
       "files": [
         {
@@ -4089,8 +4089,8 @@
       "description": "Fieldset with legend and labeled fields",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/fieldset",
-        "@coss/field"
+        "@loveui/fieldset",
+        "@loveui/field"
       ],
       "files": [
         {
@@ -4111,9 +4111,9 @@
       "description": "Input in a form",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/form",
-        "@coss/field",
-        "@coss/button"
+        "@loveui/form",
+        "@loveui/field",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -4133,9 +4133,9 @@
       "description": "Form with zod validation",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/form",
-        "@coss/field",
-        "@coss/button"
+        "@loveui/form",
+        "@loveui/field",
+        "@loveui/button"
       ],
       "dependencies": [
         "zod"
@@ -4160,8 +4160,8 @@
       "description": "Basic empty state with icon",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/empty",
-        "@coss/button"
+        "@loveui/empty",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -4178,7 +4178,7 @@
       "description": "Basic input component without label",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/input"
+        "@loveui/input"
       ],
       "files": [
         {
@@ -4195,7 +4195,7 @@
       "description": "Frame example",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/frame"
+        "@loveui/frame"
       ],
       "files": [
         {
@@ -4212,8 +4212,8 @@
       "description": "Group example",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/group",
-        "@coss/button"
+        "@loveui/group",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -4230,9 +4230,9 @@
       "description": "Group with input",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/group",
-        "@coss/button",
-        "@coss/input"
+        "@loveui/group",
+        "@loveui/button",
+        "@loveui/input"
       ],
       "files": [
         {
@@ -4249,7 +4249,7 @@
       "description": "Small input",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/input"
+        "@loveui/input"
       ],
       "files": [
         {
@@ -4266,7 +4266,7 @@
       "description": "Large input",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/input"
+        "@loveui/input"
       ],
       "files": [
         {
@@ -4283,7 +4283,7 @@
       "description": "Input with disabled state",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/input"
+        "@loveui/input"
       ],
       "files": [
         {
@@ -4301,7 +4301,7 @@
       "description": "Input type set to file",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/input"
+        "@loveui/input"
       ],
       "files": [
         {
@@ -4319,8 +4319,8 @@
       "description": "Input with label",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/input",
-        "@coss/label"
+        "@loveui/input",
+        "@loveui/label"
       ],
       "files": [
         {
@@ -4338,8 +4338,8 @@
       "description": "Input with button",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/input",
-        "@coss/button"
+        "@loveui/input",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -4357,8 +4357,8 @@
       "description": "Menu with checkbox items",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/menu",
-        "@coss/button"
+        "@loveui/menu",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -4376,8 +4376,8 @@
       "description": "Close menu when items are clicked",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/menu",
-        "@coss/button"
+        "@loveui/menu",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -4394,8 +4394,8 @@
       "description": "Basic menu",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/menu",
-        "@coss/button"
+        "@loveui/menu",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -4412,8 +4412,8 @@
       "description": "Menu items grouped with labels",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/menu",
-        "@coss/button"
+        "@loveui/menu",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -4431,8 +4431,8 @@
       "description": "Open the menu on hover",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/menu",
-        "@coss/button"
+        "@loveui/menu",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -4449,8 +4449,8 @@
       "description": "Menu items as links",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/menu",
-        "@coss/button"
+        "@loveui/menu",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -4468,8 +4468,8 @@
       "description": "Menu with submenu",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/menu",
-        "@coss/button"
+        "@loveui/menu",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -4486,8 +4486,8 @@
       "description": "Menu with radio options",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/menu",
-        "@coss/button"
+        "@loveui/menu",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -4505,7 +4505,7 @@
       "description": "Basic meter",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/meter"
+        "@loveui/meter"
       ],
       "files": [
         {
@@ -4522,7 +4522,7 @@
       "description": "Meter without label and value",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/meter"
+        "@loveui/meter"
       ],
       "files": [
         {
@@ -4539,7 +4539,7 @@
       "description": "Meter with a custom formatted value",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/meter"
+        "@loveui/meter"
       ],
       "files": [
         {
@@ -4556,7 +4556,7 @@
       "description": "Meter with min and max values",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/meter"
+        "@loveui/meter"
       ],
       "files": [
         {
@@ -4573,7 +4573,7 @@
       "description": "A number field",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/number-field"
+        "@loveui/number-field"
       ],
       "files": [
         {
@@ -4590,7 +4590,7 @@
       "description": "Small number field",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/number-field"
+        "@loveui/number-field"
       ],
       "files": [
         {
@@ -4607,7 +4607,7 @@
       "description": "Large number field",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/number-field"
+        "@loveui/number-field"
       ],
       "files": [
         {
@@ -4624,7 +4624,7 @@
       "description": "A disabled number field",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/number-field"
+        "@loveui/number-field"
       ],
       "files": [
         {
@@ -4643,10 +4643,10 @@
       "description": "A number in a form",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/number-field",
-        "@coss/field",
-        "@coss/form",
-        "@coss/button"
+        "@loveui/number-field",
+        "@loveui/field",
+        "@loveui/form",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -4666,7 +4666,7 @@
       "description": "A number field with formatted value",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/number-field"
+        "@loveui/number-field"
       ],
       "files": [
         {
@@ -4683,8 +4683,8 @@
       "description": "A number field with an external label",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/number-field",
-        "@coss/label"
+        "@loveui/number-field",
+        "@loveui/label"
       ],
       "dependencies": [
         "@radix-ui/react-label"
@@ -4705,7 +4705,7 @@
       "description": "A number field with min/max constraints",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/number-field"
+        "@loveui/number-field"
       ],
       "files": [
         {
@@ -4723,7 +4723,7 @@
       "description": "A number field with a scrub area",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/number-field"
+        "@loveui/number-field"
       ],
       "files": [
         {
@@ -4740,7 +4740,7 @@
       "description": "A number field with step",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/number-field"
+        "@loveui/number-field"
       ],
       "files": [
         {
@@ -4757,7 +4757,7 @@
       "description": "Pagination example",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/pagination"
+        "@loveui/pagination"
       ],
       "files": [
         {
@@ -4774,11 +4774,11 @@
       "description": "Popover with a form",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/popover",
-        "@coss/button",
-        "@coss/textarea",
-        "@coss/form",
-        "@coss/field"
+        "@loveui/popover",
+        "@loveui/button",
+        "@loveui/textarea",
+        "@loveui/form",
+        "@loveui/field"
       ],
       "files": [
         {
@@ -4799,8 +4799,8 @@
       "description": "Popover with close button",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/popover",
-        "@coss/button"
+        "@loveui/popover",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -4818,8 +4818,8 @@
       "description": "Preview card example",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/preview-card",
-        "@coss/button"
+        "@loveui/preview-card",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -4837,7 +4837,7 @@
       "description": "Animated progress bar",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/progress"
+        "@loveui/progress"
       ],
       "files": [
         {
@@ -4854,7 +4854,7 @@
       "description": "Progress with a custom formatted value",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/progress"
+        "@loveui/progress"
       ],
       "files": [
         {
@@ -4871,7 +4871,7 @@
       "description": "Progress with label and value",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/progress"
+        "@loveui/progress"
       ],
       "files": [
         {
@@ -4889,8 +4889,8 @@
       "description": "Card-style radio options",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/radio-group",
-        "@coss/label"
+        "@loveui/radio-group",
+        "@loveui/label"
       ],
       "files": [
         {
@@ -4908,8 +4908,8 @@
       "description": "Basic radio group",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/radio-group",
-        "@coss/label"
+        "@loveui/radio-group",
+        "@loveui/label"
       ],
       "files": [
         {
@@ -4927,8 +4927,8 @@
       "description": "Radio group with one option disabled",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/radio-group",
-        "@coss/label"
+        "@loveui/radio-group",
+        "@loveui/label"
       ],
       "files": [
         {
@@ -4946,11 +4946,11 @@
       "description": "Radio group in a form",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/radio-group",
-        "@coss/field",
-        "@coss/fieldset",
-        "@coss/form",
-        "@coss/button"
+        "@loveui/radio-group",
+        "@loveui/field",
+        "@loveui/fieldset",
+        "@loveui/form",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -4971,8 +4971,8 @@
       "description": "Radio options with helper text",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/radio-group",
-        "@coss/label"
+        "@loveui/radio-group",
+        "@loveui/label"
       ],
       "files": [
         {
@@ -4992,7 +4992,7 @@
       "description": "Scroll area - vertical",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/scroll-area"
+        "@loveui/scroll-area"
       ],
       "files": [
         {
@@ -5009,7 +5009,7 @@
       "description": "Scroll area - horizontal",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/scroll-area"
+        "@loveui/scroll-area"
       ],
       "files": [
         {
@@ -5026,7 +5026,7 @@
       "description": "Scroll area - both horizontal and vertical",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/scroll-area"
+        "@loveui/scroll-area"
       ],
       "files": [
         {
@@ -5043,7 +5043,7 @@
       "description": "A basic select",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/select"
+        "@loveui/select"
       ],
       "files": [
         {
@@ -5060,7 +5060,7 @@
       "description": "A select with small size",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/select"
+        "@loveui/select"
       ],
       "files": [
         {
@@ -5077,7 +5077,7 @@
       "description": "A select with large size",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/select"
+        "@loveui/select"
       ],
       "files": [
         {
@@ -5094,7 +5094,7 @@
       "description": "A disabled select",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/select"
+        "@loveui/select"
       ],
       "files": [
         {
@@ -5112,7 +5112,7 @@
       "description": "Select popup not aligned to trigger",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/select"
+        "@loveui/select"
       ],
       "files": [
         {
@@ -5129,7 +5129,7 @@
       "description": "Select items grouped with labels",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/select"
+        "@loveui/select"
       ],
       "files": [
         {
@@ -5146,7 +5146,7 @@
       "description": "Multiple selection with formatted value",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/select"
+        "@loveui/select"
       ],
       "files": [
         {
@@ -5163,10 +5163,10 @@
       "description": "Select in a form",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/select",
-        "@coss/form",
-        "@coss/field"
+        "@loveui/button",
+        "@loveui/select",
+        "@loveui/form",
+        "@loveui/field"
       ],
       "files": [
         {
@@ -5187,7 +5187,7 @@
       "description": "Separator with horizontal and vertical orientations",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/separator"
+        "@loveui/separator"
       ],
       "files": [
         {
@@ -5204,9 +5204,9 @@
       "description": "Skeleton demo",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/avatar",
-        "@coss/button",
-        "@coss/skeleton"
+        "@loveui/avatar",
+        "@loveui/button",
+        "@loveui/skeleton"
       ],
       "files": [
         {
@@ -5223,7 +5223,7 @@
       "description": "Skeleton only",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/skeleton"
+        "@loveui/skeleton"
       ],
       "files": [
         {
@@ -5240,7 +5240,7 @@
       "description": "Basic slider",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/slider"
+        "@loveui/slider"
       ],
       "files": [
         {
@@ -5257,8 +5257,8 @@
       "description": "Slider with label and value",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/slider",
-        "@coss/label"
+        "@loveui/slider",
+        "@loveui/label"
       ],
       "files": [
         {
@@ -5276,7 +5276,7 @@
       "description": "Two-thumb range slider",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/slider"
+        "@loveui/slider"
       ],
       "files": [
         {
@@ -5294,7 +5294,7 @@
       "description": "Vertical slider",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/slider"
+        "@loveui/slider"
       ],
       "files": [
         {
@@ -5312,10 +5312,10 @@
       "description": "Slider in a form",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/slider",
-        "@coss/form",
-        "@coss/field",
-        "@coss/button"
+        "@loveui/slider",
+        "@loveui/form",
+        "@loveui/field",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -5337,8 +5337,8 @@
       "description": "Basic switch",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/switch",
-        "@coss/label"
+        "@loveui/switch",
+        "@loveui/label"
       ],
       "files": [
         {
@@ -5356,8 +5356,8 @@
       "description": "Disabled switch",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/switch",
-        "@coss/label"
+        "@loveui/switch",
+        "@loveui/label"
       ],
       "files": [
         {
@@ -5376,8 +5376,8 @@
       "description": "Switch with description",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/switch",
-        "@coss/label"
+        "@loveui/switch",
+        "@loveui/label"
       ],
       "files": [
         {
@@ -5397,8 +5397,8 @@
       "description": "Card-style switch",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/switch",
-        "@coss/label"
+        "@loveui/switch",
+        "@loveui/label"
       ],
       "files": [
         {
@@ -5417,10 +5417,10 @@
       "description": "Switch in a form",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/switch",
-        "@coss/field",
-        "@coss/form",
-        "@coss/button"
+        "@loveui/switch",
+        "@loveui/field",
+        "@loveui/form",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -5440,8 +5440,8 @@
       "description": "Basic table",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/table",
-        "@coss/badge"
+        "@loveui/table",
+        "@loveui/badge"
       ],
       "files": [
         {
@@ -5459,9 +5459,9 @@
       "description": "Framed table",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/table",
-        "@coss/badge",
-        "@coss/frame"
+        "@loveui/table",
+        "@loveui/badge",
+        "@loveui/frame"
       ],
       "files": [
         {
@@ -5480,7 +5480,7 @@
       "description": "Tabs with default indicator",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/tabs"
+        "@loveui/tabs"
       ],
       "files": [
         {
@@ -5497,7 +5497,7 @@
       "description": "Tabs with underline indicator",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/tabs"
+        "@loveui/tabs"
       ],
       "files": [
         {
@@ -5514,7 +5514,7 @@
       "description": "Tabs with vertical layout",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/tabs"
+        "@loveui/tabs"
       ],
       "files": [
         {
@@ -5532,7 +5532,7 @@
       "description": "Underline tabs with vertical layout",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/tabs"
+        "@loveui/tabs"
       ],
       "files": [
         {
@@ -5550,7 +5550,7 @@
       "description": "Basic textarea",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/textarea"
+        "@loveui/textarea"
       ],
       "files": [
         {
@@ -5567,7 +5567,7 @@
       "description": "Small textarea",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/textarea"
+        "@loveui/textarea"
       ],
       "files": [
         {
@@ -5584,7 +5584,7 @@
       "description": "Large textarea",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/textarea"
+        "@loveui/textarea"
       ],
       "files": [
         {
@@ -5601,7 +5601,7 @@
       "description": "Disabled textarea",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/textarea"
+        "@loveui/textarea"
       ],
       "files": [
         {
@@ -5619,8 +5619,8 @@
       "description": "Textarea labelled with Field",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/textarea",
-        "@coss/label"
+        "@loveui/textarea",
+        "@loveui/label"
       ],
       "files": [
         {
@@ -5639,10 +5639,10 @@
       "description": "Textarea in a form",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/textarea",
-        "@coss/form",
-        "@coss/field",
-        "@coss/button"
+        "@loveui/textarea",
+        "@loveui/form",
+        "@loveui/field",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -5662,7 +5662,7 @@
       "description": "Status toast",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/toast"
+        "@loveui/toast"
       ],
       "files": [
         {
@@ -5680,7 +5680,7 @@
       "description": "Loading toast",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/toast"
+        "@loveui/toast"
       ],
       "files": [
         {
@@ -5699,7 +5699,7 @@
       "description": "Drive toasts from promise states",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/toast"
+        "@loveui/toast"
       ],
       "files": [
         {
@@ -5717,7 +5717,7 @@
       "description": "Toast with an action button",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/toast"
+        "@loveui/toast"
       ],
       "files": [
         {
@@ -5735,7 +5735,7 @@
       "description": "Success toast",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/toast"
+        "@loveui/toast"
       ],
       "files": [
         {
@@ -5753,7 +5753,7 @@
       "description": "Toast with varying heights",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/toast"
+        "@loveui/toast"
       ],
       "files": [
         {
@@ -5770,7 +5770,7 @@
       "description": "Basic toggle",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/toggle"
+        "@loveui/toggle"
       ],
       "files": [
         {
@@ -5787,7 +5787,7 @@
       "description": "Disabled toggle",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/toggle"
+        "@loveui/toggle"
       ],
       "files": [
         {
@@ -5805,7 +5805,7 @@
       "description": "Toggle group",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/toggle-group"
+        "@loveui/toggle-group"
       ],
       "files": [
         {
@@ -5823,7 +5823,7 @@
       "description": "Toggle group with small toggles",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/toggle-group"
+        "@loveui/toggle-group"
       ],
       "files": [
         {
@@ -5841,7 +5841,7 @@
       "description": "Toggle group with large toggles",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/toggle-group"
+        "@loveui/toggle-group"
       ],
       "files": [
         {
@@ -5859,7 +5859,7 @@
       "description": "Toggle group with outline toggles",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/toggle-group"
+        "@loveui/toggle-group"
       ],
       "files": [
         {
@@ -5877,7 +5877,7 @@
       "description": "Toggle group with outline toggles and separator",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/toggle-group"
+        "@loveui/toggle-group"
       ],
       "files": [
         {
@@ -5895,7 +5895,7 @@
       "description": "Disabled toggle group",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/toggle-group"
+        "@loveui/toggle-group"
       ],
       "files": [
         {
@@ -5914,7 +5914,7 @@
       "description": "Toggle group with multiple selection",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/toggle-group"
+        "@loveui/toggle-group"
       ],
       "files": [
         {
@@ -5932,7 +5932,7 @@
       "description": "Toggle group with disabled item",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/toggle-group"
+        "@loveui/toggle-group"
       ],
       "files": [
         {
@@ -5951,7 +5951,7 @@
       "description": "Multiple toggles",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/toggle"
+        "@loveui/toggle"
       ],
       "files": [
         {
@@ -5968,7 +5968,7 @@
       "description": "Large toggle",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/toggle"
+        "@loveui/toggle"
       ],
       "files": [
         {
@@ -5985,7 +5985,7 @@
       "description": "Outline toggle",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/toggle"
+        "@loveui/toggle"
       ],
       "files": [
         {
@@ -6002,7 +6002,7 @@
       "description": "Small toggle",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/toggle"
+        "@loveui/toggle"
       ],
       "files": [
         {
@@ -6019,7 +6019,7 @@
       "description": "Toggle with icon",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/toggle"
+        "@loveui/toggle"
       ],
       "files": [
         {
@@ -6036,11 +6036,11 @@
       "description": "Toolbar",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/button",
-        "@coss/select",
-        "@coss/toggle-group",
-        "@coss/toolbar",
-        "@coss/tooltip"
+        "@loveui/button",
+        "@loveui/select",
+        "@loveui/toggle-group",
+        "@loveui/toolbar",
+        "@loveui/tooltip"
       ],
       "files": [
         {
@@ -6061,8 +6061,8 @@
       "description": "Basic tooltip",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/tooltip",
-        "@coss/button"
+        "@loveui/tooltip",
+        "@loveui/button"
       ],
       "files": [
         {
@@ -6080,8 +6080,8 @@
       "description": "Toggle group with grouped tooltips",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/tooltip",
-        "@coss/toggle-group"
+        "@loveui/tooltip",
+        "@loveui/toggle-group"
       ],
       "files": [
         {
@@ -6584,8 +6584,8 @@
       "type": "registry:example",
       "registryDependencies": [
         "@loveui/image-crop",
-        "@coss/button",
-        "@coss/input"
+        "@loveui/button",
+        "@loveui/input"
       ],
       "files": [
         {
@@ -6605,8 +6605,8 @@
       "type": "registry:example",
       "registryDependencies": [
         "@loveui/image-crop",
-        "@coss/button",
-        "@coss/input"
+        "@loveui/button",
+        "@loveui/input"
       ],
       "files": [
         {
@@ -6627,8 +6627,8 @@
       "type": "registry:example",
       "registryDependencies": [
         "@loveui/image-crop",
-        "@coss/button",
-        "@coss/input"
+        "@loveui/button",
+        "@loveui/input"
       ],
       "files": [
         {
@@ -6850,7 +6850,7 @@
       "type": "registry:example",
       "registryDependencies": [
         "@loveui/deck",
-        "@coss/button"
+        "@loveui/button"
       ],
       "files": [
         {
@@ -6870,7 +6870,7 @@
       "type": "registry:example",
       "registryDependencies": [
         "@loveui/deck",
-        "@coss/badge"
+        "@loveui/badge"
       ],
       "files": [
         {
@@ -6985,7 +6985,7 @@
       "type": "registry:example",
       "registryDependencies": [
         "@loveui/reel",
-        "@coss/button"
+        "@loveui/button"
       ],
       "files": [
         {
@@ -7286,7 +7286,7 @@
       "type": "registry:example",
       "registryDependencies": [
         "@loveui/dialog-stack",
-        "@coss/button"
+        "@loveui/button"
       ],
       "files": [
         {
@@ -7306,7 +7306,7 @@
       "type": "registry:example",
       "registryDependencies": [
         "@loveui/dialog-stack",
-        "@coss/button"
+        "@loveui/button"
       ],
       "files": [
         {
@@ -7326,7 +7326,7 @@
       "type": "registry:example",
       "registryDependencies": [
         "@loveui/dialog-stack",
-        "@coss/button"
+        "@loveui/button"
       ],
       "files": [
         {
@@ -7346,7 +7346,7 @@
       "type": "registry:example",
       "registryDependencies": [
         "@loveui/dialog-stack",
-        "@coss/button"
+        "@loveui/button"
       ],
       "files": [
         {
@@ -7514,10 +7514,10 @@
       "description": "A pricing page with a list of plans and features.",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/card",
-        "@coss/button",
-        "@coss/badge",
-        "@coss/tabs"
+        "@loveui/card",
+        "@loveui/button",
+        "@loveui/badge",
+        "@loveui/tabs"
       ],
       "files": [
         {
@@ -7539,7 +7539,7 @@
         "@loveui/announcement",
         "@loveui/marquee",
         "@loveui/video-player",
-        "@coss/button"
+        "@loveui/button"
       ],
       "files": [
         {
@@ -7563,9 +7563,9 @@
         "@loveui/kanban",
         "@loveui/list",
         "@loveui/table",
-        "@coss/tabs",
-        "@coss/avatar",
-        "@coss/context-menu"
+        "@loveui/tabs",
+        "@loveui/avatar",
+        "@loveui/context-menu"
       ],
       "files": [
         {
@@ -7584,7 +7584,7 @@
       "description": "A complete form block with multiple input types.",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/form"
+        "@loveui/form"
       ],
       "files": [
         {
@@ -7636,7 +7636,7 @@
       "description": "Back link button with chevron",
       "type": "registry:block",
       "registryDependencies": [
-        "@coss/button"
+        "@loveui/button"
       ],
       "dependencies": [
         "lucide-react"
@@ -7656,7 +7656,7 @@
       "description": "Card-style button with heading and description",
       "type": "registry:block",
       "registryDependencies": [
-        "@coss/button"
+        "@loveui/button"
       ],
       "dependencies": [
         "lucide-react"
@@ -7676,7 +7676,7 @@
       "description": "Directional pad control buttons",
       "type": "registry:block",
       "registryDependencies": [
-        "@coss/button"
+        "@loveui/button"
       ],
       "dependencies": [
         "lucide-react"
@@ -7696,7 +7696,7 @@
       "description": "Outline like button with count",
       "type": "registry:block",
       "registryDependencies": [
-        "@coss/button"
+        "@loveui/button"
       ],
       "dependencies": [
         "lucide-react"
@@ -7716,7 +7716,7 @@
       "description": "Social login icon buttons",
       "type": "registry:block",
       "registryDependencies": [
-        "@coss/button"
+        "@loveui/button"
       ],
       "dependencies": [
         "@remixicon/react"
@@ -7736,7 +7736,7 @@
       "description": "Expandable show more/less toggle button",
       "type": "registry:block",
       "registryDependencies": [
-        "@coss/button"
+        "@loveui/button"
       ],
       "dependencies": [
         "lucide-react"
@@ -7756,7 +7756,7 @@
       "description": "Star button with count badge",
       "type": "registry:block",
       "registryDependencies": [
-        "@coss/button"
+        "@loveui/button"
       ],
       "dependencies": [
         "lucide-react"
@@ -7776,9 +7776,9 @@
       "description": "Frame with collapsible content and delete button",
       "type": "registry:example",
       "registryDependencies": [
-        "@coss/frame",
-        "@coss/collapsible",
-        "@coss/button"
+        "@loveui/frame",
+        "@loveui/collapsible",
+        "@loveui/button"
       ],
       "dependencies": [
         "lucide-react"
@@ -7799,7 +7799,7 @@
       "description": "Pagination with previous and next buttons only",
       "type": "registry:block",
       "registryDependencies": [
-        "@coss/pagination"
+        "@loveui/pagination"
       ],
       "files": [
         {
@@ -7816,8 +7816,8 @@
       "description": "Pagination with select, and previous and next buttons",
       "type": "registry:block",
       "registryDependencies": [
-        "@coss/pagination",
-        "@coss/select"
+        "@loveui/pagination",
+        "@loveui/select"
       ],
       "files": [
         {

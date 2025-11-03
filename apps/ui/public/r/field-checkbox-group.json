@@ -4,10 +4,10 @@
   "type": "registry:example",
   "description": "Field with checkbox group",
   "registryDependencies": [
-    "@coss/field",
-    "@coss/checkbox-group",
-    "@coss/checkbox",
-    "@coss/fieldset"
+    "@loveui/field",
+    "@loveui/checkbox-group",
+    "@loveui/checkbox",
+    "@loveui/fieldset"
   ],
   "files": [
     {

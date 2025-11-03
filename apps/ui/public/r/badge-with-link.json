@@ -4,7 +4,7 @@
   "type": "registry:example",
   "description": "Badge with link",
   "registryDependencies": [
-    "@coss/badge"
+    "@loveui/badge"
   ],
   "files": [
     {

@@ -30,11 +30,11 @@ export default function DialogDemo() {
           <div className="flex flex-col gap-4">
             <Field>
               <FieldLabel>Name</FieldLabel>
-              <FieldControl type="text" defaultValue="Connor Welsh" />
+              <FieldControl type="text" defaultValue="Connor Love" />
             </Field>
             <Field>
               <FieldLabel>Username</FieldLabel>
-              <FieldControl type="text" defaultValue="@maggie.welsh" />
+              <FieldControl type="text" defaultValue="@loveconnor" />
             </Field>
           </div>
           <DialogFooter>
