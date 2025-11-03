@@ -20,66 +20,63 @@ type NavItem = {
 const uiAppBaseUrl = process.env.NEXT_PUBLIC_COSS_UI_URL;
 
 const baseNavItems: ReadonlyArray<{ path: string; label: string }> = [
-  { path: "ui/docs", label: "Docs" },
-  { path: "ui/docs/features/avatar-stack", label: "Features" },
-  { path: "ui/building-blocks", label: "Building Blocks" },
-  { path: "ui/docs/backgrounds/ether", label: "Backgrounds" },
+  { path: "/docs", label: "Docs" },
+  { path: "/docs/features/avatar-stack", label: "Features" },
+  { path: "/building-blocks", label: "Building Blocks" },
+  { path: "/docs/backgrounds/ether", label: "Backgrounds" },
 ] as const;
 
 const normalizePath = (path: string) => (path.startsWith("/") ? path : `/${path}`);
 
-const ensureUiBase = () => {
+const parseUiBase = () => {
   const raw = uiAppBaseUrl?.trim();
   if (!raw) {
-    return "/ui";
+    return { origin: null, prefix: "/ui" };
   }
 
   if (/^https?:\/\//i.test(raw)) {
     try {
       const url = new URL(raw);
-      const pathname = url.pathname.replace(/\/+$/, "");
-      let ensuredPath =
-        pathname === "" || pathname === "/"
-          ? "/ui"
-          : pathname.endsWith("/ui")
-            ? pathname
-            : `${pathname}/ui`;
-      ensuredPath = ensuredPath.replace(/\/{2,}/g, "/");
-      if (!ensuredPath.startsWith("/")) {
-        ensuredPath = `/${ensuredPath}`;
+      let prefix = url.pathname.replace(/\/+$/, "");
+      if (prefix === "" || prefix === "/") {
+        prefix = "/ui";
+      } else if (!prefix.endsWith("/ui")) {
+        prefix = `${prefix}/ui`;
       }
-      url.pathname = ensuredPath;
-      return `${url.origin}${ensuredPath}`.replace(/\/+$/, "");
+      return { origin: url.origin, prefix };
     } catch {
-      // fall back to relative handling below
+      // fall through to relative parsing
     }
   }
 
-  let base = raw.startsWith("/") ? raw : `/${raw}`;
-  base = base.replace(/\/+$/, "");
-  if (base === "" || base === "/") {
-    base = "/ui";
-  } else if (!base.endsWith("/ui")) {
-    base = `${base}/ui`;
+  let prefix = raw.startsWith("/") ? raw : `/${raw}`;
+  prefix = prefix.replace(/\/+$/, "");
+  if (prefix === "" || prefix === "/") {
+    prefix = "/ui";
+  } else if (!prefix.endsWith("/ui")) {
+    prefix = `${prefix}/ui`;
   }
-  return base.replace(/\/{2,}/g, "/");
+  return { origin: null, prefix };
 };
 
-const resolvedUiBase = ensureUiBase();
+const uiBase = parseUiBase();
 
-const joinHref = (base: string, path: string) => {
-  const normalizedBase = base.replace(/\/+$/, "");
+const buildHref = (path: string) => {
   const normalizedPath = normalizePath(path);
-  if (normalizedPath === "/") {
-    return normalizedBase || "/";
+
+  if (uiBase.origin) {
+    const relative = `${uiBase.prefix.replace(/^\//, "")}${normalizedPath}`;
+    const url = new URL(relative.replace(/\/{2,}/g, "/"), `${uiBase.origin}/`);
+    return url.toString();
   }
-  return `${normalizedBase}${normalizedPath}`.replace(/(?<!:)\/{2,}/g, "/");
+
+  return `${uiBase.prefix}${normalizedPath}`.replace(/\/{2,}/g, "/");
 };
 
 const navItems: ReadonlyArray<NavItem> = baseNavItems.map((item) => ({
   label: item.label,
-  href: joinHref(resolvedUiBase, item.path),
-  activeHref: joinHref("/ui", item.path),
+  href: buildHref(item.path),
+  activeHref: `/ui${normalizePath(item.path)}`.replace(/\/{2,}/g, "/"),
 }));
 
 function useActiveHref(items: readonly NavItem[]) {
