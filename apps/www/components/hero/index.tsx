@@ -6,8 +6,8 @@ import {
   AnnouncementTag,
   AnnouncementTitle,
 } from "../../../../packages/announcement";
-import { PageHeaderHeading } from "@workspace/ui/components/page-header";
-import { Button } from "@workspace/ui/ui/button";
+import { PageHeaderHeading } from "@loveui/ui/components/page-header";
+import { Button } from "@loveui/ui/ui/button";
 
 import Beams from "@/components/beams";
 

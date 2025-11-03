@@ -5,7 +5,7 @@ import {
   PageHeader,
   PageHeaderDescription,
   PageHeaderHeading,
-} from "@workspace/ui/components/page-header"
+} from "@loveui/ui/components/page-header"
 
 import { categories } from "@/lib/building-blocks-config/components"
 

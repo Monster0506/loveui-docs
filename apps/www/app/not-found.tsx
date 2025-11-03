@@ -6,8 +6,8 @@ import {
   PageHeader,
   PageHeaderDescription,
   PageHeaderHeading,
-} from "@workspace/ui/components/page-header"
-import { Button } from "@workspace/ui/ui/button"
+} from "@loveui/ui/components/page-header"
+import { Button } from "@loveui/ui/ui/button"
 
 export const metadata: Metadata = {
   title: "Page Not Found",

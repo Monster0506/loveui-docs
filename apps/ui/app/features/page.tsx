@@ -4,7 +4,7 @@ import {
   PageHeader,
   PageHeaderDescription,
   PageHeaderHeading,
-} from "@workspace/ui/components/page-header"
+} from "@loveui/ui/components/page-header"
 
 import { Preview } from "@/components/preview"
 import { examples } from "@/registry/registry-examples"
@@ -30,12 +30,12 @@ const SECTION_CONFIG: Array<{
       example.categories?.includes("forms") ||
       example.registryDependencies?.some((dependency) =>
         [
-          "@repo/combobox",
-          "@repo/choicebox",
-          "@repo/dropzone",
-          "@repo/pill",
-          "@repo/rating",
-          "@repo/tags",
+          "@loveui/combobox",
+          "@loveui/choicebox",
+          "@loveui/dropzone",
+          "@loveui/pill",
+          "@loveui/rating",
+          "@loveui/tags",
         ].includes(dependency)
       ) ||
       false,
@@ -49,9 +49,9 @@ const SECTION_CONFIG: Array<{
       example.categories?.includes("styling") ||
       example.registryDependencies?.some((dependency) =>
         [
-          "@repo/theme-switcher",
-          "@repo/color-picker",
-          "@repo/typography",
+          "@loveui/theme-switcher",
+          "@loveui/color-picker",
+          "@loveui/typography",
         ].includes(dependency)
       ) ||
       false,
@@ -64,9 +64,9 @@ const SECTION_CONFIG: Array<{
       example.categories?.includes("marketing") ||
       example.registryDependencies?.some((dependency) =>
         [
-          "@repo/announcement",
-          "@repo/banner",
-          "@repo/marquee",
+          "@loveui/announcement",
+          "@loveui/banner",
+          "@loveui/marquee",
         ].includes(dependency)
       ) ||
       false,
@@ -81,7 +81,7 @@ const SECTION_CONFIG: Array<{
         ["image", "preview"].includes(category)
       ) ||
       example.registryDependencies?.some((dependency) =>
-        ["@repo/image-crop", "@repo/image-zoom", "@repo/glimpse"].includes(
+        ["@loveui/image-crop", "@loveui/image-zoom", "@loveui/glimpse"].includes(
           dependency
         )
       ) ||
@@ -94,7 +94,7 @@ const SECTION_CONFIG: Array<{
     filter: (example) =>
       example.categories?.includes("overlay") ||
       example.registryDependencies?.some((dependency) =>
-        ["@repo/dialog-stack"].includes(dependency)
+        ["@loveui/dialog-stack"].includes(dependency)
       ) ||
       false,
   },
@@ -106,7 +106,7 @@ const SECTION_CONFIG: Array<{
     filter: (example) =>
       example.categories?.includes("feedback") ||
       example.registryDependencies?.some((dependency) =>
-        ["@repo/spinner"].includes(dependency)
+        ["@loveui/spinner"].includes(dependency)
       ) ||
       false,
   },
@@ -117,7 +117,7 @@ const SECTION_CONFIG: Array<{
     filter: (example) =>
       example.categories?.includes("utility") ||
       example.registryDependencies?.some((dependency) =>
-        ["@repo/qr-code"].includes(dependency)
+        ["@loveui/qr-code"].includes(dependency)
       ) ||
       false,
   },
@@ -129,7 +129,7 @@ const SECTION_CONFIG: Array<{
     filter: (example) =>
       example.categories?.includes("finance") ||
       example.registryDependencies?.some((dependency) =>
-        ["@repo/credit-card", "@repo/ticker"].includes(dependency)
+        ["@loveui/credit-card", "@loveui/ticker"].includes(dependency)
       ) ||
       false,
   },
@@ -142,10 +142,10 @@ const SECTION_CONFIG: Array<{
       example.categories?.includes("social") ||
       example.registryDependencies?.some((dependency) =>
         [
-          "@repo/deck",
-          "@repo/reel",
-          "@repo/stories",
-          "@repo/video-player",
+          "@loveui/deck",
+          "@loveui/reel",
+          "@loveui/stories",
+          "@loveui/video-player",
         ].includes(dependency)
       ) ||
       false,

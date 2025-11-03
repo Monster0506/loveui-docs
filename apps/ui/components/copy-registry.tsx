@@ -4,8 +4,8 @@ import * as React from "react"
 import { Tick02Icon } from "@hugeicons/core-free-icons"
 import { HugeiconsIcon } from "@hugeicons/react"
 
-import { Icons } from "@workspace/ui/components/icons"
-import { useCopyToClipboard } from "@workspace/ui/hooks/use-copy-to-clipboard"
+import { Icons } from "@loveui/ui/components/icons"
+import { useCopyToClipboard } from "@loveui/ui/hooks/use-copy-to-clipboard"
 
 import { cn } from "@/lib/utils"
 import { Button } from "@/registry/default/ui/button"

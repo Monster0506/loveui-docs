@@ -3,7 +3,7 @@
 import { Copy01Icon, Tick02Icon } from "@hugeicons/core-free-icons"
 import { HugeiconsIcon } from "@hugeicons/react"
 
-import { useCopyToClipboard } from "@workspace/ui/hooks/use-copy-to-clipboard"
+import { useCopyToClipboard } from "@loveui/ui/hooks/use-copy-to-clipboard"
 
 import { Button } from "@/registry/default/ui/button"
 

@@ -8,7 +8,7 @@ import {
 } from "@hugeicons/core-free-icons"
 import { HugeiconsIcon } from "@hugeicons/react"
 
-import { useCopyToClipboard } from "@workspace/ui/hooks/use-copy-to-clipboard"
+import { useCopyToClipboard } from "@loveui/ui/hooks/use-copy-to-clipboard"
 
 import { useConfig } from "@/hooks/use-config"
 import { Button } from "@/registry/default/ui/button"

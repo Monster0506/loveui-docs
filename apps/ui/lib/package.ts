@@ -86,22 +86,36 @@ const collectFiles = async (
   }
 };
 
-const resolveTargetBase = (packageJson: Record<string, any>) => {
+type TargetResolution = {
+  base: string;
+  includePackageName: boolean;
+};
+
+const resolveTargetBase = (
+  packageJson: Record<string, any>,
+  packageName: string
+): TargetResolution => {
   const loveui = packageJson.loveui ?? {};
   const target = loveui.target as string | undefined;
   const kind = loveui.category as string | undefined;
 
-  if (target) return target.replace(/\/+$/, "");
+  if (typeof target === "string" && target.trim().length > 0) {
+    const include =
+      typeof loveui.includePackageName === "boolean"
+        ? loveui.includePackageName
+        : false;
+    return { base: target.replace(/\/+$/, ""), includePackageName: include };
+  }
 
   if (kind === "feature") {
-    return "components";
+    return { base: "components", includePackageName: true };
   }
 
   if (kind === "block") {
-    return "components/blocks";
+    return { base: "components/blocks", includePackageName: true };
   }
 
-  return "components/ui";
+  return { base: "components/ui", includePackageName: true };
 };
 
 const resolveRegistryType = (packageJson: Record<string, any>) => {
@@ -134,8 +148,8 @@ export const getPackage = async (packageName: string) => {
 
   const internalDependencies = new Set(
     [...dependencyEntries, ...peerDependencyEntries, ...devDependencyEntries]
-      .filter((dep) => dep.startsWith("@repo/") || dep.startsWith("@loveui/"))
-      .filter((dep) => dep !== "@repo/shadcn-ui")
+      .filter((dep) => dep.startsWith("@loveui/") || dep.startsWith("@loveui/"))
+      .filter((dep) => dep !== "@loveui/shadcn-ui")
   );
 
   const dependencies = [
@@ -152,7 +166,7 @@ export const getPackage = async (packageName: string) => {
         (dep) =>
           !internalDependencies.has(dep) &&
           ![
-            "@repo/typescript-config",
+            "@loveui/typescript-config",
             "@types/react",
             "@types/react-dom",
             "typescript",
@@ -176,7 +190,7 @@ export const getPackage = async (packageName: string) => {
   const files: NonNullable<RegistryItem["files"]> = [];
   const css: RegistryItem["css"] = {};
 
-  const targetBase = resolveTargetBase(packageJson);
+  const targetConfig = resolveTargetBase(packageJson, packageName);
 
   for (const file of discoveredFiles) {
     const content = await readFile(file.absolute, "utf-8");
@@ -235,14 +249,35 @@ export const getPackage = async (packageName: string) => {
       continue;
     }
 
-    const cleanedPath = file.relative.startsWith("src/")
+    let cleanedPath = file.relative.startsWith("src/")
       ? file.relative.slice(4)
       : file.relative;
+
+    if (!targetConfig.includePackageName) {
+      const baseSegments = targetConfig.base.split("/").filter(Boolean);
+      const lastSegment = baseSegments[baseSegments.length - 1];
+      if (
+        lastSegment &&
+        cleanedPath.startsWith(`${lastSegment}/`)
+      ) {
+        cleanedPath = cleanedPath.slice(lastSegment.length + 1);
+      }
+    }
+
+    const packageSlug = packageName.includes("/")
+      ? packageName.split("/").pop() ?? packageName
+      : packageName;
+
+    const prefix = targetConfig.includePackageName
+      ? `${targetConfig.base}/${packageSlug}`
+      : targetConfig.base;
+
+    const normalizedPrefix = prefix.replace(/\/+$/, "");
 
     files.push({
       type: registryType,
       path: cleanedPath,
-      target: `${targetBase}/${packageName}/${cleanedPath}`,
+      target: `${normalizedPrefix}/${cleanedPath}`.replace(/\/+/g, "/"),
       content,
     });
   }

@@ -1,5 +1,5 @@
-import { SiteHeader as WorkspaceSiteHeader } from "@workspace/ui/components/site-header"
-import { Separator } from "@workspace/ui/ui/separator"
+import { SiteHeader as WorkspaceSiteHeader } from "@loveui/ui/components/site-header"
+import { Separator } from "@loveui/ui/ui/separator"
 
 import { appConfig } from "@/lib/config"
 import { source } from "@/lib/source"

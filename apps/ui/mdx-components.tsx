@@ -3,8 +3,8 @@ import Image from "next/image"
 import Link from "next/link"
 import { InfoIcon } from "lucide-react"
 
-import { CopyButton } from "@workspace/ui/components/copy-button"
-import { getIconForLanguageExtension } from "@workspace/ui/components/icons"
+import { CopyButton } from "@loveui/ui/components/copy-button"
+import { getIconForLanguageExtension } from "@loveui/ui/components/icons"
 
 import { cn } from "@/lib/utils"
 import { CodeBlockCommand } from "@/components/code-block-command"

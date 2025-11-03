@@ -1,3 +1,3 @@
-import { postcssConfig } from "@workspace/ui/postcss.config";
+import { postcssConfig } from "@loveui/ui/postcss.config";
 
 export default postcssConfig;

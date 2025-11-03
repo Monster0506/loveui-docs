@@ -6,7 +6,7 @@ import {
   PageHeader,
   PageHeaderDescription,
   PageHeaderHeading,
-} from "@workspace/ui/components/page-header"
+} from "@loveui/ui/components/page-header"
 
 import { Button } from "@/registry/default/ui/button"
 

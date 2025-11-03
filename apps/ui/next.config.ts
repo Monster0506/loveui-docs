@@ -7,7 +7,7 @@ const withMDX = createMDX()
 
 const nextConfig: NextConfig = {
   basePath: process.env.NEXT_PUBLIC_BASE_PATH || "/ui",
-  transpilePackages: ["@workspace/ui", "@loveui/ether", "@loveui/silk", "@loveui/gradiant-blinds"],
+  transpilePackages: ["@loveui/ui", "@loveui/ether", "@loveui/silk", "@loveui/gradiant-blinds"],
   typescript: {
     ignoreBuildErrors: true,
   },

@@ -12,7 +12,7 @@ import {
 } from "@hugeicons/core-free-icons"
 import { HugeiconsIcon } from "@hugeicons/react"
 
-import { copyToClipboard } from "@workspace/ui/components/copy-button"
+import { copyToClipboard } from "@loveui/ui/components/copy-button"
 
 import { source } from "@/lib/source"
 import { cn } from "@/lib/utils"

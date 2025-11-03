@@ -4,8 +4,8 @@ import { HugeiconsIcon } from "@hugeicons/react"
 import { registryItemSchema } from "shadcn/schema"
 import { z } from "zod"
 
-import { Icons } from "@workspace/ui/components/icons"
-import { highlightCode } from "@workspace/ui/lib/highlight-code"
+import { Icons } from "@loveui/ui/components/icons"
+import { highlightCode } from "@loveui/ui/lib/highlight-code"
 
 import { getRegistryItem } from "@/lib/registry"
 import { cn } from "@/lib/utils"

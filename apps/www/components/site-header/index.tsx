@@ -3,18 +3,18 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { MenuIcon } from "lucide-react";
-import { SiteHeader as WorkspaceSiteHeader } from "@workspace/ui/components/site-header";
-import { Button } from "@workspace/ui/ui/button";
-import { Separator } from "@workspace/ui/ui/separator";
-import { Sheet, SheetClose, SheetContent, SheetTrigger } from "@workspace/ui/ui/sheet";
-import { cn } from "@workspace/ui/lib/utils";
+import { SiteHeader as WorkspaceSiteHeader } from "@loveui/ui/components/site-header";
+import { Button } from "@loveui/ui/ui/button";
+import { Separator } from "@loveui/ui/ui/separator";
+import { Sheet, SheetClose, SheetContent, SheetTrigger } from "@loveui/ui/ui/sheet";
+import { cn } from "@loveui/ui/lib/utils";
 import { QuickSearch } from "@/components/site-header/quick-search";
 import { useScrolledPastHero } from "@/hooks/use-scrolled-past-hero";
 
 const navItems = [
   { href: "/ui/docs", label: "Docs" },
   { href: "/ui/docs/features/avatar-stack", label: "Features" },
-  { href: "/ui//building-blocks", label: "Building Blocks" },
+  { href: "/ui/building-blocks", label: "Building Blocks" },
   { href: "/ui/docs/backgrounds/ether", label: "Backgrounds" },
 ] as const;
 
@@ -51,7 +51,7 @@ function DesktopNav() {
             key={item.href}
             variant="ghost"
             data-pressed={isActive || undefined}
-            render={<Link href={item.href} className={cn(isActive && "text-primary")} />}
+            render={<Link href={item.href} prefetch={false} className={cn(isActive && "text-primary")} />}
           >
             {item.label}
           </Button>
@@ -87,6 +87,7 @@ function MobileNav() {
                     <Link
                       {...restCloseProps}
                       href={item.href}
+                      prefetch={false}
                       className={cn(
                         "flex items-center justify-between rounded-lg px-3 py-2 text-sm font-medium transition-colors hover:bg-accent",
                         isActive ? "text-primary" : "text-foreground",

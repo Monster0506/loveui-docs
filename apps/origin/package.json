@@ -86,7 +86,7 @@
       "^(next/(.*)$)|^(next$)",
       "<THIRD_PARTY_MODULES>",
       "",
-      "^@workspace/(.*)$",
+      "^@loveui/(.*)$",
       "",
       "^types$",
       "^@/types/(.*)$",

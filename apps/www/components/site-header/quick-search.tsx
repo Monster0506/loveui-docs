@@ -12,9 +12,9 @@ import {
   CommandItem,
   CommandList,
   CommandShortcut,
-} from "@workspace/ui/ui/command";
-import { Button } from "@workspace/ui/ui/button";
-import { cn } from "@workspace/ui/lib/utils";
+} from "@loveui/ui/ui/command";
+import { Button } from "@loveui/ui/ui/button";
+import { cn } from "@loveui/ui/lib/utils";
 
 type CommandLink = {
   id: string;

@@ -1,0 +1,34 @@
+{
+  "builds": [
+    {
+      "src": "apps/www/package.json",
+      "use": "@vercel/next"
+    },
+    {
+      "src": "apps/ui/package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/ui/_next/(.*)",
+      "dest": "apps/ui/_next/$1"
+    },
+    {
+      "src": "/ui/api/(.*)",
+      "dest": "apps/ui/api/$1"
+    },
+    {
+      "src": "/ui",
+      "dest": "apps/ui"
+    },
+    {
+      "src": "/ui/(.*)",
+      "dest": "apps/ui/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "apps/www/$1"
+    }
+  ]
+}

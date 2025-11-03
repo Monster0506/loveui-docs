@@ -1372,7 +1372,7 @@
       "description": "Stack avatars with overlapping layout",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/avatar-stack",
+        "@loveui/avatar-stack",
         "@coss/avatar"
       ],
       "files": [
@@ -1391,7 +1391,7 @@
       "description": "Animated avatar stack on hover",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/avatar-stack",
+        "@loveui/avatar-stack",
         "@coss/avatar"
       ],
       "files": [
@@ -2242,7 +2242,7 @@
       "description": "Combobox with controlled open and value state.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/combobox"
+        "@loveui/combobox"
       ],
       "files": [
         {
@@ -2426,7 +2426,7 @@
       "description": "Combobox with fixed width menu.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/combobox"
+        "@loveui/combobox"
       ],
       "files": [
         {
@@ -2444,7 +2444,7 @@
       "description": "Combobox that allows creating new items.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/combobox"
+        "@loveui/combobox"
       ],
       "files": [
         {
@@ -2508,7 +2508,7 @@
       "description": "Collaborative cursors with names and messages",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/cursor"
+        "@loveui/cursor"
       ],
       "files": [
         {
@@ -2526,7 +2526,7 @@
       "description": "Cursor pointer without body",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/cursor"
+        "@loveui/cursor"
       ],
       "files": [
         {
@@ -2543,7 +2543,7 @@
       "description": "Cursor with name label",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/cursor"
+        "@loveui/cursor"
       ],
       "files": [
         {
@@ -2561,7 +2561,7 @@
       "description": "Cursor with message bubble",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/cursor"
+        "@loveui/cursor"
       ],
       "files": [
         {
@@ -2579,7 +2579,7 @@
       "description": "Cursor with name and message",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/cursor"
+        "@loveui/cursor"
       ],
       "files": [
         {
@@ -2598,7 +2598,7 @@
       "description": "Cursor with custom brand color",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/cursor"
+        "@loveui/cursor"
       ],
       "files": [
         {
@@ -2616,7 +2616,7 @@
       "description": "Calendar view with monthly navigation and grouped features.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/calendar",
+        "@loveui/calendar",
         "@faker-js/faker"
       ],
       "files": [
@@ -2635,7 +2635,7 @@
       "description": "Headless calendar using custom header and body rendering.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/calendar",
+        "@loveui/calendar",
         "@faker-js/faker"
       ],
       "files": [
@@ -2655,7 +2655,7 @@
       "description": "Compact calendar navigation for quick date selection.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/mini-calendar"
+        "@loveui/mini-calendar"
       ],
       "files": [
         {
@@ -2673,7 +2673,7 @@
       "description": "Controlled mini calendar showing the selected date.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/mini-calendar"
+        "@loveui/mini-calendar"
       ],
       "files": [
         {
@@ -2692,7 +2692,7 @@
       "description": "Mini calendar with custom day rendering.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/mini-calendar"
+        "@loveui/mini-calendar"
       ],
       "files": [
         {
@@ -2711,7 +2711,7 @@
       "description": "Mini calendar rendering weekday headings and focus states.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/mini-calendar"
+        "@loveui/mini-calendar"
       ],
       "files": [
         {
@@ -2729,7 +2729,7 @@
       "description": "Interactive Gantt chart with draggable features.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/gantt",
+        "@loveui/gantt",
         "@faker-js/faker",
         "lodash.groupby"
       ],
@@ -2749,7 +2749,7 @@
       "description": "Gantt chart focused on the timeline without sidebar.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/gantt",
+        "@loveui/gantt",
         "@faker-js/faker",
         "lodash.groupby"
       ],
@@ -2769,7 +2769,7 @@
       "description": "Gantt chart using lanes to group reservations by room.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/gantt",
+        "@loveui/gantt",
         "@faker-js/faker",
         "lodash.groupby"
       ],
@@ -2790,7 +2790,7 @@
       "description": "Read-only Gantt chart with markers and grouped features.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/gantt",
+        "@loveui/gantt",
         "@faker-js/faker",
         "lodash.groupby"
       ],
@@ -2810,7 +2810,7 @@
       "description": "Kanban board with avatars, dates, and drag-and-drop.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/kanban",
+        "@loveui/kanban",
         "@faker-js/faker"
       ],
       "files": [
@@ -2829,7 +2829,7 @@
       "description": "Simplified Kanban board highlighting drag-and-drop.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/kanban",
+        "@loveui/kanban",
         "@faker-js/faker"
       ],
       "files": [
@@ -2848,7 +2848,7 @@
       "description": "Multi-file code block with language tabs and copy button.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/code-block"
+        "@loveui/code-block"
       ],
       "files": [
         {
@@ -2866,7 +2866,7 @@
       "description": "Headless code block rendering custom header and controls.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/code-block"
+        "@loveui/code-block"
       ],
       "files": [
         {
@@ -2885,7 +2885,7 @@
       "description": "Code block example highlighting specific lines.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/code-block"
+        "@loveui/code-block"
       ],
       "files": [
         {
@@ -2904,7 +2904,7 @@
       "description": "Code block example highlighting individual tokens.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/code-block"
+        "@loveui/code-block"
       ],
       "files": [
         {
@@ -2923,7 +2923,7 @@
       "description": "Code block without line numbers for compact display.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/code-block"
+        "@loveui/code-block"
       ],
       "files": [
         {
@@ -2941,7 +2941,7 @@
       "description": "Code block without syntax highlighting.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/code-block"
+        "@loveui/code-block"
       ],
       "files": [
         {
@@ -2959,7 +2959,7 @@
       "description": "Code block showing diff highlighting between revisions.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/code-block"
+        "@loveui/code-block"
       ],
       "files": [
         {
@@ -2978,7 +2978,7 @@
       "description": "Code block focusing attention on a highlighted snippet.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/code-block"
+        "@loveui/code-block"
       ],
       "files": [
         {
@@ -2996,7 +2996,7 @@
       "description": "Code block demonstrating theme switching.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/code-block"
+        "@loveui/code-block"
       ],
       "files": [
         {
@@ -3015,8 +3015,8 @@
       "description": "Sandbox with file explorer and code preview.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/sandbox",
-        "@repo/code-block"
+        "@loveui/sandbox",
+        "@loveui/code-block"
       ],
       "files": [
         {
@@ -3034,8 +3034,8 @@
       "description": "Sandbox without the file explorer for a compact layout.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/sandbox",
-        "@repo/code-block"
+        "@loveui/sandbox",
+        "@loveui/code-block"
       ],
       "files": [
         {
@@ -3053,8 +3053,8 @@
       "description": "Rich code editor experience using the editor package.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/editor",
-        "@repo/code-block"
+        "@loveui/editor",
+        "@loveui/code-block"
       ],
       "files": [
         {
@@ -3072,8 +3072,8 @@
       "description": "Comparison slider overlaying before/after code.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/comparison",
-        "@repo/code-block"
+        "@loveui/comparison",
+        "@loveui/code-block"
       ],
       "files": [
         {
@@ -3091,8 +3091,8 @@
       "description": "Comparison slider activated on hover.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/comparison",
-        "@repo/code-block"
+        "@loveui/comparison",
+        "@loveui/code-block"
       ],
       "files": [
         {
@@ -3111,8 +3111,8 @@
       "description": "Comparison slider demonstrating event handlers.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/comparison",
-        "@repo/code-block"
+        "@loveui/comparison",
+        "@loveui/code-block"
       ],
       "files": [
         {
@@ -3131,8 +3131,8 @@
       "description": "Contribution graph showing activity heatmap.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/contribution-graph",
-        "@repo/code-block",
+        "@loveui/contribution-graph",
+        "@loveui/code-block",
         "@faker-js/faker"
       ],
       "files": [
@@ -3151,8 +3151,8 @@
       "description": "Contribution graph with custom color themes.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/contribution-graph",
-        "@repo/code-block",
+        "@loveui/contribution-graph",
+        "@loveui/code-block",
         "@faker-js/faker"
       ],
       "files": [
@@ -3172,8 +3172,8 @@
       "description": "Minimal contribution graph layout.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/contribution-graph",
-        "@repo/code-block",
+        "@loveui/contribution-graph",
+        "@loveui/code-block",
         "@faker-js/faker"
       ],
       "files": [
@@ -3192,8 +3192,8 @@
       "description": "Contribution graph showcasing custom sizing.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/contribution-graph",
-        "@repo/code-block",
+        "@loveui/contribution-graph",
+        "@loveui/code-block",
         "@faker-js/faker"
       ],
       "files": [
@@ -3213,8 +3213,8 @@
       "description": "Contribution graph with custom tooltip content.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/contribution-graph",
-        "@repo/code-block",
+        "@loveui/contribution-graph",
+        "@loveui/code-block",
         "@faker-js/faker"
       ],
       "files": [
@@ -3234,8 +3234,8 @@
       "description": "Contribution graph using custom block rendering.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/contribution-graph",
-        "@repo/code-block",
+        "@loveui/contribution-graph",
+        "@loveui/code-block",
         "@faker-js/faker"
       ],
       "files": [
@@ -3255,8 +3255,8 @@
       "description": "Contribution graph with custom footer summary.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/contribution-graph",
-        "@repo/code-block",
+        "@loveui/contribution-graph",
+        "@loveui/code-block",
         "@faker-js/faker"
       ],
       "files": [
@@ -3276,8 +3276,8 @@
       "description": "Code snippet display with syntax highlighting.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/snippet",
-        "@repo/code-block"
+        "@loveui/snippet",
+        "@loveui/code-block"
       ],
       "files": [
         {
@@ -3295,8 +3295,8 @@
       "description": "Snippet showing install commands for multiple package managers.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/snippet",
-        "@repo/code-block"
+        "@loveui/snippet",
+        "@loveui/code-block"
       ],
       "files": [
         {
@@ -3315,7 +3315,7 @@
       "description": "Draggable list view grouped by status with avatars.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/list",
+        "@loveui/list",
         "@faker-js/faker"
       ],
       "files": [
@@ -3334,7 +3334,7 @@
       "description": "Simplified list view using drag-and-drop ordering.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/list",
+        "@loveui/list",
         "@faker-js/faker"
       ],
       "files": [
@@ -3353,7 +3353,7 @@
       "description": "Project table with owner avatars and status indicators.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/table",
+        "@loveui/table",
         "@faker-js/faker"
       ],
       "files": [
@@ -3372,7 +3372,7 @@
       "description": "Sortable project table with compact columns.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/table",
+        "@loveui/table",
         "@faker-js/faker"
       ],
       "files": [
@@ -3391,7 +3391,7 @@
       "description": "Status badges for operational state display.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/status"
+        "@loveui/status"
       ],
       "files": [
         {
@@ -3409,7 +3409,7 @@
       "description": "Custom styled status badge with outline variant.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/status"
+        "@loveui/status"
       ],
       "files": [
         {
@@ -3428,7 +3428,7 @@
       "description": "Relative time component comparing multiple timezones.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/relative-time"
+        "@loveui/relative-time"
       ],
       "files": [
         {
@@ -3446,7 +3446,7 @@
       "description": "Controlled relative time component with manual updates.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/relative-time"
+        "@loveui/relative-time"
       ],
       "files": [
         {
@@ -3465,7 +3465,7 @@
       "description": "Relative time formatter highlighting dates and durations.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/relative-time"
+        "@loveui/relative-time"
       ],
       "files": [
         {
@@ -3483,7 +3483,7 @@
       "description": "Relative time formatter that outputs clock time.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/relative-time"
+        "@loveui/relative-time"
       ],
       "files": [
         {
@@ -3501,7 +3501,7 @@
       "description": "Interactive tree view for navigating project files.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/tree"
+        "@loveui/tree"
       ],
       "files": [
         {
@@ -3519,7 +3519,7 @@
       "description": "Simple tree view with minimal configuration.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/tree"
+        "@loveui/tree"
       ],
       "files": [
         {
@@ -3537,7 +3537,7 @@
       "description": "Tree view without connector lines for a cleaner look.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/tree"
+        "@loveui/tree"
       ],
       "files": [
         {
@@ -3555,7 +3555,7 @@
       "description": "Tree view using custom icons for file types.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/tree"
+        "@loveui/tree"
       ],
       "files": [
         {
@@ -3574,7 +3574,7 @@
       "description": "Controlled tree view with explicit expanded nodes.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/tree"
+        "@loveui/tree"
       ],
       "files": [
         {
@@ -6100,7 +6100,7 @@
       "description": "Choicebox input with selectable options.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/choicebox"
+        "@loveui/choicebox"
       ],
       "files": [
         {
@@ -6118,7 +6118,7 @@
       "description": "Inline choicebox layout for compact forms.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/choicebox"
+        "@loveui/choicebox"
       ],
       "files": [
         {
@@ -6136,7 +6136,7 @@
       "description": "Basic file dropzone.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/dropzone"
+        "@loveui/dropzone"
       ],
       "files": [
         {
@@ -6155,7 +6155,7 @@
       "description": "Dropzone allowing multiple file uploads.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/dropzone"
+        "@loveui/dropzone"
       ],
       "files": [
         {
@@ -6174,7 +6174,7 @@
       "description": "Dropzone limiting file sizes and counts.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/dropzone"
+        "@loveui/dropzone"
       ],
       "files": [
         {
@@ -6192,7 +6192,7 @@
       "description": "Dropzone restricting accepted file types.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/dropzone"
+        "@loveui/dropzone"
       ],
       "files": [
         {
@@ -6210,7 +6210,7 @@
       "description": "Dropzone showing image previews for uploads.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/dropzone"
+        "@loveui/dropzone"
       ],
       "files": [
         {
@@ -6229,7 +6229,7 @@
       "description": "Dropzone with a custom empty-state design.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/dropzone"
+        "@loveui/dropzone"
       ],
       "files": [
         {
@@ -6248,7 +6248,7 @@
       "description": "Basic pill component.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/pill"
+        "@loveui/pill"
       ],
       "files": [
         {
@@ -6266,7 +6266,7 @@
       "description": "Pill indicating status using color accents.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/pill"
+        "@loveui/pill"
       ],
       "files": [
         {
@@ -6285,7 +6285,7 @@
       "description": "Pill with a leading indicator dot.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/pill"
+        "@loveui/pill"
       ],
       "files": [
         {
@@ -6303,7 +6303,7 @@
       "description": "Pill behaving as a button.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/pill"
+        "@loveui/pill"
       ],
       "files": [
         {
@@ -6321,7 +6321,7 @@
       "description": "Pill with icon support.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/pill"
+        "@loveui/pill"
       ],
       "files": [
         {
@@ -6340,7 +6340,7 @@
       "description": "Pill with an avatar.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/pill"
+        "@loveui/pill"
       ],
       "files": [
         {
@@ -6359,7 +6359,7 @@
       "description": "Pill representing an avatar group.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/pill"
+        "@loveui/pill"
       ],
       "files": [
         {
@@ -6378,7 +6378,7 @@
       "description": "Pill displaying delta values.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/pill"
+        "@loveui/pill"
       ],
       "files": [
         {
@@ -6397,7 +6397,7 @@
       "description": "Rating component with star selection.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/rating"
+        "@loveui/rating"
       ],
       "files": [
         {
@@ -6415,7 +6415,7 @@
       "description": "Controlled rating component example.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/rating"
+        "@loveui/rating"
       ],
       "files": [
         {
@@ -6434,7 +6434,7 @@
       "description": "Rating component with custom size.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/rating"
+        "@loveui/rating"
       ],
       "files": [
         {
@@ -6452,7 +6452,7 @@
       "description": "Rating component demonstrating color variants.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/rating"
+        "@loveui/rating"
       ],
       "files": [
         {
@@ -6471,7 +6471,7 @@
       "description": "Rating component using custom icons.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/rating"
+        "@loveui/rating"
       ],
       "files": [
         {
@@ -6490,7 +6490,7 @@
       "description": "Tags input with selected label chips.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/tags"
+        "@loveui/tags"
       ],
       "files": [
         {
@@ -6508,7 +6508,7 @@
       "description": "Tags input that allows creating custom values.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/tags"
+        "@loveui/tags"
       ],
       "files": [
         {
@@ -6527,7 +6527,7 @@
       "description": "Tags input for filtering lists.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/tags"
+        "@loveui/tags"
       ],
       "files": [
         {
@@ -6546,7 +6546,7 @@
       "description": "Link preview tooltip displaying fetched metadata.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/glimpse"
+        "@loveui/glimpse"
       ],
       "files": [
         {
@@ -6564,7 +6564,7 @@
       "description": "Glimpse preview with custom surface styling.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/glimpse"
+        "@loveui/glimpse"
       ],
       "files": [
         {
@@ -6583,7 +6583,7 @@
       "description": "Image cropper with upload, crop, and reset controls.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/image-crop",
+        "@loveui/image-crop",
         "@coss/button",
         "@coss/input"
       ],
@@ -6604,7 +6604,7 @@
       "description": "Image cropper with custom action buttons.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/image-crop",
+        "@loveui/image-crop",
         "@coss/button",
         "@coss/input"
       ],
@@ -6626,7 +6626,7 @@
       "description": "Circular avatar cropper using the image crop component.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/image-crop",
+        "@loveui/image-crop",
         "@coss/button",
         "@coss/input"
       ],
@@ -6647,7 +6647,7 @@
       "description": "Modal zoom interaction for high-resolution media.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/image-zoom"
+        "@loveui/image-zoom"
       ],
       "files": [
         {
@@ -6666,7 +6666,7 @@
       "description": "Image zoom with custom modal backdrop styling.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/image-zoom"
+        "@loveui/image-zoom"
       ],
       "files": [
         {
@@ -6686,7 +6686,7 @@
       "description": "Image zoom with adjusted viewport margin.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/image-zoom"
+        "@loveui/image-zoom"
       ],
       "files": [
         {
@@ -6705,7 +6705,7 @@
       "description": "Interactive credit card front and back with flip motion.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/credit-card"
+        "@loveui/credit-card"
       ],
       "files": [
         {
@@ -6723,7 +6723,7 @@
       "description": "Apple Card inspired credit card layout.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/credit-card"
+        "@loveui/credit-card"
       ],
       "files": [
         {
@@ -6741,7 +6741,7 @@
       "description": "Credit card back face focusing on CVV and expiry.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/credit-card"
+        "@loveui/credit-card"
       ],
       "files": [
         {
@@ -6759,7 +6759,7 @@
       "description": "Stock ticker row showing price and change values.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/ticker"
+        "@loveui/ticker"
       ],
       "files": [
         {
@@ -6777,7 +6777,7 @@
       "description": "Stock ticker list with percentage change display.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/ticker"
+        "@loveui/ticker"
       ],
       "files": [
         {
@@ -6795,7 +6795,7 @@
       "description": "Inline ticker embedded within rich text content.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/ticker"
+        "@loveui/ticker"
       ],
       "files": [
         {
@@ -6813,7 +6813,7 @@
       "description": "Ticker supporting custom locales and currencies.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/ticker"
+        "@loveui/ticker"
       ],
       "files": [
         {
@@ -6831,7 +6831,7 @@
       "description": "Swipeable deck of cards with overscroll empty state.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/deck"
+        "@loveui/deck"
       ],
       "files": [
         {
@@ -6849,7 +6849,7 @@
       "description": "Programmatically controlled deck with navigation buttons.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/deck",
+        "@loveui/deck",
         "@coss/button"
       ],
       "files": [
@@ -6869,7 +6869,7 @@
       "description": "Product card deck with swipe gestures.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/deck",
+        "@loveui/deck",
         "@coss/badge"
       ],
       "files": [
@@ -6889,7 +6889,7 @@
       "description": "Stories carousel with looping video content.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/stories"
+        "@loveui/stories"
       ],
       "files": [
         {
@@ -6908,7 +6908,7 @@
       "description": "Stories carousel rendering image slides with overlays.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/stories"
+        "@loveui/stories"
       ],
       "files": [
         {
@@ -6927,7 +6927,7 @@
       "description": "Stories avatar ring list styled like Instagram.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/stories"
+        "@loveui/stories"
       ],
       "files": [
         {
@@ -6946,7 +6946,7 @@
       "description": "Reels experience with controls and progress indicators.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/reel"
+        "@loveui/reel"
       ],
       "files": [
         {
@@ -6965,7 +6965,7 @@
       "description": "Reel presentation cycling through full-screen images.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/reel"
+        "@loveui/reel"
       ],
       "files": [
         {
@@ -6984,7 +6984,7 @@
       "description": "Reel with custom header, footer, and action buttons.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/reel",
+        "@loveui/reel",
         "@coss/button"
       ],
       "files": [
@@ -7004,7 +7004,7 @@
       "description": "Minimal reel showing progress and navigation only.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/reel"
+        "@loveui/reel"
       ],
       "files": [
         {
@@ -7022,7 +7022,7 @@
       "description": "Video player with transport, time, and volume controls.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/video-player"
+        "@loveui/video-player"
       ],
       "files": [
         {
@@ -7041,7 +7041,7 @@
       "description": "Theme switcher controlling light, dark, and system modes.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/theme-switcher"
+        "@loveui/theme-switcher"
       ],
       "files": [
         {
@@ -7060,7 +7060,7 @@
       "description": "Uncontrolled theme switcher emitting change events.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/theme-switcher"
+        "@loveui/theme-switcher"
       ],
       "files": [
         {
@@ -7079,7 +7079,7 @@
       "description": "Typography stylesheet demonstrating rich content styling.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/typography"
+        "@loveui/typography"
       ],
       "files": [
         {
@@ -7098,7 +7098,7 @@
       "description": "Color picker with hue, alpha, and format controls.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/color-picker"
+        "@loveui/color-picker"
       ],
       "files": [
         {
@@ -7117,7 +7117,7 @@
       "description": "Default spinner indicator.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/spinner"
+        "@loveui/spinner"
       ],
       "files": [
         {
@@ -7135,7 +7135,7 @@
       "description": "Gallery of spinner variants.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/spinner"
+        "@loveui/spinner"
       ],
       "files": [
         {
@@ -7154,7 +7154,7 @@
       "description": "Spinner customized with size and color.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/spinner"
+        "@loveui/spinner"
       ],
       "files": [
         {
@@ -7173,7 +7173,7 @@
       "description": "Inline announcement highlighting latest updates.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/announcement"
+        "@loveui/announcement"
       ],
       "files": [
         {
@@ -7191,7 +7191,7 @@
       "description": "Announcement without a leading tag.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/announcement"
+        "@loveui/announcement"
       ],
       "files": [
         {
@@ -7210,7 +7210,7 @@
       "description": "Announcement component styled with themed surfaces.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/announcement"
+        "@loveui/announcement"
       ],
       "files": [
         {
@@ -7229,7 +7229,7 @@
       "description": "Banner with icon, action, and dismiss control.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/banner"
+        "@loveui/banner"
       ],
       "files": [
         {
@@ -7247,7 +7247,7 @@
       "description": "Inset banner layout for embedded alerts.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/banner"
+        "@loveui/banner"
       ],
       "files": [
         {
@@ -7266,7 +7266,7 @@
       "description": "Banner with custom color themes.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/banner"
+        "@loveui/banner"
       ],
       "files": [
         {
@@ -7285,7 +7285,7 @@
       "description": "Dialog stack showcasing multi-step modals.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/dialog-stack",
+        "@loveui/dialog-stack",
         "@coss/button"
       ],
       "files": [
@@ -7305,7 +7305,7 @@
       "description": "Controlled dialog stack with external trigger.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/dialog-stack",
+        "@loveui/dialog-stack",
         "@coss/button"
       ],
       "files": [
@@ -7325,7 +7325,7 @@
       "description": "Six-layer dialog stack demonstration.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/dialog-stack",
+        "@loveui/dialog-stack",
         "@coss/button"
       ],
       "files": [
@@ -7345,7 +7345,7 @@
       "description": "Dialog stack enabled with clickable navigation.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/dialog-stack",
+        "@loveui/dialog-stack",
         "@coss/button"
       ],
       "files": [
@@ -7365,7 +7365,7 @@
       "description": "Continuous marquee loop for showcasing logos.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/marquee"
+        "@loveui/marquee"
       ],
       "files": [
         {
@@ -7383,7 +7383,7 @@
       "description": "Marquee without fade edges.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/marquee"
+        "@loveui/marquee"
       ],
       "files": [
         {
@@ -7401,7 +7401,7 @@
       "description": "Marquee rendering raw children.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/marquee"
+        "@loveui/marquee"
       ],
       "files": [
         {
@@ -7420,7 +7420,7 @@
       "description": "Marquee with adjustable spacing between items.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/marquee"
+        "@loveui/marquee"
       ],
       "files": [
         {
@@ -7439,7 +7439,7 @@
       "description": "Basic QR code rendering.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/qr-code"
+        "@loveui/qr-code"
       ],
       "files": [
         {
@@ -7457,7 +7457,7 @@
       "description": "QR code with custom styling.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/qr-code"
+        "@loveui/qr-code"
       ],
       "files": [
         {
@@ -7476,7 +7476,7 @@
       "description": "QR code with enhanced error correction.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/qr-code"
+        "@loveui/qr-code"
       ],
       "files": [
         {
@@ -7495,7 +7495,7 @@
       "description": "Server-rendered QR code usage.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/qr-code"
+        "@loveui/qr-code"
       ],
       "files": [
         {
@@ -7536,9 +7536,9 @@
       "description": "A hero section with announcement, headline, and video player.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/announcement",
-        "@repo/marquee",
-        "@repo/video-player",
+        "@loveui/announcement",
+        "@loveui/marquee",
+        "@loveui/video-player",
         "@coss/button"
       ],
       "files": [
@@ -7558,11 +7558,11 @@
       "description": "A comprehensive roadmap with multiple views: Gantt, Calendar, List, Kanban, and Table.",
       "type": "registry:example",
       "registryDependencies": [
-        "@repo/calendar",
-        "@repo/gantt",
-        "@repo/kanban",
-        "@repo/list",
-        "@repo/table",
+        "@loveui/calendar",
+        "@loveui/gantt",
+        "@loveui/kanban",
+        "@loveui/list",
+        "@loveui/table",
         "@coss/tabs",
         "@coss/avatar",
         "@coss/context-menu"

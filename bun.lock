@@ -120,12 +120,12 @@
         "@loveui/ether": "workspace:*",
         "@loveui/gradiant-blinds": "workspace:*",
         "@loveui/silk": "workspace:*",
+        "@loveui/ui": "workspace:*",
         "@radix-ui/react-label": "^2.1.7",
         "@radix-ui/react-slot": "^1.2.3",
         "@radix-ui/react-tooltip": "^1.2.8",
         "@react-three/fiber": "^9.0.0",
         "@remixicon/react": "^4.6.0",
-        "@workspace/ui": "workspace:*",
         "class-variance-authority": "^0.7.1",
         "clsx": "^2.1.1",
         "cmdk": "1.1.1",
@@ -149,6 +149,8 @@
       },
       "devDependencies": {
         "@ianvs/prettier-plugin-sort-imports": "^4.6.1",
+        "@loveui/eslint-config": "workspace:^",
+        "@loveui/typescript-config": "workspace:*",
         "@shikijs/transformers": "^3.12.2",
         "@tailwindcss/postcss": "^4.1.13",
         "@types/mdx": "^2.0.13",
@@ -156,8 +158,6 @@
         "@types/react": "^19.2.0",
         "@types/react-dom": "^19.2.0",
         "@types/three": "^0.170.0",
-        "@workspace/eslint-config": "workspace:^",
-        "@workspace/typescript-config": "workspace:*",
         "prettier-plugin-tailwindcss": "^0.6.14",
         "rehype-pretty-code": "^0.14.1",
         "rimraf": "^6.0.1",
@@ -173,75 +173,75 @@
       "dependencies": {
         "@hugeicons/core-free-icons": "^1.0.16",
         "@hugeicons/react": "^1.0.5",
-        "@workspace/ui": "workspace:*",
+        "@loveui/ui": "workspace:*",
         "lucide-react": "^0.544.0",
         "next": "^16.0.0",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/eslint-config": "workspace:^",
+        "@loveui/typescript-config": "workspace:*",
         "@tailwindcss/postcss": "^4",
         "@types/node": "^20",
         "@types/react": "^19.2.0",
         "@types/react-dom": "^19.2.0",
-        "@workspace/eslint-config": "workspace:^",
-        "@workspace/typescript-config": "workspace:*",
         "tailwindcss": "^4",
         "typescript": "^5.9.2",
       },
     },
     "packages/announcement": {
-      "name": "@repo/announcement",
-      "version": "0.0.0",
+      "name": "@loveui/announcement",
+      "version": "0.1.0",
       "dependencies": {
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/avatar-stack": {
-      "name": "@repo/avatar-stack",
-      "version": "0.0.0",
+      "name": "@loveui/avatar-stack",
+      "version": "0.1.0",
       "dependencies": {
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/banner": {
-      "name": "@repo/banner",
-      "version": "0.0.0",
+      "name": "@loveui/banner",
+      "version": "0.1.0",
       "dependencies": {
+        "@loveui/shadcn-ui": "^0.1.0",
         "@radix-ui/react-use-controllable-state": "^1.2.2",
-        "@repo/shadcn-ui": "workspace:*",
         "lucide-react": "^0.545.0",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/calendar": {
-      "name": "@repo/calendar",
-      "version": "0.0.0",
+      "name": "@loveui/calendar",
+      "version": "0.1.0",
       "dependencies": {
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "date-fns": "^4.1.0",
         "jotai": "^2.15.0",
         "lucide-react": "^0.545.0",
@@ -249,35 +249,35 @@
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/choicebox": {
-      "name": "@repo/choicebox",
-      "version": "0.0.0",
+      "name": "@loveui/choicebox",
+      "version": "0.1.0",
       "dependencies": {
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "lucide-react": "^0.545.0",
         "radix-ui": "^1.4.3",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/code-block": {
-      "name": "@repo/code-block",
-      "version": "0.0.0",
+      "name": "@loveui/code-block",
+      "version": "0.1.0",
       "dependencies": {
+        "@loveui/shadcn-ui": "^0.1.0",
         "@radix-ui/react-use-controllable-state": "^1.2.2",
-        "@repo/shadcn-ui": "workspace:*",
         "@shikijs/transformers": "^3.13.0",
         "lucide-react": "^0.545.0",
         "react": "^19.2.0",
@@ -286,17 +286,17 @@
         "shiki": "3.13.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/color-picker": {
-      "name": "@repo/color-picker",
-      "version": "0.0.0",
+      "name": "@loveui/color-picker",
+      "version": "0.1.0",
       "dependencies": {
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "color": "^5.0.2",
         "lucide-react": "^0.545.0",
         "radix-ui": "^1.4.3",
@@ -304,152 +304,152 @@
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/color": "^4.2.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/combobox": {
-      "name": "@repo/combobox",
-      "version": "0.0.0",
+      "name": "@loveui/combobox",
+      "version": "0.1.0",
       "dependencies": {
+        "@loveui/shadcn-ui": "^0.1.0",
         "@radix-ui/react-use-controllable-state": "^1.2.2",
-        "@repo/shadcn-ui": "workspace:*",
         "lucide-react": "^0.545.0",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/comparison": {
-      "name": "@repo/comparison",
-      "version": "0.0.0",
+      "name": "@loveui/comparison",
+      "version": "0.1.0",
       "dependencies": {
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "lucide-react": "^0.545.0",
         "motion": "^12.23.24",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/contribution-graph": {
-      "name": "@repo/contribution-graph",
-      "version": "0.0.0",
+      "name": "@loveui/contribution-graph",
+      "version": "0.1.0",
       "dependencies": {
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "date-fns": "^4.1.0",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/credit-card": {
-      "name": "@repo/credit-card",
-      "version": "0.0.0",
+      "name": "@loveui/credit-card",
+      "version": "0.1.0",
       "dependencies": {
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
         "react-svg-credit-card-payment-icons": "^4.2.1",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/cursor": {
-      "name": "@repo/cursor",
-      "version": "0.0.0",
+      "name": "@loveui/cursor",
+      "version": "0.1.0",
       "dependencies": {
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/deck": {
-      "name": "@repo/deck",
-      "version": "0.0.0",
+      "name": "@loveui/deck",
+      "version": "0.1.0",
       "dependencies": {
+        "@loveui/shadcn-ui": "^0.1.0",
         "@radix-ui/react-use-controllable-state": "^1.2.2",
-        "@repo/shadcn-ui": "workspace:*",
         "lucide-react": "^0.545.0",
         "motion": "^12.23.24",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/dialog-stack": {
-      "name": "@repo/dialog-stack",
-      "version": "0.0.0",
+      "name": "@loveui/dialog-stack",
+      "version": "0.1.0",
       "dependencies": {
+        "@loveui/shadcn-ui": "^0.1.0",
         "@radix-ui/react-use-controllable-state": "^1.2.2",
-        "@repo/shadcn-ui": "workspace:*",
         "radix-ui": "^1.4.3",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/dropzone": {
-      "name": "@repo/dropzone",
-      "version": "0.0.0",
+      "name": "@loveui/dropzone",
+      "version": "0.1.0",
       "dependencies": {
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "lucide-react": "^0.545.0",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
         "react-dropzone": "^14.3.8",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/editor": {
-      "name": "@repo/editor",
-      "version": "0.0.0",
+      "name": "@loveui/editor",
+      "version": "0.1.0",
       "dependencies": {
         "@floating-ui/dom": "^1.7.4",
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "@tiptap/core": "^3.6.6",
         "@tiptap/extension-code-block-lowlight": "^3.6.6",
         "@tiptap/extension-list": "^3.6.6",
@@ -471,15 +471,15 @@
         "tippy.js": "^6.3.7",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/eslint-config": {
-      "name": "@workspace/eslint-config",
-      "version": "0.0.0",
+      "name": "@loveui/eslint-config",
+      "version": "0.1.0",
       "devDependencies": {
         "@eslint/js": "^9.33.0",
         "@next/eslint-plugin-next": "^15.4.6",
@@ -496,12 +496,12 @@
     },
     "packages/ether": {
       "name": "@loveui/ether",
-      "version": "0.1.0",
+      "version": "1.0.3",
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
         "@types/three": "^0.170.0",
-        "@workspace/typescript-config": "workspace:*",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
         "three": "^0.181.0",
@@ -517,12 +517,12 @@
       ],
     },
     "packages/gantt": {
-      "name": "@repo/gantt",
-      "version": "0.0.0",
+      "name": "@loveui/gantt",
+      "version": "0.1.0",
       "dependencies": {
         "@dnd-kit/core": "^6.3.1",
         "@dnd-kit/modifiers": "^9.0.0",
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "@uidotdev/usehooks": "^2.4.1",
         "date-fns": "^4.1.0",
         "jotai": "^2.15.0",
@@ -532,25 +532,25 @@
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/lodash.throttle": "^4.1.9",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/glimpse": {
-      "name": "@repo/glimpse",
-      "version": "0.0.0",
+      "name": "@loveui/glimpse",
+      "version": "0.1.0",
       "dependencies": {
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
@@ -561,9 +561,9 @@
         "ogl": "^1.0.6",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
         "typescript": "^5.9.3",
@@ -577,10 +577,10 @@
       ],
     },
     "packages/image-crop": {
-      "name": "@repo/image-crop",
-      "version": "0.0.0",
+      "name": "@loveui/image-crop",
+      "version": "0.1.0",
       "dependencies": {
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "lucide-react": "^0.545.0",
         "radix-ui": "^1.4.3",
         "react": "^19.2.0",
@@ -588,70 +588,70 @@
         "react-image-crop": "^11.0.10",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/image-zoom": {
-      "name": "@repo/image-zoom",
-      "version": "0.0.0",
+      "name": "@loveui/image-zoom",
+      "version": "0.1.0",
       "dependencies": {
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
         "react-medium-image-zoom": "^5.4.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/kanban": {
-      "name": "@repo/kanban",
-      "version": "0.0.0",
+      "name": "@loveui/kanban",
+      "version": "0.1.0",
       "dependencies": {
         "@dnd-kit/core": "^6.3.1",
         "@dnd-kit/sortable": "^10.0.0",
         "@dnd-kit/utilities": "^3.2.2",
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
         "tunnel-rat": "^0.1.2",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/list": {
-      "name": "@repo/list",
-      "version": "0.0.0",
+      "name": "@loveui/list",
+      "version": "0.1.0",
       "dependencies": {
         "@dnd-kit/core": "^6.3.1",
         "@dnd-kit/modifiers": "^9.0.0",
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/loveui": {
-      "name": "loveui",
-      "version": "0.1.0",
+      "name": "love-ui",
+      "version": "1.0.5",
       "bin": {
-        "loveui": "./dist/index.js",
-        "love-ui": "./dist/index.js",
+        "loveui": "dist/index.js",
+        "love-ui": "dist/index.js",
       },
       "devDependencies": {
         "@types/node": "^20.14.10",
@@ -660,27 +660,27 @@
       },
     },
     "packages/marquee": {
-      "name": "@repo/marquee",
-      "version": "0.0.0",
+      "name": "@loveui/marquee",
+      "version": "0.1.0",
       "dependencies": {
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
         "react-fast-marquee": "^1.6.5",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/mini-calendar": {
-      "name": "@repo/mini-calendar",
-      "version": "0.0.0",
+      "name": "@loveui/mini-calendar",
+      "version": "0.1.0",
       "dependencies": {
+        "@loveui/shadcn-ui": "^0.1.0",
         "@radix-ui/react-use-controllable-state": "^1.2.2",
-        "@repo/shadcn-ui": "workspace:*",
         "date-fns": "^4.1.0",
         "lucide-react": "^0.545.0",
         "radix-ui": "^1.4.3",
@@ -688,19 +688,19 @@
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/patterns": {
-      "name": "@repo/patterns",
-      "version": "0.0.0",
+      "name": "@loveui/patterns",
+      "version": "0.1.0",
       "dependencies": {
         "@faker-js/faker": "^10.0.0",
         "@hookform/resolvers": "^5.2.2",
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "@tanstack/react-table": "^8.21.3",
         "date-fns": "^4.1.0",
         "input-otp": "^1.4.2",
@@ -712,117 +712,117 @@
         "sonner": "^2.0.7",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/pill": {
-      "name": "@repo/pill",
-      "version": "0.0.0",
+      "name": "@loveui/pill",
+      "version": "0.1.0",
       "dependencies": {
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "lucide-react": "^0.545.0",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/qr-code": {
-      "name": "@repo/qr-code",
-      "version": "0.0.0",
+      "name": "@loveui/qr-code",
+      "version": "0.1.0",
       "dependencies": {
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "culori": "^4.0.2",
         "qrcode": "^1.5.4",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/culori": "^4.0.1",
         "@types/qrcode": "^1.5.5",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/rating": {
-      "name": "@repo/rating",
-      "version": "0.0.0",
+      "name": "@loveui/rating",
+      "version": "0.1.0",
       "dependencies": {
+        "@loveui/shadcn-ui": "^0.1.0",
         "@radix-ui/react-use-controllable-state": "^1.2.2",
-        "@repo/shadcn-ui": "workspace:*",
         "lucide-react": "^0.545.0",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/reel": {
-      "name": "@repo/reel",
-      "version": "0.0.0",
+      "name": "@loveui/reel",
+      "version": "0.1.0",
       "dependencies": {
+        "@loveui/shadcn-ui": "^0.1.0",
         "@radix-ui/react-use-controllable-state": "^1.2.2",
-        "@repo/shadcn-ui": "workspace:*",
         "lucide-react": "^0.545.0",
         "motion": "^12.23.24",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/relative-time": {
-      "name": "@repo/relative-time",
-      "version": "0.0.0",
+      "name": "@loveui/relative-time",
+      "version": "0.1.0",
       "dependencies": {
+        "@loveui/shadcn-ui": "^0.1.0",
         "@radix-ui/react-use-controllable-state": "^1.2.2",
-        "@repo/shadcn-ui": "workspace:*",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/sandbox": {
-      "name": "@repo/sandbox",
-      "version": "0.0.0",
+      "name": "@loveui/sandbox",
+      "version": "0.1.0",
       "dependencies": {
         "@codesandbox/sandpack-react": "^2.20.0",
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/shadcn-ui": {
-      "name": "@repo/shadcn-ui",
-      "version": "0.0.0",
+      "name": "@loveui/shadcn-ui",
+      "version": "0.1.0",
       "dependencies": {
         "@hookform/resolvers": "^5.2.2",
         "@radix-ui/react-icons": "^1.3.2",
@@ -847,20 +847,20 @@
         "zod": "^4.1.12",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
       },
     },
     "packages/silk": {
       "name": "@loveui/silk",
-      "version": "0.1.0",
+      "version": "1.0.3",
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@react-three/fiber": "^9.4.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
         "@types/three": "^0.170.0",
-        "@workspace/typescript-config": "workspace:*",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
         "three": "^0.181.0",
@@ -877,71 +877,71 @@
       ],
     },
     "packages/snippet": {
-      "name": "@repo/snippet",
-      "version": "0.0.0",
+      "name": "@loveui/snippet",
+      "version": "0.1.0",
       "dependencies": {
         "lucide-react": "^0.545.0",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/spinner": {
-      "name": "@repo/spinner",
-      "version": "0.0.0",
+      "name": "@loveui/spinner",
+      "version": "0.1.0",
       "dependencies": {
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "lucide-react": "^0.545.0",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/status": {
-      "name": "@repo/status",
-      "version": "0.0.0",
+      "name": "@loveui/status",
+      "version": "0.1.0",
       "dependencies": {
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/stories": {
-      "name": "@repo/stories",
-      "version": "0.0.0",
+      "name": "@loveui/stories",
+      "version": "0.1.0",
       "dependencies": {
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/table": {
-      "name": "@repo/table",
-      "version": "0.0.0",
+      "name": "@loveui/table",
+      "version": "0.1.0",
       "dependencies": {
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "@tanstack/react-table": "^8.21.3",
         "jotai": "^2.15.0",
         "lucide-react": "^0.545.0",
@@ -949,104 +949,104 @@
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/tags": {
-      "name": "@repo/tags",
-      "version": "0.0.0",
+      "name": "@loveui/tags",
+      "version": "0.1.0",
       "dependencies": {
         "lucide-react": "^0.545.0",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/theme-switcher": {
-      "name": "@repo/theme-switcher",
-      "version": "0.0.0",
+      "name": "@loveui/theme-switcher",
+      "version": "0.1.0",
       "dependencies": {
+        "@loveui/shadcn-ui": "^0.1.0",
         "@radix-ui/react-use-controllable-state": "^1.2.2",
-        "@repo/shadcn-ui": "workspace:*",
         "lucide-react": "^0.545.0",
         "motion": "^12.23.24",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/ticker": {
-      "name": "@repo/ticker",
-      "version": "0.0.0",
+      "name": "@loveui/ticker",
+      "version": "0.1.0",
       "dependencies": {
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/tree": {
-      "name": "@repo/tree",
-      "version": "0.0.0",
+      "name": "@loveui/tree",
+      "version": "0.1.0",
       "dependencies": {
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "lucide-react": "^0.545.0",
         "motion": "^12.23.24",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/typescript-config": {
-      "name": "@workspace/typescript-config",
-      "version": "0.0.0",
+      "name": "@loveui/typescript-config",
+      "version": "0.1.0",
     },
     "packages/typography": {
-      "name": "@repo/typography",
-      "version": "0.0.0",
+      "name": "@loveui/typography",
+      "version": "0.1.0",
       "dependencies": {
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
     "packages/ui": {
-      "name": "@workspace/ui",
-      "version": "0.0.0",
+      "name": "@loveui/ui",
+      "version": "0.1.0",
       "dependencies": {
         "@base-ui-components/react": "1.0.0-beta.4",
         "@hugeicons/core-free-icons": "^1.0.16",
         "@hugeicons/react": "^1.0.5",
-        "@repo/theme-switcher": "workspace:*",
+        "@loveui/theme-switcher": "^0.1.0",
         "@shikijs/transformers": "^3.12.2",
         "class-variance-authority": "^0.7.1",
         "clsx": "^2.1.1",
@@ -1057,13 +1057,13 @@
         "tailwind-merge": "^3.3.1",
       },
       "devDependencies": {
+        "@loveui/eslint-config": "^0.1.0",
+        "@loveui/typescript-config": "^0.1.0",
         "@tailwindcss/postcss": "^4.1.11",
         "@turbo/gen": "^2.5.5",
         "@types/next": "^9.0.0",
         "@types/node": "^20.19.9",
         "@types/react": "^19.2.0",
-        "@workspace/eslint-config": "workspace:*",
-        "@workspace/typescript-config": "workspace:*",
         "eslint": "^9.36.0",
         "tailwindcss": "^4.1.11",
         "typescript": "^5.9.2",
@@ -1074,18 +1074,18 @@
       },
     },
     "packages/video-player": {
-      "name": "@repo/video-player",
-      "version": "0.0.0",
+      "name": "@loveui/video-player",
+      "version": "0.1.0",
       "dependencies": {
-        "@repo/shadcn-ui": "workspace:*",
+        "@loveui/shadcn-ui": "^0.1.0",
         "media-chrome": "^4.14.0",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
       },
       "devDependencies": {
+        "@loveui/typescript-config": "^0.1.0",
         "@types/react": "^19.2.2",
         "@types/react-dom": "^19.2.1",
-        "@workspace/typescript-config": "workspace:*",
         "typescript": "^5.9.3",
       },
     },
@@ -1423,11 +1423,103 @@
 
     "@lezer/lr": ["@lezer/lr@1.4.2", "", { "dependencies": { "@lezer/common": "^1.0.0" } }, "sha512-pu0K1jCIdnQ12aWNaAVU5bzi7Bd1w54J3ECgANPmYLtQKP0HBj2cE/5coBD66MT10xbtIuUr7tg0Shbsvk0mDA=="],
 
+    "@loveui/announcement": ["@loveui/announcement@workspace:packages/announcement"],
+
+    "@loveui/avatar-stack": ["@loveui/avatar-stack@workspace:packages/avatar-stack"],
+
+    "@loveui/banner": ["@loveui/banner@workspace:packages/banner"],
+
+    "@loveui/calendar": ["@loveui/calendar@workspace:packages/calendar"],
+
+    "@loveui/choicebox": ["@loveui/choicebox@workspace:packages/choicebox"],
+
+    "@loveui/code-block": ["@loveui/code-block@workspace:packages/code-block"],
+
+    "@loveui/color-picker": ["@loveui/color-picker@workspace:packages/color-picker"],
+
+    "@loveui/combobox": ["@loveui/combobox@workspace:packages/combobox"],
+
+    "@loveui/comparison": ["@loveui/comparison@workspace:packages/comparison"],
+
+    "@loveui/contribution-graph": ["@loveui/contribution-graph@workspace:packages/contribution-graph"],
+
+    "@loveui/credit-card": ["@loveui/credit-card@workspace:packages/credit-card"],
+
+    "@loveui/cursor": ["@loveui/cursor@workspace:packages/cursor"],
+
+    "@loveui/deck": ["@loveui/deck@workspace:packages/deck"],
+
+    "@loveui/dialog-stack": ["@loveui/dialog-stack@workspace:packages/dialog-stack"],
+
+    "@loveui/dropzone": ["@loveui/dropzone@workspace:packages/dropzone"],
+
+    "@loveui/editor": ["@loveui/editor@workspace:packages/editor"],
+
+    "@loveui/eslint-config": ["@loveui/eslint-config@workspace:packages/eslint-config"],
+
     "@loveui/ether": ["@loveui/ether@workspace:packages/ether"],
+
+    "@loveui/gantt": ["@loveui/gantt@workspace:packages/gantt"],
+
+    "@loveui/glimpse": ["@loveui/glimpse@workspace:packages/glimpse"],
 
     "@loveui/gradiant-blinds": ["@loveui/gradiant-blinds@workspace:packages/gradiant-blinds"],
 
+    "@loveui/image-crop": ["@loveui/image-crop@workspace:packages/image-crop"],
+
+    "@loveui/image-zoom": ["@loveui/image-zoom@workspace:packages/image-zoom"],
+
+    "@loveui/kanban": ["@loveui/kanban@workspace:packages/kanban"],
+
+    "@loveui/list": ["@loveui/list@workspace:packages/list"],
+
+    "@loveui/marquee": ["@loveui/marquee@workspace:packages/marquee"],
+
+    "@loveui/mini-calendar": ["@loveui/mini-calendar@workspace:packages/mini-calendar"],
+
+    "@loveui/patterns": ["@loveui/patterns@workspace:packages/patterns"],
+
+    "@loveui/pill": ["@loveui/pill@workspace:packages/pill"],
+
+    "@loveui/qr-code": ["@loveui/qr-code@workspace:packages/qr-code"],
+
+    "@loveui/rating": ["@loveui/rating@workspace:packages/rating"],
+
+    "@loveui/reel": ["@loveui/reel@workspace:packages/reel"],
+
+    "@loveui/relative-time": ["@loveui/relative-time@workspace:packages/relative-time"],
+
+    "@loveui/sandbox": ["@loveui/sandbox@workspace:packages/sandbox"],
+
+    "@loveui/shadcn-ui": ["@loveui/shadcn-ui@workspace:packages/shadcn-ui"],
+
     "@loveui/silk": ["@loveui/silk@workspace:packages/silk"],
+
+    "@loveui/snippet": ["@loveui/snippet@workspace:packages/snippet"],
+
+    "@loveui/spinner": ["@loveui/spinner@workspace:packages/spinner"],
+
+    "@loveui/status": ["@loveui/status@workspace:packages/status"],
+
+    "@loveui/stories": ["@loveui/stories@workspace:packages/stories"],
+
+    "@loveui/table": ["@loveui/table@workspace:packages/table"],
+
+    "@loveui/tags": ["@loveui/tags@workspace:packages/tags"],
+
+    "@loveui/theme-switcher": ["@loveui/theme-switcher@workspace:packages/theme-switcher"],
+
+    "@loveui/ticker": ["@loveui/ticker@workspace:packages/ticker"],
+
+    "@loveui/tree": ["@loveui/tree@workspace:packages/tree"],
+
+    "@loveui/typescript-config": ["@loveui/typescript-config@workspace:packages/typescript-config"],
+
+    "@loveui/typography": ["@loveui/typography@workspace:packages/typography"],
+
+    "@loveui/ui": ["@loveui/ui@workspace:packages/ui"],
+
+    "@loveui/video-player": ["@loveui/video-player@workspace:packages/video-player"],
 
     "@marijn/find-cluster-break": ["@marijn/find-cluster-break@1.0.2", "", {}, "sha512-l0h88YhZFyKdXIFNfSWpyjStDjGHwZ/U7iobcK1cQQD8sejsONdQtTVU+1wVN1PBw40PiiHB1vA5S7VTfQiP9g=="],
 
@@ -1843,92 +1935,6 @@
 
     "@remixicon/react": ["@remixicon/react@4.6.0", "", { "peerDependencies": { "react": "19.2.0" } }, "sha512-bY56maEgT5IYUSRotqy9h03IAKJC85vlKtWFg2FKzfs8JPrkdBAYSa9dxoUSKFwGzup8Ux6vjShs9Aec3jvr2w=="],
 
-    "@repo/announcement": ["@repo/announcement@workspace:packages/announcement"],
-
-    "@repo/avatar-stack": ["@repo/avatar-stack@workspace:packages/avatar-stack"],
-
-    "@repo/banner": ["@repo/banner@workspace:packages/banner"],
-
-    "@repo/calendar": ["@repo/calendar@workspace:packages/calendar"],
-
-    "@repo/choicebox": ["@repo/choicebox@workspace:packages/choicebox"],
-
-    "@repo/code-block": ["@repo/code-block@workspace:packages/code-block"],
-
-    "@repo/color-picker": ["@repo/color-picker@workspace:packages/color-picker"],
-
-    "@repo/combobox": ["@repo/combobox@workspace:packages/combobox"],
-
-    "@repo/comparison": ["@repo/comparison@workspace:packages/comparison"],
-
-    "@repo/contribution-graph": ["@repo/contribution-graph@workspace:packages/contribution-graph"],
-
-    "@repo/credit-card": ["@repo/credit-card@workspace:packages/credit-card"],
-
-    "@repo/cursor": ["@repo/cursor@workspace:packages/cursor"],
-
-    "@repo/deck": ["@repo/deck@workspace:packages/deck"],
-
-    "@repo/dialog-stack": ["@repo/dialog-stack@workspace:packages/dialog-stack"],
-
-    "@repo/dropzone": ["@repo/dropzone@workspace:packages/dropzone"],
-
-    "@repo/editor": ["@repo/editor@workspace:packages/editor"],
-
-    "@repo/gantt": ["@repo/gantt@workspace:packages/gantt"],
-
-    "@repo/glimpse": ["@repo/glimpse@workspace:packages/glimpse"],
-
-    "@repo/image-crop": ["@repo/image-crop@workspace:packages/image-crop"],
-
-    "@repo/image-zoom": ["@repo/image-zoom@workspace:packages/image-zoom"],
-
-    "@repo/kanban": ["@repo/kanban@workspace:packages/kanban"],
-
-    "@repo/list": ["@repo/list@workspace:packages/list"],
-
-    "@repo/marquee": ["@repo/marquee@workspace:packages/marquee"],
-
-    "@repo/mini-calendar": ["@repo/mini-calendar@workspace:packages/mini-calendar"],
-
-    "@repo/patterns": ["@repo/patterns@workspace:packages/patterns"],
-
-    "@repo/pill": ["@repo/pill@workspace:packages/pill"],
-
-    "@repo/qr-code": ["@repo/qr-code@workspace:packages/qr-code"],
-
-    "@repo/rating": ["@repo/rating@workspace:packages/rating"],
-
-    "@repo/reel": ["@repo/reel@workspace:packages/reel"],
-
-    "@repo/relative-time": ["@repo/relative-time@workspace:packages/relative-time"],
-
-    "@repo/sandbox": ["@repo/sandbox@workspace:packages/sandbox"],
-
-    "@repo/shadcn-ui": ["@repo/shadcn-ui@workspace:packages/shadcn-ui"],
-
-    "@repo/snippet": ["@repo/snippet@workspace:packages/snippet"],
-
-    "@repo/spinner": ["@repo/spinner@workspace:packages/spinner"],
-
-    "@repo/status": ["@repo/status@workspace:packages/status"],
-
-    "@repo/stories": ["@repo/stories@workspace:packages/stories"],
-
-    "@repo/table": ["@repo/table@workspace:packages/table"],
-
-    "@repo/tags": ["@repo/tags@workspace:packages/tags"],
-
-    "@repo/theme-switcher": ["@repo/theme-switcher@workspace:packages/theme-switcher"],
-
-    "@repo/ticker": ["@repo/ticker@workspace:packages/ticker"],
-
-    "@repo/tree": ["@repo/tree@workspace:packages/tree"],
-
-    "@repo/typography": ["@repo/typography@workspace:packages/typography"],
-
-    "@repo/video-player": ["@repo/video-player@workspace:packages/video-player"],
-
     "@rollup/rollup-android-arm-eabi": ["@rollup/rollup-android-arm-eabi@4.52.5", "", { "os": "android", "cpu": "arm" }, "sha512-8c1vW4ocv3UOMp9K+gToY5zL2XiiVw3k7f1ksf4yO1FlDFQ1C2u72iACFnSOceJFsWskc2WZNqeRhFRPzv+wtQ=="],
 
     "@rollup/rollup-android-arm64": ["@rollup/rollup-android-arm64@4.52.5", "", { "os": "android", "cpu": "arm64" }, "sha512-mQGfsIEFcu21mvqkEKKu2dYmtuSZOBMmAl5CFlPGLY94Vlcm+zWApK7F/eocsNzp8tKmbeBP8yXyAbx0XHsFNA=="],
@@ -2298,12 +2304,6 @@
     "@vercel/analytics": ["@vercel/analytics@1.5.0", "", { "peerDependencies": { "@remix-run/react": "^2", "@sveltejs/kit": "^1 || ^2", "next": ">= 13", "react": "^18 || ^19 || ^19.0.0-rc", "svelte": ">= 4", "vue": "^3", "vue-router": "^4" }, "optionalPeers": ["@remix-run/react", "@sveltejs/kit", "next", "react", "svelte", "vue", "vue-router"] }, "sha512-MYsBzfPki4gthY5HnYN7jgInhAZ7Ac1cYDoRWFomwGHWEX7odTEzbtg9kf/QSo7XEsEAqlQugA6gJ2WS2DEa3g=="],
 
     "@webgpu/types": ["@webgpu/types@0.1.66", "", {}, "sha512-YA2hLrwLpDsRueNDXIMqN9NTzD6bCDkuXbOSe0heS+f8YE8usA6Gbv1prj81pzVHrbaAma7zObnIC+I6/sXJgA=="],
-
-    "@workspace/eslint-config": ["@workspace/eslint-config@workspace:packages/eslint-config"],
-
-    "@workspace/typescript-config": ["@workspace/typescript-config@workspace:packages/typescript-config"],
-
-    "@workspace/ui": ["@workspace/ui@workspace:packages/ui"],
 
     "accepts": ["accepts@2.0.0", "", { "dependencies": { "mime-types": "3.0.1", "negotiator": "1.0.0" } }, "sha512-5cvg6CtKwfgdmVqY1WIiXKc3Q1bkRqGLi+2W/6ao+6Y7gu/RCwRuAhGEzh5B4KlszSuTLgZYuqFqo5bImjNKng=="],
 
@@ -3179,7 +3179,7 @@
 
     "loose-envify": ["loose-envify@1.4.0", "", { "dependencies": { "js-tokens": "4.0.0" }, "bin": { "loose-envify": "cli.js" } }, "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q=="],
 
-    "loveui": ["loveui@workspace:packages/loveui"],
+    "love-ui": ["love-ui@workspace:packages/loveui"],
 
     "lower-case": ["lower-case@1.1.4", "", {}, "sha512-2Fgx1Ycm599x+WGpIYwJOvsjmXFzTSc34IwDWALRA/8AopUKAVPwfJ+h5+f85BCp0PWmmJcWzEpxOpoXycMpdA=="],
 
@@ -4185,11 +4185,101 @@
 
     "@jridgewell/trace-mapping/@jridgewell/sourcemap-codec": ["@jridgewell/sourcemap-codec@1.5.4", "", {}, "sha512-VT2+G1VQs/9oz078bLrYbecdZKs912zQlkelYpuf+SXF+QvZDYJlbx/LSx+meSAwdDFnF8FVXW92AVjjkVmgFw=="],
 
+    "@loveui/announcement/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/avatar-stack/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/banner/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/calendar/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/choicebox/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/code-block/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/color-picker/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/combobox/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/comparison/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/contribution-graph/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/credit-card/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/cursor/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/deck/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/dialog-stack/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/dropzone/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/editor/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/eslint-config/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
     "@loveui/ether/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/gantt/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/glimpse/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
 
     "@loveui/gradiant-blinds/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
 
+    "@loveui/image-crop/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/image-zoom/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/kanban/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/list/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/marquee/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/mini-calendar/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/patterns/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/pill/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/qr-code/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/rating/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/reel/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/relative-time/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/sandbox/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
     "@loveui/silk/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/snippet/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/spinner/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/status/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/stories/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/table/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/tags/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/theme-switcher/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/ticker/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/tree/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/typography/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/ui/lucide-react": ["lucide-react@0.475.0", "", { "peerDependencies": { "react": "19.2.0" } }, "sha512-NJzvVu1HwFVeZ+Gwq2q00KygM1aBhy/ZrhY9FsAgJtpB+E4R7uxRk9M2iKvHa6/vNxZydIB59htha4c2vvwvVg=="],
+
+    "@loveui/ui/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+
+    "@loveui/video-player/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
 
     "@mdx-js/mdx/source-map": ["source-map@0.7.6", "", {}, "sha512-i5uvt8C3ikiWeNZSVZNWcfZPItFQOsYTUAOkcUPGd8DqDy1uOUikjt5dG+uRlwyvR108Fb9DOd4GvXfT0N2/uQ=="],
 
@@ -4200,90 +4290,6 @@
     "@napi-rs/wasm-runtime/@emnapi/runtime": ["@emnapi/runtime@1.4.5", "", { "dependencies": { "tslib": "2.8.1" } }, "sha512-++LApOtY0pEEz1zrd9vy1/zXVaVJJ/EbAF3u0fXIzPJEDtnITsBGbbK0EkM72amhl/R5b+5xx0Y/QhcVOpuulg=="],
 
     "@open-draft/logger/outvariant": ["outvariant@1.4.3", "", {}, "sha512-+Sl2UErvtsoajRDKCE5/dBz4DIvHXQQnAxtQTF04OJxY0+DyZXSo5P5Bb7XYWOh81syohlYL24hbDwxedPUJCA=="],
-
-    "@repo/announcement/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/avatar-stack/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/banner/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/calendar/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/choicebox/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/code-block/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/color-picker/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/combobox/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/comparison/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/contribution-graph/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/credit-card/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/cursor/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/deck/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/dialog-stack/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/dropzone/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/editor/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/gantt/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/glimpse/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/image-crop/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/image-zoom/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/kanban/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/list/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/marquee/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/mini-calendar/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/patterns/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/pill/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/qr-code/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/rating/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/reel/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/relative-time/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/sandbox/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/snippet/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/spinner/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/status/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/stories/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/table/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/tags/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/theme-switcher/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/ticker/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/tree/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/typography/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@repo/video-player/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
 
     "@ts-morph/common/fast-glob": ["fast-glob@3.3.3", "", { "dependencies": { "@nodelib/fs.stat": "2.0.5", "@nodelib/fs.walk": "1.2.8", "glob-parent": "5.1.2", "merge2": "1.4.1", "micromatch": "4.0.8" } }, "sha512-7MptL8U0cqcFdzIzwOTHoilX9x5BrNqye7Z/LuC7kCMRio1EMSyqRK3BEAUD7sXRq4iT4AzTVuZdhgQ2TCvYLg=="],
 
@@ -4328,12 +4334,6 @@
     "@typescript-eslint/typescript-estree/semver": ["semver@7.7.2", "", { "bin": { "semver": "bin/semver.js" } }, "sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA=="],
 
     "@typescript-eslint/utils/eslint": ["eslint@9.35.0", "", { "dependencies": { "@eslint-community/eslint-utils": "4.9.0", "@eslint-community/regexpp": "4.12.1", "@eslint/config-array": "0.21.0", "@eslint/config-helpers": "0.3.1", "@eslint/core": "0.15.2", "@eslint/eslintrc": "3.3.1", "@eslint/js": "9.35.0", "@eslint/plugin-kit": "0.3.5", "@humanfs/node": "0.16.6", "@humanwhocodes/module-importer": "1.0.1", "@humanwhocodes/retry": "0.4.3", "@types/estree": "1.0.8", "@types/json-schema": "7.0.15", "ajv": "6.12.6", "chalk": "4.1.2", "cross-spawn": "7.0.6", "debug": "4.4.1", "escape-string-regexp": "4.0.0", "eslint-scope": "8.4.0", "eslint-visitor-keys": "4.2.1", "espree": "10.4.0", "esquery": "1.6.0", "esutils": "2.0.3", "fast-deep-equal": "3.1.3", "file-entry-cache": "8.0.0", "find-up": "5.0.0", "glob-parent": "6.0.2", "ignore": "5.3.2", "imurmurhash": "0.1.4", "is-glob": "4.0.3", "json-stable-stringify-without-jsonify": "1.0.1", "lodash.merge": "4.6.2", "minimatch": "3.1.2", "natural-compare": "1.4.0", "optionator": "0.9.4" }, "optionalDependencies": { "jiti": "2.5.1" }, "bin": { "eslint": "bin/eslint.js" } }, "sha512-QePbBFMJFjgmlE+cXAlbHZbHpdFVS2E/6vzCy7aKlebddvl1vadiC4JFV5u/wqTkNUwEV8WrQi257jf5f06hrg=="],
-
-    "@workspace/eslint-config/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
-
-    "@workspace/ui/lucide-react": ["lucide-react@0.475.0", "", { "peerDependencies": { "react": "19.2.0" } }, "sha512-NJzvVu1HwFVeZ+Gwq2q00KygM1aBhy/ZrhY9FsAgJtpB+E4R7uxRk9M2iKvHa6/vNxZydIB59htha4c2vvwvVg=="],
-
-    "@workspace/ui/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
 
     "ansi-escapes/type-fest": ["type-fest@0.21.3", "", {}, "sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w=="],
 
@@ -4546,6 +4546,8 @@
     "ui/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
 
     "www/lucide-react": ["lucide-react@0.544.0", "", { "peerDependencies": { "react": "19.2.0" } }, "sha512-t5tS44bqd825zAW45UQxpG2CvcC4urOwn2TrwSH8u+MjeE+1NnWl6QqeQ/6NdjMqdOygyiT9p3Ev0p1NJykxjw=="],
+
+    "www/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
 
     "yargs/find-up": ["find-up@4.1.0", "", { "dependencies": { "locate-path": "^5.0.0", "path-exists": "^4.0.0" } }, "sha512-PpOwAdQ/YlXQ2vj8a3h8IipDuYRi3wceVQQGYWxNINccq40Anw7BlsEXCMbt1Zt+OLA6Fq9suIpIWD0OsnISlw=="],
 

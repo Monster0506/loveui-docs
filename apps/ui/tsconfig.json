@@ -1,5 +1,5 @@
 {
-  "extends": "@workspace/typescript-config/nextjs.json",
+  "extends": "@loveui/typescript-config/nextjs.json",
   "compilerOptions": {
     "declaration": false,
     "declarationMap": false,
@@ -8,13 +8,13 @@
       "@/*": [
         "./*"
       ],
-      "@repo/*": [
+      "@loveui/*": [
         "../../packages/*"
       ],
       "@source/*": [
         "./.source/*"
       ],
-      "@workspace/ui/*": [
+      "@loveui/ui/*": [
         "../../packages/ui/src/*"
       ],
       "three": [

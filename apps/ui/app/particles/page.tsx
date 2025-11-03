@@ -5,7 +5,7 @@ import {
   PageHeader,
   PageHeaderDescription,
   PageHeaderHeading,
-} from "@workspace/ui/components/page-header"
+} from "@loveui/ui/components/page-header"
 
 import { getUniqueParticleCategories } from "@/lib/particle-categories"
 import { cn } from "@/lib/utils"
