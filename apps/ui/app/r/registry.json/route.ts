@@ -20,7 +20,7 @@ export const GET = async (_: NextRequest) => {
 
   const response: Registry = {
     name: "LoveUI Registry",
-    homepage: "https://www.loveui.dev/",
+    homepage: "https://www.ui.loveui.dev/",
     items: [],
   };
 

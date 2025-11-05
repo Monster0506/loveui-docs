@@ -277,6 +277,11 @@ function adjustTargetPath(target: string, componentsDir: string, useExactTarget:
     }
   }
 
+  // Handle ui/ paths - these should go to components/ui/
+  if (target.startsWith("ui/")) {
+    return collapse(`${normalizedDir}/${target}`);
+  }
+
   return collapse(target);
 }
 
@@ -556,7 +561,7 @@ export async function run(argv: string[] = process.argv.slice(2)) {
 
     // Detect and rename main component file based on subfolder structure
     // For building blocks with pattern: comp-XXX.tsx + subfolder/
-    // Rename comp-XXX.tsx to subfolder-name.tsx
+    // Rename comp-XXX.tsx to subfolder-name-demo.tsx to avoid naming conflicts
     const mainComponentFile = definitions.find(file =>
       file.target.match(/^components\/comp-\d+\.tsx$/)
     );
@@ -573,8 +578,8 @@ export async function run(argv: string[] = process.argv.slice(2)) {
         const match = subfolderFiles[0].target.match(/^components\/([^/]+)\//);
         if (match && match[1]) {
           const subfolderName = match[1];
-          // Rename comp-542.tsx to event-calendar.tsx
-          mainComponentFile.target = `components/${subfolderName}.tsx`;
+          // Rename comp-542.tsx to event-calendar-demo.tsx to avoid conflicts with folder name
+          mainComponentFile.target = `components/${subfolderName}-demo.tsx`;
         }
       }
     }
@@ -656,6 +661,97 @@ export async function run(argv: string[] = process.argv.slice(2)) {
     }
     if (filesUpdated > 0) {
       console.log(`✓ Updated ${filesUpdated} file${filesUpdated > 1 ? 's' : ''}`);
+    }
+
+    // Install registry dependencies (UI components needed by building blocks)
+    if (payload?.registryDependencies && payload.registryDependencies.length > 0) {
+      console.log(`\nInstalling ${payload.registryDependencies.length} required component${payload.registryDependencies.length > 1 ? 's' : ''}...`);
+
+      for (const depUrl of payload.registryDependencies) {
+        // Fix URL if it's pointing to wrong domain
+        let fixedUrl = depUrl;
+        if (depUrl.startsWith('https://loveui.dev/building-blocks/r/')) {
+          // Convert to correct URL: https://ui.loveui.dev/ui/r/...
+          const componentName = depUrl.split('/').pop();
+          fixedUrl = `https://ui.loveui.dev/ui/r/${componentName}`;
+        }
+
+        try {
+          const response = await fetch(fixedUrl);
+          if (response.ok) {
+            const depPayload = (await response.json()) as RegistryPayload;
+            const depFiles: RegistryFile[] = depPayload?.files ?? [];
+
+            // Normalize and fix paths for dependency files
+            const normalizedDepFiles = depFiles.map(file => {
+              let target = file.target || file.path;
+              if (target.startsWith('registry/default/')) {
+                target = target.replace('registry/default/', '');
+              }
+              return { ...file, target };
+            });
+
+            // Install dependency files
+            for (const file of normalizedDepFiles) {
+              if (!file.content) continue;
+
+              const desiredPath = adjustTargetPath(file.target, componentsDir, hasCustomConfig);
+              const absolutePath = path.join(projectRoot, desiredPath);
+              const alreadyExists = existsSync(absolutePath);
+
+              // Fix import paths in dependency files too
+              let content = file.content;
+              content = content.replace(/@\/registry\/building-blocks\/default\/components\//g, '@/components/');
+              content = content.replace(/@\/registry\/building-blocks\/default\/ui\//g, '@/components/ui/');
+              content = content.replace(/@\/registry\/building-blocks\/default\/lib\//g, '@/lib/');
+              content = content.replace(/@\/registry\/default\/components\//g, '@/components/');
+              content = content.replace(/@\/registry\/default\/ui\//g, '@/components/ui/');
+              content = content.replace(/@\/registry\/default\/lib\//g, '@/lib/');
+
+              if (alreadyExists) {
+                try {
+                  const existingContent = await readFile(absolutePath, "utf8");
+                  if (existingContent === content) {
+                    continue; // Skip if already installed
+                  }
+                } catch {
+                  /* ignore */
+                }
+              }
+
+              await ensureDirectory(desiredPath, projectRoot);
+              await writeFile(absolutePath, content, "utf8");
+            }
+
+            // Collect dependencies from registry dependencies
+            // Filter out invalid packages that don't exist on npm
+            const invalidPackages = ['@loveui/shadcn-ui', 'jotai', 'lucide-react', 'react', 'react-dom'];
+
+            if (depPayload?.dependencies) {
+              if (Array.isArray(depPayload.dependencies)) {
+                depPayload.dependencies.forEach(dep => {
+                  if (!invalidPackages.includes(dep)) {
+                    allDependencies[dep] = "latest";
+                  }
+                });
+              } else {
+                const depsRecord = depPayload.dependencies as Record<string, string>;
+                Object.keys(depsRecord).forEach(dep => {
+                  if (!invalidPackages.includes(dep) && depsRecord[dep]) {
+                    allDependencies[dep] = depsRecord[dep];
+                  }
+                });
+              }
+            }
+          } else {
+            console.warn(`  ✗ Failed to fetch ${fixedUrl}: HTTP ${response.status}`);
+          }
+        } catch (error) {
+          console.warn(`  ✗ Failed to install ${fixedUrl}:`, (error as Error).message);
+        }
+      }
+
+      console.log(`✓ Installed registry dependencies`);
     }
 
     // Collect dependencies
