@@ -9,6 +9,7 @@ import { Separator } from "@loveui/ui/ui/separator";
 import { Sheet, SheetClose, SheetContent, SheetTrigger } from "@loveui/ui/ui/sheet";
 import { cn } from "@loveui/ui/lib/utils";
 import { QuickSearch } from "@/components/site-header/quick-search";
+import { buildUiActiveHref, buildUiHref } from "@/lib/ui-links";
 import { useScrolledPastHero } from "@/hooks/use-scrolled-past-hero";
 
 type NavItem = {
@@ -17,14 +18,6 @@ type NavItem = {
   activeHref?: string;
 };
 
-const vercelEnv =
-  process.env.NEXT_PUBLIC_VERCEL_ENV ??
-  process.env.VERCEL_ENV ??
-  (process.env.NODE_ENV === "production" ? "production" : "development");
-
-const uiAppBaseUrl =
-  process.env.NEXT_PUBLIC_LOVEUI_UI_URL ?? (vercelEnv === "production" ? "https://ui.loveui.dev" : "/ui");
-
 const baseNavItems: ReadonlyArray<{ path: string; label: string }> = [
   { path: "/docs", label: "Docs" },
   { path: "/docs/features/avatar-stack", label: "Features" },
@@ -32,57 +25,10 @@ const baseNavItems: ReadonlyArray<{ path: string; label: string }> = [
   { path: "/docs/backgrounds/ether", label: "Backgrounds" },
 ] as const;
 
-const normalizePath = (path: string) => (path.startsWith("/") ? path : `/${path}`);
-
-const parseUiBase = () => {
-  const raw = uiAppBaseUrl?.trim();
-  if (!raw) {
-    return { origin: null, prefix: "/ui" };
-  }
-
-  if (/^https?:\/\//i.test(raw)) {
-    try {
-      const url = new URL(raw);
-      let prefix = url.pathname.replace(/\/+$/, "");
-      if (prefix === "" || prefix === "/") {
-        prefix = "/ui";
-      } else if (!prefix.endsWith("/ui")) {
-        prefix = `${prefix}/ui`;
-      }
-      return { origin: url.origin, prefix };
-    } catch {
-      // fall through to relative parsing
-    }
-  }
-
-  let prefix = raw.startsWith("/") ? raw : `/${raw}`;
-  prefix = prefix.replace(/\/+$/, "");
-  if (prefix === "" || prefix === "/") {
-    prefix = "/ui";
-  } else if (!prefix.endsWith("/ui")) {
-    prefix = `${prefix}/ui`;
-  }
-  return { origin: null, prefix };
-};
-
-const uiBase = parseUiBase();
-
-const buildHref = (path: string) => {
-  const normalizedPath = normalizePath(path);
-
-  if (uiBase.origin) {
-    const relative = `${uiBase.prefix.replace(/^\//, "")}${normalizedPath}`;
-    const url = new URL(relative.replace(/\/{2,}/g, "/"), `${uiBase.origin}/`);
-    return url.toString();
-  }
-
-  return `${uiBase.prefix}${normalizedPath}`.replace(/\/{2,}/g, "/");
-};
-
 const navItems: ReadonlyArray<NavItem> = baseNavItems.map((item) => ({
   label: item.label,
-  href: buildHref(item.path),
-  activeHref: `/ui${normalizePath(item.path)}`.replace(/\/{2,}/g, "/"),
+  href: buildUiHref(item.path),
+  activeHref: buildUiActiveHref(item.path),
 }));
 
 function useActiveHref(items: readonly NavItem[]) {

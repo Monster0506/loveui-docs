@@ -15,6 +15,7 @@ import {
 } from "@loveui/ui/ui/command";
 import { Button } from "@loveui/ui/ui/button";
 import { cn } from "@loveui/ui/lib/utils";
+import { buildUiHref } from "@/lib/ui-links";
 
 type CommandLink = {
   id: string;
@@ -55,14 +56,14 @@ const externalLinks: CommandLink[] = [
     id: "docs",
     label: "Documentation",
     description: "Browse the LoveUI docs",
-    href: "https://loveui.dev/ui/docs",
+    href: buildUiHref("/docs"),
     external: true,
   },
   {
     id: "blocks",
     label: "Blocks directory",
     description: "Explore production-ready blocks",
-    href: "https://loveui.dev/ui/building-blocks",
+    href: buildUiHref("/building-blocks"),
     external: true,
   },
   {

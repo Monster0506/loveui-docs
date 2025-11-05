@@ -4,31 +4,28 @@ import { GithubIcon } from "lucide-react";
 import { WordmarkIcon } from "@/components/logo";
 import { Button } from "../../../../packages/ui/src/ui/button";
 import { cn } from "../../../../packages/ui/src/lib/utils";
+import { buildUiHref } from "@/lib/ui-links";
 
 export function Footer() {
   const company = [
     {
-      title: "Product",
-      href: "https://loveui.dev/ui",
-    },
-    {
       title: "Docs",
-      href: "https://loveui.dev/ui/docs",
+      href: buildUiHref("/docs"),
     },
     {
       title: "Changelog",
-      href: "https://loveui.dev/ui/docs/changelog",
+      href: buildUiHref("/docs/changelog"),
     },
   ];
 
   const resources = [
     {
       title: "Backgrounds",
-      href: "https://loveui.dev/ui/docs/backgrounds",
+      href: buildUiHref("/docs/backgrounds/ether"),
     },
     {
       title: "Building blocks",
-      href: "https://loveui.dev/ui/building-blocks",
+      href: buildUiHref("/building-blocks"),
     },
     {
       title: "Roadmap",
@@ -58,7 +55,7 @@ export function Footer() {
     },
     {
       title: "Community calls",
-      href: "https://loveui.dev/ui/docs/community",
+      href: buildUiHref("/docs/community"),
     },
   ];
   return (
