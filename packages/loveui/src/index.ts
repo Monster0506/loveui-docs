@@ -476,7 +476,7 @@ async function installDependencies(
 
 export async function run(argv: string[] = process.argv.slice(2)) {
   if (argv.length === 0 || (argv.length === 1 && (argv[0] === "--version" || argv[0] === "-v"))) {
-    console.log("love-ui version 1.1.4");
+    console.log("love-ui version 1.1.6");
     process.exit(0);
   }
 
@@ -513,6 +513,8 @@ export async function run(argv: string[] = process.argv.slice(2)) {
         const response = await fetch(packageName);
         if (response.ok) {
           payload = (await response.json()) as RegistryPayload;
+        } else {
+          console.warn(`Failed to fetch ${packageName}: HTTP ${response.status}`);
         }
       } catch (error) {
         console.warn(`Failed to fetch from ${packageName}:`, error);
