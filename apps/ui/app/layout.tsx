@@ -37,7 +37,7 @@ export default function RootLayout({
       <body
         className={`${fontSans.variable} ${fontHeading.variable} bg-sidebar font-sans text-foreground antialiased`}
       >
-        <ThemeProvider>
+        <ThemeProvider defaultTheme="dark">
           <ToastProvider>
             <div className="relative flex min-h-svh flex-col overflow-clip [--header-height:4rem] before:pointer-events-none before:absolute before:inset-0 before:-z-10 before:bg-sidebar">
               <div
