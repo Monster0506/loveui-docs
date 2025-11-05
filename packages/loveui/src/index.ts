@@ -14,7 +14,8 @@ type RegistryFile = {
 
 type RegistryPayload = {
   files?: RegistryFile[];
-  dependencies?: Record<string, string>;
+  dependencies?: Record<string, string> | string[];
+  registryDependencies?: string[];
 };
 
 type ComponentsConfig = {
@@ -532,7 +533,14 @@ export async function run(argv: string[] = process.argv.slice(2)) {
       bundledFiles = await getBundledRegistryFiles(packageName);
     }
 
-    const definitions: RegistryFile[] = bundledFiles ?? payload?.files ?? [];
+    // Get files and normalize them (building blocks use 'path' instead of 'target')
+    let definitions: RegistryFile[] = bundledFiles ?? payload?.files ?? [];
+
+    // Normalize building block format: if target is missing, use path as target
+    definitions = definitions.map(file => ({
+      ...file,
+      target: file.target || file.path
+    }));
 
     if (!definitions.length) {
       console.warn(`Component "${packageName}" not found. Available components can be found at https://loveui.dev`);
@@ -588,7 +596,15 @@ export async function run(argv: string[] = process.argv.slice(2)) {
 
     // If we fetched from URL and payload has dependencies, use those
     if (payload?.dependencies) {
-      deps = payload.dependencies;
+      if (Array.isArray(payload.dependencies)) {
+        // Convert array of package names to Record with "latest" version
+        payload.dependencies.forEach(dep => {
+          deps[dep] = "latest";
+        });
+      } else {
+        // Already in the correct format
+        deps = payload.dependencies;
+      }
     } else {
       // Otherwise extract from package.json
       deps = await extractDependencies(packageName);
