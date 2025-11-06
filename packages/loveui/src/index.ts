@@ -16,6 +16,10 @@ type RegistryPayload = {
   files?: RegistryFile[];
   dependencies?: Record<string, string> | string[];
   registryDependencies?: string[];
+  meta?: {
+    tags?: string[];
+    [key: string]: any;
+  };
 };
 
 type ComponentsConfig = {
@@ -277,6 +281,16 @@ function adjustTargetPath(target: string, componentsDir: string, useExactTarget:
     }
   }
 
+  // Handle hooks/ paths - prepend the base directory (src/, app/, or nothing) to hooks paths
+  if (target.startsWith("hooks/")) {
+    if (normalizedDir.startsWith("src/")) {
+      return collapse(`src/${target}`);
+    }
+    if (normalizedDir.startsWith("app/")) {
+      return collapse(`app/${target}`);
+    }
+  }
+
   // Handle ui/ paths - these should go to components/ui/
   if (target.startsWith("ui/")) {
     return collapse(`${normalizedDir}/${target}`);
@@ -513,16 +527,25 @@ export async function run(argv: string[] = process.argv.slice(2)) {
 
     // Check if packageName is a URL
     if (packageName.startsWith('http://') || packageName.startsWith('https://')) {
+      // Auto-correct common URL mistakes
+      let correctedUrl = packageName;
+
+      // Fix: /building-blocks/r/ should be /building-blocks/ (without /r/)
+      if (correctedUrl.includes('/building-blocks/r/')) {
+        correctedUrl = correctedUrl.replace('/building-blocks/r/', '/building-blocks/');
+        console.log(`Auto-corrected URL to: ${correctedUrl}`);
+      }
+
       // Fetch from the provided URL
       try {
-        const response = await fetch(packageName);
+        const response = await fetch(correctedUrl);
         if (response.ok) {
           payload = (await response.json()) as RegistryPayload;
         } else {
-          console.warn(`Failed to fetch ${packageName}: HTTP ${response.status}`);
+          console.warn(`Failed to fetch ${correctedUrl}: HTTP ${response.status}`);
         }
       } catch (error) {
-        console.warn(`Failed to fetch from ${packageName}:`, error);
+        console.warn(`Failed to fetch from ${correctedUrl}:`, error);
       }
     } else {
       // Try to fetch from registry first
@@ -559,7 +582,7 @@ export async function run(argv: string[] = process.argv.slice(2)) {
       };
     });
 
-    // Detect and rename main component file based on subfolder structure
+    // Detect and rename main component file based on subfolder structure or meta tags
     // For building blocks with pattern: comp-XXX.tsx + subfolder/
     // Rename comp-XXX.tsx to subfolder-name-demo.tsx to avoid naming conflicts
     const mainComponentFile = definitions.find(file =>
@@ -574,12 +597,21 @@ export async function run(argv: string[] = process.argv.slice(2)) {
       );
 
       if (subfolderFiles.length > 0 && subfolderFiles[0]) {
-        // Extract subfolder name (e.g., "event-calendar" from "components/event-calendar/day-view.tsx")
+        // Strategy 1: Use subfolder name
         const match = subfolderFiles[0].target.match(/^components\/([^/]+)\//);
         if (match && match[1]) {
           const subfolderName = match[1];
           // Rename comp-542.tsx to event-calendar-demo.tsx to avoid conflicts with folder name
           mainComponentFile.target = `components/${subfolderName}-demo.tsx`;
+        }
+      } else if (payload?.meta?.tags && Array.isArray(payload.meta.tags) && payload.meta.tags.length > 0) {
+        // Strategy 2: Use meta tags to generate a meaningful name
+        // Take first 2-3 relevant tags and create a name
+        const tags = payload.meta.tags as string[];
+        const relevantTags = tags.slice(0, 2).filter((tag: string) => tag.length > 0);
+        if (relevantTags.length > 0) {
+          const generatedName = relevantTags.join('-').toLowerCase().replace(/\s+/g, '-');
+          mainComponentFile.target = `components/${generatedName}.tsx`;
         }
       }
     }
@@ -606,9 +638,7 @@ export async function run(argv: string[] = process.argv.slice(2)) {
       const alreadyExists = existsSync(absolutePath);
 
       // Fix import paths in building blocks
-      // Replace @/registry/building-blocks/default/components/ with @/components/
-      // Replace @/registry/building-blocks/default/ui/ with @/components/ui/
-      // Replace @/registry/building-blocks/default/lib/ with @/lib/
+      // Replace all @/registry paths with standard project paths
       let content = file.content;
       content = content.replace(
         /@\/registry\/building-blocks\/default\/components\//g,
@@ -623,6 +653,10 @@ export async function run(argv: string[] = process.argv.slice(2)) {
         '@/lib/'
       );
       content = content.replace(
+        /@\/registry\/building-blocks\/default\/hooks\//g,
+        '@/hooks/'
+      );
+      content = content.replace(
         /@\/registry\/default\/components\//g,
         '@/components/'
       );
@@ -633,6 +667,10 @@ export async function run(argv: string[] = process.argv.slice(2)) {
       content = content.replace(
         /@\/registry\/default\/lib\//g,
         '@/lib/'
+      );
+      content = content.replace(
+        /@\/registry\/default\/hooks\//g,
+        '@/hooks/'
       );
 
       if (alreadyExists) {
@@ -704,9 +742,11 @@ export async function run(argv: string[] = process.argv.slice(2)) {
               content = content.replace(/@\/registry\/building-blocks\/default\/components\//g, '@/components/');
               content = content.replace(/@\/registry\/building-blocks\/default\/ui\//g, '@/components/ui/');
               content = content.replace(/@\/registry\/building-blocks\/default\/lib\//g, '@/lib/');
+              content = content.replace(/@\/registry\/building-blocks\/default\/hooks\//g, '@/hooks/');
               content = content.replace(/@\/registry\/default\/components\//g, '@/components/');
               content = content.replace(/@\/registry\/default\/ui\//g, '@/components/ui/');
               content = content.replace(/@\/registry\/default\/lib\//g, '@/lib/');
+              content = content.replace(/@\/registry\/default\/hooks\//g, '@/hooks/');
 
               if (alreadyExists) {
                 try {

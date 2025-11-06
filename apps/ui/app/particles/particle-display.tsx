@@ -86,7 +86,7 @@ export async function ParticleDisplay({
                   <h2 className="mb-4 font-heading text-xl">Installation</h2>
                   <figure data-rehype-pretty-code-figure>
                     <CodeBlockCommand
-                      __npm__={`npx loveui@latest add ${name}`}
+                      __npm__={`npx love-ui@latest add ${name}`}
                     />
                   </figure>
                 </div>

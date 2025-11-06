@@ -17,10 +17,10 @@ export const appConfig = {
       href: "/building-blocks",
       label: "Building Blocks",
     },
-    /*{
+    {
       href: "/page-templates",
       label: "Page Templates",
-    },*/
+    },
     {
       href: "/docs/backgrounds/ether",
       label: "Backgrounds",

@@ -18,10 +18,10 @@ export default function CliCommands({ name }: { name: string }) {
   const packageManager = config.packageManager || "pnpm"
 
   const commands = {
-    pnpm: `pnpm dlx loveui@latest add ${registryBase}/r/${name}.json`,
-    npm: `npx loveui@latest add ${registryBase}/r/${name}.json`,
-    yarn: `yarn dlx loveui@latest add ${registryBase}/r/${name}.json`,
-    bun: `bunx loveui@latest add ${registryBase}/r/${name}.json`,
+    pnpm: `pnpm dlx love-ui@latest add ${registryBase}/r/${name}.json`,
+    npm: `npx love-ui@latest add ${registryBase}/r/${name}.json`,
+    yarn: `yarn dlx love-ui@latest add ${registryBase}/r/${name}.json`,
+    bun: `bunx love-ui@latest add ${registryBase}/r/${name}.json`,
   }
 
   return (

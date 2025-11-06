@@ -11,6 +11,14 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  webpack: (config) => {
+    // Add alias for page templates to use @/ui/ -> @/registry/default/ui/
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      '@/ui': require('path').resolve(__dirname, 'registry/default/ui'),
+    }
+    return config
+  },
   images: {
     remotePatterns: [
       {

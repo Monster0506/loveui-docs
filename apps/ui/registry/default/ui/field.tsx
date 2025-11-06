@@ -86,6 +86,32 @@ function FieldError({ className, ...props }: FieldPrimitive.Error.Props) {
 
 const FieldValidity = FieldPrimitive.Validity
 
+function FieldGroup({ className, ...props }: React.ComponentProps<"div">) {
+  return (
+    <div
+      data-slot="field-group"
+      className={cn("flex flex-col gap-4", className)}
+      {...props}
+    />
+  )
+}
+
+function FieldSeparator({ className, children, ...props }: React.ComponentProps<"div">) {
+  return (
+    <div
+      data-slot="field-separator"
+      className={cn("relative flex items-center gap-2 py-2", className)}
+      {...props}
+    >
+      <div className="h-px flex-1 bg-border" />
+      {children && (
+        <span className="text-xs text-muted-foreground">{children}</span>
+      )}
+      <div className="h-px flex-1 bg-border" />
+    </div>
+  )
+}
+
 export {
   Field,
   FieldLabel,
@@ -93,4 +119,6 @@ export {
   FieldDescription,
   FieldError,
   FieldValidity,
+  FieldGroup,
+  FieldSeparator,
 }

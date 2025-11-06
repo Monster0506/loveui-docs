@@ -16,7 +16,7 @@ export default function CliCommands({ name }: { name: string }) {
   const packageManager = config.packageManager || "pnpm"
 
   const commands = {
-    npm: `npx loveui@latest add  ${originUrl}/r/${name}.json`,
+    npm: `npx love-ui@latest add  ${originUrl}/r/${name}.json`,
   }
 
   return (

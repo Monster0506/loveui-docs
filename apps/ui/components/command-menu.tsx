@@ -67,7 +67,7 @@ export function CommandMenu({
         let cmd: string
         switch (packageManager) {
           default:
-            cmd = `npx loveui@latest add  ${registryItem}`
+            cmd = `npx love-ui@latest add  ${registryItem}`
         }
 
         setCopyPayload(cmd)
@@ -345,7 +345,7 @@ export function CommandMenu({
                     ]}
                     onHighlight={() => {
                       setSelectedType("component")
-                      setCopyPayload(`npx loveui@latest add ${feature.slug}`)
+                      setCopyPayload(`npx love-ui@latest add ${feature.slug}`)
                     }}
                     onSelect={() => {
                       runCommand(() =>

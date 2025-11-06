@@ -208,7 +208,7 @@
     position: relative;
 
     &:has([data-rehype-pretty-code-title]) [data-slot="copy-button"] {
-      top: calc(var(--spacing) * 1.5) !important;
+      top: calc(var(--spacing) * 5.5 - 1rem) !important;
     }
 
     :where(*[data-tab="code"]) & {

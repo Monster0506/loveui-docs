@@ -8,6 +8,9 @@
       "@/*": [
         "./*"
       ],
+      "@/ui/*": [
+        "./registry/default/ui/*"
+      ],
       "@loveui/*": [
         "../../packages/*"
       ],

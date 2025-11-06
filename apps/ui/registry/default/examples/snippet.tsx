@@ -15,7 +15,7 @@ const commands = [
   {
     label: "loveui",
     icon: HeartIcon,
-    code: "npx loveui@latest add  snippet",
+    code: "npx love-ui@latest add  snippet",
   }
 ];
 

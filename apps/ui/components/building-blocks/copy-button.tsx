@@ -20,7 +20,7 @@ const CopyButton = ({
   const { copied, copy } = useCopy()
 
   return (
-    <div className={cn("dark absolute top-2 right-2", className)}>
+    <div className={cn("absolute top-2 right-2", className)}>
       <TooltipProvider delayDuration={0}>
         <Tooltip>
           <TooltipTrigger asChild>
